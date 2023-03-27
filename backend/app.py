@@ -27,9 +27,9 @@ CORS(app)
 # Sample search, the LIKE operator in this case is hard-coded, 
 # but if you decide to use SQLAlchemy ORM framework, 
 # there's a much better and cleaner way to do this
-def sql_search(review):
-    query_sql = f"""SELECT * FROM reviews WHERE LOWER( title ) LIKE '%%{review.lower()}%%' limit 10"""
-    keys = ["id","title","descr"]
+def sql_search(professor):
+    query_sql = f"""SELECT professor, review FROM reviews WHERE professor LIKE '%%{professor.lower()}%%'"""
+    keys = ["professor","review"]
     data = mysql_engine.query_selector(query_sql)
     return json.dumps([dict(zip(keys,i)) for i in data])
 
