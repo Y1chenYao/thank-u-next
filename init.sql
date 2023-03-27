@@ -4,14 +4,14 @@ USE project;
 DROP TABLE IF EXISTS reviews;
 
 CREATE TABLE reviews(
-    id int,
-    professor varchar(255) DEFAULT NULL,
-    overall int DEFAULT NULL,
-    difficulty int DEFAULT NULL,
-    workload int DEFAULT NULL,
-    review varchar(2000) DEFAULT NULL,
-    course varchar(255) DEFAULT NULL,
-    course_id int DEFAULT NULL
+    id int DEFAULT NULL,
+    professor varchar(255),
+    overall int,
+    difficulty int,
+    work int,
+    review varchar(2000),
+    course varchar(255),
+    course_id int
 );
 
 -- INSERT INTO reviews VALUE(1,'I''m Watching You','Bruce and Kris Jenner celebrate their anniversary. Kim and Tommy Davis buy themselves a stripper pole as a gift, and the youngest Jenner plays on it. Kim appears on The Tyra Banks Show Where she is interviewed about Kim''s sex tape. Kourtney deals with relationship drama.');
