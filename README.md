@@ -52,7 +52,7 @@ For the initial deployment, only one member of your team needs to follow the ste
 - On the dashboard, in the provided search bar, add the URL of your forked repository
 - Click the **clone** button and wait for a bit till you get a confirmation
 - Click **build**, and wait for a minute. If all goes successfully, hitting the refresh button on the Container Information table and the logs tab will show the created data from the service. If this doesn't work, logout and log back in.
-- Now, clicking on the URL button should lead you to a simple episode-searching app
+- Now, clicking on the URL button should lead you to a simple review-searching app
 - If it doesn't load initially, give it a few seconds and reload.
 - This should be the screen you see. Test it out
 
