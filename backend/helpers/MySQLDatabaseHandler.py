@@ -34,6 +34,7 @@ class MySQLDatabaseHandler(object):
 
     def query_selector(self,query):
         conn = self.lease_connection()
+        conn.execute(f"USE {self.MYSQL_DATABASE}") # added by Karen: ensure that one can run multiple queries in sql_search
         data = conn.execute(query)
         return data
 
