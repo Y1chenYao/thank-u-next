@@ -29,25 +29,25 @@ CORS(app)
 # there's a much better and cleaner way to do this
 def sql_search(professor):
     professor = professor.lower()
-    avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(workload) FROM reviews WHERE professor = '{professor}'"""
+    avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) FROM reviews WHERE professor = '{professor}'"""
     data = mysql_engine.query_selector(avg_query)
-    keys = ["professor", "average_overall", "average_difficulty", "average_workload"]
+    keys = ["professor", "average_overall", "average_difficulty", "average_work"]
     data_list = list(data)
     result_formatted = []
     if data_list[0][0] is None:
         return json.dumps([dict()])
     average_overall = round(data_list[0][1], 2)
     average_difficulty = round(data_list[0][2], 2)
-    average_workload = round(data_list[0][3], 2)
+    average_work = round(data_list[0][3], 2)
     print(average_overall)
-    # TODO (future): handle the case where overall, difficulty, workload might be -1 for missing data
-    alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(workload) \
+    # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
+    alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) \
                     FROM reviews \
                     WHERE professor <> '{professor}' \
                     GROUP BY professor \
                     HAVING ABS(AVG(overall) - {average_overall}) < 0.3 \
                         AND ABS(AVG(difficulty) - {average_difficulty}) < 0.3 \
-                        AND ABS(AVG(workload) - {average_workload}) < 0.3 \
+                        AND ABS(AVG(work) - {average_work}) < 0.3 \
                     ORDER BY ABS(AVG(overall) - {average_overall}) ASC;
                     """
     alike_data = list(mysql_engine.query_selector(alike_query))

@@ -31,12 +31,12 @@
   </div>
 
   <script>
-    function answerBoxTemplate(name, overall, difficulty, workload) {
+    function answerBoxTemplate(name, overall, difficulty, work) {
       return `<div class=''>
                 <h3 class='episode-title'>${name}</h3>
                 <p class='episode-desc'>${overall}</p>
                 <p class='episode-desc'>${difficulty}</p>
-                <p class='episode-desc'>${workload}</p>
+                <p class='episode-desc'>${work}</p>
             </div>`;
     }
     function noResultTemplate() {
@@ -67,7 +67,7 @@
                   row.professor,
                   "Overall rating: " + row.average_overall,
                   "Difficulty: " + row.average_difficulty,
-                  "Workload: " + row.average_workload
+                  "Workload: " + row.average_work
                 )
               : noResultTemplate();
             document.getElementById("answer-box").appendChild(tempDiv);

@@ -7,7 +7,7 @@ CREATE TABLE reviews(
     professor varchar(255),
     overall int,
     difficulty int,
-    workload int,
+    work int,
     review varchar(2000),
     course varchar(255),
     course_id int
