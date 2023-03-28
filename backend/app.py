@@ -28,10 +28,34 @@ CORS(app)
 # but if you decide to use SQLAlchemy ORM framework, 
 # there's a much better and cleaner way to do this
 def sql_search(professor):
-    query_sql = f"""SELECT professor, review FROM reviews WHERE professor LIKE '%%{professor.lower()}%%'"""
-    keys = ["professor","review"]
-    data = mysql_engine.query_selector(query_sql)
-    return json.dumps([dict(zip(keys,i)) for i in data])
+    professor = professor.lower()
+    avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(workload) FROM reviews WHERE professor = '{professor}'"""
+    data = mysql_engine.query_selector(avg_query)
+    keys = ["professor", "average_overall", "average_difficulty", "average_workload"]
+    data_list = list(data)
+    result_formatted = []
+    if data_list[0][0] is None:
+        return json.dumps([dict()])
+    average_overall = round(data_list[0][1], 2)
+    average_difficulty = round(data_list[0][2], 2)
+    average_workload = round(data_list[0][3], 2)
+    print(average_overall)
+    # TODO (future): handle the case where overall, difficulty, workload might be -1 for missing data
+    alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(workload) \
+                    FROM reviews \
+                    WHERE professor <> '{professor}' \
+                    GROUP BY professor \
+                    HAVING ABS(AVG(overall) - {average_overall}) < 0.3 \
+                        AND ABS(AVG(difficulty) - {average_difficulty}) < 0.3 \
+                        AND ABS(AVG(workload) - {average_workload}) < 0.3 \
+                    ORDER BY ABS(AVG(overall) - {average_overall}) ASC;
+                    """
+    alike_data = list(mysql_engine.query_selector(alike_query))
+    for result in alike_data:
+        if result[0] is None:
+            break
+        result_formatted.append((result[0], str(round(result[1],2)), str(round(result[2], 2)), str(round(result[3], 2))))
+    return json.dumps([dict(zip(keys,i)) for i in result_formatted])
 
 @app.route("/")
 def home():
