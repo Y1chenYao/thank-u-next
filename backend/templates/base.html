@@ -148,6 +148,7 @@
               );
           } else if (document.getElementById("search-course").value != null) {
             // added
+            console.log(document.getElementById("search-course").value);
             fetch(
               "/courses?" +
               new URLSearchParams({

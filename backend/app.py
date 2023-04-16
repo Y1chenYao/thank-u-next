@@ -82,7 +82,6 @@ def search_by_course(course):
     print(average_overall)
     alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) \
                     FROM reviews \
-                    
                     GROUP BY professor \
                     HAVING ABS(AVG(overall) - {average_overall}) < 0.3 \
                         AND ABS(AVG(difficulty) - {average_difficulty}) < 0.3 \
