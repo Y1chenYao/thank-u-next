@@ -13,21 +13,6 @@ CREATE TABLE reviews(
     course_id int
 );
 
-CREATE DATABASE IF NOT EXISTS project;
-
-USE project;
-DROP TABLE IF EXISTS reviews;
-
-CREATE TABLE reviews(
-    professor varchar(255),
-    overall int,
-    difficulty int,
-    work int,
-    review varchar(2000),
-    course varchar(255),
-    course_id int
-);
-
 
 INSERT INTO reviews VALUE('Laura Barre',3,3,2,'I took this class with Roger Figueroa, Joanna Fiddler, and Laura Barre. The content of the class is really interesting and useful in everyday life. There are 5 easy in-class assignments, a quiz, and 3 exams. You don''t have to go to class and the workload is light, but exams are all multiple choice with really specific questions that you need to memorize off the slides.  ','NS 1150',0);
 INSERT INTO reviews VALUE('John Michael',3,3,1,'The prelims were unnecessarily hard -- there would be the smallest details that would be asked. However, it was all T/F so i can''t really complain. the final exam was really easy though. There was not really much work and everything was basically in class. I would recommend the class if you are truly interested in nutrition.','NS 1150',0);
@@ -5974,3 +5959,12 @@ INSERT INTO reviews VALUE('Adam Klausner',1,4,2,'Klausner is the best. It''s all
 INSERT INTO reviews VALUE('Paul Wagner',1,4,2,'Klausner is the best. It''s all downhill from there. This is partially because the last two thirds of the class has incredibly dry material (corporate law and regulations vs discrimination law), but Wagner''s also kind of a huge asshole. His slides are also essentially unreadable so definitely rely on something else to study for prelims.','NBA 5600',1279);
 INSERT INTO reviews VALUE('Dale Grossman',1,4,2,'Klausner is the best. It''s all downhill from there. This is partially because the last two thirds of the class has incredibly dry material (corporate law and regulations vs discrimination law), but Wagner''s also kind of a huge asshole. His slides are also essentially unreadable so definitely rely on something else to study for prelims.','NBA 5600',1279);
 
+INSERT INTO reviews VALUE('Tashara Leak',5,4,4,'NS1600 w/ Drs. Leak and Golan was engaging and transformative. Lecture contents include the US healthcare system, mechanisms of disease, the history of public health, and frameworks to building a public health intervention. The course primarily focuses around the final project, which is a written proposal for a hypothetical public health intervention. This is the bulk of the work for the class -- and it''s quite a lot, with multiple checkpoints along the way. However, if you really love public health, it''s an incredibly valuable experience, and as others have said assignments are extremely intentional. Course staff cares about you &amp; wants you to succeed, but also create an industry-realistic experience. Would heavily recommend esp. to anyone considering public health research. As others have said, office hours are supremely important.','NS 1600',2);
+INSERT INTO reviews VALUE('Tashara Leak',3,3,3,'I took this class my first semester of freshman year, and it was very informative! I learned a lot about disease-prevention, healthcare, and other issues important in public health  as well as different aspects of study design. The readings are very important as prelims ask questions about very specific details. Classes were well organized and always interesting!','NS 1600',2);
+INSERT INTO reviews VALUE('Tashara Leak',5,3,3,'This class was great. The lecture materials were relatively basic, but they provided a great foundation for the field of public health (all the necessary terminology, systems etc). Dr. Leak is fantastic, and all of the assignments were very intentional. There was not much busy work, and there was a semester-long project that focused on designing an intervention to address a public health problem. That was a great application of all that we were learning - but be sure to go to office hours to maximize what you are getting out of the project!','NS 1600',2);
+INSERT INTO reviews VALUE('Tashara Leak',3,2,3,'This class was okay.. it felt a bit surface-level to me.  Lectures were overall pretty basic. You work on a semester-long group project where you design a study to address a public health issue, which was my favorite part of the course. It felt like we were doing something professional and important.','NS 1600',2);
+INSERT INTO reviews VALUE('Tashara Leak',5,3,3,'I loved this class. It opened my eyes to many public health issues in the US and it taught me how to think think critically about solutions to complex public health problems. I loved Professor Leak  -- she was an amazing lecturer and extremely knowledgable.','NS 1600',2);
+INSERT INTO reviews VALUE('Jeanne Moseley',3,3,3,'This was a good class and it is not hard to get an A. Pop quizzes and assignments were simple if you did the readings and kept up with material. The class was informative and overall enjoyable.','NS 2600',3);
+INSERT INTO reviews VALUE('Jeanne Moseley',5,1,2,'This course introduced me to the Global Health minor which I ended up pursuing. Learning about HIV/AIDS, Maternal Mortality, and other topics within the realm of global health. Would recommend for everyone who is interested in Global Health!','NS 2600',3);
+
+INSERT INTO reviews VALUE('Jeanne Moseley',5,2,2,'Really good class, manageable workload and really cool content','NS 2600',3);

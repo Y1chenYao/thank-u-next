@@ -1,78 +1,137 @@
 <!DOCTYPE html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
-  rel="stylesheet"
-/>
-<body>
-  <div class="full-body-container">
-    <div class="top-text">
-      <div class="google-colors">
-        <h1 id="google-c">C</h1>
-        <h1 id="google-s">S</h1>
-        <h1 id="google-4">4</h1>
-        <h1 id="google-3">3</h1>
-        <h1 id="google-0-1">0</h1>
-        <h1 id="google-0-2">0</h1>
+<html lang="en">
+  <title>{% block title %}{% endblock %} - Flask</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/public/styles/site.css"
+      media="all"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="parent">
+        <div id="white-space"></div>
+
+        <div id="header">
+          <h1>Cornell Professor Recommendation</h1>
+        </div>
+        <div id="bubble">
+          <img src="../static/images/bubble.png" alt="bear logo" />
+        </div>
+        <div id="bear">
+          <img id="bear" src="../static/images/bear.png" alt="bear logo" />
+        </div>
       </div>
-      <div class="input-box" onclick="sendFocus()">
-        <img src="{{ url_for('static', filename='images/mag.png') }}" />
-        <input
-          placeholder="Search for a Cornell professor 👀"
-          id="filter-text-val"
-          onkeyup="filterText()"
-        />
+    </header>
+
+    <main>
+      <div class="flex-box">
+        <div id="side-bar">
+          <h4 class="title">Search by professor:</h4>
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="Search for a professor" id="search-professor" />
+          </div>
+
+          <h4 class="title">Search by course:</h4>
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="Search for a course" id="search-course" />
+          </div>
+
+          <h4 class="title">Search by keyword:</h4>
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="Input a keyword" id="search-keyword" />
+          </div>
+
+          <h4 class="title">Filter by department:</h4>
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="Filter by department" id="search-department" />
+          </div>
+          <button type="submit" onclick="sendQuery()" id="search-button">
+            Search
+          </button>
+        </div>
+
+        <div id="main-table">
+          <div id="answer-box"></div>
+        </div>
       </div>
-    </div>
-    <div id="answer-box"></div>
-  </div>
 
-  <script>
-    function answerBoxTemplate(name, overall, difficulty, work) {
-      return `<div class="review-title">
-                <h3 class='episode-title'>${name}</h3>
-                <p class='episode-desc'>${overall}</p>
-                <p class='episode-desc'>${difficulty}</p>
-                <p class='episode-desc'>${work}</p>
+      <script>
+        function answerBoxTemplate(name, overall, difficulty, workload) {
+          return `<div class="flex-box result">
+            <div class="left">
+              <h3 class="professor-name">${name}</h3>
+              <p class="info"><b>Department: </b></p>
+              <p class="info"><b>Difficulty: </b>${difficulty}</p>
+              <p class="info"><b>Workload: </b>${workload}</p>
+            </div>
+            <div class="right">
+              <p class="info"><b>Past Courses: </b></p>
+              <p class="info"><b>Keywords: </b></p>
+              <p class="info"><b>Reviews: </b></p>
+              <div class="review"></div>
+            </div>
+          </div>`;
+        }
+        function noResultTemplate() {
+          return `<div class=''>
+                <h3 class='professor-name'>No result found.</h3>
             </div>`;
-    }
-    function noResultTemplate() {
-      return `<div class="review-desc">
-                <h3 class='episode-title'>No result found.</h3>
-            </div>`;
-    }
+        }
 
-    function sendFocus() {
-      document.getElementById("filter-text-val").focus();
-    }
+        // inject input information to SQL query
+        function sendQuery() {
+          document.getElementById("answer-box").innerHTML = "";
+          console.log(document.getElementById("search-professor").value);
+          fetch(
+            "/episodes?" +
+              new URLSearchParams({
+                title: document.getElementById("search-professor").value,
+              }).toString()
+          )
+            .then((response) => response.json())
+            .then((data) =>
+              data.forEach((row) => {
+                let tempDiv = document.createElement("div");
+                tempDiv.innerHTML = row.professor
+                  ? answerBoxTemplate(
+                      row.professor,
+                      scoreToLevel(row.average_overall),
+                      scoreToLevel(row.average_difficulty),
+                      scoreToLevel(row.average_workload)
+                    )
+                  : noResultTemplate();
+                document.getElementById("answer-box").appendChild(tempDiv);
+              })
+            );
+        }
 
-    function filterText() {
-      document.getElementById("answer-box").innerHTML = "";
-      console.log(document.getElementById("filter-text-val").value);
-      fetch(
-        "/reviews?" +
-          new URLSearchParams({
-            title: document.getElementById("filter-text-val").value,
-          }).toString()
-      )
-        .then((response) => response.json())
-        .then((data) =>
-          data.forEach((row) => {
-            let tempDiv = document.createElement("div");
-            tempDiv.innerHTML = row.professor
-              ? answerBoxTemplate(
-                  row.professor,
-                  "Overall rating: " + row.average_overall,
-                  "Difficulty: " + row.average_difficulty,
-                  "Workload: " + row.average_work
-                )
-              : noResultTemplate();
-            document.getElementById("answer-box").appendChild(tempDiv);
-          })
-        );
-    }
-  </script>
-</body>
+        function scoreToLevel(score) {
+          if (score < 3) {
+            return "Low";
+          } else if (score >= 4) {
+            return "High";
+          } else {
+            return "Medium";
+          }
+        }
+      </script>
+    </main>
+  </body>
+</html>

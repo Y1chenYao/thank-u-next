@@ -1,61 +1,75 @@
-.full-body-container {
-  position: absolute;
+body {
+  font-family: sans-serif;
+  line-height: 2.2em;
+  margin: 0px auto 0px auto;
+  background-color: rgb(242, 242, 242);
+}
+
+.parent {
+  position: relative;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+}
+
+#white-space {
+  background-color: white;
+  top: 0;
+  left: 0;
+  height: 50px;
+  position: relative;
+}
+
+#header {
+  background-image: url("images/header_img.jpg");
+  background-size: 100%;
+  height: 130px;
+  background-color: #b31b1b85;
+  padding: 50px 0px 15px 0px;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+}
+
+#bubble img {
+  position: absolute;
+  top: 5px;
+  left: 210px;
+  height: 40px;
+}
+
+#bear img {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  height: 248px;
+}
+
+.flex-box {
   display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-#google-c {
-  color: #4285f4;
+#side-bar {
+  background-color: white;
+  margin: 0px 10px 0px 20px;
+  padding: 20px 15px 20px 15px;
+  width: 25%;
 }
 
-#google-s {
-  color: #db4437;
-}
-
-#google-4 {
-  color: #f4b400;
-}
-
-#google-3 {
-  color: #4285f4;
-}
-
-#google-0-1 {
-  color: #0f9d58;
-}
-
-#google-0-2 {
-  color: #db4437;
-}
-
-.google-colors {
-  display: flex;
-  align-items: center;
-  font-size: 48px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.google-colors h1 {
-  margin-bottom: 0;
-  margin-right: 3px;
+.title {
+  margin: 0 0 0 0;
 }
 
 .input-box {
-  border-radius: 50px;
+  border-radius: 8px;
   border: 1px solid black;
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin: 0px 0px 10px 0px;
   padding: 12px;
-  width: 600px;
+  width: 90%;
+  height: 20px;
 }
 
 .input-box img {
@@ -77,15 +91,69 @@
   outline: 0;
 }
 
-#answer-box {
-  width: 700px;
-  margin-top: 50px;
+#search-button {
+  font-size: 98%;
+  font-weight: bold;
+  text-align: center;
+  background-color: #b31b1b;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  margin-top: 12px;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  height: 35px;
 }
 
-.review-title {
+#main-table {
+  background-color: white;
+  margin: 0px 20px 0px 10px;
+  padding: 20px 10px 20px 10px;
+  width: 80%;
+}
+
+.result {
+  width: 97%;
+  margin: 15px;
+  border-bottom: 2px grey solid;
+}
+
+.left {
+  background-color: white;
+  margin: 0px 10px 0px 20px;
+  padding: 5px 15px 20px 15px;
+  width: 40%;
+}
+
+.left p {
+  margin: 0px;
+}
+
+.right {
+  background-color: white;
+  margin: 0px 20px 0px 10px;
+  padding: 80px 15px 20px 15px;
+  width: 60%;
+}
+
+.right p {
+  margin: 0px;
+}
+
+.professor-name {
+  margin-bottom: 20px;
+}
+
+.review {
+  height: 80px;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+}
+
+/* .episode-title {
   font-family: "Kanit", sans-serif;
 }
 
-.review-desc {
+.episode-desc {
   font-family: "Montserrat", sans-serif;
-}
+} */
