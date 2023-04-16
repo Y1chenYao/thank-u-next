@@ -82,23 +82,12 @@
             <label for="2000" class="checkbox-label">2000</label><br>
             <input type="checkbox" id="1000" name="level" value="1000">
             <label for="1000" class="checkbox-label">1000</label>
-
           </div>
 
-          <button type="submit" onclick="sendQuery()" id="search-button">
-            Search
-          </button>
-        </div>
-
-        <h4 class="title">Filter by department:</h4>
-        <div class="input-box">
-          <img src="{{ url_for('static', filename='images/mag.png') }}" />
-          <input placeholder="Filter by department" id="search-department" />
-        </div>
         <button type="submit" onclick="sendQuery()" id="search-button">
           Search
         </button>
-      </div>
+        </div>
 
       <div id="main-table">
         <div id="answer-box"></div>
@@ -122,75 +111,74 @@
             </div>
           </div>`;
       }
-      function noResultTemplate() {
-        return `<div class=''>
-                <h3 class='professor-name'>No result found.</h3>
-            </div>`;
-      }
 
-      // inject input information to SQL query
-      function sendQuery() {
-        document.getElementById("answer-box").innerHTML = "";
-        console.log(document.getElementById("search-professor").value);
-
-        if (document.getElementById("search-professor").value != null) {
-          fetch(
-            "/reviews?" +
-            new URLSearchParams({
-              title: document.getElementById("search-professor").value,
-            }).toString()
-          ).then((response) => response.json())
-            .then((data) =>
-              data.forEach((row) => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = row.professor
-                  ? answerBoxTemplate(
-                    row.professor,
-                    scoreToLevel(row.average_overall),
-                    scoreToLevel(row.average_difficulty),
-                    scoreToLevel(row.average_workload)
-                  )
-                  : noResultTemplate();
-                document.getElementById("answer-box").appendChild(tempDiv);
-              })
-            );
-        } else if (document.getElementById("search-course").value != null) {
-          // added
-          fetch(
-            "/reviews?" +
-            new URLSearchParams({
-              title: document.getElementById("search-course").value,
-            }).toString()
-          ).then((response) => response.json())
-            .then((data) =>
-              data.forEach((row) => {
-                let tempDiv = document.createElement("div");
-                tempDiv.innerHTML = row.professor
-                  ? answerBoxTemplate(
-                    row.professor,
-                    scoreToLevel(row.average_overall),
-                    scoreToLevel(row.average_difficulty),
-                    scoreToLevel(row.average_workload)
-                  )
-                  : noResultTemplate();
-                document.getElementById("answer-box").appendChild(tempDiv);
-              })
-            );
-          // added
+        function noResultTemplate() {
+          return `<div class=''>
+                  <h3 class='professor-name'>No result found.</h3>
+              </div>`;
         }
 
-      }
+        // inject input information to SQL query
+        function sendQuery() {
+          document.getElementById("answer-box").innerHTML = "";
+          console.log(document.getElementById("search-professor").value);
 
-      function scoreToLevel(score) {
-        if (score < 3) {
-          return "Low";
-        } else if (score >= 4) {
-          return "High";
-        } else {
-          return "Medium";
+          if (document.getElementById("search-professor").value != null) {
+            fetch(
+              "/reviews?" +
+              new URLSearchParams({
+                title: document.getElementById("search-professor").value,
+              }).toString()
+            ).then((response) => response.json())
+              .then((data) =>
+                data.forEach((row) => {
+                  let tempDiv = document.createElement("div");
+                  tempDiv.innerHTML = row.professor
+                    ? answerBoxTemplate(
+                      row.professor,
+                      scoreToLevel(row.average_overall),
+                      scoreToLevel(row.average_difficulty),
+                      scoreToLevel(row.average_workload)
+                    )
+                    : noResultTemplate();
+                  document.getElementById("answer-box").appendChild(tempDiv);
+                })
+              );
+          } else if (document.getElementById("search-course").value != null) {
+            // added
+            fetch(
+              "/reviews?" +
+              new URLSearchParams({
+                title: document.getElementById("search-course").value,
+              }).toString()
+            ).then((response) => response.json())
+              .then((data) =>
+                data.forEach((row) => {
+                  let tempDiv = document.createElement("div");
+                  tempDiv.innerHTML = row.professor
+                    ? answerBoxTemplate(
+                      row.professor,
+                      scoreToLevel(row.average_overall),
+                      scoreToLevel(row.average_difficulty),
+                      scoreToLevel(row.average_workload)
+                    )
+                    : noResultTemplate();
+                  document.getElementById("answer-box").appendChild(tempDiv);
+                })
+              );
+            // added
+          }
         }
-      }
 
+        function scoreToLevel(score) {
+          if (score < 3) {
+            return "Low";
+          } else if (score >= 4) {
+            return "High";
+          } else {
+            return "Medium";
+          }
+        }
 
         // run on load
         var acc = document.getElementsByClassName("accordion");
