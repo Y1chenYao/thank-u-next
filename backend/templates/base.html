@@ -126,7 +126,7 @@
           console.log(document.getElementById("search-professor").value);
           console.log(document.getElementById("search-course").value);
 
-          if (document.getElementById("search-professor").value != undefined) {
+          if (document.getElementById("search-professor").value != "") {
             fetch(
               "/reviews?" +
               new URLSearchParams({
@@ -147,7 +147,7 @@
                   document.getElementById("answer-box").appendChild(tempDiv);
                 })
               );
-          } else if (document.getElementById("search-course").value != undefined) {
+          } else if (document.getElementById("search-course").value != "") {
             // added
             fetch(
               "/courses?" +
