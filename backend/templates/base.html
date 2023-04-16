@@ -100,7 +100,7 @@
           document.getElementById("answer-box").innerHTML = "";
           console.log(document.getElementById("search-professor").value);
           fetch(
-            "/episodes?" +
+            "/reviews?" +
               new URLSearchParams({
                 title: document.getElementById("search-professor").value,
               }).toString()
