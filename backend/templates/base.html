@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>{% block title %}{% endblock %} - Flask</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+<title>{% block title %}{% endblock %} - Flask</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
-    rel="stylesheet"
-  />
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
+  rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/public/styles/site.css"
-      media="all"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="parent">
-        <div id="white-space"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <div id="header">
-          <h1>Cornell Professor Recommendation</h1>
-        </div>
-        <div id="bubble">
-          <img src="../static/images/bubble.png" alt="bear logo" />
-        </div>
-        <div id="bear">
-          <img id="bear" src="../static/images/bear.png" alt="bear logo" />
-        </div>
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css" media="all" />
+</head>
+
+<body>
+  <header>
+    <div class="parent">
+      <div id="white-space"></div>
+
+      <div id="header">
+        <h1>Cornell Professor Recommendation</h1>
       </div>
-    </header>
+      <div id="bubble">
+        <img src="../static/images/bubble.png" alt="text bubble" />
+      </div>
+      <div id="bear">
+        <img id="bear" src="../static/images/bear.png" alt="bear logo" />
+      </div>
+    </div>
+  </header>
 
-    <main>
-      <div class="flex-box">
-        <div id="side-bar">
-          <h4 class="title">Search by professor:</h4>
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="Search for a professor" id="search-professor" />
-          </div>
+  <main>
+    <div class="flex-box">
+      <div id="side-bar">
+        <h4 class="title">Search by professor:</h4>
+        <div class="input-box">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" />
+          <input placeholder="Search for a professor" id="search-professor" />
+        </div>
 
-          <h4 class="title">Search by course:</h4>
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="Search for a course" id="search-course" />
-          </div>
+        <h4 class="title">Search by course:</h4>
+        <div class="input-box">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" />
+          <input placeholder="Search for a course" id="search-course" />
+        </div>
 
-          <h4 class="title">Search by keyword:</h4>
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="Input a keyword" id="search-keyword" />
-          </div>
+
+        <h4 class="title">Search by keyword:</h4>
+        <div class="input-box">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" />
+          <input placeholder="Input a keyword" id="search-keyword" />
 
           <button class="accordion">
             <div class="flex-container">
@@ -93,17 +88,26 @@
           <button type="submit" onclick="sendQuery()" id="search-button">
             Search
           </button>
-
         </div>
 
-        <div id="main-table">
-          <div id="answer-box"></div>
+        <h4 class="title">Filter by department:</h4>
+        <div class="input-box">
+          <img src="{{ url_for('static', filename='images/mag.png') }}" />
+          <input placeholder="Filter by department" id="search-department" />
         </div>
+        <button type="submit" onclick="sendQuery()" id="search-button">
+          Search
+        </button>
       </div>
 
-      <script>
-        function answerBoxTemplate(name, overall, difficulty, workload) {
-          return `<div class="flex-box result">
+      <div id="main-table">
+        <div id="answer-box"></div>
+      </div>
+    </div>
+
+    <script>
+      function answerBoxTemplate(name, overall, difficulty, workload) {
+        return `<div class="flex-box result">
             <div class="left">
               <h3 class="professor-name">${name}</h3>
               <p class="info"><b>Department: </b></p>
@@ -117,49 +121,76 @@
               <div class="review"></div>
             </div>
           </div>`;
-        }
-        function noResultTemplate() {
-          return `<div class=''>
+      }
+      function noResultTemplate() {
+        return `<div class=''>
                 <h3 class='professor-name'>No result found.</h3>
             </div>`;
-        }
+      }
 
-        // inject input information to SQL query
-        function sendQuery() {
-          document.getElementById("answer-box").innerHTML = "";
-          console.log(document.getElementById("search-professor").value);
+      // inject input information to SQL query
+      function sendQuery() {
+        document.getElementById("answer-box").innerHTML = "";
+        console.log(document.getElementById("search-professor").value);
+
+        if (document.getElementById("search-professor").value != null) {
           fetch(
             "/reviews?" +
-              new URLSearchParams({
-                title: document.getElementById("search-professor").value,
-              }).toString()
-          )
-            .then((response) => response.json())
+            new URLSearchParams({
+              title: document.getElementById("search-professor").value,
+            }).toString()
+          ).then((response) => response.json())
             .then((data) =>
               data.forEach((row) => {
                 let tempDiv = document.createElement("div");
                 tempDiv.innerHTML = row.professor
                   ? answerBoxTemplate(
-                      row.professor,
-                      scoreToLevel(row.average_overall),
-                      scoreToLevel(row.average_difficulty),
-                      scoreToLevel(row.average_workload)
-                    )
+                    row.professor,
+                    scoreToLevel(row.average_overall),
+                    scoreToLevel(row.average_difficulty),
+                    scoreToLevel(row.average_workload)
+                  )
                   : noResultTemplate();
                 document.getElementById("answer-box").appendChild(tempDiv);
               })
             );
+        } else if (document.getElementById("search-course").value != null) {
+          // added
+          fetch(
+            "/reviews?" +
+            new URLSearchParams({
+              title: document.getElementById("search-course").value,
+            }).toString()
+          ).then((response) => response.json())
+            .then((data) =>
+              data.forEach((row) => {
+                let tempDiv = document.createElement("div");
+                tempDiv.innerHTML = row.professor
+                  ? answerBoxTemplate(
+                    row.professor,
+                    scoreToLevel(row.average_overall),
+                    scoreToLevel(row.average_difficulty),
+                    scoreToLevel(row.average_workload)
+                  )
+                  : noResultTemplate();
+                document.getElementById("answer-box").appendChild(tempDiv);
+              })
+            );
+          // added
         }
 
-        function scoreToLevel(score) {
-          if (score < 3) {
-            return "Low";
-          } else if (score >= 4) {
-            return "High";
-          } else {
-            return "Medium";
-          }
+      }
+
+      function scoreToLevel(score) {
+        if (score < 3) {
+          return "Low";
+        } else if (score >= 4) {
+          return "High";
+        } else {
+          return "Medium";
         }
+      }
+
 
         // run on load
         var acc = document.getElementsByClassName("accordion");
@@ -179,3 +210,4 @@
     </main>
   </body>
 </html>
+

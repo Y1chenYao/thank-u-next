@@ -18,3 +18,6 @@ dist/
 build/
 *.egg-info/
 helpers/*
+
+
+cs4300-env/*
