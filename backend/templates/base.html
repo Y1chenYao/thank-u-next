@@ -57,14 +57,43 @@
             <input placeholder="Input a keyword" id="search-keyword" />
           </div>
 
-          <h4 class="title">Filter by department:</h4>
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="Filter by department" id="search-department" />
+          <button class="accordion">
+            <div class="flex-container">
+              <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
+              <div class="toggle-label">Filter by college</div>
+            </div>
+          </button>
+          <div class="panel">
+            <input type="checkbox" id="cas" name="college" value="cas">
+            <label for="cas" class="checkbox-label">Arts and Sciences</label><br>
+            <input type="checkbox" id="coe" name="college" value="coe">
+            <label for="coe" class="checkbox-label">College of Engineering</label><br>
+            <input type="checkbox" id="cis" name="college" value="senior">
+            <label for="cis" class="checkbox-label">Bowers CIS</label>
           </div>
+
+          <button class="accordion">
+            <div class="flex-container">
+              <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
+              <div class="toggle-label">Filter by course level</div>
+            </div>
+          </button>
+          <div class="panel">
+            <input type="checkbox" id="4000" name="level" value="4000">
+            <label for="4000" class="checkbox-label">4000</label><br>
+            <input type="checkbox" id="3000" name="level" value="3000">
+            <label for="3000" class="checkbox-label">3000</label><br>
+            <input type="checkbox" id="2000" name="level" value="2000">
+            <label for="2000" class="checkbox-label">2000</label><br>
+            <input type="checkbox" id="1000" name="level" value="1000">
+            <label for="1000" class="checkbox-label">1000</label>
+
+          </div>
+
           <button type="submit" onclick="sendQuery()" id="search-button">
             Search
           </button>
+
         </div>
 
         <div id="main-table">
@@ -130,6 +159,21 @@
           } else {
             return "Medium";
           }
+        }
+
+        // run on load
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
         }
       </script>
     </main>
