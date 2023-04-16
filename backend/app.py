@@ -3,6 +3,7 @@ import os
 from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
+from fuzzywuzzy import fuzz
 
 # ROOT_PATH for linking with all your files.
 # Feel free to use a config.py or settings.py with a global export variable
@@ -62,7 +63,6 @@ def sql_search(professor):
             round(result[2], 2)), str(round(result[3], 2))))
     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
-
 def search_by_course(course):
     '''
     return json of professor names similar to professor that teach the same course
@@ -96,6 +96,15 @@ def search_by_course(course):
             round(result[2], 2)), str(round(result[3], 2))))
     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
+def prof_name_suggest(input_prof):
+    f = open('/backend/static/json/prof_dedup.json')
+    data=json.load(f)
+    prof_scores = {}
+    for prof in data["prof_name_list"]:
+        score = fuzz.token_sort_ratio(input_prof.lower(), prof.lower())
+        prof_scores[prof] = score
+    sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
+    return json.dumps([prof[0] for prof in sorted_profs])
 
 @app.route("/")
 def home():
@@ -111,5 +120,10 @@ def reviews_search():
 def courses_search():
     text = request.args.get("title")
     return search_by_course(text)
+
+@app.route("/suggestion/prof")
+def suggest_prof():
+    text = request.args.get("title")
+    return prof_name_suggest(text)
 
 # app.run(debug=True)

@@ -89,6 +89,10 @@
         <button type="submit" onclick="sendQuery()" id="search-button">
           Search
         </button>
+
+        <button type="submit" onclick="(suggestProf)" id="suggest-button">
+          Print suggestion
+        </button>
       </div>
 
       <div id="main-table">
@@ -183,20 +187,36 @@
           }
         }
 
-        // run on load
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
+        function suggestProf(prof_name){
+          fetch(
+              "/suggestion/prof?" +
+              new URLSearchParams({
+                title: document.getElementById("search-prof").value,
+              }).toString()
+            ).then((response) => response.json())
+              .then((data) =>
+                console.log(data)
+              );
         }
+
+        function load_accordion(){
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        }
+
+        // run on load
+        load_accordion()
       </script>
     </main>
   </body>
