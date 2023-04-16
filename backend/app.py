@@ -62,10 +62,11 @@ def sql_search(professor):
             round(result[2], 2)), str(round(result[3], 2))))
     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
- # return json of professor names similar to professor that teach course
-
 
 def search_by_course(course):
+    '''
+    return json of professor names similar to professor that teach the same course
+    '''
     # course = course_name.lower()
     avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) FROM reviews WHERE course = '{course}'"""
     data = mysql_engine.query_selector(avg_query)
