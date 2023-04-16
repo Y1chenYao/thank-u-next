@@ -108,4 +108,9 @@ def reviews_search():
     text = request.args.get("title")
     return sql_search(text)
 
+@app.route("/courses")
+def courses_search():
+    text = request.args.get("title")
+    return search_by_course(text)
+
 # app.run(debug=True)
