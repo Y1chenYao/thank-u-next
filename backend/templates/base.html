@@ -124,8 +124,9 @@
         function sendQuery() {
           document.getElementById("answer-box").innerHTML = "";
           console.log(document.getElementById("search-professor").value);
+          console.log(document.getElementById("search-course").value);
 
-          if (document.getElementById("search-professor").value != null) {
+          if (document.getElementById("search-professor").value != undefined) {
             fetch(
               "/reviews?" +
               new URLSearchParams({
@@ -146,9 +147,8 @@
                   document.getElementById("answer-box").appendChild(tempDiv);
                 })
               );
-          } else if (document.getElementById("search-course").value != null) {
+          } else if (document.getElementById("search-course").value != undefined) {
             // added
-            console.log(document.getElementById("search-course").value);
             fetch(
               "/courses?" +
               new URLSearchParams({
