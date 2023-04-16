@@ -187,7 +187,8 @@
           }
         }
 
-        function suggestProf(prof_name){
+        function suggestProf(){
+          console.log("button pressed")
           fetch(
               "/suggestion/prof?" +
               new URLSearchParams({
