@@ -17,8 +17,7 @@ MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
 
-mysql_engine = MySQLDatabaseHandler(
-    MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
+mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
 
 # Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
 mysql_engine.load_file_into_db()
@@ -97,8 +96,10 @@ def search_by_course(course):
     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
 def prof_name_suggest(input_prof):
-    f = open('/backend/static/json/prof_dedup.json')
-    data=json.load(f)
+    data_path = "./static/json"
+    file_path = "prof_dedup.json"
+    with open(os.path.join(data_path, file_path), "r") as f:
+        data=json.load(f)
     prof_scores = {}
     for prof in data["prof_name_list"]:
         score = fuzz.token_sort_ratio(input_prof.lower(), prof.lower())
@@ -121,7 +122,7 @@ def courses_search():
     text = request.args.get("title")
     return search_by_course(text)
 
-@app.route("/suggestion/prof")
+@app.route("/suggestion")
 def suggest_prof():
     text = request.args.get("title")
     return prof_name_suggest(text)

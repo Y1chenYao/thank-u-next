@@ -188,11 +188,11 @@
         }
 
         function suggestProf(){
-          console.log("button pressed")
+          document.getElementById("answer-box").innerHTML = "";
           fetch(
-              "/suggestion/prof?" +
+              "/suggestion?" +
               new URLSearchParams({
-                title: document.getElementById("search-prof").value,
+                title: document.getElementById("search-professor").value,
               }).toString()
             ).then((response) => response.json())
               .then((data) =>
