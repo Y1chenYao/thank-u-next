@@ -102,7 +102,7 @@ def prof_name_suggest(input_prof):
         data=json.load(f)
     prof_scores = {}
     for prof in data["prof_name_list"]:
-        score = fuzz.token_sort_ratio(input_prof.lower(), prof.lower())
+        score = fuzz.partial_ratio(input_prof.lower(), prof.lower())
         prof_scores[prof] = score
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([prof[0] for prof in sorted_profs])

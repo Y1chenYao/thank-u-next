@@ -35,15 +35,20 @@
     <div class="flex-box">
       <div id="side-bar">
         <h4 class="title">Search by professor:</h4>
-        <div class="input-box">
-          <img src="{{ url_for('static', filename='images/mag.png') }}" />
-          <input placeholder="Search for a professor" id="search-professor" />
+        <div id="search-box">
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="e.g. David Gries" id="search-professor" onkeyup="load_prof_suggestion()"/>
+          </div>
+          <div class="auto-box" id="auto-box">
+          </div>
         </div>
+        
 
         <h4 class="title">Search by course:</h4>
         <div class="input-box">
           <img src="{{ url_for('static', filename='images/mag.png') }}" />
-          <input placeholder="Search for a course" id="search-course" />
+          <input placeholder="e.g. CS4300" id="search-course" />
         </div>
 
 
@@ -88,10 +93,6 @@
 
         <button type="submit" onclick="sendQuery()" id="search-button">
           Search
-        </button>
-
-        <button type="submit" onclick="suggestProf()" id="suggest-button">
-          Print suggestion
         </button>
       </div>
 
@@ -187,19 +188,6 @@
           }
         }
 
-        function suggestProf(){
-          document.getElementById("answer-box").innerHTML = "";
-          fetch(
-              "/suggestion?" +
-              new URLSearchParams({
-                title: document.getElementById("search-professor").value,
-              }).toString()
-            ).then((response) => response.json())
-              .then((data) =>
-                console.log(data)
-              );
-        }
-
         function load_accordion(){
           var acc = document.getElementsByClassName("accordion");
           var i;
@@ -214,6 +202,66 @@
               }
             });
           }
+        }
+
+        function load_prof_suggestion(){
+          const inputBox = document.querySelector("#search-professor")
+          const searchBox = document.querySelector("#search-box")
+          const autoBox = document.querySelector("#auto-box")
+          inputBox.onkeyup = (e)=>{
+            let userData = e.target.value
+            let emptyArray = []
+            let allList = []
+            if(userData!=""){
+              fetch(
+                  "/suggestion?" +
+                  new URLSearchParams({
+                    title: userData,
+                  }).toString()
+                ).then((response) => response.json())
+                .then((data) =>
+                  emptyArray = data,
+                ).then(()=>{
+                  emptyArray = emptyArray.map((i)=>{
+                  return i = "<li>"+i+"</li>"
+                  }),
+                  (
+                    searchBox.classList.add("active"),
+                    document.querySelector("#auto-box").innerHTML = emptyArray.join(''),
+                    allList = autoBox.querySelectorAll("li"),
+                    set_clickable(allList)
+                  )
+                }
+              );
+            }else{
+              searchBox.classList.remove("active")
+            }
+          }
+        }
+
+        function show_suggestions(list){
+          let listData;
+          const autoBox = document.getElementsByClassName("auto-box")
+          if(!list.length){
+            //do nothing
+          }else{
+            listData = list.join('');
+          }
+          autoBox.innerHTML=listData
+        }
+
+        function set_clickable(list){
+          for(let i=0;i<list.length;i++){
+            list[i].setAttribute("onclick","select(this)")
+          }
+        }
+
+        function select(element){
+          let selectUserData = element.textContent;
+          autoBox=document.querySelector("#search-professor")
+          autoBox.value=selectUserData;
+          searchBox = document.querySelector("#search-box")
+          searchBox.classList.remove("active")
         }
 
         // run on load

@@ -62,11 +62,10 @@ body {
 }
 
 .input-box {
-  border-radius: 8px;
+  border-radius: 3px;
   border: 1px solid black;
   display: flex;
   align-items: center;
-  margin: 0px 0px 10px 0px;
   padding: 12px;
   width: 90%;
   height: 20px;
@@ -220,4 +219,27 @@ body {
   padding: 0px;
   margin:6px;
   font-size: 15px;
+}
+
+.auto-box{
+  box-shadow: 0 3px 10px #ccc;
+  max-width: 98%;
+}
+
+.auto-box li{
+  list-style: none;
+  padding: 3px 16px;
+  display: none;
+}
+
+#search-box.active .auto-box li{
+  display: block;
+}
+
+#search-box {
+  background-color: #fff;
+}
+
+.auto-box li:hover{
+  background-color: #efefef;
 }
