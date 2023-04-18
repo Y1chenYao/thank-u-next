@@ -13,7 +13,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 MYSQL_USER = "root"
-MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
+MYSQL_USER_PASSWORD = ""
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
 
@@ -30,9 +30,28 @@ CORS(app)
 # there's a much better and cleaner way to do this
 
 
+# SELECT professor, \
+#     SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
+#     SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
+#     SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
+# FROM reviews \
+# WHERE professor IN ( \
+#     SELECT prof2 \
+#     FROM cossim \
+#     WHERE prof1 = '{professor}' \
+#     ORDER BY cosine_similarity DESC \
+#     LIMIT 5; ) \
+# GROUP BY professor \
+# ORDER BY ABS(avg_overall - {average_overall}) ASC;
+
+
 def sql_search(professor):
     professor = professor.lower()
-    avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) FROM reviews WHERE professor = '{professor}'"""
+    avg_query = f"""SELECT professor, \
+        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
+        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
+        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
+        FROM reviews WHERE professor = '{professor}'"""
     data = mysql_engine.query_selector(avg_query)
     keys = ["professor", "average_overall",
             "average_difficulty", "average_work"]
@@ -45,15 +64,18 @@ def sql_search(professor):
     average_work = round(data_list[0][3], 2)
     print(average_overall)
     # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
-    alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) \
-                    FROM reviews \
-                    WHERE professor <> '{professor}' \
-                    GROUP BY professor \
-                    HAVING ABS(AVG(overall) - {average_overall}) < 0.3 \
-                        AND ABS(AVG(difficulty) - {average_difficulty}) < 0.3 \
-                        AND ABS(AVG(work) - {average_work}) < 0.3 \
-                    ORDER BY ABS(AVG(overall) - {average_overall}) ASC;
-                    """
+
+    alike_query = f"""
+    SELECT professor, \
+        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
+        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
+        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
+    FROM reviews \
+    WHERE professor IN (SELECT prof2 FROM cossim WHERE prof1 = '{professor}') \
+    GROUP BY professor \
+    ORDER BY ABS(avg_overall - {average_overall}) ASC \
+    LIMIT 10; """    
+    # WHERE professor <> '{professor}' \
     alike_data = list(mysql_engine.query_selector(alike_query))
     for result in alike_data:
         if result[0] is None:
