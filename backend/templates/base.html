@@ -95,9 +95,6 @@
           Search
         </button>
 
-        <button type="submit" onclick="printKeyword()" id="search-button">
-          Keywords
-        </button>
       </div>
 
       <div id="main-table">
@@ -106,17 +103,18 @@
     </div>
 
     <script>
-      function answerBoxTemplate(name, overall, difficulty, workload) {
+      function answerBoxTemplate(name, keyword, similarity) {
         return `<div class="flex-box result">
             <div class="left">
               <h3 class="professor-name">${name}</h3>
               <p class="info"><b>Department: </b></p>
-              <p class="info"><b>Difficulty: </b>${difficulty}</p>
-              <p class="info"><b>Workload: </b>${workload}</p>
+              <p class="info"><b>Difficulty: </b></p>
+              <p class="info"><b>Workload: </b></p>
             </div>
             <div class="right">
               <p class="info"><b>Past Courses: </b></p>
-              <p class="info"><b>Keywords: </b></p>
+              <p class="info"><b>Keywords: </b>${keyword}</p>
+              <p class="info"><b>Similarity Score: </b>${similarity}</p>
               <p class="info"><b>Reviews: </b></p>
               <div class="review"></div>
             </div>
@@ -148,9 +146,11 @@
                   tempDiv.innerHTML = row.professor
                     ? answerBoxTemplate(
                       row.professor,
-                      scoreToLevel(row.average_overall),
-                      scoreToLevel(row.average_difficulty),
-                      scoreToLevel(row.average_workload)
+                      // scoreToLevel(row.average_overall),
+                      // scoreToLevel(row.average_difficulty),
+                      // scoreToLevel(row.average_workload),
+                      row.keyword.toString(),
+                      row.similarity
                     )
                     : noResultTemplate();
                   document.getElementById("answer-box").appendChild(tempDiv);

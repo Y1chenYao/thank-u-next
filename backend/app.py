@@ -1,6 +1,7 @@
 import json
 import os
 import numpy as np
+from numpy import linalg as LA
 from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
@@ -39,11 +40,12 @@ with open(os.path.join(path,"prof_index_to_name.json"), "r") as f2:
     prof_index_to_name=json.load(f2)
     print("stage 2")
 with open(os.path.join(path,"prof_name_to_index.json"), "r") as f3:
-    prof_name_to_idx=json.load(f3)
+    prof_name_to_index=json.load(f3)
     print("stage 3")
 with open(os.path.join(path,"tf-idf.json"), "r") as f4:
-    tfidf=json.load(f4)
+    tfidf=np.array(json.load(f4))
     print("stage 4")
+prof_num, term_num = tfidf.shape
 
 # SELECT professor, \
 #     SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
@@ -145,13 +147,51 @@ def prof_name_suggest(input_prof):
     return json.dumps([prof[0] for prof in sorted_profs])
 
 def get_prof_keywords(input_prof):
-    prof_id=prof_name_to_idx[input_prof]
+    prof_id=prof_name_to_index[input_prof]
     term_scores=np.array(tfidf[prof_id])
-    term_ids = term_scores.argsort()[::-1][:10]
-    prof_vector=dict()
+    term_ids = term_scores.argsort()[::-1][:8]
+    prof_vector=[]
     for idx in term_ids:
-        prof_vector[index_to_vocab[str(idx)]]= term_scores[idx]
-    return json.dumps(prof_vector)
+        prof_vector.append(index_to_vocab[str(idx)])
+    return prof_vector
+
+def get_sim(prof1, prof2, input_doc_mat, prof_name_to_index):
+    prof1_doc = input_doc_mat[prof_name_to_index[prof1]]
+    prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
+    dot_product = np.dot(prof1_doc, prof2_doc)
+    prof1_norm = LA.norm(prof1_doc)
+    prof2_norm = LA.norm(prof2_doc)
+    cossim=0
+    if prof1_norm!=0 and prof2_norm!=0:
+        cossim = dot_product / (prof1_norm * prof2_norm)
+    return cossim
+
+def get_similar_profs(input_prof):
+    score_arr=[]
+    for i in range(prof_num):
+        temp=get_sim(input_prof, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
+        score_arr.append(temp)
+    prof_ids = np.array(score_arr).argsort()[::-1][1:21]
+    prof_arr=[]
+    prof_score=[]
+    for idx in prof_ids:
+        prof_arr.append(prof_index_to_name[str(idx)])
+        prof_score.append(score_arr[idx])
+    print(prof_score)
+    return prof_arr,prof_score
+
+def get_professor_data(input_prof):
+    data =[]
+    prof_arr,prof_score = get_similar_profs(input_prof)
+    for i,prof in enumerate(prof_arr):
+        prof_kw=get_prof_keywords(prof)
+        temp = {
+            "professor": prof,
+            "keyword":prof_kw,
+            "similarity":round(prof_score[i], 3)
+        }
+        data.append(temp)
+    return json.dumps(data)
 
 @app.route("/")
 def home():
@@ -160,7 +200,8 @@ def home():
 @app.route("/reviews")
 def reviews_search():
     text = request.args.get("title")
-    return sql_search(text)
+    # return sql_search(text)
+    return get_professor_data(text)
 
 @app.route("/courses")
 def courses_search():
@@ -175,6 +216,6 @@ def suggest_prof():
 @app.route("/keyword")
 def suggest_keyword():
     text = request.args.get("title")
-    return get_prof_keywords(text)
+    return get_similar_profs(text)
 
 # app.run(debug=True)
