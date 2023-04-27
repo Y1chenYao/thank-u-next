@@ -1,5 +1,6 @@
 import json
 import os
+import numpy as np
 from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
@@ -29,6 +30,20 @@ CORS(app)
 # but if you decide to use SQLAlchemy ORM framework,
 # there's a much better and cleaner way to do this
 
+#data loaded
+path= "./static/json"
+with open(os.path.join(path, "index_to_vocab.json"), "r") as f1:
+    index_to_vocab=json.load(f1)
+    print("stage 1")
+with open(os.path.join(path,"prof_index_to_name.json"), "r") as f2:
+    prof_index_to_name=json.load(f2)
+    print("stage 2")
+with open(os.path.join(path,"prof_name_to_index.json"), "r") as f3:
+    prof_name_to_idx=json.load(f3)
+    print("stage 3")
+with open(os.path.join(path,"tf-idf.json"), "r") as f4:
+    tfidf=json.load(f4)
+    print("stage 4")
 
 # SELECT professor, \
 #     SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
@@ -129,10 +144,18 @@ def prof_name_suggest(input_prof):
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([prof[0] for prof in sorted_profs])
 
+def get_prof_keywords(input_prof):
+    prof_id=prof_name_to_idx[input_prof]
+    term_scores=np.array(tfidf[prof_id])
+    term_ids = term_scores.argsort()[::-1][:10]
+    prof_vector=dict()
+    for idx in term_ids:
+        prof_vector[index_to_vocab[str(idx)]]= term_scores[idx]
+    return json.dumps(prof_vector)
+
 @app.route("/")
 def home():
     return render_template('base.html', title="sample html")
-
 
 @app.route("/reviews")
 def reviews_search():
@@ -148,5 +171,10 @@ def courses_search():
 def suggest_prof():
     text = request.args.get("title")
     return prof_name_suggest(text)
+
+@app.route("/keyword")
+def suggest_keyword():
+    text = request.args.get("title")
+    return get_prof_keywords(text)
 
 # app.run(debug=True)

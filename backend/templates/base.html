@@ -94,6 +94,10 @@
         <button type="submit" onclick="sendQuery()" id="search-button">
           Search
         </button>
+
+        <button type="submit" onclick="printKeyword()" id="search-button">
+          Keywords
+        </button>
       </div>
 
       <div id="main-table">
@@ -237,6 +241,19 @@
               searchBox.classList.remove("active")
             }
           }
+        }
+
+        function printKeyword(){
+          // const inputBox = document.querySelector("#search-professor")
+          fetch(
+            "/keyword?" +
+            new URLSearchParams({
+              title: document.getElementById("search-professor").value,
+            }).toString()
+          ).then((response) => response.json())
+          .then((data) =>
+            console.log(data)
+          )
         }
 
         function show_suggestions(list){
