@@ -35,16 +35,12 @@ CORS(app)
 path= "./static/json"
 with open(os.path.join(path, "index_to_vocab.json"), "r") as f1:
     index_to_vocab=json.load(f1)
-    print("stage 1")
 with open(os.path.join(path,"prof_index_to_name.json"), "r") as f2:
     prof_index_to_name=json.load(f2)
-    print("stage 2")
 with open(os.path.join(path,"prof_name_to_index.json"), "r") as f3:
     prof_name_to_index=json.load(f3)
-    print("stage 3")
-with open(os.path.join(path,"tf-idf.json"), "r") as f4:
+with open(os.path.join(path,"tf_idf.json"), "r") as f4:
     tfidf=np.array(json.load(f4))
-    print("stage 4")
 prof_num, term_num = tfidf.shape
 
 # SELECT professor, \
@@ -140,7 +136,7 @@ def prof_name_suggest(input_prof):
     with open(os.path.join(data_path, file_path), "r") as f:
         data=json.load(f)
     prof_scores = {}
-    for prof in data["prof_name_list"]:
+    for prof in data:
         score = fuzz.partial_ratio(input_prof.lower(), prof.lower())
         prof_scores[prof] = score
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
