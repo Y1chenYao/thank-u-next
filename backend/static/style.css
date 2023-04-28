@@ -5,6 +5,10 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
+html {
+  overflow-y: scroll;
+}
+
 .parent {
   position: relative;
   top: 0;
@@ -221,25 +225,48 @@ body {
   font-size: 15px;
 }
 
-.auto-box{
+#prof-auto-box{
   box-shadow: 0 3px 10px #ccc;
   max-width: 98%;
 }
 
-.auto-box li{
+#prof-auto-box li{
   list-style: none;
   padding: 3px 16px;
   display: none;
 }
 
-#search-box.active .auto-box li{
+#prof-search-box.active #prof-auto-box li{
   display: block;
 }
 
-#search-box {
+#prof-search-box {
   background-color: #fff;
 }
 
-.auto-box li:hover{
+#prof-auto-box li:hover{
+  background-color: #efefef;
+}
+
+#course-auto-box{
+  box-shadow: 0 3px 10px #ccc;
+  max-width: 98%;
+}
+
+#course-auto-box li{
+  list-style: none;
+  padding: 3px 16px;
+  display: none;
+}
+
+#course-search-box.active #course-auto-box li{
+  display: block;
+}
+
+#course-search-box{
+  background-color: #fff;
+}
+
+#course-auto-box li:hover{
   background-color: #efefef;
 }

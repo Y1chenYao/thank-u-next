@@ -51,20 +51,6 @@ with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
     prof_to_course=json.load(f8)
 prof_num, term_num = tfidf.shape
 
-# SELECT professor, \
-#     SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-#     SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-#     SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-# FROM reviews \
-# WHERE professor IN ( \
-#     SELECT prof2 \
-#     FROM cossim \
-#     WHERE prof1 = '{professor}' \
-#     ORDER BY cosine_similarity DESC \
-#     LIMIT 5; ) \
-# GROUP BY professor \
-# ORDER BY ABS(avg_overall - {average_overall}) ASC;
-
 
 def sql_search(professor):
     professor = professor.lower()
@@ -97,39 +83,6 @@ def sql_search(professor):
     ORDER BY ABS(avg_overall - {average_overall}) ASC \
     LIMIT 10; """    
     # WHERE professor <> '{professor}' \
-    alike_data = list(mysql_engine.query_selector(alike_query))
-    for result in alike_data:
-        if result[0] is None:
-            break
-        result_formatted.append((result[0], str(round(result[1], 2)), str(
-            round(result[2], 2)), str(round(result[3], 2))))
-    return json.dumps([dict(zip(keys, i)) for i in result_formatted])
-
-def search_by_course(course):
-    '''
-    return json of professor names similar to professor that teach the same course
-    '''
-    # course = course_name.lower()
-    avg_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) FROM reviews WHERE course = '{course}'"""
-    data = mysql_engine.query_selector(avg_query)
-    keys = ["professor", "average_overall",
-            "average_difficulty", "average_work"]
-    data_list = list(set(data))
-    result_formatted = []
-    if data_list[0][0] is None:
-        return json.dumps([dict()])
-    average_overall = round(data_list[0][1], 2)
-    average_difficulty = round(data_list[0][2], 2)
-    average_work = round(data_list[0][3], 2)
-    print(average_overall)
-    alike_query = f"""SELECT professor, AVG(overall), AVG(difficulty), AVG(work) \
-                    FROM reviews \
-                    GROUP BY professor \
-                    HAVING ABS(AVG(overall) - {average_overall}) < 0.3 \
-                        AND ABS(AVG(difficulty) - {average_difficulty}) < 0.3 \
-                        AND ABS(AVG(work) - {average_work}) < 0.3 \
-                    ORDER BY ABS(AVG(overall) - {average_overall}) ASC;
-                    """
     alike_data = list(mysql_engine.query_selector(alike_query))
     for result in alike_data:
         if result[0] is None:
@@ -210,11 +163,6 @@ def home():
 def reviews_search():
     text = request.args.get("title")
     return get_professor_data(text)
-
-@app.route("/courses")
-def courses_search():
-    text = request.args.get("title")
-    return search_by_course(text)
 
 @app.route("/suggestion/prof")
 def suggest_prof():
