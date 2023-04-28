@@ -41,6 +41,14 @@ with open(os.path.join(path,"prof_name_to_index.json"), "r") as f3:
     prof_name_to_index=json.load(f3)
 with open(os.path.join(path,"tf_idf.json"), "r") as f4:
     tfidf=np.array(json.load(f4))
+with open(os.path.join(path,"prof_dedup.json"), "r") as f5:
+    prof_list=json.load(f5) 
+with open(os.path.join(path,"course_dedup.json"), "r") as f6:
+    course_list=json.load(f6) 
+with open(os.path.join(path,"course_to_prof.json"), "r") as f7:
+    course_to_prof=json.load(f7) 
+with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
+    prof_to_course=json.load(f8)
 prof_num, term_num = tfidf.shape
 
 # SELECT professor, \
@@ -131,16 +139,20 @@ def search_by_course(course):
     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
 def prof_name_suggest(input_prof):
-    data_path = "./static/json"
-    file_path = "prof_dedup.json"
-    with open(os.path.join(data_path, file_path), "r") as f:
-        data=json.load(f)
     prof_scores = {}
-    for prof in data:
+    for prof in prof_list:
         score = fuzz.partial_ratio(input_prof.lower(), prof.lower())
         prof_scores[prof] = score
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([prof[0] for prof in sorted_profs])
+
+def course_name_suggest(input_course):
+    course_scores = {}
+    for course in course_list:
+        score = fuzz.partial_ratio(input_course.lower(), course.lower())
+        course_scores[course] = score
+    sorted_courses = sorted(course_scores.items(), key=lambda x:x[1], reverse=True)[:5]
+    return json.dumps([course[0] for course in sorted_courses])
 
 def get_prof_keywords(input_prof):
     prof_id=prof_name_to_index[input_prof]
@@ -173,7 +185,6 @@ def get_similar_profs(input_prof):
     for idx in prof_ids:
         prof_arr.append(prof_index_to_name[str(idx)])
         prof_score.append(score_arr[idx])
-    print(prof_score)
     return prof_arr,prof_score
 
 def get_professor_data(input_prof):
@@ -181,10 +192,12 @@ def get_professor_data(input_prof):
     prof_arr,prof_score = get_similar_profs(input_prof)
     for i,prof in enumerate(prof_arr):
         prof_kw=get_prof_keywords(prof)
+        courses = prof_to_course[prof][:4]
         temp = {
             "professor": prof,
             "keyword":prof_kw,
-            "similarity":round(prof_score[i], 3)
+            "similarity":round(prof_score[i], 3),
+            "course":courses
         }
         data.append(temp)
     return json.dumps(data)
@@ -196,7 +209,6 @@ def home():
 @app.route("/reviews")
 def reviews_search():
     text = request.args.get("title")
-    # return sql_search(text)
     return get_professor_data(text)
 
 @app.route("/courses")
@@ -204,14 +216,14 @@ def courses_search():
     text = request.args.get("title")
     return search_by_course(text)
 
-@app.route("/suggestion")
+@app.route("/suggestion/prof")
 def suggest_prof():
     text = request.args.get("title")
     return prof_name_suggest(text)
 
-@app.route("/keyword")
-def suggest_keyword():
+@app.route("/suggestion/course")
+def suggest_course():
     text = request.args.get("title")
-    return get_similar_profs(text)
+    return course_name_suggest(text)
 
 # app.run(debug=True)

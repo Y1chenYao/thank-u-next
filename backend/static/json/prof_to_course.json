@@ -1,0 +1,8239 @@
+{
+    "Laura Barre": [
+        "NS1150",
+        "NS4410"
+    ],
+    "John Michael": [
+        "NS1150",
+        "NS3030",
+        "NS3410"
+    ],
+    "David Levitsky": [
+        "NS1150",
+        "NS3150",
+        "PSYCH3150"
+    ],
+    "Pamela Weisberg Shapiro": [
+        "NS1220"
+    ],
+    "Tashara Leak": [
+        "NS1600"
+    ],
+    "Jeanne Moseley": [
+        "NS2600"
+    ],
+    "Dan Berry": [
+        "NS3150",
+        "PSYCH3150"
+    ],
+    "Joanna Fiddler": [
+        "NS3310",
+        "NS1150"
+    ],
+    "Marie Caudill": [
+        "NS3310",
+        "NS4410"
+    ],
+    "Kimberly O'Brien": [
+        "NS3410"
+    ],
+    "Julia Finkelstein": [
+        "NS3600"
+    ],
+    "Emily Gier": [
+        "NS4420",
+        "NS2470",
+        "NS4880"
+    ],
+    "Clifford Kraft": [
+        "NTRES1101"
+    ],
+    "Marc Goebel": [
+        "NTRES2100"
+    ],
+    "Richard Stedman": [
+        "NTRES2201",
+        "BSOC2201"
+    ],
+    "David Bonter": [
+        "NTRES2400"
+    ],
+    "Evan Cooch": [
+        "NTRES3100",
+        "NTRES4100",
+        "NTRES4120",
+        "NR3100",
+        "NR4120"
+    ],
+    "Rebecca Schneider": [
+        "NTRES3240",
+        "NTRES6240"
+    ],
+    "James Tantillo": [
+        "NTRES3320"
+    ],
+    "Peter Frazier": [
+        "ORIE3120",
+        "ORIE3800"
+    ],
+    "Peter Fraizer": [
+        "ORIE3120"
+    ],
+    "John Richard Callister": [
+        "ORIE3120",
+        "ORIE3150",
+        "ORIE4600",
+        "ENGRG2270",
+        "ENGRI1270",
+        "MAE1270",
+        "MAE2270"
+    ],
+    "Jim Dai": [
+        "ORIE3150",
+        "ORIE3500",
+        "ORIE3510",
+        "ORIE5500",
+        "ORIE5510",
+        "STSCI3510"
+    ],
+    "Damek Davis": [
+        "ORIE3300",
+        "ORIE5300",
+        "MATH2940",
+        "ORIE6300"
+    ],
+    "Adrian Lewis": [
+        "ORIE3300",
+        "ORIE5300",
+        "MATH2940"
+    ],
+    "Frans Schalekamp": [
+        "ORIE3310",
+        "ORIE5310",
+        "CS4820",
+        "ENGRD2700",
+        "ENGRI1101"
+    ],
+    "David Williamson": [
+        "ORIE3310",
+        "ORIE5310",
+        "STSCI1380",
+        "CS1380",
+        "ENGRI1101",
+        "INFO2300",
+        "INFO2950"
+    ],
+    "David Goldberg": [
+        "ORIE3500",
+        "ORIE5500"
+    ],
+    "Jamol Pender": [
+        "ORIE3500",
+        "ORIE5500",
+        "ENGRD2700",
+        "ORIE4130"
+    ],
+    "Patie Pierre": [
+        "ORIE3500",
+        "ORIE5500"
+    ],
+    "Yudong Chen": [
+        "ORIE4740",
+        "ENGRD2700"
+    ],
+    "Madeleine Udell": [
+        "ORIE4741",
+        "ORIE3120"
+    ],
+    "Kathryn Caggiano": [
+        "ORIE4820",
+        "ORIE5110",
+        "ORIE4280"
+    ],
+    "Eric Gentsch": [
+        "ORIE5126"
+    ],
+    "Michael Jauch": [
+        "ORIE5550",
+        "STSCI4550",
+        "ILRST4550"
+    ],
+    "Sharon Sassler": [
+        "PAM1111",
+        "PAM2030",
+        "PAM2390",
+        "PAM3370",
+        "SOC2390",
+        "SOC3370",
+        "PAM3360",
+        "PAM3320",
+        "SOC3360"
+    ],
+    "Brandon Tripp": [
+        "PAM2000",
+        "PAM3130",
+        "PAM5130",
+        "ECON3670",
+        "PAM6390",
+        "PAM2040",
+        "ECON3030"
+    ],
+    "Thomas Evans": [
+        "PAM2000",
+        "PAM2100",
+        "PAM3100"
+    ],
+    "Matthew Hall": [
+        "PAM2101",
+        "PAM3040",
+        "GOVT3323"
+    ],
+    "Kim Weeden": [
+        "PAM2208",
+        "SOC2208"
+    ],
+    "Steven Alvarado": [
+        "PAM2208",
+        "SOC1104",
+        "SOC2208",
+        "AMST1104"
+    ],
+    "Anna Haskins": [
+        "PAM2220",
+        "PHIL1950",
+        "SOC1101",
+        "SOC2220",
+        "SOC3850",
+        "GOVT2225",
+        "AMST2225",
+        "ILROB2220"
+    ],
+    "Peter Rich": [
+        "PAM2250",
+        "SOC2070",
+        "AMST2070",
+        "PAM2101",
+        "SOC2010"
+    ],
+    "Rosemary Avery": [
+        "PAM2300"
+    ],
+    "Sean Nicholson": [
+        "PAM2350"
+    ],
+    "Pauline Leung": [
+        "PAM3080",
+        "PAM5080",
+        "ECON3250"
+    ],
+    "Nicolas Bottan": [
+        "PAM3100",
+        "PAM3190"
+    ],
+    "Colleen Carey": [
+        "PAM3110"
+    ],
+    "Laura Tach": [
+        "PAM3250",
+        "PAM5250",
+        "SOC3250"
+    ],
+    "Julie Carmalt": [
+        "PAM3280",
+        "PAM5280"
+    ],
+    "Don Kenkel": [
+        "PAM3300"
+    ],
+    "Alan Mathios": [
+        "PAM3410",
+        "ECON3830"
+    ],
+    "Nicholas Sanders": [
+        "PAM3670",
+        "PAM5970",
+        "ECON1110",
+        "ECON3850",
+        "ECON1101"
+    ],
+    "Nicolas Ziebarth": [
+        "PAM3780",
+        "PAM2350",
+        "PAM3870"
+    ],
+    "John Cawley": [
+        "PAM4280",
+        "ECON3710",
+        "PAM2000"
+    ],
+    "Brooke Hollis": [
+        "PAM5500",
+        "HADM6033"
+    ],
+    "Jordan Matsudaira": [
+        "PAM6090",
+        "ECON6590"
+    ],
+    "Diane Beckwith": [
+        "PE1100",
+        "PE1290"
+    ],
+    "Susan Ball": [
+        "PE1104"
+    ],
+    "Tim Sayers": [
+        "PE1150"
+    ],
+    "Iska Ziver": [
+        "PE1150"
+    ],
+    "June Seaney": [
+        "PE1155"
+    ],
+    "Michael Ristorucci": [
+        "PE1162"
+    ],
+    "Cynthia Overstreet": [
+        "PE1170"
+    ],
+    "Han Cho": [
+        "PE1260",
+        "PE1375",
+        "PE1376"
+    ],
+    "Dustin Paul": [
+        "PE1261"
+    ],
+    "Bert Adams-Kucik": [
+        "PE1262"
+    ],
+    "Kimberley Alger-Norton": [
+        "PE1265"
+    ],
+    "Adrian Durant": [
+        "PE1271"
+    ],
+    "Priscilla Timberlake": [
+        "PE1272",
+        "PE1405",
+        "PE1420"
+    ],
+    "Douglas Volbrecht": [
+        "PE1300"
+    ],
+    "Jon LaRock": [
+        "PE1300"
+    ],
+    "DROP": [
+        "PE1300",
+        "PE1616",
+        "PE1690",
+        "COMM2450",
+        "CS1110",
+        "CS1300",
+        "CS2800",
+        "CS4820",
+        "ENGRC3025",
+        "GERST1109",
+        "BIOEE1781",
+        "BIONB1220",
+        "INFO1300",
+        "INFO2450",
+        "ITAL2201",
+        "MATH1110",
+        "MATH1120",
+        "MATH1710",
+        "MATH2210",
+        "MATH2940",
+        "MATH3360"
+    ],
+    "Mary Gerlach": [
+        "PE1330"
+    ],
+    "Jonathan Billing": [
+        "PE1340"
+    ],
+    "Kevin Seaman": [
+        "PE1345",
+        "PE1346"
+    ],
+    "Shad Ryan": [
+        "PE1350"
+    ],
+    "William Myers": [
+        "PE1355"
+    ],
+    "John Burger": [
+        "PE1380"
+    ],
+    "Helen Tseng": [
+        "PE1412",
+        "PE1414"
+    ],
+    "Lewis Freedman": [
+        "PE1421",
+        "PE1430"
+    ],
+    "Carol Hawk": [
+        "PE1430"
+    ],
+    "Jen Gudaz": [
+        "PE1434"
+    ],
+    "Michael Bryant": [
+        "PE1440",
+        "PE1445",
+        "PE1465"
+    ],
+    "Arthur Falkson": [
+        "PE1446"
+    ],
+    "Daniel Evett": [
+        "PE1465"
+    ],
+    "Gene Nighman": [
+        "PE1465"
+    ],
+    "Jamie Rattray": [
+        "PE1465"
+    ],
+    "Patrick Crowley": [
+        "PE1480",
+        "PE1335"
+    ],
+    "Gregory Brown": [
+        "PE1480",
+        "PE1335"
+    ],
+    "Benjamin Blakeley": [
+        "PE1505",
+        "PE1625"
+    ],
+    "Charles Rendleman": [
+        "PE1520"
+    ],
+    "Matt Hayes": [
+        "PE1527"
+    ],
+    "Linda McKeown": [
+        "PE1545"
+    ],
+    "Matthew Essigmann": [
+        "PE1545"
+    ],
+    "Scott Flickinger": [
+        "PE1555"
+    ],
+    "Marlon Sears": [
+        "PE1560"
+    ],
+    "Mark Holton": [
+        "PE1610",
+        "PE1657",
+        "PE1674",
+        "PE1608",
+        "PE1625"
+    ],
+    "Chris Leeming": [
+        "PE1615"
+    ],
+    "Andrew McLaughlin": [
+        "PE1640"
+    ],
+    "Rob Cook": [
+        "PE1640",
+        "PE1664",
+        "PE1666"
+    ],
+    "Amy Woodin": [
+        "PE1642",
+        "PE1625"
+    ],
+    "Sarah Myers": [
+        "PE1675",
+        "PE1608"
+    ],
+    "Iago Gocheleishvili": [
+        "PERSN1320",
+        "HIST3519",
+        "NES3519"
+    ],
+    "Nathaniel Bulthuis": [
+        "PHIL1100",
+        "PHIL1112"
+    ],
+    "Theodore Korzukhin": [
+        "PHIL1100",
+        "PHIL1101"
+    ],
+    "Karen Bennett": [
+        "PHIL1100"
+    ],
+    "Marta Heckel": [
+        "PHIL1100"
+    ],
+    "Alex Esposito": [
+        "PHIL1110"
+    ],
+    "Daniel Manne": [
+        "PHIL1110",
+        "PHIL1960",
+        "PAM3764",
+        "PADM5130",
+        "PHIL3480"
+    ],
+    "Alicia Patterson": [
+        "PHIL1110"
+    ],
+    "Matthew Paskell": [
+        "PHIL1111"
+    ],
+    "Lyu Zhou": [
+        "PHIL1111"
+    ],
+    "Yuna Won": [
+        "PHIL1112"
+    ],
+    "August Faller": [
+        "PHIL1112"
+    ],
+    "William Starr": [
+        "PHIL1440",
+        "PHIL2621",
+        "COGST2621",
+        "PHIL4740",
+        "PHIL2310"
+    ],
+    "Tad Brennan": [
+        "PHIL2200",
+        "CLASS2661",
+        "PHIL1410",
+        "PHIL2661",
+        "PHIL1100",
+        "PHIL3204"
+    ],
+    "Derk Pereboom": [
+        "PHIL2220",
+        "PHIL3230",
+        "PHIL3621",
+        "PHIL4640"
+    ],
+    "Alexander Kocurek": [
+        "PHIL2300"
+    ],
+    "Kate Manne": [
+        "PHIL2410",
+        "PHIL3410"
+    ],
+    "Julia Markovits": [
+        "PHIL2410",
+        "PHIL2455",
+        "STS2451",
+        "PHIL3480"
+    ],
+    "Robert Lieberman": [
+        "PHYS1012"
+    ],
+    "Nicholas Taylor": [
+        "PHYS1102",
+        "PHYS1101"
+    ],
+    "Philip Krasicky": [
+        "PHYS1112",
+        "PHYSICS1112",
+        "PHYS2213"
+    ],
+    "Robert Fulbright": [
+        "PHYS1112",
+        "PHYS2213",
+        "PHYS2216"
+    ],
+    "Jeevak Parpia": [
+        "PHYS1112"
+    ],
+    "Jim Alexander": [
+        "PHYS1116"
+    ],
+    "Kyle Shen": [
+        "PHYS1116",
+        "PHYS2213",
+        "PHYS2216"
+    ],
+    "Liam McAllister": [
+        "PHYS1116",
+        "PHY1116"
+    ],
+    "Itai Cohen": [
+        "PHYS1201",
+        "PHYS6510",
+        "PHYS3341",
+        "PHYS3327"
+    ],
+    "Natasha Holmes": [
+        "PHYS1203"
+    ],
+    "Katherine Selby": [
+        "PHYS1204",
+        "MUSIC1466"
+    ],
+    "Glenn Case": [
+        "PHYS2208",
+        "PHYS2214",
+        "PHYS2204"
+    ],
+    "Tomas Arias": [
+        "PHYS2213",
+        "PHYS3316",
+        "PHYS1101"
+    ],
+    "Nam Kim": [
+        "PHYS2213"
+    ],
+    "Alan Giambattista": [
+        "PHYS2213",
+        "PHYS1101",
+        "PHYS1102",
+        "PHYS1112",
+        "PHYS2214"
+    ],
+    "Namjung Kim": [
+        "PHYS2213"
+    ],
+    "Ivan Bazarov": [
+        "PHYS2213",
+        "PHYS3318",
+        "PHYS3317",
+        "PHYS3360"
+    ],
+    "Matthias Liepe": [
+        "PHYS2214",
+        "PHYS2208",
+        "PHYS2207",
+        "PHYS2070"
+    ],
+    "Chris Xu": [
+        "PHYS2217",
+        "ENGRI1100",
+        "AEP1100",
+        "AEP2170",
+        "AEP3550"
+    ],
+    "Gennady Shvets": [
+        "PHYS2217",
+        "AEP2170"
+    ],
+    "Brad Ramshaw": [
+        "PHYS2218"
+    ],
+    "Andre Leclair": [
+        "PHYS2218",
+        "PHYS3316",
+        "PHYS4443",
+        "PHYS1112",
+        "PHYS2213",
+        "PHY1112",
+        "PHYS1101"
+    ],
+    "Seamus Davis": [
+        "PHYS2218",
+        "PHYS3316",
+        "PHYS2214"
+    ],
+    "Carl Franck": [
+        "PHYS3310",
+        "PHYS2207",
+        "PHYS2208"
+    ],
+    "Katja Nowack": [
+        "PHYS3316"
+    ],
+    "Peter Wittich": [
+        "PHYS3317",
+        "PHYS2218"
+    ],
+    "Jared Maxson": [
+        "PHYS3318",
+        "PHYS3316"
+    ],
+    "Lawrence Gibbons": [
+        "PHYS3327",
+        "PHYS2217",
+        "PHYS2214",
+        "PHSY2217",
+        "PHYS1116"
+    ],
+    "Earl Kirkland": [
+        "PHYS3360",
+        "AEP3630"
+    ],
+    "Georg Hoffstaetter": [
+        "PHYS3360",
+        "AEP3630"
+    ],
+    "Paul Ginsparg": [
+        "PHYS4481",
+        "PHYS7681",
+        "CS4812",
+        "INFO2950",
+        "INFO4300"
+    ],
+    "James Sethna": [
+        "PHYS4488",
+        "PHYS6562"
+    ],
+    "Tom Silva": [
+        "PLBIO2400"
+    ],
+    "Marvin Pritts": [
+        "PLHRT1102",
+        "HORT1102"
+    ],
+    "Kathie Hodge": [
+        "PLPPM3190",
+        "PLSCI2013",
+        "PLPPM2010",
+        "PLPPM2013"
+    ],
+    "William Miller": [
+        "PLSCI1101"
+    ],
+    "Frank Rossi": [
+        "PLSCI1101",
+        "PLSCS1300",
+        "DSOC1300",
+        "HORT1101",
+        "HORT4931"
+    ],
+    "Taryn Bauerle": [
+        "PLSCI1115",
+        "PLHRT1115",
+        "HORT1115"
+    ],
+    "Matthew Ryan": [
+        "PLSCS1900"
+    ],
+    "Tim Setter": [
+        "PLSCS2110"
+    ],
+    "Diana Sinton": [
+        "PLSCS2200"
+    ],
+    "Aoise Stratford": [
+        "PMA1104",
+        "PMA3805"
+    ],
+    "Samuel Blake": [
+        "PMA1145"
+    ],
+    "Ellen Gainor": [
+        "PMA1161",
+        "PMA2800"
+    ],
+    "Andrew Campana": [
+        "PMA2452",
+        "ASIAN2252",
+        "ASIAN3315"
+    ],
+    "Samantha Sheppard": [
+        "PMA2501",
+        "VISST2502",
+        "FGSS2501",
+        "AMST2505",
+        "BIO1200"
+    ],
+    "Philip Lorenz": [
+        "PMA2670",
+        "ENGL2270",
+        "ENGL1270",
+        "ENGL3270",
+        "ENGL1131",
+        "ENGLISH1270",
+        "ENG3270",
+        "ENGL2720"
+    ],
+    "Roger Gilbert": [
+        "PMA2681",
+        "ENGL2080",
+        "ENGL1167",
+        "ENGL3650",
+        "ENGL2710"
+    ],
+    "Carolyn Goelzer": [
+        "PMA2800",
+        "PMA3800"
+    ],
+    "Theo Black": [
+        "PMA2800"
+    ],
+    "Timothy Murray": [
+        "PMA3515",
+        "ROMS3115",
+        "VISST3115",
+        "COML3115",
+        "ENGL3115",
+        "ENG1111"
+    ],
+    "Amy Villarejo": [
+        "PMA3551",
+        "PMA6551",
+        "VISST3176"
+    ],
+    "Warren Cross": [
+        "PMA3680",
+        "MUSIC3431"
+    ],
+    "Austin Bunn": [
+        "PMA3805",
+        "PMA3533",
+        "PMA3531",
+        "PMA2730"
+    ],
+    "Jura D. Oliveira": [
+        "PORT2010"
+    ],
+    "David Pizarro": [
+        "PSYCH1101",
+        "PSYCH1103",
+        "PSYCH3135",
+        "PSYCH3850",
+        "PSYCH3750"
+    ],
+    "Kat Caldwell": [
+        "PSYCH1101"
+    ],
+    "Khena Swallow": [
+        "PSYCH1102",
+        "COGST1101",
+        "CS1710",
+        "LING1170"
+    ],
+    "Shaun Nichols": [
+        "PSYCH1102",
+        "COGST1101",
+        "CS1710",
+        "LING1170"
+    ],
+    "Stewart McCauley": [
+        "PSYCH1102",
+        "COGST1101",
+        "CS1710",
+        "LING1170"
+    ],
+    "Jennifer Schwade": [
+        "PSYCH1102",
+        "COGST1101",
+        "CS1710",
+        "LING1170"
+    ],
+    "Gary Evans": [
+        "PSYCH1500",
+        "PSYCH1501",
+        "COGST1500",
+        "COGST1501",
+        "DEA1500",
+        "DEA1501"
+    ],
+    "Michael Goldstein": [
+        "PSYCH2090",
+        "PSYCH7090",
+        "PSYC2090",
+        "DPSYC2090"
+    ],
+    "Morten Christiansen": [
+        "PSYCH2150",
+        "COGST2150",
+        "LING2215",
+        "PSYCH2215"
+    ],
+    "Thomas Cleland": [
+        "PSYCH2500",
+        "PSYCH3500"
+    ],
+    "Parnia Haj-Mohamadi": [
+        "PSYCH2500",
+        "PSYCH2750",
+        "HD2600"
+    ],
+    "Jeffrey Rachlinski": [
+        "PSYCH2650",
+        "HD2650",
+        "LAW2650"
+    ],
+    "Vivian Zayas": [
+        "PSYCH2750",
+        "HD2600",
+        "PSY2650",
+        "PSYCH4910",
+        "PSY2700"
+    ],
+    "Tom Gilovich": [
+        "PSYCH2800",
+        "PSYCH2940",
+        "AEM2020"
+    ],
+    "Lauren Korfine": [
+        "PSYCH2830",
+        "HD2830"
+    ],
+    "Laura Niemi": [
+        "PSYCH3135"
+    ],
+    "Shimon Edelman": [
+        "PSYCH3140",
+        "PSYCH6140",
+        "COGST3140",
+        "INFO3140",
+        "PSYCH4230",
+        "PSYCH2140"
+    ],
+    "Carol Krumhansl": [
+        "PSYCH3160",
+        "PSYCH7160",
+        "PSYCH4180",
+        "MUSIC4180"
+    ],
+    "Harry Segal": [
+        "PSYCH3250",
+        "HD3700",
+        "PSYCH2820",
+        "PSYCH2800",
+        "PSYCH1101",
+        "PSYCH3850"
+    ],
+    "Christiane Linster": [
+        "PSYCH3300",
+        "COGST3300",
+        "BIONB3300",
+        "BME3300",
+        "BIONB2220"
+    ],
+    "Jane Mendle": [
+        "PSYCH3310",
+        "HD3300",
+        "HD3330"
+    ],
+    "David Field": [
+        "PSYCH3420",
+        "PSYCH4420",
+        "PSYCH6420",
+        "VISST3342",
+        "COGST3420"
+    ],
+    "Daniel Boucher": [
+        "RELST2250",
+        "RELST2299",
+        "ASIAN2250",
+        "ASIAN2299",
+        "ASAIN2250",
+        "ASIANREL2250"
+    ],
+    "Kim Haines-Eitzen": [
+        "RELST2629",
+        "CLASS2613",
+        "JWST2629",
+        "NES2629",
+        "RELST2695",
+        "NES2273",
+        "NES2651",
+        "RELST2651"
+    ],
+    "David Powers": [
+        "RELST2655",
+        "HIST2530",
+        "MEDVL2655",
+        "NES2655",
+        "NES1967"
+    ],
+    "Julia Karczewski": [
+        "ROMS1102"
+    ],
+    "Richard Gibbs": [
+        "ROMS1102"
+    ],
+    "Nicholas Huelster": [
+        "ROMS1109"
+    ],
+    "Itziar Rodriguez de Rivera": [
+        "ROMS1113",
+        "ROM1113",
+        "SPAN2230",
+        "SPAN2140",
+        "ROMS1102"
+    ],
+    "Irene Eibenstein-Alvisi": [
+        "ROMS1113",
+        "ITAL2203",
+        "ROMS1102",
+        "ROM1113"
+    ],
+    "Gustavo Quintero": [
+        "ROMS1113"
+    ],
+    "Ti Alkire": [
+        "ROMS1114",
+        "ROMS3210",
+        "ROMS3220",
+        "FREN2092",
+        "LING3321",
+        "LING3322"
+    ],
+    "Kendra Bischoff": [
+        "SOC1101",
+        "SOC3380"
+    ],
+    "Landon Schnabel": [
+        "SOC1101"
+    ],
+    "Filiz Garip": [
+        "SOC1101"
+    ],
+    "David Strang": [
+        "SOC1290",
+        "AMST1290",
+        "SOC3190",
+        "SOC1150"
+    ],
+    "David Easley": [
+        "SOC2090",
+        "CS2850",
+        "ECON2040",
+        "INFO2040",
+        "CS4820",
+        "CS6850",
+        "ECON6090",
+        "ECON0000"
+    ],
+    "Stephen Hilgartner": [
+        "SOC2100",
+        "STS2011",
+        "STS3911",
+        "GOVT3091",
+        "STS3111",
+        "STS4541",
+        "BSOC2051"
+    ],
+    "Victor Nee": [
+        "SOC2190"
+    ],
+    "Dario Azzellini": [
+        "SOC2202"
+    ],
+    "John Sipple": [
+        "SOC2710",
+        "SOC5710",
+        "EDUC2710",
+        "EDUC5710",
+        "AMST2710",
+        "AMST5710",
+        "DSOC2710",
+        "DSOC4631"
+    ],
+    "Christine Leuenberger": [
+        "SOC3130",
+        "STS3111",
+        "BSOC3111",
+        "STS1101"
+    ],
+    "John Zinda": [
+        "SOC3240",
+        "STS3241",
+        "DSOC3240"
+    ],
+    "Cristobal Young": [
+        "SOC3580",
+        "SOC2220",
+        "DSOC2220",
+        "DSOC1950"
+    ],
+    "Tom Hirschl": [
+        "SOC3710"
+    ],
+    "Erin York Cornwell": [
+        "SOC4120",
+        "SOC2560",
+        "SOC2160"
+    ],
+    "Tomas Bevia": [
+        "SPAN1210",
+        "SPAN2130",
+        "SPAN2095",
+        "SPAN1220",
+        "SPAN2190"
+    ],
+    "Emilia Illana Mahiques": [
+        "SPAN1230"
+    ],
+    "Sebastian Antezana Quiroga": [
+        "SPAN1230"
+    ],
+    "Janet Hendrickson": [
+        "SPAN1230"
+    ],
+    "Monica Bevia": [
+        "SPAN2070",
+        "SPAN1230",
+        "SPAN1220",
+        "SPAN2090",
+        "SPAN1120"
+    ],
+    "Silvia Amigo-Silvestre": [
+        "SPAN2090",
+        "SPAN2095",
+        "SPAN1230"
+    ],
+    "Paulo Lorca Fuentealba": [
+        "SPAN2090"
+    ],
+    "Kelly Moore": [
+        "SPAN2090"
+    ],
+    "Alice McAdams": [
+        "SPAN2090"
+    ],
+    "Andy Barrientos-Gomez": [
+        "SPAN2090"
+    ],
+    "Omar Figueredo": [
+        "SPAN2090"
+    ],
+    "Brisa Teutli": [
+        "SPAN2090",
+        "SPAN1220",
+        "SPAN1120",
+        "SPAN1210",
+        "SPAN2190",
+        "SPAN2095",
+        "SPAN3100",
+        "SPAN1230"
+    ],
+    "Nilsa Maldonado-Mendez": [
+        "SPAN2095"
+    ],
+    "Cecelia Lawless": [
+        "SPAN2095",
+        "SPAN2180",
+        "SPAN2205",
+        "SPAN2090",
+        "SPAN2150",
+        "SPAN0000",
+        "SPAN3110",
+        "SPANR2190"
+    ],
+    "Alvaro Garrote Pascual": [
+        "SPAN2170",
+        "LATA2170",
+        "MEDVL2170"
+    ],
+    "Simone Pinet": [
+        "SPAN2235",
+        "SPAN2170",
+        "SPAN2230",
+        "SPAN3900",
+        "SPAN4370",
+        "SPANL2170",
+        "SPAN2203",
+        "SPANLIT2170",
+        "SPN2170",
+        "SPAN3540"
+    ],
+    "Christopher Roebuck": [
+        "STS1101",
+        "STS3011",
+        "BSOC3011"
+    ],
+    "Christopher Hesselbein": [
+        "STS1123"
+    ],
+    "Derek Parrott": [
+        "STS1123"
+    ],
+    "Jeffrey Mathias": [
+        "STS1123"
+    ],
+    "Rebecca Harrison": [
+        "STS1126"
+    ],
+    "Michelle Smith": [
+        "STS1180",
+        "BIOEE1180"
+    ],
+    "Steven Jackson": [
+        "STS1201",
+        "INFO1200",
+        "INFO4940",
+        "GOVT3800",
+        "PAM4060"
+    ],
+    "Kim Overby": [
+        "STS2051",
+        "BSOC2051",
+        "BSOC4650"
+    ],
+    "Park Doing": [
+        "STS2061",
+        "BSOC2061"
+    ],
+    "Suman Seth": [
+        "STS2071",
+        "BSOC2071",
+        "HIST2710",
+        "HIST2170",
+        "STS2821",
+        "STS1102",
+        "STS4751"
+    ],
+    "Anindita Banerjee": [
+        "STS2131",
+        "COML2035",
+        "ENGL2035",
+        "BSOC2131",
+        "COML2036",
+        "COML1107",
+        "COML1109",
+        "COML2020",
+        "COML3860"
+    ],
+    "Sara Pritchard": [
+        "STS2381",
+        "HIST2881",
+        "STS2061",
+        "BSOC2061",
+        "STS3181"
+    ],
+    "Stacey Langwick": [
+        "STS2468",
+        "FGSS2468",
+        "ANTHR2468",
+        "BSOC2468",
+        "ANTHR6465",
+        "ANTH6465"
+    ],
+    "Saida Hodzic": [
+        "STS2468",
+        "FGSS2468",
+        "ANTHR2468",
+        "BSOC2468",
+        "FGSS3000",
+        "FGSS2010",
+        "ANTHR3421"
+    ],
+    "Tj Hinrichs": [
+        "STS2561",
+        "ASIAN1174",
+        "ASIAN2262",
+        "BSOC2561",
+        "CAPS1740",
+        "CAPS2262",
+        "HIST1740",
+        "HIST2562",
+        "MEDVL1740"
+    ],
+    "Ronald Kline": [
+        "STS2921",
+        "ENGRG2980",
+        "AMST2980",
+        "HIST2920",
+        "INFO2921",
+        "ENGRG2500"
+    ],
+    "Jessica Ratcliff": [
+        "STS3011",
+        "BSOC3011"
+    ],
+    "Noah Tamarkin": [
+        "STS3011",
+        "BSOC3011",
+        "COMPSTD2340"
+    ],
+    "Norman Porticella": [
+        "STS3020",
+        "COMM3020",
+        "COMM2850",
+        "COMM1300",
+        "COMM1101",
+        "COMM3200"
+    ],
+    "Phoebe Sengers": [
+        "STS4240",
+        "INFO4240",
+        "INFO1300"
+    ],
+    "Christopher Csikszentmihalyi": [
+        "STS4240",
+        "INFO4240",
+        "INFO4940",
+        "INFO6940"
+    ],
+    "Kevin Packard": [
+        "STSCI2100",
+        "ILRST2100",
+        "ILRST5100",
+        "ECON3110",
+        "STSCI5110",
+        "ILRST3110"
+    ],
+    "Elizabeth Karns": [
+        "STSCI2100",
+        "ILRST2100",
+        "ILRST5100",
+        "ILRST5150",
+        "ILR2100",
+        "STAT2100",
+        "ILRST2130",
+        "ILRST2150"
+    ],
+    "Melissa Smith": [
+        "STSCI2150",
+        "STS2150",
+        "STSCI4270",
+        "STSCI4110",
+        "STSCI4720"
+    ],
+    "Jeremy Entner": [
+        "STSCI2200",
+        "STSCI3200",
+        "BTRY3010",
+        "BTRY3020",
+        "STSCI3090",
+        "STSCI2100",
+        "BTRY3080",
+        "BTRY3019"
+    ],
+    "Cecilia Earls": [
+        "STSCI2200",
+        "BTRY3010"
+    ],
+    "Florentina Bunea": [
+        "STSCI3080",
+        "STSCI5080",
+        "BTRY3080",
+        "ILRST3080"
+    ],
+    "Rajendran Narayanan": [
+        "STSCI3080",
+        "STSCI5080",
+        "BTRY3080",
+        "ILRST3080"
+    ],
+    "Thomas Diciccio": [
+        "STSCI3110",
+        "ECON3110",
+        "ILRST3110"
+    ],
+    "Martin Wells": [
+        "STSCI3110",
+        "ECON3110",
+        "ILRST3110",
+        "CNES1002"
+    ],
+    "Russell Lloyd": [
+        "STSCI3200",
+        "BTRY3020"
+    ],
+    "Giles Hooker": [
+        "STSCI4520",
+        "BTRY4520",
+        "BTRY4030",
+        "STSCI4110",
+        "STSCI4030",
+        "STSCI5030"
+    ],
+    "Yang Ning": [
+        "STSCI4740"
+    ],
+    "Haiyan Deng": [
+        "SYSEN5220",
+        "SYSEN6220"
+    ],
+    "Dwayne Bershaw": [
+        "VIEN2310",
+        "VIEN2360",
+        "FDSC2310",
+        "FDSC2360"
+    ],
+    "John Elliott": [
+        "VISST1101",
+        "DEA1101"
+    ],
+    "Andrew Moisey": [
+        "VISST2000",
+        "COML2000",
+        "AMST2000",
+        "ARTH2000",
+        "ARTH3100",
+        "VIST2000"
+    ],
+    "Ananda Cohen-Aponte": [
+        "VISST2550",
+        "ARTH2550",
+        "LATA2050",
+        "ARTH3566"
+    ],
+    "Christopher Miller": [
+        "VISST2744",
+        "ASIAN2245",
+        "MUSIC1341",
+        "MUSIC3610"
+    ],
+    "Bradley Zukovic": [
+        "WRIT1370"
+    ],
+    "Kelly King-O'Brien": [
+        "WRIT1380",
+        "WRIT1969",
+        "HIST1321",
+        "ENG2890",
+        "ENGL2890"
+    ],
+    "Athena Kirk": [
+        "CLASS2603",
+        "STS2812",
+        "ARKEO2812",
+        "LING2212"
+    ],
+    "Todd Clary": [
+        "CLASS2604",
+        "GREEK1102",
+        "GREEK1104",
+        "LATIN1204",
+        "GREEK1101"
+    ],
+    "Christopher Monroe": [
+        "CLASS2630",
+        "ARKEO2522",
+        "ARKEO2661",
+        "ARKEO2668",
+        "JWST2522",
+        "NES2522",
+        "NES2661",
+        "NES2668"
+    ],
+    "Courtney Roby": [
+        "CLASS2643",
+        "CLASS1100",
+        "CLASS2640"
+    ],
+    "Caitlin Barrett": [
+        "CLASS2646",
+        "ANTHR2846",
+        "ARKEO1702",
+        "ARKEO2846",
+        "CLASS1702",
+        "NES1602",
+        "NES2546",
+        "ANTHR2285",
+        "ARKEO2285"
+    ],
+    "Nathan Pilkington": [
+        "CLASS2675",
+        "HIST2650"
+    ],
+    "Barry Strauss": [
+        "CLASS2680",
+        "HIST2560",
+        "HIST2650",
+        "CLASS2675",
+        "HIST3630"
+    ],
+    "Eric Rebillard": [
+        "CLASS2689",
+        "CLASS7689",
+        "HIST2689",
+        "HIST2670",
+        "LATIN1205",
+        "HIST6825"
+    ],
+    "Annetta Alexandridis": [
+        "CLASS2700",
+        "ARKEO2700",
+        "ARTH2200",
+        "ARTH2221",
+        "CLAS4746"
+    ],
+    "Nicole Giannella": [
+        "CLASS2806",
+        "FGSS2806",
+        "CLASS2804"
+    ],
+    "Cindy Hsin-Liu Kao": [
+        "COGST1111",
+        "DEA1110"
+    ],
+    "Adam Anderson": [
+        "COGST3660",
+        "HD3660"
+    ],
+    "Kaushik Basu": [
+        "COGST3801",
+        "ECON3801",
+        "ECON2400",
+        "ECON2801",
+        "ECON3670"
+    ],
+    "Mats Rooth": [
+        "COGST4240",
+        "CS4744",
+        "LING4424"
+    ],
+    "John Hale": [
+        "COGST4240",
+        "CS4744",
+        "LING4424"
+    ],
+    "Claire Cardie": [
+        "COGST4740",
+        "CS4740",
+        "CS5740",
+        "LING4474",
+        "INFO4300",
+        "CS4300"
+    ],
+    "Lillian Lee": [
+        "COGST4740",
+        "CS4740",
+        "CS4997",
+        "CS5740",
+        "LING4474",
+        "CS1110",
+        "CS4786"
+    ],
+    "Jonathan Park": [
+        "COGST4740",
+        "CS4740",
+        "CS5740",
+        "LING4474"
+    ],
+    "Van Le": [
+        "COML1104"
+    ],
+    "Marc Kohlbry": [
+        "COML1106"
+    ],
+    "Joe Zappa": [
+        "COML1106"
+    ],
+    "Oliver Aas": [
+        "COML1106"
+    ],
+    "Marie Lambert": [
+        "COML1106"
+    ],
+    "Jorge Cartaya": [
+        "COML1106"
+    ],
+    "Raissa Krivitsky": [
+        "COML1119",
+        "RUSSA1122",
+        "RUSSA1121"
+    ],
+    "Tom McEnaney": [
+        "COML2020"
+    ],
+    "Natalie Melas": [
+        "COML2030",
+        "COMP1410",
+        "COML3040"
+    ],
+    "Nancy Pollak": [
+        "COML2050",
+        "RUSSA3331",
+        "COML1134",
+        "RUSSL3441",
+        "COML1109",
+        "RUSSL3415",
+        "COML3811",
+        "RUSSL3367",
+        "RULIT2212"
+    ],
+    "Tracy McNulty": [
+        "COML3780",
+        "FREN3780",
+        "GOVT3786"
+    ],
+    "Drew Margolin": [
+        "COMM1101",
+        "COMM2450",
+        "INFO2450"
+    ],
+    "Sahara Byrne": [
+        "COMM1101",
+        "COMM2200",
+        "COMM3300",
+        "COMM2820"
+    ],
+    "Poppy McLeod": [
+        "COMM1101",
+        "COMM2760",
+        "COMM3100"
+    ],
+    "Andrea Won": [
+        "COMM1300",
+        "COMM4380"
+    ],
+    "Jodi Cohen": [
+        "COMM2010"
+    ],
+    "Lee Humphreys": [
+        "COMM2200"
+    ],
+    "Lauren Chambliss": [
+        "COMM2310",
+        "COMM3080"
+    ],
+    "J. Matias": [
+        "COMM2450",
+        "INFO2450"
+    ],
+    "Chao Yu": [
+        "COMM2450",
+        "INFO2450"
+    ],
+    "Flavien Glidja": [
+        "COMM2450",
+        "FREN2090",
+        "INFO2450",
+        "FREN1220",
+        "FREN1230",
+        "FR1230",
+        "FREN2130",
+        "FRENC1230"
+    ],
+    "Neil Lewis": [
+        "COMM2760"
+    ],
+    "Natalie Bazarova": [
+        "COMM2820",
+        "COMM3400"
+    ],
+    "Peter Enns": [
+        "COMM3189",
+        "GOVT3189"
+    ],
+    "Brooke Duffy": [
+        "COMM3200",
+        "INFO3200",
+        "COMM4260"
+    ],
+    "Gilly Leshed": [
+        "COMM3450",
+        "COMM4400",
+        "INFO1998",
+        "INFO3450",
+        "INFO4400",
+        "INFO4940",
+        "INFO5355",
+        "INFO6940",
+        "INFO3460",
+        "INFO1300",
+        "COMM3460"
+    ],
+    "Qian Yang": [
+        "COMM3450",
+        "INFO3450",
+        "INFO4940",
+        "INFO5355",
+        "CSE4820",
+        "CSE3666"
+    ],
+    "Francois Guimbretiere": [
+        "COMM3450",
+        "INFO3450",
+        "INFO4320",
+        "INFO4420",
+        "INFO4940",
+        "INFO5355",
+        "INFO6520",
+        "INFO5321"
+    ],
+    "Susan Fussell": [
+        "COMM4450",
+        "COMM6450",
+        "INFO4450",
+        "INFO5450",
+        "INFO6450"
+    ],
+    "Katelin Olson": [
+        "CRP1100"
+    ],
+    "Kieran Donaghy": [
+        "CRP3011",
+        "CRP6011"
+    ],
+    "Ziye Zhang": [
+        "CRP3270",
+        "CRP6270"
+    ],
+    "Suzanne Charles": [
+        "CRP5560"
+    ],
+    "Anne Bracy": [
+        "CS1110",
+        "CS3410",
+        "CS4410",
+        "CS2110",
+        "ENGRD2110"
+    ],
+    "Walker White": [
+        "CS1110",
+        "CS1133",
+        "CS1998",
+        "CS3152",
+        "CS4152",
+        "INFO1998",
+        "INFO3152",
+        "INFO4152",
+        "CS4002",
+        "CS2110"
+    ],
+    "Charles Van Loan": [
+        "CS1110",
+        "AEM2220",
+        "CS1101",
+        "CS1115",
+        "CS6220",
+        "CS4220"
+    ],
+    "Kit-Yee Daisy Fan": [
+        "CS1112",
+        "CS1110",
+        "CS1132",
+        "CS1120"
+    ],
+    "Kyle Harms": [
+        "CS1300",
+        "CS2300",
+        "CS2800",
+        "AEM2350",
+        "INFO1300",
+        "INFO2300",
+        "INFO4340",
+        "NBA5301"
+    ],
+    "Haym Hirsh": [
+        "CS1300",
+        "CS4700",
+        "CS4701",
+        "CS5306",
+        "INFO1300",
+        "INFO1998",
+        "INFO5306"
+    ],
+    "Madeline Smith": [
+        "CS1300",
+        "INFO1300"
+    ],
+    "Daniel Cosley": [
+        "CS1300",
+        "INFO1300",
+        "INFO3450",
+        "COMM3450"
+    ],
+    "Donald Greenberg": [
+        "CS1620",
+        "ENGRI1620",
+        "ARCH3702",
+        "ART2907"
+    ],
+    "Ronald DiNapoli": [
+        "CS2024",
+        "CS2043"
+    ],
+    "Craig Frey": [
+        "CS2024"
+    ],
+    "David Gries": [
+        "CS2110",
+        "CS2111",
+        "ENGRD2110",
+        "CS1110",
+        "CS1130"
+    ],
+    "Curran Muhlberger": [
+        "CS2110",
+        "ENGRD2110",
+        "CS1112",
+        "CS5150"
+    ],
+    "Siddhartha Chaudhuri": [
+        "CS2110",
+        "CS2800",
+        "ENGRD2110"
+    ],
+    "Dexter Kozen": [
+        "CS2112",
+        "CS4820",
+        "ENGRD2112",
+        "CS4810",
+        "CS6820",
+        "CS2800",
+        "CS2110",
+        "ENGRD2110",
+        "CS3110",
+        "COMP2110"
+    ],
+    "Andrew Myers": [
+        "CS2112",
+        "CS4120",
+        "CS4121",
+        "CS5120",
+        "CS5121",
+        "ENGRD2112",
+        "CS2110"
+    ],
+    "Nate Foster": [
+        "CS2112",
+        "CS3110",
+        "CS5114",
+        "CS6114",
+        "ECE1210",
+        "ENGRD2112",
+        "ENGRI1210",
+        "CS4110"
+    ],
+    "Steve Mohlke": [
+        "CS2300",
+        "INFO2300",
+        "NBA5301",
+        "INFOCS2300"
+    ],
+    "Steven Mohlke": [
+        "CS2300",
+        "INFO2300",
+        "NBA5301"
+    ],
+    "Carla Gomes": [
+        "CS2770",
+        "AEM2770",
+        "AEM4120",
+        "INFO2770"
+    ],
+    "Michael George": [
+        "CS2800",
+        "CS4410",
+        "CS4411",
+        "CS2110",
+        "ENGRD2110"
+    ],
+    "Anke van Zuylen": [
+        "CS2800",
+        "CS4820",
+        "INFO4430"
+    ],
+    "Joseph Halpern": [
+        "CS2802",
+        "CS5846",
+        "ECON3810",
+        "ECON6760",
+        "CS2800"
+    ],
+    "Michael Clarkson": [
+        "CS3110",
+        "CS4160",
+        "MATH1920",
+        "CS2110",
+        "ENGRD2110"
+    ],
+    "Robert Constable": [
+        "CS3110",
+        "CS4860"
+    ],
+    "David Mimno": [
+        "CS3300",
+        "INFO2950",
+        "INFO3300",
+        "INFO3350",
+        "INFO5100",
+        "INFO6350"
+    ],
+    "Jeff Rzeszotarski": [
+        "CS3300",
+        "INFO3300",
+        "INFO4310",
+        "INFO5100"
+    ],
+    "Hakim Weatherspoon": [
+        "CS3410"
+    ],
+    "Nils Napp": [
+        "CS3420",
+        "ECE3140"
+    ],
+    "Jose Martinez": [
+        "CS3420",
+        "ECE2400",
+        "ECE3140",
+        "ENGRD2140",
+        "ECE5750",
+        "ECE2300"
+    ],
+    "Edward Suh": [
+        "CS3420",
+        "ECE2300",
+        "ECE3140",
+        "ENGRD2300"
+    ],
+    "Adrian Sampson": [
+        "CS4110",
+        "CS5110"
+    ],
+    "John Foster": [
+        "CS4110",
+        "CS5110"
+    ],
+    "Chrissy Lau": [
+        "CS4121",
+        "CS5121"
+    ],
+    "Alexander Vladimirsky": [
+        "CS4210",
+        "MATH3610",
+        "MATH4250",
+        "MATH2930",
+        "MATH1220"
+    ],
+    "Austin Benson": [
+        "CS4220",
+        "CS5223",
+        "MATH4260",
+        "SOC2090",
+        "CS2850",
+        "ECON2040",
+        "INFO2040"
+    ],
+    "Anil Damle": [
+        "CS4220",
+        "CS5223",
+        "MATH4260",
+        "CS3220"
+    ],
+    "Cristian Danescu-Niculescu-Mizil": [
+        "CS4300",
+        "INFO4300"
+    ],
+    "Christopher Buckley": [
+        "CS4300",
+        "INFO4300"
+    ],
+    "Immanuel Trummer": [
+        "CS4320",
+        "CS4321",
+        "CS5320",
+        "CS5321",
+        "CS6320"
+    ],
+    "Lorenzo Alvisi": [
+        "CS4410",
+        "CS5414",
+        "CS4110"
+    ],
+    "Robbert Van Renesse": [
+        "CS4410",
+        "CS4411"
+    ],
+    "Jon Kleinberg": [
+        "CS4410",
+        "INFO1260",
+        "SOC2090",
+        "CS1340",
+        "CS2850",
+        "CS4820",
+        "CS6850",
+        "ECON2040",
+        "INFO2040"
+    ],
+    "Rachit Agarwal": [
+        "CS4410",
+        "CS4450",
+        "CS6455",
+        "CS6453"
+    ],
+    "Ken Birman": [
+        "CS4414",
+        "CS5412"
+    ],
+    "Christina Delimitrou": [
+        "CS4420",
+        "ECE4750",
+        "ECE5710",
+        "ECE5990",
+        "ECE6960"
+    ],
+    "Abe Davis": [
+        "CS4620",
+        "CS5620",
+        "CS6682"
+    ],
+    "Stephen Marschner": [
+        "CS4620",
+        "CS5620",
+        "CS5625"
+    ],
+    "Bharath Hariharan": [
+        "CS4670",
+        "CS5670",
+        "CS6670"
+    ],
+    "Bart Selman": [
+        "CS4700",
+        "CS4701",
+        "CS2800"
+    ],
+    "Robert Kleinberg": [
+        "CS4700",
+        "CS4820",
+        "CS6820",
+        "CS4850"
+    ],
+    "Ross Knepper": [
+        "CS4750",
+        "CS5750",
+        "ECE4770",
+        "MAE4760",
+        "CS6751"
+    ],
+    "Jaehee Kim": [
+        "CS4775",
+        "BTRY4840",
+        "BTRY6840"
+    ],
+    "Amy Williams": [
+        "CS4775",
+        "BTRY4840",
+        "BTRY6840"
+    ],
+    "Thorsten Joachims": [
+        "CS4780",
+        "CS5780",
+        "CS4870",
+        "CS2110"
+    ],
+    "Wen Sun": [
+        "CS4780",
+        "CS4789",
+        "CS5780"
+    ],
+    "Christopher De Sa": [
+        "CS4780",
+        "CS4787",
+        "CS5780",
+        "CS6787"
+    ],
+    "Kilian Weinberger": [
+        "CS4780",
+        "CS5780"
+    ],
+    "Karthik Sridharan": [
+        "CS4786",
+        "CS5786",
+        "CS5783"
+    ],
+    "John Hopcroft": [
+        "CS4810",
+        "CS4850",
+        "CS2800"
+    ],
+    "David Steurer": [
+        "CS4820"
+    ],
+    "Eva Tardos": [
+        "CS4820",
+        "SOC2090",
+        "CS2850",
+        "ECON2040",
+        "INFO2040"
+    ],
+    "Eshan Chattopadhyay": [
+        "CS4820",
+        "CS6815"
+    ],
+    "Noah Stephens-Davidowitz": [
+        "CS4830",
+        "CS5830"
+    ],
+    "Cristobal Cheyre Forestier": [
+        "CS4852",
+        "ECON3825",
+        "INFO4220",
+        "INFO6220"
+    ],
+    "Arpita Ghosh": [
+        "CS4852",
+        "ECON3825",
+        "INFO4220",
+        "INFO6220",
+        "INFO4852",
+        "INFO6230"
+    ],
+    "William Arms": [
+        "CS5150"
+    ],
+    "Ross Tate": [
+        "CS5152"
+    ],
+    "Owolabi Legunsen": [
+        "CS5154"
+    ],
+    "Fred Schneider": [
+        "CS5430",
+        "CS4410"
+    ],
+    "Serge Belongie": [
+        "CS6670"
+    ],
+    "Volodymyr Kuleshov": [
+        "CS6785"
+    ],
+    "So-Yeon Yoon": [
+        "DEA1050",
+        "DEA1150"
+    ],
+    "Kathleen Gibson": [
+        "DEA1050"
+    ],
+    "Nooshin Ahmadi": [
+        "DEA1150"
+    ],
+    "Rhonda Gilmore": [
+        "DEA2203",
+        "DEA2750"
+    ],
+    "Alan Hedge": [
+        "DEA3510",
+        "DEA6510"
+    ],
+    "Jay Yoon": [
+        "DEA4700",
+        "DEA6700"
+    ],
+    "Larry Brown": [
+        "EAS1220",
+        "ENGRI1220"
+    ],
+    "Mark Wysocki": [
+        "EAS1310",
+        "EAS1600",
+        "EAS3410",
+        "EAS2900"
+    ],
+    "Bruce Monger": [
+        "EAS1540",
+        "EAS1560",
+        "BIOEE1540",
+        "BIOEE1560",
+        "BIO1540",
+        "BIOEE1610"
+    ],
+    "Susan Riha": [
+        "EAS1600"
+    ],
+    "Robert Ross": [
+        "EAS1700"
+    ],
+    "Rowena Lohman": [
+        "EAS2250",
+        "ENGRD2250"
+    ],
+    "Bill White": [
+        "EAS2250",
+        "ENGRD2250"
+    ],
+    "Arthur DeGaetano": [
+        "EAS2680",
+        "EAS1600",
+        "EAS3410"
+    ],
+    "Gang Chen": [
+        "EAS3420"
+    ],
+    "Peter Hess": [
+        "EAS4800",
+        "BEE2000",
+        "BEE2010",
+        "BEE4800"
+    ],
+    "David Albonesi": [
+        "ECE1210",
+        "ECE2300",
+        "ENGRD2300",
+        "ENGRI1210"
+    ],
+    "Alyosha Molnar": [
+        "ECE2100",
+        "ECE4530",
+        "ENGRD2100",
+        "ECE5540"
+    ],
+    "Clifford Pollock": [
+        "ECE2100",
+        "ENGRD2100",
+        "MATH1910",
+        "ECE3030"
+    ],
+    "Zhiru Zhang": [
+        "ECE2300",
+        "ENGRD2300",
+        "ECE5775"
+    ],
+    "Christopher Batten": [
+        "ECE2400",
+        "ENGRD2140",
+        "ECE5745",
+        "ECE4750"
+    ],
+    "Aaron Wagner": [
+        "ECE2720",
+        "ECE4670",
+        "ECE5670",
+        "ENGRD2720",
+        "ECE3100",
+        "ECE5620"
+    ],
+    "Farhan Rana": [
+        "ECE3030",
+        "ECE4060",
+        "ECE3150",
+        "ECE4070"
+    ],
+    "Qing Zhao": [
+        "ECE3100",
+        "ECE5640",
+        "ECE4110"
+    ],
+    "David Delchamps": [
+        "ECE3100",
+        "ECE3250",
+        "ECE2200",
+        "ECE4271",
+        "ECE4250",
+        "ECE5210"
+    ],
+    "A. Kevin Tang": [
+        "ECE3100",
+        "ECE4800"
+    ],
+    "James Shealy": [
+        "ECE3150",
+        "ENGRD2100"
+    ],
+    "Carl Poitras": [
+        "ECE3400",
+        "MATH1910"
+    ],
+    "David Forbes Delchamps": [
+        "ECE4271"
+    ],
+    "Stephen Wicker": [
+        "ECE4450",
+        "ECE5610",
+        "ENGRI1280",
+        "ECE4670"
+    ],
+    "Hsiao-Dong Chiang": [
+        "ECE4510"
+    ],
+    "Van Adams": [
+        "ECE4760"
+    ],
+    "Adam Bojanczyk": [
+        "ECE4800"
+    ],
+    "Bruce Johnson": [
+        "ECE4910",
+        "BIONB4910",
+        "BME4910"
+    ],
+    "Vikram Krishnamurthy": [
+        "ECE4960",
+        "ECE2720"
+    ],
+    "Anthony Reeves": [
+        "ECE5470"
+    ],
+    "Joseph Skovira": [
+        "ECE5725"
+    ],
+    "George Orlov": [
+        "ECON1001",
+        "SHUM1130",
+        "SHUM1110",
+        "SHUM1290",
+        "SHUM1104"
+    ],
+    "Albert Alexander": [
+        "ECON1001"
+    ],
+    "Stephanie Thomas": [
+        "ECON1110",
+        "ILRLE2400"
+    ],
+    "Jennifer Wissink": [
+        "ECON1110",
+        "ECON1120",
+        "ECON4260",
+        "ECO1110",
+        "ECON1100",
+        "ECON1101",
+        "ECON4560",
+        "ECON3350",
+        "ECON3130"
+    ],
+    "Richard Burkhauser": [
+        "ECON1110"
+    ],
+    "Arnab Basu": [
+        "ECON1120",
+        "AEM3390",
+        "AEM6390"
+    ],
+    "David Lee": [
+        "ECON2300",
+        "AEM2300",
+        "AEM2230"
+    ],
+    "Douglas McKee": [
+        "ECON3030",
+        "ECON3120",
+        "ECON3130"
+    ],
+    "Philipp Kircher": [
+        "ECON3030"
+    ],
+    "Maxim Troshkin": [
+        "ECON3030"
+    ],
+    "Tapan Mitra": [
+        "ECON3030"
+    ],
+    "Gregory Besharov": [
+        "ECON3030"
+    ],
+    "Christopher Huckfeldt": [
+        "ECON3040"
+    ],
+    "Mathieu Taschereau-Dumouchel": [
+        "ECON3040"
+    ],
+    "Levon Barseghyan": [
+        "ECON3040",
+        "ECON3130",
+        "ECON3140"
+    ],
+    "George Jakubson": [
+        "ECON3120",
+        "ECON2400",
+        "ILRE2400",
+        "ILRLE2400",
+        "ILR2400",
+        "ECON3210",
+        "ECON3200"
+    ],
+    "Joerg Stoye": [
+        "ECON3140",
+        "ECON3200"
+    ],
+    "Max Kapustin": [
+        "ECON3255"
+    ],
+    "Francine Blau": [
+        "ECON3440",
+        "FGSS4460",
+        "ILRLE4450"
+    ],
+    "George Hay": [
+        "ECON3800"
+    ],
+    "Tommaso Denti": [
+        "ECON4020",
+        "ECON6110"
+    ],
+    "Kristoffer Nimark": [
+        "ECON4210"
+    ],
+    "Giulia Brancaccio": [
+        "ECON4610"
+    ],
+    "Ted O'Donoghue": [
+        "ECON4660",
+        "PSYCH2940",
+        "AEM2020",
+        "ECON3580"
+    ],
+    "Eleonora Patacchini": [
+        "ECON4903"
+    ],
+    "Marco Battaglini": [
+        "ECON4907"
+    ],
+    "Annalisa Raymer": [
+        "EDUC2210",
+        "DSOC2100"
+    ],
+    "Jeffrey Perry": [
+        "EDUC2410"
+    ],
+    "Adi Grabiner Keinan": [
+        "EDUC2610"
+    ],
+    "Jazlin Gomez": [
+        "EDUC2610"
+    ],
+    "Bryan Duff": [
+        "EDUC4040"
+    ],
+    "Kathryn Diaz": [
+        "ENGL1105"
+    ],
+    "Madeline Reynolds": [
+        "ENGL1105"
+    ],
+    "Emily Mercurio": [
+        "ENGL1105"
+    ],
+    "Christopher Hewitt": [
+        "ENGL1111",
+        "ENGL2800"
+    ],
+    "Jane Glaubman": [
+        "ENGL1111"
+    ],
+    "Krithika Vachali": [
+        "ENGL1130"
+    ],
+    "Olanrewaju Akinsiku": [
+        "ENGL1134"
+    ],
+    "Bwesigye Bwa Mwesigire": [
+        "ENGL1147"
+    ],
+    "Katherine Thorsteinson": [
+        "ENGL1147"
+    ],
+    "Cathy Caruth": [
+        "ENGL1158",
+        "ENGL3717",
+        "COML3021",
+        "ENG1158"
+    ],
+    "Derrick Spires": [
+        "ENGL1158"
+    ],
+    "Brianna Thompson": [
+        "ENGL1158"
+    ],
+    "Molly MacVeagh": [
+        "ENGL1158"
+    ],
+    "Lily Codera": [
+        "ENGL1167"
+    ],
+    "Sara Schlemm": [
+        "ENGL1167"
+    ],
+    "Christine Vines": [
+        "ENGL1170"
+    ],
+    "Elie Piha": [
+        "ENGL1170"
+    ],
+    "Zahid Rafiq": [
+        "ENGL1170"
+    ],
+    "Lily Yu": [
+        "ENGL1170"
+    ],
+    "Carlos Gomez": [
+        "ENGL1170"
+    ],
+    "Ashley Hand": [
+        "ENGL1170",
+        "ENGL2810"
+    ],
+    "Alice Turski": [
+        "ENGL1170"
+    ],
+    "Ariel Estrella": [
+        "ENGL1183"
+    ],
+    "Robert Romero": [
+        "ENGL1183"
+    ],
+    "Samson Jardine": [
+        "ENGL1183"
+    ],
+    "Jennifer Rabedeau": [
+        "ENGL1191"
+    ],
+    "Malcolm Bare": [
+        "ENGL1191"
+    ],
+    "Adin Lears": [
+        "ENGL1191"
+    ],
+    "Andrew Galloway": [
+        "ENGL2010",
+        "ENGL3190"
+    ],
+    "Rayna Kalas": [
+        "ENGL2010",
+        "ENGL1111",
+        "ENGL3230",
+        "HIST3051"
+    ],
+    "Elisha Cohn": [
+        "ENGL2410",
+        "ENGL1191",
+        "ENGL2760"
+    ],
+    "Sunn Wong": [
+        "ENGL2620",
+        "AAS2620",
+        "AMST2620"
+    ],
+    "Charlie Green": [
+        "ENGL2715",
+        "ENGL2800"
+    ],
+    "Gregory Londe": [
+        "ENGL2785",
+        "ENGL2070",
+        "ENGL2707"
+    ],
+    "Vivian Ludford": [
+        "ENGL2800"
+    ],
+    "Alice Mercier": [
+        "ENGL2800"
+    ],
+    "Joanie Mackowski": [
+        "ENGL2800",
+        "ENGL2760",
+        "ENG2800",
+        "ENGL3840",
+        "ENGL3850",
+        "ENGL4800"
+    ],
+    "Lauren Schenkman": [
+        "ENGL2800"
+    ],
+    "Emma Perry": [
+        "ENGL2810"
+    ],
+    "Jasmine Reid": [
+        "ENGL2810"
+    ],
+    "Stephanie Vaughn": [
+        "ENGL2810",
+        "ENGL3820",
+        "ENGL3830",
+        "ENGL1170"
+    ],
+    "Charles Green": [
+        "ENGL2890",
+        "MAN2021",
+        "BUS1101"
+    ],
+    "Corey Earle": [
+        "ENGL2999",
+        "AMST2001",
+        "HIST2005"
+    ],
+    "Edward Baptist": [
+        "ENGL2999",
+        "AMST1540",
+        "AMST2001",
+        "HIST1540",
+        "HIST2005",
+        "ILRLR1845",
+        "HIST1845",
+        "HIST3430",
+        "GOVT3431"
+    ],
+    "Thomas Hill": [
+        "ENGL3080",
+        "MEDVL3080",
+        "ENGL2740",
+        "ENG2100"
+    ],
+    "Masha Raskolnikov": [
+        "ENGL3190",
+        "MEDVL3190",
+        "ENGL2100",
+        "ENGL1100",
+        "ENGL6154",
+        "ENGL2010",
+        "ENGL2780"
+    ],
+    "Jane Juffer": [
+        "ENGL3591",
+        "FGSS2010",
+        "FGSS3591",
+        "ENGL1168",
+        "ENGL2090"
+    ],
+    "Ernesto Quinonez": [
+        "ENGL3830",
+        "ENGL3820",
+        "ENGL1134",
+        "ENGL2800"
+    ],
+    "Maureen McCoy": [
+        "ENGL3830"
+    ],
+    "Robert Morgan": [
+        "ENGL3840"
+    ],
+    "Ishion Hutchinson": [
+        "ENGL3840",
+        "ENGL4800",
+        "ENGL2810",
+        "ENGL2800"
+    ],
+    "Satya Mohanty": [
+        "ENGL4020",
+        "ENGL1111",
+        "ENG1111",
+        "ENGL2000",
+        "ENGL1109"
+    ],
+    "Traci Nathans-Kelly": [
+        "ENGRC3500",
+        "ENGRC2640"
+    ],
+    "Allison Hutchison": [
+        "ENGRC3500"
+    ],
+    "Sharon Ahlers": [
+        "ENGRC3500"
+    ],
+    "Jingjie Yeo": [
+        "ENGRD2020",
+        "MAE2020"
+    ],
+    "Hadas Ritz": [
+        "ENGRD2020",
+        "MAE2020",
+        "MATH2930",
+        "MAE3260",
+        "MAE2030",
+        "MATH1910",
+        "ENGRI1170"
+    ],
+    "Atieh Moridi": [
+        "ENGRD2020",
+        "MAE2020"
+    ],
+    "Peter Doerschuk": [
+        "ENGRD2202",
+        "BME2000",
+        "ECE4670",
+        "ECE2200",
+        "BME4020"
+    ],
+    "Elizabeth Fisher": [
+        "ENGRD2210",
+        "MAE2210",
+        "MAE4510",
+        "ENGRD2120"
+    ],
+    "Perrine Pepiot": [
+        "ENGRD2210",
+        "ENGRI1510",
+        "CHEM1350",
+        "CHEME1510",
+        "MAE1510",
+        "MAE2210"
+    ],
+    "Harold Craighead": [
+        "ENGRD2520",
+        "AEP2520"
+    ],
+    "Lois Pollack": [
+        "ENGRD2520",
+        "AEP2520"
+    ],
+    "John March": [
+        "ENGRD2600",
+        "ENGRG2270",
+        "BEE2600",
+        "ENGRI1337",
+        "BEE3600"
+    ],
+    "Mingming Wu": [
+        "ENGRD2600",
+        "BEE2600",
+        "BEE4550"
+    ],
+    "Andrej Singer": [
+        "ENGRD2610",
+        "MSE2610"
+    ],
+    "Bruce van Dover": [
+        "ENGRD2620",
+        "ENGRI1140",
+        "MSE1140",
+        "MSE2620"
+    ],
+    "Marie Chazal": [
+        "ENGRD2700"
+    ],
+    "Jacob Feldman": [
+        "ENGRD2700"
+    ],
+    "Edwin (Todd) Cowen": [
+        "ENGRD3200",
+        "CEE3200",
+        "CEE3310"
+    ],
+    "Celia Evans": [
+        "ENGRG1091"
+    ],
+    "Samitha Samaranayake": [
+        "ENGRG3230",
+        "CEE3230"
+    ],
+    "Brenda Dietrich": [
+        "ENGRI1101",
+        "ORIE4340",
+        "ORIE4140"
+    ],
+    "David Shmoys": [
+        "ENGRI1101"
+    ],
+    "Samuel Gutekunst": [
+        "ENGRI1101"
+    ],
+    "Jeffrey Varner": [
+        "ENGRI1120",
+        "CHEME3130",
+        "CHEME0000",
+        "CHEME2880"
+    ],
+    "Christopher Alabi": [
+        "ENGRI1120"
+    ],
+    "Julianne Quinn": [
+        "ENGRI1130",
+        "CEE1130"
+    ],
+    "Scott Maguffin": [
+        "ENGRI1130",
+        "CEE1130"
+    ],
+    "Kenneth Hover": [
+        "ENGRI1160",
+        "CEE1160",
+        "STS1123",
+        "CEE4750",
+        "CEE6750",
+        "CEE5910"
+    ],
+    "Zhiting Tian": [
+        "ENGRI1170",
+        "MAE1170",
+        "MAE3240"
+    ],
+    "Wolfgang Sachse": [
+        "ENGRI1170",
+        "MAE1170",
+        "MATH2930",
+        "ENGRD2020",
+        "MAE3272",
+        "ENGRD2030",
+        "TAM2020"
+    ],
+    "Lena Kourkoutis": [
+        "ENGRI1200",
+        "AEP1200",
+        "AEP3200"
+    ],
+    "Frank Wise": [
+        "ENGRI1200",
+        "AEP1200",
+        "AEP3620",
+        "AEP4400",
+        "AEP1100",
+        "AEP1110"
+    ],
+    "Esak Lee": [
+        "ENGRI1310",
+        "BME1310"
+    ],
+    "Robert Newman": [
+        "ENMGT5900",
+        "ENMGT5940",
+        "CEE5900",
+        "CEE6910"
+    ],
+    "Andrea Ippolito": [
+        "ENMGT5920"
+    ],
+    "Erik Eshelman": [
+        "ENMGT5950",
+        "CEE5950"
+    ],
+    "Marina Caillaud": [
+        "ENTOM2010",
+        "ENTOM2011",
+        "ENTOM2030",
+        "ENTOM2100",
+        "BSOC2101"
+    ],
+    "John Sanderson": [
+        "ENTOM2010",
+        "ENTOM2011",
+        "ENTOM2120"
+    ],
+    "Linda Rayor": [
+        "ENTOM2150",
+        "ENTOM3150"
+    ],
+    "Johannes Lehmann": [
+        "ENVS2000"
+    ],
+    "Peter McIntyre": [
+        "ENVS4940",
+        "NTRES1201"
+    ],
+    "Christopher Loss": [
+        "FDSC1101",
+        "FDSC3950"
+    ],
+    "Alicia Orta-Ramirez": [
+        "FDSC1101"
+    ],
+    "Julie Goddard": [
+        "FDSC1102"
+    ],
+    "Dennis Miller": [
+        "FDSC1500",
+        "HONR1208",
+        "MUSC1141",
+        "MUSC2308"
+    ],
+    "Carl Batt": [
+        "FDSC3940",
+        "FDSC5940",
+        "BIOMI3940",
+        "FOOD3940"
+    ],
+    "Robin Dando": [
+        "FDSC4100"
+    ],
+    "Syed Rizvi": [
+        "FDSC4210"
+    ],
+    "Julia Chang": [
+        "FGSS2010"
+    ],
+    "Kate McCullough": [
+        "FGSS2290",
+        "LGBT2290",
+        "FGSS2010",
+        "ENGL1105",
+        "FGSS3781",
+        "AMST3720",
+        "FGSS3720"
+    ],
+    "Margaret Washington": [
+        "FGSS2512",
+        "AMST2512",
+        "ASRC2512",
+        "HIST2512",
+        "HIST2511",
+        "HIST4392"
+    ],
+    "Thierry Torea": [
+        "FREN1210",
+        "FREN1220",
+        "FREN2090"
+    ],
+    "Claire Menard": [
+        "FREN1210",
+        "FREN2090",
+        "FREN2320",
+        "FREN6596"
+    ],
+    "Sarena Tien": [
+        "FREN2090"
+    ],
+    "Elise Finielz": [
+        "FREN2091"
+    ],
+    "Pauline Goul": [
+        "FREN2095"
+    ],
+    "Marie-Claire Vallois": [
+        "FREN2310",
+        "FREN4400",
+        "FREN2210"
+    ],
+    "Laurent Ferri": [
+        "FREN2350",
+        "ITAL2350",
+        "MEDVL2350"
+    ],
+    "Paul Friedland": [
+        "FREN2860",
+        "HIST2860",
+        "HIST1600"
+    ],
+    "Huiju Park": [
+        "FSAD1140",
+        "FSAD3990"
+    ],
+    "Denise Green": [
+        "FSAD1250"
+    ],
+    "Anil Netravali": [
+        "FSAD1350"
+    ],
+    "Kimberly Phoenix": [
+        "FSAD1450"
+    ],
+    "Jooyoung Shin": [
+        "FSAD2190"
+    ],
+    "Tasha Lewis": [
+        "FSAD2310"
+    ],
+    "Frances Kozen": [
+        "FSAD2370"
+    ],
+    "Mehmet Ozturk": [
+        "FSAD3320"
+    ],
+    "Van Dyk Lewis": [
+        "FSAD6700"
+    ],
+    "Amparo Necker": [
+        "GERST1109",
+        "HADM1199"
+    ],
+    "Douglas McBride": [
+        "GERST1109",
+        "GERST3070",
+        "GERST1122"
+    ],
+    "Mark Mandych": [
+        "GERST1109"
+    ],
+    "Ekaterina Pirozhenko": [
+        "GERST1109"
+    ],
+    "Jordan Thomson": [
+        "GERST1170"
+    ],
+    "Gunhild Lischke": [
+        "GERST1210",
+        "GERST1220",
+        "GERST2060",
+        "GESRT2060",
+        "GERST2040",
+        "GERST1212"
+    ],
+    "Grit Matthias": [
+        "GERST1210"
+    ],
+    "Erik Born": [
+        "GERST1220",
+        "GERST4100"
+    ],
+    "Seth Thomas": [
+        "GERST1220"
+    ],
+    "Jacy Tackett": [
+        "GERST1230"
+    ],
+    "Sander Oosterom": [
+        "GERST1230"
+    ],
+    "David Forman": [
+        "GERST1776",
+        "GERST1777"
+    ],
+    "Elke Siegel": [
+        "GERST4100",
+        "GERST3310",
+        "GERST3280",
+        "GERST3221"
+    ],
+    "Alexandra Blackman": [
+        "GOVT1101"
+    ],
+    "Douglas Kriner": [
+        "GOVT1111",
+        "AMST1115",
+        "GOV1110",
+        "GOVT4000"
+    ],
+    "Suzanne Mettler": [
+        "GOVT1111",
+        "AMST1115",
+        "GOVT4000",
+        "GOVT4112",
+        "GOV1111"
+    ],
+    "Nicolas van de Walle": [
+        "GOVT1313",
+        "GOVT3353",
+        "GOVT4424"
+    ],
+    "Kristin Roebuck": [
+        "GOVT1623",
+        "ASIAN2222",
+        "CAPS1622",
+        "HIST1622"
+    ],
+    "Peter Katzenstein": [
+        "GOVT1817",
+        "GOVT2817",
+        "GOVT3547",
+        "AEM3547",
+        "AMST2817",
+        "ILRIC3547",
+        "GOV1817",
+        "GOV3547",
+        "GVOT1817",
+        "GOVT3557",
+        "GOV2817",
+        "ILR3547",
+        "GOV3557",
+        "AEM3557",
+        "GOVT3594"
+    ],
+    "Sarah Kreps": [
+        "GOVT1817",
+        "GOVT3042"
+    ],
+    "Sabrina Karim": [
+        "GOVT2264",
+        "GOVT1101",
+        "GOV2446",
+        "GOVT2246"
+    ],
+    "Rachel Riedl": [
+        "GOVT2274"
+    ],
+    "Christopher Way": [
+        "GOVT2553",
+        "GOVT3999",
+        "GOVT3867"
+    ],
+    "Jamila Michener": [
+        "GOVT3032",
+        "GOVT3152",
+        "AMST3033",
+        "AMST3155",
+        "GOVT3012"
+    ],
+    "Joseph Margulies": [
+        "GOVT3121",
+        "AMST3121",
+        "GOVT3431",
+        "GOVT3002",
+        "GOVT3141",
+        "GOVT3001"
+    ],
+    "Dawn Chutkow": [
+        "GOVT3131",
+        "GOVT3281",
+        "AMST3131",
+        "AMST3281",
+        "LAW3281",
+        "LAW4131"
+    ],
+    "Alexandra Cirone": [
+        "GOVT3294",
+        "GOVT6053"
+    ],
+    "Daniel Schade": [
+        "GOVT3437",
+        "GOVT3253"
+    ],
+    "Begum Adalet": [
+        "GOVT3715"
+    ],
+    "Ross Brann": [
+        "GOVT3977",
+        "NES2686",
+        "NES2523",
+        "GOVT2523",
+        "GOVT3697",
+        "NES3537",
+        "NES3697",
+        "NES2799",
+        "HIST3970"
+    ],
+    "Richard Bensel": [
+        "GOVT4021",
+        "AMST4021",
+        "GOVT1101"
+    ],
+    "Tony Simons": [
+        "HADM1150",
+        "HADM6110"
+    ],
+    "Kristina Workman": [
+        "HADM1150"
+    ],
+    "Stephani Robson": [
+        "HADM1199"
+    ],
+    "Mary MacAusland": [
+        "HADM1210",
+        "HADM2230"
+    ],
+    "Dave Roberts": [
+        "HADM1350"
+    ],
+    "Reneta McCarthy": [
+        "HADM1350"
+    ],
+    "Howard Chong": [
+        "HADM1410"
+    ],
+    "Adam Walden": [
+        "HADM1650"
+    ],
+    "Christina Homrighouse": [
+        "HADM1740",
+        "HADM2740",
+        "ILRID2660",
+        "ILRID4699",
+        "ILRHR2660",
+        "ILRHR4695",
+        "ILRLR2660",
+        "ILRHR6990"
+    ],
+    "Mark McCarthy": [
+        "HADM1740",
+        "HADM2740",
+        "HADM4770",
+        "HADM6770"
+    ],
+    "Andrew Whitmore": [
+        "HADM1740",
+        "HADM2740"
+    ],
+    "Xuege (Cathy) Lu": [
+        "HADM1810"
+    ],
+    "Kate Walsh": [
+        "HADM1910",
+        "HADM1115"
+    ],
+    "Elena Belavina": [
+        "HADM2010"
+    ],
+    "Gary Thompson": [
+        "HADM2010",
+        "HADM3010",
+        "AEM6940"
+    ],
+    "Michael Paz": [
+        "HADM2210",
+        "HADM2230"
+    ],
+    "Pamela Moulton": [
+        "HADM2220",
+        "HADM2250"
+    ],
+    "Kyu Ha Cho": [
+        "HADM2230"
+    ],
+    "Paul Strebel": [
+        "HADM2230",
+        "HADM3200"
+    ],
+    "Linda Canina": [
+        "HADM2250",
+        "HADM7230",
+        "HADM4260"
+    ],
+    "Yifei Mao": [
+        "HADM2250",
+        "HADM2220"
+    ],
+    "Christopher Gaulke": [
+        "HADM2360",
+        "HADM1102"
+    ],
+    "Yiwei Li": [
+        "HADM2410"
+    ],
+    "Kathryn LaTour": [
+        "HADM2410"
+    ],
+    "Chekitan Dev": [
+        "HADM2430",
+        "HADM4480",
+        "HADN2410",
+        "HADM2410",
+        "HADM2400",
+        "HADM4800"
+    ],
+    "Lisa Chervinsky": [
+        "HADM2550"
+    ],
+    "Tashlin Lakhani": [
+        "HADM2810"
+    ],
+    "John Tracey": [
+        "HADM2810"
+    ],
+    "Jamie Perry": [
+        "HADM2810"
+    ],
+    "Vince Slaugh": [
+        "HADM3010"
+    ],
+    "John Corgel": [
+        "HADM3210"
+    ],
+    "Lilly Jan": [
+        "HADM3350"
+    ],
+    "Douglass Miller": [
+        "HADM3350"
+    ],
+    "William Lynn": [
+        "HADM3430"
+    ],
+    "Jeanne Varney": [
+        "HADM3550",
+        "HADM6200"
+    ],
+    "Christina McDowell": [
+        "HADM3650",
+        "HADM1650"
+    ],
+    "Andrew Quagliata": [
+        "HADM3650",
+        "HADM6240",
+        "HADM1650"
+    ],
+    "David Sherwyn": [
+        "HADM3870",
+        "AEM3200",
+        "NBA5600"
+    ],
+    "Crocker Liu": [
+        "HADM4200",
+        "HADM6200",
+        "HA4200"
+    ],
+    "Peng Liu": [
+        "HADM4250",
+        "HADM6250",
+        "HADM3210",
+        "HADM4420"
+    ],
+    "Alexei Tchistyi": [
+        "HADM4280",
+        "HADM6280"
+    ],
+    "Cheryl Stanley": [
+        "HADM4300"
+    ],
+    "Arturs Kalnins": [
+        "HADM4410"
+    ],
+    "Adam Klausner": [
+        "HADM4890",
+        "AEM3200",
+        "NBA5600",
+        "HADM4800",
+        "HADM6870",
+        "HADM4487",
+        "HA4487"
+    ],
+    "Tamar Kushnir": [
+        "HD1150"
+    ],
+    "Robert Sternberg": [
+        "HD1150",
+        "HD1170"
+    ],
+    "Anthony Burrow": [
+        "HD1170",
+        "HD3510"
+    ],
+    "Jen Agans": [
+        "HD1170"
+    ],
+    "Daniel Casasanto": [
+        "HD2200"
+    ],
+    "Derek Chang": [
+        "AAS1100",
+        "AAS2042",
+        "AAS2130",
+        "AMST2042",
+        "AMST2640",
+        "HIST2042",
+        "HIST2640",
+        "HIST1315",
+        "HIST2680"
+    ],
+    "Christine Balance": [
+        "AAS1100",
+        "AAS1101"
+    ],
+    "Pedro Perez": [
+        "AEM1200",
+        "AEM2200",
+        "HADM3080",
+        "AEM1230",
+        "AEM1210",
+        "AEM1201"
+    ],
+    "Matthew Rodgers": [
+        "AEM1200"
+    ],
+    "Robert Karpman": [
+        "AEM1600",
+        "AEM2220",
+        "AEM3310",
+        "AEM3251",
+        "AEM4920",
+        "AEM1221",
+        "AEM2120",
+        "AEM1220"
+    ],
+    "Donna Haeger": [
+        "AEM2010",
+        "MGMT5010"
+    ],
+    "Reza Moghimi": [
+        "AEM2011",
+        "AEM2830"
+    ],
+    "Cindy van Es": [
+        "AEM2100",
+        "AEM3100",
+        "AEM4100"
+    ],
+    "Eric Lewis": [
+        "AEM2210",
+        "AEM3230",
+        "AEM5225",
+        "AEM4520",
+        "PE1430"
+    ],
+    "James Sinclair": [
+        "AEM2210",
+        "AEM2225"
+    ],
+    "Marquise Riley": [
+        "AEM2210",
+        "AEM2225"
+    ],
+    "John Little": [
+        "AEM2210",
+        "AEM2225",
+        "AEM2100"
+    ],
+    "John McKinley": [
+        "AEM2225",
+        "AEM4531",
+        "NBA5531",
+        "AEM4530",
+        "AEM4560"
+    ],
+    "Jawad Addoum": [
+        "AEM2240",
+        "AEM4570"
+    ],
+    "Byoung-Hyoun Hwang": [
+        "AEM2240"
+    ],
+    "Rich Curtis": [
+        "AEM2241",
+        "NCC5560"
+    ],
+    "Bradley Rickard": [
+        "AEM2310"
+    ],
+    "Debra Perosio": [
+        "AEM2400",
+        "AEM2420",
+        "AEM2410"
+    ],
+    "Nathan Yang": [
+        "AEM2400",
+        "AEM4400"
+    ],
+    "Scott Erickson": [
+        "AEM2400",
+        "AEM2420",
+        "HADM2410"
+    ],
+    "Suzanne Shu": [
+        "AEM2420",
+        "AEM3440"
+    ],
+    "Daniel Hooker": [
+        "AEM2480",
+        "AEM6480",
+        "AEM3270"
+    ],
+    "Terence Alexander": [
+        "AEM2600",
+        "HADM1410",
+        "ECON1120"
+    ],
+    "David Lennox": [
+        "AEM2700"
+    ],
+    "Mark Constas": [
+        "AEM2805"
+    ],
+    "Denise Ramzy": [
+        "AEM3110",
+        "AEM5110",
+        "PUDM1101",
+        "PUDM1100"
+    ],
+    "Patti Mandel": [
+        "AEM3120"
+    ],
+    "Dale Grossman": [
+        "AEM3200",
+        "NBA5600",
+        "COMM4280",
+        "AEM3210"
+    ],
+    "John Doris": [
+        "AEM3205"
+    ],
+    "Aija Leiponen": [
+        "AEM3220"
+    ],
+    "Kevin Kniffin": [
+        "AEM3245",
+        "AEM6245",
+        "AEM5305",
+        "AEM3320"
+    ],
+    "Deborah Streeter": [
+        "AEM3249",
+        "AEM4660",
+        "AEM3340",
+        "AEM3250",
+        "AEM4360",
+        "AEM7000"
+    ],
+    "Mani Sethuraman": [
+        "AEM3360"
+    ],
+    "Anke Wessels": [
+        "AEM3385",
+        "AEM3380"
+    ],
+    "Alison Shields": [
+        "AEM3440",
+        "AEM6440"
+    ],
+    "Brian Wansink": [
+        "AEM3440",
+        "AEM6440"
+    ],
+    "Geoffrey Fisher": [
+        "AEM4140",
+        "AEM6140"
+    ],
+    "Harry Kaiser": [
+        "AEM4150"
+    ],
+    "Jura Liaukonyte": [
+        "AEM4160",
+        "AEM4550"
+    ],
+    "Edward McLaughlin": [
+        "AEM4400",
+        "AEM2400"
+    ],
+    "Cynthia Lin Lawell": [
+        "AEM4500",
+        "ECON4810",
+        "AEM7500"
+    ],
+    "Shanjun Li": [
+        "AEM4510",
+        "AEM7100",
+        "ECON4820"
+    ],
+    "Wesley Sine": [
+        "AEM4650",
+        "NBA6029"
+    ],
+    "Stephen Sauer": [
+        "AEM4660"
+    ],
+    "Lisa Wickham": [
+        "AEP3330",
+        "AEP3560"
+    ],
+    "Bruce Kusse": [
+        "AEP4200",
+        "AEP3200",
+        "AEP4230",
+        "AEP4220",
+        "AEP3210",
+        "AEP3212"
+    ],
+    "Chad Uran": [
+        "AIIS1100",
+        "AMST1600",
+        "ANTHR1700"
+    ],
+    "Paul Nadasdy": [
+        "AIIS2420",
+        "ANTHR2420",
+        "BSOC2420"
+    ],
+    "Jon Parmenter": [
+        "AIIS2660",
+        "AMST2660",
+        "HIST2660",
+        "HIST2665",
+        "HIST1460",
+        "HIST1581",
+        "AMST1100"
+    ],
+    "Noliwe Rooks": [
+        "AMST1101"
+    ],
+    "Judith Peraino": [
+        "AMST1312",
+        "MUSIC1312",
+        "MUSIC4312",
+        "MUSIC2340",
+        "MUSIC2201",
+        "MUSIC4211"
+    ],
+    "Lawrence Glickman": [
+        "AMST1585",
+        "HIST1585",
+        "HIST2220"
+    ],
+    "Russell Rickford": [
+        "AMST1595",
+        "ASRC1595",
+        "HIST1595"
+    ],
+    "Maria Cristina Garcia": [
+        "AMST1802",
+        "HIST1802",
+        "LATA1802",
+        "LSP1802",
+        "HIST1800",
+        "HIST1820",
+        "HIST2251",
+        "AMST1800",
+        "HIST4851"
+    ],
+    "Stephen Vider": [
+        "AMST2792",
+        "HIST2792",
+        "BSOC2721"
+    ],
+    "Louis Hyman": [
+        "AMST3870",
+        "HIST3870",
+        "ILRLR3870",
+        "ILRLR1100",
+        "ILRLR2600"
+    ],
+    "Thomas Overton": [
+        "ANSC1101"
+    ],
+    "Debbie Cherney": [
+        "ANSC2120",
+        "ANSC3100",
+        "ANSC4140"
+    ],
+    "Lindsay Goodale": [
+        "ANSC2300"
+    ],
+    "Jeremy Allen": [
+        "ANSC2400",
+        "ANSC2410",
+        "BIOAP1100"
+    ],
+    "Eugene Won": [
+        "ANSC3300",
+        "BIOAP3300"
+    ],
+    "Michael Thonney": [
+        "ANSC3800"
+    ],
+    "Susan Quirk": [
+        "ANSC4270",
+        "BIOAP4270",
+        "ANSC3400"
+    ],
+    "Joseph McFadden": [
+        "ANSC4410"
+    ],
+    "Magnus Fiskesjo": [
+        "ANTHR1101",
+        "ANTHR1400",
+        "ANTHR2400",
+        "ANTHR3552",
+        "ANTH2400",
+        "ANTHRO2400"
+    ],
+    "Simon Posner": [
+        "ANTHR1101"
+    ],
+    "Alexandra Dalferro": [
+        "ANTHR1101"
+    ],
+    "Jane Fajans": [
+        "ANTHR1101",
+        "ANTH2450",
+        "ANTHR2450",
+        "ANTHO2450",
+        "ANTHR2500"
+    ],
+    "Adam Arcadi": [
+        "ANTHR1300",
+        "ANTHR2310",
+        "ANTHR1101",
+        "ANTHRO2310"
+    ],
+    "Andrew Willford": [
+        "ANTHR1400",
+        "ANTHR2424",
+        "ANTHRO1400"
+    ],
+    "Sofia Villenas": [
+        "ANTHR1900",
+        "EDUC3405",
+        "ANTHR2400"
+    ],
+    "Matthew Velasco": [
+        "ANTHR2245",
+        "ARKEO2245",
+        "BSOC2245",
+        "ARKEO3235"
+    ],
+    "Frederic Gleach": [
+        "ANTHR2400",
+        "ANTH2400",
+        "ANTHRO2400"
+    ],
+    "Adam Smith": [
+        "ANTHR2430",
+        "ARKEO2430",
+        "ANTHR1190",
+        "ANTHR2465"
+    ],
+    "Marina Welker": [
+        "ANTHR2437",
+        "ANTHRO3516"
+    ],
+    "Makda Weatherspoon": [
+        "ARAB1201",
+        "ARAB1203",
+        "ARAB2202",
+        "ARAB3700",
+        "ASRC1201",
+        "ASRC1203",
+        "ASRC2200",
+        "NES1201",
+        "NES1203",
+        "NES1202"
+    ],
+    "Atoor Lawandow": [
+        "ARAB1201",
+        "ASRC1201"
+    ],
+    "Bilal Al-Omar": [
+        "ARAB1202",
+        "ARAB4200",
+        "ASRC1202"
+    ],
+    "Munther Younes": [
+        "ARAB2201",
+        "ASRC2105",
+        "ARAB1201",
+        "NES3206"
+    ],
+    "Vincent Mulcahy": [
+        "ARCH1301"
+    ],
+    "Mark Cruvellier": [
+        "ARCH1612",
+        "ARCH5612"
+    ],
+    "Sherene Baugher": [
+        "ARKEO2620",
+        "LA2620",
+        "CRP3600",
+        "LA3600",
+        "LARCH3600",
+        "CRP3660"
+    ],
+    "Joanna Malinowska": [
+        "ART2401"
+    ],
+    "Cynthia Robinson": [
+        "ARTH1100",
+        "ARTH2355"
+    ],
+    "Maria Fernandez": [
+        "ARTH1100",
+        "ARTH1110",
+        "ARTH4145",
+        "ARTH2000"
+    ],
+    "Verity Platt": [
+        "ARTH1704",
+        "CLASS1704",
+        "ENVS2000",
+        "CLASS2603"
+    ],
+    "Arnika Fuhrmann": [
+        "ASIAN1103",
+        "ASIAN2208"
+    ],
+    "Jahyon Park": [
+        "ASIAN1111"
+    ],
+    "Manasicha Akepiyapornchai": [
+        "ASIAN1111"
+    ],
+    "Yue Du": [
+        "ASIAN1192",
+        "CAPS1920",
+        "HIST1920"
+    ],
+    "Janice Kanemitsu": [
+        "ASIAN2211",
+        "ASIAN2260"
+    ],
+    "Jane-Marie Law": [
+        "ASIAN2211",
+        "ASIAN2257",
+        "ASIAN3316",
+        "RELST2273",
+        "RELST2550",
+        "ASIAN2273",
+        "ASIAN4400",
+        "ASIA2211",
+        "RELST3355",
+        "ASIAN3355",
+        "ASIA2201",
+        "ASIAN1102",
+        "ASIAN2250",
+        "ASIANRELST4489",
+        "ASIAN4405",
+        "RELST4405",
+        "JAP2100",
+        "ASIAN3359"
+    ],
+    "Ivanna Yi": [
+        "ASIAN2218"
+    ],
+    "Robin McNeal": [
+        "ASIAN2279",
+        "CHILIT2213",
+        "ASIAN3326",
+        "ASIAN3302",
+        "ASIAN2212",
+        "ASIAN2122"
+    ],
+    "Tamara Loos": [
+        "ASIAN3396",
+        "ASIAN6696",
+        "HIST3960",
+        "HIST6960",
+        "HIST1951",
+        "HIST1910",
+        "FGSS1940",
+        "HIST1930",
+        "HIST2170"
+    ],
+    "John Whitman": [
+        "ASIAN4411",
+        "JAPAN4410",
+        "LING1100",
+        "LING4411",
+        "LING1101"
+    ],
+    "Brenda Schertz": [
+        "ASL1101",
+        "ASL1102",
+        "ASL2302"
+    ],
+    "Anthony Cosgrave": [
+        "ASRC1900",
+        "LSP1101"
+    ],
+    "Judith Byfield": [
+        "ASRC2542",
+        "HIST2542",
+        "HIST2435",
+        "HIST2452",
+        "HIST2308",
+        "HIST2251"
+    ],
+    "James Lloyd": [
+        "ASTRO1101",
+        "ASTRO1103",
+        "ASTRO3334"
+    ],
+    "Lisa Kaltenegger": [
+        "ASTRO1101",
+        "ASTRO1103",
+        "ASTRO3301"
+    ],
+    "Steven Squyres": [
+        "ASTRO1102",
+        "ASTRO1104",
+        "ASTRO1700",
+        "HIST1700"
+    ],
+    "Martha Haynes": [
+        "ASTRO2201",
+        "ASTRO3303"
+    ],
+    "Nicholas Battaglia": [
+        "ASTRO2201"
+    ],
+    "Dominik Riechers": [
+        "ASTRO2211"
+    ],
+    "Phil Nicholson": [
+        "ASTRO2212",
+        "ASTRO1102",
+        "ASTRO1104"
+    ],
+    "Dong Lai": [
+        "ASTRO3302"
+    ],
+    "David Chernoff": [
+        "ASTRO3340",
+        "ASTRO7340"
+    ],
+    "Brian Richards": [
+        "BEE3299"
+    ],
+    "Ashim Datta": [
+        "BEE3500",
+        "BEE4530"
+    ],
+    "Buz Barstow": [
+        "BEE3600"
+    ],
+    "Andrew White": [
+        "BIOAP3160",
+        "BIOMS3160",
+        "MAT1272",
+        "MAT3420",
+        "MATH3420",
+        "MAT4810",
+        "MAT3810",
+        "MAT3620",
+        "MATH2320",
+        "EIU1111",
+        "MAT1271"
+    ],
+    "Jillian Ditner": [
+        "BIOEE1130"
+    ],
+    "Robert Howarth": [
+        "BIOEE1610"
+    ],
+    "Justin St. Juliana": [
+        "BIOEE1610"
+    ],
+    "Anurag Agrawal": [
+        "BIOEE1610",
+        "BIOEE3690"
+    ],
+    "Elizabeth Lombardi": [
+        "BIOEE1640"
+    ],
+    "Abby Drake": [
+        "BIOEE1780"
+    ],
+    "Robert Reed": [
+        "BIOEE1780"
+    ],
+    "Willy Bemis": [
+        "BIOEE2740"
+    ],
+    "Robert Turgeon": [
+        "BIOG1140",
+        "BIO1140",
+        "BIOG1102",
+        "BIO1102"
+    ],
+    "Vimal Selvaraj": [
+        "BIOG1440",
+        "BIOAP1100",
+        "ANSC1100",
+        "ANSC1101",
+        "BIO1440",
+        "BIO1101"
+    ],
+    "James Shapleigh": [
+        "BIOG1440"
+    ],
+    "Darlene Campbell": [
+        "BIOG1445"
+    ],
+    "Mark Sarvary": [
+        "BIOG1500"
+    ],
+    "Frank Castelli": [
+        "BIOG1500"
+    ],
+    "Elizabeth Ogata": [
+        "BIOMG1035"
+    ],
+    "Charles Aquadro": [
+        "BIOMG1290"
+    ],
+    "Jim Blankenship": [
+        "BIOMG1320",
+        "BIOMG3300"
+    ],
+    "Tim Huffaker": [
+        "BIOMG1350"
+    ],
+    "Kelly Liu": [
+        "BIOMG1350"
+    ],
+    "Anthony Bretscher": [
+        "BIOMG1350"
+    ],
+    "Maria Garcia-Garcia": [
+        "BIOMG1350"
+    ],
+    "Ross MacIntyre": [
+        "BIOMG2800",
+        "BIOGD2810"
+    ],
+    "Daniel Barbasch": [
+        "BIOMG2800",
+        "MATH1910",
+        "MATH3320"
+    ],
+    "Kristina Blake-Hodek": [
+        "BIOMG2801",
+        "BIOMG2800"
+    ],
+    "Gerald Feigenson": [
+        "BIOMG3310",
+        "BBM3310",
+        "BIOBM3310"
+    ],
+    "Marcos Simoes-Costa": [
+        "BIOMG3850"
+    ],
+    "Chun Han": [
+        "BIOMG4320",
+        "PSYC2380"
+    ],
+    "Ailong Ke": [
+        "BIOMG4380",
+        "BIO4380"
+    ],
+    "Hojoong Kwak": [
+        "BIOMG4390"
+    ],
+    "Andrew Clark": [
+        "BIOMG4870"
+    ],
+    "Daniel Buckley": [
+        "BIOMI2900",
+        "BIOMI1120"
+    ],
+    "Steve Winans": [
+        "BIOMI2900"
+    ],
+    "Rania Abou-Kandil": [
+        "BIOMI2911"
+    ],
+    "Beth Rhoades": [
+        "BIOMS4150"
+    ],
+    "Caleb Vogt": [
+        "BIONB1220"
+    ],
+    "Michael Pardo": [
+        "BIONB1220"
+    ],
+    "Ronald Hoy": [
+        "BIONB2220"
+    ],
+    "Shelby Dietz": [
+        "BIONB2220",
+        "BIONB2210"
+    ],
+    "Jonathan Butcher": [
+        "BME2080",
+        "BME5810"
+    ],
+    "Iwijn De Vlaminck": [
+        "BME6120"
+    ],
+    "Brian Kirby": [
+        "BME6680",
+        "MAE6680",
+        "MAE3230"
+    ],
+    "Nerissa Russell": [
+        "BSOC3230",
+        "ARKEO2201"
+    ],
+    "Haiyuan Yu": [
+        "BTRY4381",
+        "BTRY6381"
+    ],
+    "Sumanta Basu": [
+        "BTRY6010",
+        "ILRST6100"
+    ],
+    "Jery Stedinger": [
+        "CEE3040",
+        "CEE6970"
+    ],
+    "Ricardo Daziano": [
+        "CEE3040"
+    ],
+    "Gregory McLaskey": [
+        "CEE3090",
+        "CEE3710"
+    ],
+    "Blair Johnson": [
+        "CEE3310"
+    ],
+    "Greeshma Gadikota": [
+        "CEE3410"
+    ],
+    "Ruth Richardson": [
+        "CEE3510",
+        "CEE4510",
+        "ENGRI1130",
+        "CEE6580"
+    ],
+    "Francis Vanek": [
+        "CEE3610",
+        "CEE4630",
+        "CEE3230"
+    ],
+    "Steve Johnson": [
+        "CHEM1007"
+    ],
+    "Brandon Bogusz": [
+        "CHEM1008"
+    ],
+    "Jane Walcott": [
+        "CHEM1058"
+    ],
+    "Tom Ruttledge": [
+        "CHEM1150",
+        "CHEM2510",
+        "CHEM3580"
+    ],
+    "Dan Lorey": [
+        "CHEM1560",
+        "CHEM2150",
+        "CHEM2900"
+    ],
+    "Cynthia Kinsland": [
+        "CHEM1570",
+        "CHEM2090",
+        "CHEM2510",
+        "CHEM2080"
+    ],
+    "Stephen Lee": [
+        "CHEM2070",
+        "CHEM1070",
+        "CHEM1101",
+        "CHEM1079",
+        "CHEM4300",
+        "CHEM2160",
+        "CHEM2150",
+        "CHEM1560"
+    ],
+    "Kyle Lancaster": [
+        "CHEM2070",
+        "CHEM2090",
+        "CHEM4100",
+        "CHEM6050"
+    ],
+    "Hector Abruna": [
+        "CHEM2070",
+        "CHEM2090"
+    ],
+    "Melissa Hines": [
+        "CHEM2080",
+        "CHEM3890"
+    ],
+    "Robert DiStasio": [
+        "CHEM2080",
+        "CHEM3900"
+    ],
+    "John Marohn": [
+        "CHEM2090",
+        "CHEM2150",
+        "CHEM3000"
+    ],
+    "Andrew Musser": [
+        "CHEM2090"
+    ],
+    "Floyd Davis": [
+        "CHEM2090",
+        "CHEM2150",
+        "CHEM2080"
+    ],
+    "Peter Wolczanski": [
+        "CHEM2090",
+        "CHEM4100",
+        "CHEM1150",
+        "CS2090",
+        "CHEM2070",
+        "CHEM6050"
+    ],
+    "H. Davis": [
+        "CHEM2150"
+    ],
+    "Justin Wilson": [
+        "CHEM2150"
+    ],
+    "David Zax": [
+        "CHEM3030",
+        "CHEM2070",
+        "CHEM2090"
+    ],
+    "Tristan Lambert": [
+        "CHEM3570"
+    ],
+    "Bruce Ganem": [
+        "CHEM3570",
+        "CHEM3590",
+        "CHEM1570",
+        "CHEM3070",
+        "CHM3570"
+    ],
+    "William Dichtel": [
+        "CHEM3570"
+    ],
+    "Geoffrey Coates": [
+        "CHEM3580"
+    ],
+    "Brett Fors": [
+        "CHEM3580",
+        "CHEM3600"
+    ],
+    "Song Lin": [
+        "CHEM3590",
+        "CHEM3570"
+    ],
+    "Roger Loring": [
+        "CHEM3890",
+        "CHEM2870",
+        "CHEM2070",
+        "CHM2070",
+        "CHEM2080"
+    ],
+    "Stephanie Divo": [
+        "CHIN1101",
+        "CHIN1102",
+        "CHIN1121"
+    ],
+    "Yunfei Du": [
+        "CHIN1109"
+    ],
+    "Yufen Mehta": [
+        "CHIN1109",
+        "CHIN1110",
+        "CHIN3301",
+        "CHIN1160",
+        "CHIN3302"
+    ],
+    "Fangfang Li": [
+        "CHIN1109",
+        "CHIN1110"
+    ],
+    "Rui Liu": [
+        "CHIN1110"
+    ],
+    "Felicia Teng": [
+        "CHIN2201",
+        "CHIN2202"
+    ],
+    "Su George": [
+        "CHIN2209",
+        "CHIN2210",
+        "CHIN1101",
+        "CHIN1160",
+        "CHIN1102",
+        "CHINESE2209"
+    ],
+    "Natasha Binek": [
+        "CLASS1531"
+    ],
+    "Michael Fontaine": [
+        "CLASS1615",
+        "CLASS2604",
+        "CL2362",
+        "CLASS2632",
+        "CLASS2630"
+    ],
+    "Alan Nussbaum": [
+        "CLASS1699",
+        "LING1109",
+        "LATIN1205"
+    ],
+    "Christina Chick": [
+        "HD3190",
+        "HD6190"
+    ],
+    "Corinna Loeckenhoff": [
+        "HD3290",
+        "HD6290",
+        "HD2180"
+    ],
+    "Michael Toglia": [
+        "HD3330"
+    ],
+    "Anthony Ong": [
+        "HD3490",
+        "HD3190"
+    ],
+    "Cindy Hazan": [
+        "HD3620",
+        "HD6690",
+        "HD3200"
+    ],
+    "Qi Wang": [
+        "HD6210"
+    ],
+    "Korana Stipetic": [
+        "HE1115"
+    ],
+    "Michael Chen": [
+        "HE1115"
+    ],
+    "Shalom Shoer": [
+        "HEBRW1101",
+        "JWST1101",
+        "HEBRW1103",
+        "HEB1101",
+        "HEBREW1101",
+        "JWST1103",
+        "JWST1102",
+        "NES1102",
+        "NES1101",
+        "NES1103"
+    ],
+    "Nava Scharf": [
+        "HEBRW3101",
+        "JWST3101",
+        "HEBRW3104",
+        "JWST3104",
+        "NES3101",
+        "JWST3102",
+        "NES3102",
+        "NES3108",
+        "NES2100",
+        "JWST2100",
+        "JWST3108"
+    ],
+    "Michael Miller": [
+        "HIST1200"
+    ],
+    "Shiau-Yun Chen": [
+        "HIST1200"
+    ],
+    "Sujin Lee": [
+        "HIST1200"
+    ],
+    "Eric Tagliacozzo": [
+        "HIST1402",
+        "ASIAN1191",
+        "CAPS1910",
+        "HIST1910",
+        "HIST3960",
+        "HIST2880",
+        "HIST2280",
+        "HIST2430",
+        "ASIAN2208"
+    ],
+    "Nicholas Mulder": [
+        "HIST1511",
+        "HIST2285"
+    ],
+    "Mostafa Minawi": [
+        "HIST1561",
+        "NES1561"
+    ],
+    "Rachel Weil": [
+        "HIST4945",
+        "HIST6945",
+        "HIST1650",
+        "HIST1230",
+        "HIST1511",
+        "HIST3300",
+        "HIST3490",
+        "HIST2720",
+        "HIST3051"
+    ],
+    "Paul Davis": [
+        "ILRHR2600",
+        "MATH2940"
+    ],
+    "Linda Gasser": [
+        "ILRHR3620"
+    ],
+    "Diane Burton": [
+        "ILRID1700",
+        "ILRHR5600"
+    ],
+    "Robert Hutchens": [
+        "ILRLE2400"
+    ],
+    "Michelle Chen": [
+        "ILRLR1100"
+    ],
+    "Veronica Martinez-Matsuda": [
+        "ILRLR1100"
+    ],
+    "Ileen DeVault": [
+        "ILRLR1100",
+        "ILRLR2070",
+        "ILRLR3880",
+        "ILRLH1100",
+        "ILRLR2100",
+        "CB1100",
+        "CB3880"
+    ],
+    "Jason Newton": [
+        "ILRLR1100"
+    ],
+    "Michael Gold": [
+        "ILRLR2010",
+        "ILR2010",
+        "PHI2604",
+        "ILRCB2010"
+    ],
+    "Kate Griffith": [
+        "ILRLR2010",
+        "ILRCB2010",
+        "ILRCB6870",
+        "ILRCB6840",
+        "ILRCB6079"
+    ],
+    "Duanyi Yang": [
+        "ILRLR2050"
+    ],
+    "Adam Seth Litwin": [
+        "ILRLR2050"
+    ],
+    "Allison Heinemann": [
+        "ILRLR2060"
+    ],
+    "Samuel Nelson": [
+        "ILRLR3055",
+        "ILRLR3300"
+    ],
+    "James Gross": [
+        "ILRLR3830",
+        "ILRCB3830",
+        "ILRLR4075",
+        "ILRLR4035",
+        "ILRIC2350",
+        "ILRCB2010",
+        "ILRCB3780",
+        "ILR3065",
+        "ILR2075"
+    ],
+    "Matthew Saleh": [
+        "ILRLR4033"
+    ],
+    "Tove Hammer": [
+        "ILROB2230"
+    ],
+    "Sean Fath": [
+        "ILROB3240"
+    ],
+    "Ben Rissing": [
+        "ILROB3270",
+        "ILROB1220",
+        "ILROB1120"
+    ],
+    "Thomas DiCiccio": [
+        "ILRST3110",
+        "ECON3110",
+        "ILRST2100",
+        "STSCI3100",
+        "STSCI4090",
+        "BTRY4090",
+        "ORIE4630",
+        "ILRST2110",
+        "ILRST5110",
+        "STSCI2110",
+        "ILRST5100",
+        "BTRY6030"
+    ],
+    "Matthew Wilkens": [
+        "INFO2950",
+        "INFO3350",
+        "INFO6350"
+    ],
+    "Rene Kizilcec": [
+        "INFO4100"
+    ],
+    "Hane Aung": [
+        "INFO4120",
+        "INFO6120"
+    ],
+    "Karen Levy": [
+        "INFO4250",
+        "CS1340",
+        "INFO1260"
+    ],
+    "Cheng Zhang": [
+        "INFO4320"
+    ],
+    "Malte Jung": [
+        "INFO4430",
+        "INFO4410"
+    ],
+    "Jeff Christen": [
+        "INFO4555",
+        "INFO4940",
+        "INFO6940"
+    ],
+    "Sharlane Cleare": [
+        "INFO4940",
+        "INFO5900",
+        "INFO6940"
+    ],
+    "Amanda Recupero": [
+        "ITAL1201"
+    ],
+    "Michela Baraldi": [
+        "ITAL1212",
+        "ITAL2201",
+        "ITAL1202",
+        "ITAL1201",
+        "ITAL2190",
+        "ITAL2090",
+        "ITAL1220",
+        "ITAL1210"
+    ],
+    "Timothy Campbell": [
+        "ITAL2204",
+        "ITAL3730"
+    ],
+    "Naomi Larson": [
+        "JAPAN1101",
+        "JAPAN2202",
+        "JAP1101",
+        "JAPAN4401"
+    ],
+    "Eriko Akamatsu": [
+        "JAPAN1101"
+    ],
+    "Misako Chapman": [
+        "JAPAN1102"
+    ],
+    "Misako Suzuki": [
+        "JAPAN2201",
+        "JAPAN3302",
+        "JPN1102",
+        "JAPAN1102",
+        "JAPN1102",
+        "JAPAN1101"
+    ],
+    "Hannah Phan": [
+        "KHMER1100"
+    ],
+    "Meejeong Song": [
+        "KOREA1101",
+        "KOREA4401",
+        "KOR1102"
+    ],
+    "Hankyul Kim": [
+        "KOREA1110",
+        "PHIL2172",
+        "PHIL2144",
+        "PHIL2121",
+        "PHIL2214",
+        "PHILO2144"
+    ],
+    "Nina Bassuk": [
+        "LA4910"
+    ],
+    "Daniel Gallagher": [
+        "LATIN1205",
+        "ENGL2296",
+        "ENG2296"
+    ],
+    "Kenneth Merkley": [
+        "LAW5090",
+        "NBA5090"
+    ],
+    "Larry Van De Valk": [
+        "LEAD3100"
+    ],
+    "Dorit Abusch": [
+        "LING1100",
+        "LING4425",
+        "LING4438",
+        "LING3304"
+    ],
+    "Frances Sobolak": [
+        "LING1100"
+    ],
+    "Joseph Rhyne": [
+        "LING1100"
+    ],
+    "Samuel Tilsen": [
+        "LING1101",
+        "LING3302",
+        "LING3301",
+        "LING4419"
+    ],
+    "Miloje Despic": [
+        "LING1101",
+        "LING3303",
+        "LING3315"
+    ],
+    "Sarah Murray": [
+        "LING1101"
+    ],
+    "Wayne Harbert": [
+        "LING1101"
+    ],
+    "Abby Cohn": [
+        "LING2221",
+        "LING3302"
+    ],
+    "Molly Diesing": [
+        "LING2223"
+    ],
+    "James West": [
+        "LING4474",
+        "MATH2210",
+        "MATH2220",
+        "MATH3110"
+    ],
+    "Debra Castillo": [
+        "LSP2460"
+    ],
+    "Guy Hoffman": [
+        "MAE2250",
+        "MAE6710"
+    ],
+    "Robert Shepherd": [
+        "MAE2250",
+        "MAE5630",
+        "MAE4340"
+    ],
+    "Richard Robinson": [
+        "MAE3130",
+        "MSE2060",
+        "MSE4330"
+    ],
+    "Hadas Kress-Gazit": [
+        "MAE3780",
+        "MAE3783",
+        "MAE4180",
+        "MAE5180"
+    ],
+    "Benjamin Finio": [
+        "MAE3780",
+        "MAE3783"
+    ],
+    "Rebecca Barthelmie": [
+        "MAE5010"
+    ],
+    "Brendan Caseria": [
+        "MATH1012"
+    ],
+    "James Belk": [
+        "MATH1106",
+        "MATH1920"
+    ],
+    "Allen Back": [
+        "MATH1106"
+    ],
+    "Scott Messick": [
+        "MATH1110"
+    ],
+    "Brock Schmutzler": [
+        "MATH1110"
+    ],
+    "Justin Moore": [
+        "MATH1110",
+        "MATH6870",
+        "MATH4540",
+        "MATH1910",
+        "MATH2220"
+    ],
+    "Kelly Delp": [
+        "MATH1110",
+        "MATH1920"
+    ],
+    "Ian Pendleton": [
+        "MATH1110"
+    ],
+    "Shiping Cao": [
+        "MATH1120"
+    ],
+    "Harrison Chen": [
+        "MATH1120"
+    ],
+    "David Zywina": [
+        "MATH1120",
+        "MATH3320",
+        "MATH3110",
+        "MATH6370",
+        "MATH1920",
+        "MATH1910"
+    ],
+    "James Barnes": [
+        "MATH1120"
+    ],
+    "Maru Sarazola Duarte": [
+        "MATH1120"
+    ],
+    "Ian Lizarraga": [
+        "MATH1120"
+    ],
+    "James Hyde": [
+        "MATH1340"
+    ],
+    "Michael Nussbaum": [
+        "MATH1710",
+        "MATH4720",
+        "BIOL3440",
+        "MATH4170"
+    ],
+    "Farbod Shokrieh": [
+        "MATH1910"
+    ],
+    "Reyer Sjamaar": [
+        "MATH1920",
+        "MATH2230",
+        "MATH2210",
+        "MATH2240",
+        "MATH4500"
+    ],
+    "Steven Strogatz": [
+        "MATH1920",
+        "MATH4220",
+        "MATH2930",
+        "MAE5790",
+        "MATH1300",
+        "M4200",
+        "MATH1106",
+        "MATH3110",
+        "MATH2230",
+        "MATH2130",
+        "TAM3100"
+    ],
+    "Robert Connelly": [
+        "MATH1920",
+        "MATH1120",
+        "MAP2302",
+        "MATH2220",
+        "MATH7510",
+        "MATH2310",
+        "MATH3040",
+        "MATH1910",
+        "MATH2930"
+    ],
+    "Jason Manning": [
+        "MATH1920",
+        "MATH2930",
+        "MATH4560"
+    ],
+    "Andrew Marshall": [
+        "MATH1920"
+    ],
+    "Maria Terrell": [
+        "MATH1920"
+    ],
+    "Herbert Hui": [
+        "MATH1920"
+    ],
+    "Artem Pulemotov": [
+        "MATH1920"
+    ],
+    "Nicolas Templier": [
+        "MATH1920",
+        "MATH2210",
+        "MATH3320"
+    ],
+    "Timothy Healey": [
+        "MATH2210",
+        "MATH2930",
+        "MATH2940",
+        "MAE3260",
+        "MATH1910"
+    ],
+    "Benjamin Dozier": [
+        "MATH2210"
+    ],
+    "Ed Swartz": [
+        "MATH2210",
+        "MATH3040"
+    ],
+    "Marie MacDonald": [
+        "MATH2210"
+    ],
+    "Anil Nerode": [
+        "MATH2210",
+        "MATH4030",
+        "MATH4130"
+    ],
+    "Inna Zakharevich": [
+        "MATH2220"
+    ],
+    "Kathryn Mann": [
+        "MATH2220"
+    ],
+    "Robert Strichartz": [
+        "MATH2230"
+    ],
+    "Ravi Ramakrishna": [
+        "MATH2230",
+        "MATH1220",
+        "MATH2940",
+        "MATH2234"
+    ],
+    "John Hubbard": [
+        "MATH2230",
+        "MATH4180",
+        "MATH2220",
+        "MATH2240"
+    ],
+    "Allen Knutson": [
+        "MATH2230",
+        "MATH2240",
+        "MATH3360",
+        "MATH4330",
+        "MATH4340",
+        "MATH1120",
+        "MATH3340",
+        "MATH4370",
+        "MATH2220",
+        "MATH2210"
+    ],
+    "Hubbard": [
+        "MATH2230",
+        "MATH4180"
+    ],
+    "Yuri Berest": [
+        "MATH2930",
+        "MATH2940",
+        "MATH1910",
+        "MATH4330",
+        "MATH2130",
+        "MATH4310"
+    ],
+    "Mahdi Esmaily": [
+        "MATH2930"
+    ],
+    "Sanjay Dharmavaram": [
+        "MATH2930"
+    ],
+    "Richard Rand": [
+        "MATH2930",
+        "MATH3230",
+        "MAE2030",
+        "MATH2220"
+    ],
+    "Laurent Saloff-Coste": [
+        "MATH2940",
+        "MATH3110",
+        "MATH4710"
+    ],
+    "Edward Swartz": [
+        "MATH2940",
+        "MATH3040"
+    ],
+    "Michael Stillman": [
+        "MATH2940",
+        "MATH4310",
+        "MATH1920",
+        "MATH4370",
+        "MATH1106"
+    ],
+    "Alex Townsend": [
+        "MATH2940",
+        "MATH2210",
+        "MATH2930",
+        "MATH2220"
+    ],
+    "Birgit Speh": [
+        "MATH3110",
+        "MATH3360",
+        "MATH1340",
+        "MATH2220"
+    ],
+    "Martin Kassabov": [
+        "MATH3360",
+        "MATH4330",
+        "MATH4310",
+        "MATH2230",
+        "MATH2220"
+    ],
+    "Marcelo Aguiar": [
+        "MATH3360",
+        "MATH1120"
+    ],
+    "Florin Camil Muscalu": [
+        "MATH4130",
+        "MATH4140"
+    ],
+    "Christian Noack": [
+        "MATH4220"
+    ],
+    "Yiannis Loizides": [
+        "MATH4310"
+    ],
+    "Irena Peeva": [
+        "MATH4370",
+        "MATH2210",
+        "MATH4310"
+    ],
+    "Karola Meszaros": [
+        "MATH4410",
+        "MATH6410",
+        "MATH3360",
+        "MATH2310"
+    ],
+    "Philippe Sosoe": [
+        "MATH4710",
+        "MATH2930",
+        "MATH4740"
+    ],
+    "Marten Wegkamp": [
+        "MATH4720"
+    ],
+    "Richard Shore": [
+        "MATH6810",
+        "MATH4860"
+    ],
+    "Christopher Umbach": [
+        "MSE3070",
+        "ENGRI1110",
+        "ENGRI1140"
+    ],
+    "James Spinazzola": [
+        "MUSIC1100",
+        "MUSIC1105",
+        "MUSIC2101"
+    ],
+    "Andrew Hicks": [
+        "MUSIC1101",
+        "LATIN7223"
+    ],
+    "Kevin Ernste": [
+        "MUSIC1421",
+        "MUS1421"
+    ],
+    "Jordan Musser": [
+        "MUSIC1701"
+    ],
+    "Lawrence Shuster": [
+        "MUSIC2102"
+    ],
+    "Annie Lewandowski": [
+        "MUSIC2111",
+        "MUSIC1701"
+    ],
+    "Annette Richards": [
+        "MUSIC2244",
+        "MUS2244"
+    ],
+    "Roger Moseley": [
+        "MUSIC2701",
+        "MUSIC4312",
+        "MUSIC2101"
+    ],
+    "Catherine Appert": [
+        "MUSIC3490",
+        "MUSIC1330",
+        "MUSIC1701"
+    ],
+    "Michael Sparhuber": [
+        "MUSIC3511",
+        "MUSIC3634"
+    ],
+    "Scott Stewart": [
+        "NBA4120",
+        "NBA5121"
+    ],
+    "David Nichols": [
+        "NBA5110"
+    ],
+    "Michael Hostetler": [
+        "NBA5150"
+    ],
+    "Bradley Treat": [
+        "NBA5380",
+        "AEM3249",
+        "NBA5070"
+    ],
+    "Randy Allen": [
+        "NBA5690"
+    ],
+    "Tolunay Beker Aydemir": [
+        "NS3450",
+        "FDSC2000"
+    ],
+    "Sam Nugen": [
+        "NS3450",
+        "FDSC2000"
+    ],
+    "Xoco Shinbrot": [
+        "NTRES1201"
+    ],
+    "Paul Rodewald": [
+        "NTRES2100"
+    ],
+    "Sara Kaiser": [
+        "NTRES2400"
+    ],
+    "Louis Derry": [
+        "NTRES3030",
+        "EAS3030"
+    ],
+    "Joseph Yavitt": [
+        "NTRES3030",
+        "EAS3030",
+        "NTRES2010",
+        "EAS3050",
+        "NTRES3220"
+    ],
+    "James Booth": [
+        "ORIE1380",
+        "STSCI1380",
+        "CS1380",
+        "BTRY3010"
+    ],
+    "Andrew Wilson": [
+        "ORIE1380",
+        "STSCI1380",
+        "CS1380"
+    ],
+    "Kae-Lynn Wilson": [
+        "PE1625"
+    ],
+    "J.C. Seamus Davis": [
+        "PHYS2214"
+    ],
+    "Julie Lauren": [
+        "PLSCS2110"
+    ],
+    "Antonio DiTommaso": [
+        "PLSCS4440",
+        "ENTOM4440"
+    ],
+    "John Losey": [
+        "PLSCS4440",
+        "ENTOM4440",
+        "ENTOM3440"
+    ],
+    "Stephen Ceci": [
+        "PSYCH2580",
+        "SOC2580",
+        "HD2580",
+        "ILRLR2580",
+        "HD4230"
+    ],
+    "Michael Macy": [
+        "PSYCH2580",
+        "SOC2580",
+        "HD2580",
+        "ILRLR2580",
+        "SOC1840",
+        "SOC3110"
+    ],
+    "Valerie Hans": [
+        "PSYCH2650",
+        "HD2650",
+        "LAW2650"
+    ],
+    "Robert Frank": [
+        "PSYCH2940",
+        "AEM2020"
+    ],
+    "J. Russo": [
+        "PSYCH2940",
+        "AEM2020"
+    ],
+    "William Schulze": [
+        "PSYCH2940",
+        "AEM2020",
+        "ENTP5770"
+    ],
+    "Viktoria Tsimberov": [
+        "RUSSA1122",
+        "RUSSA1121",
+        "RUSSA1222"
+    ],
+    "Slava Paperno": [
+        "RUSSA1122",
+        "RUSSA1131",
+        "RUSSA2203",
+        "RUSSA1121",
+        "RUSSA3305",
+        "RUSSA3309"
+    ],
+    "Stephen Sansom": [
+        "STS2812",
+        "ARKEO2812",
+        "LING2212"
+    ],
+    "Russell Moss": [
+        "VIEN1104"
+    ],
+    "Kathy Arnink": [
+        "VIEN1104",
+        "VIEN2204",
+        "FDSC1104"
+    ],
+    "Justine Vanden Heuvel": [
+        "VIEN1104",
+        "HORT3440"
+    ],
+    "Mark Roberson": [
+        "VTBMS3460",
+        "BIOAP3110",
+        "BIOMS3110",
+        "CHEM1411",
+        "PHYS1404",
+        "PHYS1411",
+        "PHYS1415"
+    ],
+    "Praveen Sethupathy": [
+        "VTBMS3460",
+        "BIOAP3110",
+        "BIOMS3110"
+    ],
+    "Douglas James": [
+        "CS2110",
+        "ENGRD2110"
+    ],
+    "Not Listed": [
+        "CS2110",
+        "ENGRD2110",
+        "ASTRO1101",
+        "ASTRO1103",
+        "BIOEE1610",
+        "BIOEE1780",
+        "NBA3000"
+    ],
+    "Alexandra Silva": [
+        "CS2800"
+    ],
+    "Matt Eichorn": [
+        "CS2800"
+    ],
+    "Yunhao Zhang": [
+        "CS4411"
+    ],
+    "Nika Haghtalab": [
+        "CS4780",
+        "CS5780"
+    ],
+    "Lawrence Blume": [
+        "CS5846",
+        "ECON3810",
+        "ECON6760",
+        "ECON3680",
+        "ECON6100",
+        "ECON3130",
+        "ECON6110"
+    ],
+    "Toby Ault": [
+        "EAS1101",
+        "EAS1100",
+        "EAS3050"
+    ],
+    "Matthew Pritchard": [
+        "EAS1101"
+    ],
+    "Lyrae Van Clief-Stefanon": [
+        "ENGL3717",
+        "ENGL1158",
+        "ENGL3840",
+        "ENGL3850",
+        "ENGL4810"
+    ],
+    "Jean Hunter": [
+        "ENGRI1337",
+        "BEE2220",
+        "BEE1050",
+        "BEE4640"
+    ],
+    "Dan Luo": [
+        "ENGRI1337"
+    ],
+    "Nandini Ananth": [
+        "ENGRI1510",
+        "CHEM1350",
+        "CHEME1510",
+        "MAE1510",
+        "CHEM3890"
+    ],
+    "Paulette Clancy": [
+        "ENGRI1510",
+        "CHEM1350",
+        "CHEME1510",
+        "MAE1510"
+    ],
+    "Laura Harrington": [
+        "ENTOM2100",
+        "BSOC2101",
+        "ENTOM6520",
+        "ENTOM4520",
+        "ENTOM3130"
+    ],
+    "Paul Wagner": [
+        "AEM3200",
+        "NBA5600",
+        "HADM3850"
+    ],
+    "Nick Nickitas": [
+        "AEM3249"
+    ],
+    "Joe Regenstein": [
+        "ANSC3100",
+        "FDSC2500"
+    ],
+    "Jonathan Boyarin": [
+        "ANTHR1190",
+        "ANTHR4810"
+    ],
+    "Durba Ghosh": [
+        "ASIAN1191",
+        "CAPS1910",
+        "HIST1910",
+        "FGSS3000",
+        "HIST2750",
+        "HIST1190"
+    ],
+    "Nikole Lewis": [
+        "ASTRO1102",
+        "ASTRO1104",
+        "ASTRO1101"
+    ],
+    "Jonathan Lunine": [
+        "ASTRO3301"
+    ],
+    "Gregory Weiland": [
+        "BIOAP4140",
+        "BIOMS4140",
+        "BIONB4140"
+    ],
+    "Maurine Linder": [
+        "BIOAP4140",
+        "BIOMS4140",
+        "BIONB4140"
+    ],
+    "Alison Power": [
+        "BIOEE1610"
+    ],
+    "Alexander Flecker": [
+        "BIOEE1610"
+    ],
+    "Maren Vitousek": [
+        "BIOEE1780"
+    ],
+    "Brian Lazzaro": [
+        "BIOEE1780"
+    ],
+    "Irby Lovette": [
+        "BIOEE1780",
+        "BIOEE2780",
+        "BIO2780"
+    ],
+    "Amy McCune": [
+        "BIOEE1780"
+    ],
+    "Jeremy Searle": [
+        "BIOEE1780",
+        "BIOEE4500"
+    ],
+    "Harry Greene": [
+        "BIOEE1780",
+        "BIOEE4700",
+        "BIOG1109"
+    ],
+    "Kelly Zamudio": [
+        "BIOEE1780",
+        "BIOE1780"
+    ],
+    "Chelsea Specht": [
+        "BIOEE1780"
+    ],
+    "Nicolas Buchon": [
+        "BIOG1440",
+        "BIO1440"
+    ],
+    "Paul Soloway": [
+        "BIOG1440"
+    ],
+    "Cole Gilbert": [
+        "BIOG1440",
+        "BIOEE1780",
+        "ENTOM2120",
+        "BIO1440",
+        "BIOG1101",
+        "BIO1101",
+        "BIOG1011",
+        "BIOG1102"
+    ],
+    "Ellis Loew": [
+        "BIOG1440"
+    ],
+    "Tom Owens": [
+        "BIOG1440"
+    ],
+    "Chris Fromme": [
+        "BIOMG1350"
+    ],
+    "Thomas Fox": [
+        "BIOMG2800",
+        "BIOMG3800",
+        "BIOMG2810"
+    ],
+    "Andrew Grimson": [
+        "BIOMG3320"
+    ],
+    "Marcus Smolka": [
+        "BIOMG3320"
+    ],
+    "Kerry Shaw": [
+        "BIONB2210",
+        "BIOEE4530",
+        "BIONB2100"
+    ],
+    "Robert Raguso": [
+        "BIONB2210",
+        "BIOEE3690"
+    ],
+    "Michael Webster": [
+        "BIONB2210",
+        "MAT1150",
+        "MATH1000",
+        "MAT1100",
+        "MATH1100",
+        "MATH1515",
+        "PREAL1050"
+    ],
+    "Hudson Reeve": [
+        "BIONB2210"
+    ],
+    "Ronald Harris-Warrick": [
+        "BIONB2220",
+        "BIONB3920"
+    ],
+    "David Usher": [
+        "CHEM3580"
+    ],
+    "Claudia Verhoeven": [
+        "HIST1600",
+        "HIST1850",
+        "AMST1850",
+        "H1600",
+        "HIST2970",
+        "HIST2690",
+        "HIST4274",
+        "HIST2969"
+    ],
+    "Eli Friedman": [
+        "ILRIC2350",
+        "ILRIC4355",
+        "ILRIC3395",
+        "ILRIC4372",
+        "ILRIC2310"
+    ],
+    "Sarosh Kuruvilla": [
+        "ILRIC2350",
+        "ILRIC3375",
+        "CB5000"
+    ],
+    "Virginia Doellgast": [
+        "ILRIC2350",
+        "ILRIC2370"
+    ],
+    "Jason Judd": [
+        "ILRIC2350"
+    ],
+    "Jim Jenkins": [
+        "MATH1920"
+    ],
+    "Kenneth Rother": [
+        "NBA3000"
+    ],
+    "George Schneider": [
+        "NBA5070"
+    ],
+    "Beth Ahner": [
+        "BEE2510"
+    ],
+    "Lindsay Anderson": [
+        "BEE4750",
+        "BEE1510",
+        "BEE1500"
+    ],
+    "Christopher Barrett": [
+        "AEM2000"
+    ],
+    "James Bartsch": [
+        "BEE3650"
+    ],
+    "Gary Bergstrom": [
+        "RDG1200",
+        "ENG1200"
+    ],
+    "Rachel Bezner Kerr": [
+        "DSOC1300",
+        "DSOC3400"
+    ],
+    "Garrick Blalock": [
+        "AEM2810",
+        "AEM4940",
+        "AEM2600"
+    ],
+    "Vicki Bogan": [
+        "AEM4230",
+        "AEM2400",
+        "AEM5230",
+        "AEM4260"
+    ],
+    "Susan Brown": [
+        "SOC1010",
+        "SOC3610"
+    ],
+    "Edward Buckler": [
+        "GEO2630",
+        "GEOG2630",
+        "WEATH2630",
+        "GEO1500",
+        "WEA2630"
+    ],
+    "Christopher Byrne": [
+        "COMM3065",
+        "COMM3010",
+        "COMM3060"
+    ],
+    "Ralph Christy": [
+        "AEM4420"
+    ],
+    "Paul Curtis": [
+        "NTRES4280"
+    ],
+    "Richard Curtis": [
+        "AEM2241",
+        "AEM2240",
+        "NCC5560",
+        "AEM2231",
+        "AEM3240",
+        "PAM5620",
+        "FIN2240"
+    ],
+    "Harry de Gorter": [
+        "AEM4350"
+    ],
+    "Tobias Doerr": [
+        "BIOMI2900"
+    ],
+    "William Drake": [
+        "CRIJ1301",
+        "CRIJ2313",
+        "CRIJ1310",
+        "CJ1301",
+        "CRJ1301",
+        "CRIJ6002",
+        "CRIML6001"
+    ],
+    "Parfait Eloundou-Enyegue": [
+        "DSOC3700",
+        "GDEV1102",
+        "DSOC1101",
+        "DSOC3130"
+    ],
+    "Margaret Frank": [
+        "PLBIO2410",
+        "AEM2020",
+        "ECON1110"
+    ],
+    "Giulia Friso": [
+        "PLBIO3100"
+    ],
+    "Kifle Gebremedhin": [
+        "ENGRI1337",
+        "BEE3310"
+    ],
+    "Patrick Gibney": [
+        "VEIN4650"
+    ],
+    "Tarleton Gillespie": [
+        "COMM3200",
+        "COMM1101"
+    ],
+    "Sarah Giroux": [
+        "DSOC1102",
+        "IARD1100",
+        "DSOC3130",
+        "IARD2020"
+    ],
+    "Jillian Goldfarb": [
+        "BEE2510"
+    ],
+    "Heather Grab": [
+        "NURS1214"
+    ],
+    "Robert Gravani": [
+        "FDSC1500",
+        "FDSC1102"
+    ],
+    "Charles Greene": [
+        "DEP2040",
+        "PSY2041",
+        "DEV2004",
+        "DEP2004",
+        "PSY1012",
+        "PSY1101",
+        "PHYCH1012"
+    ],
+    "Joe Guinness": [
+        "STISCI5999",
+        "BTRY4030",
+        "STSCI4030"
+    ],
+    "Matthew Hare": [
+        "NTRES2830",
+        "BIOSM1780"
+    ],
+    "Anthony Hay": [
+        "BIOMI2900"
+    ],
+    "Tory Hendry": [
+        "BIOMI2950"
+    ],
+    "Ian Hewson": [
+        "BIOMI3500"
+    ],
+    "Thomas Hirschl": [
+        "DSOC1101",
+        "DSOC4030"
+    ],
+    "Peter Hitchcock": [
+        "EAS3420"
+    ],
+    "Peter Hobbs": [
+        "IARD4140",
+        "CSS4140"
+    ],
+    "Jian Hua": [
+        "FIN2000",
+        "FIN3710",
+        "FIN4610",
+        "FIN3700",
+        "FINANCE3710"
+    ],
+    "Heather Huson": [
+        "ANSC2210",
+        "ANSC3310"
+    ],
+    "Yu Jiang": [
+        "PHYS2300",
+        "PHYS2400",
+        "PHYSC2000",
+        "PHSY1000",
+        "PHYS1100",
+        "PHYS1000"
+    ],
+    "Karim-Aly Kassam": [
+        "NTRES3330",
+        "NTRE3330",
+        "AIIS1110",
+        "AIS1110"
+    ],
+    "Barbara Knuth": [
+        "NTRES4300"
+    ],
+    "Steven Kyle": [
+        "AEM2800",
+        "ECON1120"
+    ],
+    "Flavio Lehner": [
+        "EAS2900"
+    ],
+    "Xingen Lei": [
+        "ANSC4880",
+        "ANSC3980"
+    ],
+    "Lori Leonard": [
+        "DSOC3230"
+    ],
+    "Bruce Lewenstein": [
+        "STS3020",
+        "COMM1101",
+        "COMM2850"
+    ],
+    "Fouad Makki": [
+        "DSOC3010",
+        "DSOC3130"
+    ],
+    "Nathan Matias": [
+        "INFO2450"
+    ],
+    "Michael Mazourek": [
+        "PLBRG2250"
+    ],
+    "Murray McBride": [
+        "CSS3650"
+    ],
+    "Katherine McComas": [
+        "COMM3760",
+        "COMM4560"
+    ],
+    "Susan McCouch": [
+        "PLBR2010"
+    ],
+    "Andrew McDonald": [
+        "PLSCS4140"
+    ],
+    "Jason Mezey": [
+        "BTRY4830"
+    ],
+    "Marc Miller": [
+        "MKTG6700",
+        "MINF4390",
+        "MINF3650",
+        "MGT3650"
+    ],
+    "Virginia Moore": [
+        "PLBRG2010"
+    ],
+    "Stephen Morreale": [
+        "NTRES3260"
+    ],
+    "Courtney Murdock": [
+        "ECOL3500"
+    ],
+    "June Nasrallah": [
+        "PLBIO3430"
+    ],
+    "Rebecca Nelson": [
+        "SYSEN1900",
+        "IARD1100",
+        "IARD2020"
+    ],
+    "Jeffrey Niederdeppe": [
+        "COMM2820",
+        "COM2820"
+    ],
+    "Jan Nyrop": [
+        "ENTOM2020"
+    ],
+    "Keith Perry": [
+        "ENG1101",
+        "ENGL3220",
+        "ENGL1102",
+        "CIN1101",
+        "ENGL3520",
+        "ENG2201",
+        "ENG1102",
+        "ENGL1201",
+        "ENG1201",
+        "ENGLISH1102",
+        "ENGL2112",
+        "ENGL1101",
+        "ENGLI1101",
+        "CINM1101",
+        "ENGLISH2101"
+    ],
+    "Scott Peters": [
+        "AMERPOL3146",
+        "AMERPOL2147",
+        "AMERPOL1000",
+        "AMERPOL1014",
+        "POLAMER1014",
+        "AMERPOL3144",
+        "POLGEN2010"
+    ],
+    "Prabhu Pingali": [
+        "AEM4450"
+    ],
+    "Sharon Poczter": [
+        "AEM2601"
+    ],
+    "Eswar Prasad": [
+        "ECON3545",
+        "AEM4545"
+    ],
+    "Sara Pryor": [
+        "EAS2500",
+        "EAS3340"
+    ],
+    "Troy Richardson": [
+        "AIS1110",
+        "EDUC2610"
+    ],
+    "Amanda Rodewald": [
+        "ENR5360"
+    ],
+    "Jonathan Russell-Anelli": [
+        "PLSCS2600",
+        "CSS2600"
+    ],
+    "Michael Scanlon": [
+        "BIOG4990",
+        "BIO1140",
+        "BIOG1140",
+        "BIOPL2490"
+    ],
+    "Todd Schmit": [
+        "AEM2230"
+    ],
+    "Dawn Schrader": [
+        "INFO4301",
+        "EDUC3110",
+        "HD3110",
+        "EDUC3011"
+    ],
+    "Jonathon Schuldt": [
+        "COMM2760",
+        "COMM4200"
+    ],
+    "Steven Schwager": [
+        "BTRY6010",
+        "BTRY3010"
+    ],
+    "Jeffrey Scott": [
+        "ENTOM3070"
+    ],
+    "Michael Shapiro": [
+        "COMM4220"
+    ],
+    "Thomas Silva": [
+        "PLBIO2400",
+        "BIOPL2400",
+        "BIO1440",
+        "BIOG1440",
+        "BIOMG1440",
+        "BIOPL2420",
+        "BIO1111",
+        "BIOPL3421"
+    ],
+    "Patrick Sullivan": [
+        "BTRY3010",
+        "BMTRY3010"
+    ],
+    "Ying Sun": [
+        "CHIN1200"
+    ],
+    "Loren Tauer": [
+        "AEM6080",
+        "ECON4110"
+    ],
+    "Jennifer Thaler": [
+        "ENTOM4550"
+    ],
+    "Michael Timmons": [
+        "BEE4350",
+        "BEE4010"
+    ],
+    "Calum Turvey": [
+        "AEM4210",
+        "AEM4060"
+    ],
+    "Michael Van Amburgh": [
+        "ANSC2500"
+    ],
+    "Harold van Es": [
+        "PLSCS3210"
+    ],
+    "Todd Walter": [
+        "BEE4730",
+        "BEE3710"
+    ],
+    "Ping Wang": [
+        "CHIN1442",
+        "CHIN1441"
+    ],
+    "Mildred Warner": [
+        "CRP4160",
+        "CRP4120",
+        "CRP6120",
+        "AEM4120"
+    ],
+    "Randy Wayne": [
+        "BIOPL1130",
+        "BIO2013",
+        "BIOG1100"
+    ],
+    "Anne Weber": [
+        "HUMN1210"
+    ],
+    "Stephen Winans": [
+        "BIOMI2600",
+        "BIOMI2900"
+    ],
+    "Steven Wolf": [
+        "NTRES3311"
+    ],
+    "Randy Worobo": [
+        "FDSC5960"
+    ],
+    "Scott Yonker": [
+        "AEM4570"
+    ],
+    "Yu (Connie) Yuan": [
+        "COMM3150",
+        "COMM3720",
+        "COMM6100"
+    ],
+    "Sean Anderson": [
+        "POLS4434",
+        "POLS3331",
+        "POLS2202"
+    ],
+    "Michael Ashkin": [
+        "ART1401"
+    ],
+    "Victoria Beard": [
+        "CRP1101",
+        "CRP1102"
+    ],
+    "Roberto Bertoia": [
+        "ART3499",
+        "ART2401",
+        "ART1301"
+    ],
+    "Nancy Brooks": [
+        "CRP5120",
+        "CRP5450",
+        "CRP4040"
+    ],
+    "Thomas Campanella": [
+        "CRP1100",
+        "CRP5820",
+        "CRP5190"
+    ],
+    "John Carruthers": [
+        "CRP3270"
+    ],
+    "Lily Chi": [
+        "ARCH4609"
+    ],
+    "David Costanza": [
+        "ORSC1109",
+        "ORSC4146"
+    ],
+    "Renate Ferro": [
+        "ART2701"
+    ],
+    "George Frantz": [
+        "CRP5555",
+        "CRP3555",
+        "CRP2000",
+        "CRP2110"
+    ],
+    "Nicholas Klein": [
+        "ECN2565"
+    ],
+    "Neema Kudva": [
+        "CRP1106",
+        "CRP1101",
+        "CRP3201",
+        "CRP5130"
+    ],
+    "Medina Lasansky": [
+        "ARCH1801",
+        "ARCH1301",
+        "ARCH6816"
+    ],
+    "Leeza Meksin": [
+        "ART3299",
+        "ARTM2511",
+        "PAINT2011"
+    ],
+    "Elisabeth Meyer": [
+        "ART2301",
+        "ART3005",
+        "ART2103",
+        "ART1402",
+        "ART2502",
+        "ART1301"
+    ],
+    "Martin Miller": [
+        "HIS1325",
+        "HIS3031",
+        "HIS1010",
+        "HIS3490"
+    ],
+    "Carl Ostendarp": [
+        "ART2201",
+        "ART3202"
+    ],
+    "Maria Park": [
+        "ART3201",
+        "ART2201"
+    ],
+    "Jolene Rickard": [
+        "VISST2000",
+        "VIST2000",
+        "ART3699",
+        "HIST3400",
+        "AIS1101",
+        "FGSS3990"
+    ],
+    "Stephan Schmidt": [
+        "CRP3840",
+        "CRP5080",
+        "CRP4080",
+        "CRP3540",
+        "GIS4080"
+    ],
+    "Linda Shi": [
+        "CRP5130"
+    ],
+    "Andrea Simitch": [
+        "ARCH5116",
+        "ARCH3101",
+        "ARCH2101",
+        "ARCH2102"
+    ],
+    "Daniel Torop": [
+        "ART2601"
+    ],
+    "Sasa Zivkovic": [
+        "ARCH1101",
+        "MAE4900"
+    ],
+    "Gerard Aching": [
+        "ARSC3010"
+    ],
+    "Barry Adams": [
+        "COSC1047",
+        "COSC1046",
+        "COSC1056",
+        "COSC2206",
+        "MATH2066",
+        "COSC2956"
+    ],
+    "Leslie Adelson": [
+        "GERST4100",
+        "GERST1109",
+        "GERST3210"
+    ],
+    "Nick Admussen": [
+        "ASIAN2212",
+        "ASIAN3329",
+        "ASIAN3307"
+    ],
+    "Frederick Ahl": [
+        "CLASS3645",
+        "CLASS2601",
+        "CLASS3646"
+    ],
+    "Chloe Ahmann": [
+        "ANTHR1400",
+        "ANTHR1101"
+    ],
+    "Glenn Altschuler": [
+        "AMST2020"
+    ],
+    "Benjamin Anderson": [
+        "ARTH3255"
+    ],
+    "Nozomi Ando": [
+        "CHEM2870"
+    ],
+    "Elizabeth Anker": [
+        "AMST1100",
+        "AMST1011",
+        "AMST1050",
+        "AMST2120",
+        "HONR2048",
+        "PSC1100",
+        "ENGL2570"
+    ],
+    "N\u2019Dri Assi\u00e9-Lumumba": [
+        "AMST1500"
+    ],
+    "Kevin Attell": [
+        "ENGL1170",
+        "ENGL2060"
+    ],
+    "Ewa Bachminska": [
+        "POLSH1131",
+        "ROMS1120"
+    ],
+    "Andrea Bachner": [
+        "COML4704",
+        "COML2030",
+        "COML1127"
+    ],
+    "Dan Barbasch": [
+        "MATH1910",
+        "MATH3320",
+        "MATH1120"
+    ],
+    "Jeremy Baskin": [
+        "CHEM4500"
+    ],
+    "John Barwick": [
+        "HIST1431",
+        "HIST2985",
+        "HIST4440",
+        "CAPS2985"
+    ],
+    "Panle Barwick": [
+        "ECON4906"
+    ],
+    "Ernesto Bassi": [
+        "HIST6132",
+        "HIST1970",
+        "HIST1950"
+    ],
+    "David Bateman": [
+        "GOVT3112",
+        "AMST3112"
+    ],
+    "Rachel Bean": [
+        "ASTRO2211"
+    ],
+    "James Bell": [
+        "ENG1153"
+    ],
+    "Daryl Bem": [
+        "PSYCH4700"
+    ],
+    "Mabel Berezin": [
+        "SOC3750",
+        "SOC4540"
+    ],
+    "Judith Bernstock": [
+        "ARTH2600",
+        "ARTH3605"
+    ],
+    "Louis Billera": [
+        "MATH3360",
+        "MATH2940"
+    ],
+    "Adrienne Bitar": [
+        "AMST2145",
+        "HIST2885",
+        "HIST1886",
+        "HIST1850"
+    ],
+    "Anne Blackburn": [
+        "REL4462",
+        "ASIAN4462"
+    ],
+    "Fredric Bogel": [
+        "ENGL3380",
+        "ENGL3300"
+    ],
+    "Carole Boyce Davies": [
+        "ASRC1816",
+        "ASRC3310",
+        "ASRC4507",
+        "ENGL3510"
+    ],
+    "Jeremy Braddock": [
+        "ENGL3670",
+        "ENGL1270",
+        "ENGL2040",
+        "ENG3760"
+    ],
+    "Laura Brown": [
+        "ENGL1105",
+        "ENGL4350"
+    ],
+    "Happiness Bulugu": [
+        "SWAHL1100",
+        "SWAH1100",
+        "ASRC1100"
+    ],
+    "Xiaodong Cao": [
+        "MATH3210",
+        "MATH1120",
+        "MATH1110",
+        "MATH1910"
+    ],
+    "Allen Carlson": [
+        "GOVT3827",
+        "GOVT3957"
+    ],
+    "Calum Carmichael": [
+        "RELST4260",
+        "COML3260",
+        "RELST3280"
+    ],
+    "David Cassel": [
+        "ENGR2433",
+        "MECH4244",
+        "ENGR2523"
+    ],
+    "Jian Chen": [
+        "HIST2571",
+        "CAPS2570",
+        "ASIAN2570"
+    ],
+    "Peng Chen": [
+        "CHEM3020",
+        "CHEM2090"
+    ],
+    "Zhihong Chen": [
+        "NBA6150"
+    ],
+    "Eric Cheyfitz": [
+        "AIIS1100",
+        "AIS2600",
+        "AIIS2600",
+        "ENGL3560",
+        "ENG2600"
+    ],
+    "Tanzeem Choudhury": [
+        "INFO4120",
+        "INFO1300"
+    ],
+    "David Collum": [
+        "CHEM3590"
+    ],
+    "Benjamin Cornwell": [
+        "SOC3650",
+        "SOC1101",
+        "SOC1011"
+    ],
+    "Barbara Correll": [
+        "ENGL2270",
+        "ENGL1270",
+        "ENGL3200"
+    ],
+    "Raymond Craib": [
+        "HIST1960"
+    ],
+    "Brian Crane": [
+        "CHEM2070",
+        "CHEM2090",
+        "CHEM2080"
+    ],
+    "Csaba Csaki": [
+        "PHYS4443",
+        "PHYS2213",
+        "PHYS2214"
+    ],
+    "Jonathan Culler": [
+        "ENGL2045"
+    ],
+    "James Cutting": [
+        "PSYCH2050",
+        "PSYCH2500"
+    ],
+    "Iftikhar Dadi": [
+        "ARTH2600"
+    ],
+    "Stuart Arrowsmith Davis": [
+        "ENGL2080",
+        "ENGL1271",
+        "ENGL1270",
+        "ENGL1250",
+        "ENGL2880",
+        "ENG1147"
+    ],
+    "Peter Dear": [
+        "HIST1942",
+        "HIST4122",
+        "HIST1941",
+        "STS1941",
+        "HIST4120"
+    ],
+    "Brett de Bary": [
+        "ASIAN3318"
+    ],
+    "Keith Dennis": [
+        "MATH4340",
+        "MATH3320"
+    ],
+    "Timothy DeVoogd": [
+        "PSYCH2230",
+        "PSYCH3320"
+    ],
+    "Naminata Diabate": [
+        "COML4947",
+        "FGSS4947",
+        "COML2290"
+    ],
+    "Stephanie Alison Divo": [
+        "CHIN1101",
+        "CHIN1102",
+        "CHIN1160"
+    ],
+    "Laura Donaldson": [
+        "ENGL1168",
+        "ENGL2030"
+    ],
+    "Yue Mara Du": [
+        "HIST2132",
+        "HIST1920"
+    ],
+    "Laurent Dubreuil": [
+        "FREN4860",
+        "FREN3870",
+        "FREN3210"
+    ],
+    "Gerald Dugan": [
+        "EDUC1300",
+        "GUST1270",
+        "TECA1311"
+    ],
+    "David Dunning": [
+        "PSYCH2650"
+    ],
+    "Hisam Elaqad": [
+        "ARABIC4120",
+        "ARAB1102",
+        "ARABIC4106",
+        "ARA4111"
+    ],
+    "Veit Elser": [
+        "PHYS2217",
+        "PHYS6561",
+        "P3318",
+        "PHYS3318",
+        "PHYS3341"
+    ],
+    "Juan Manuel Escalona Torres": [
+        "SPAN1230",
+        "SPAN2090"
+    ],
+    "Darlene Evans": [
+        "WRIT1420",
+        "WRIT1370",
+        "ENG1400",
+        "WRIT1400",
+        "ENGL1140"
+    ],
+    "Elizabeth Evans": [
+        "CHILD2223",
+        "CD3031",
+        "CD0534",
+        "CHILD0526"
+    ],
+    "Jerel Ezell": [
+        "ASRC4002"
+    ],
+    "Gregory Ezra": [
+        "CHEM3890",
+        "CHEM3900"
+    ],
+    "Ziad Fahmy": [
+        "NES2670",
+        "NES2747",
+        "NES2674",
+        "NES4605",
+        "NES2672",
+        "HIST2674"
+    ],
+    "Oren Falk": [
+        "HIST1180",
+        "HIST1660",
+        "HIST2742",
+        "HIST1510",
+        "HISTO4444"
+    ],
+    "Grant Farred": [
+        "ASRC1851",
+        "ASRC3022"
+    ],
+    "David Faulkner": [
+        "ENGL1191",
+        "FWS1170"
+    ],
+    "Robert Fay": [
+        "QMB3200",
+        "QMB2100",
+        "STA2023",
+        "STAT2303"
+    ],
+    "David Feldshuh": [
+        "PMA3880",
+        "PMA3815",
+        "THETR3980"
+    ],
+    "Gail Fine": [
+        "PHIL2200"
+    ],
+    "Barbara Finlay": [
+        "BIONB4230",
+        "BIONB2342"
+    ],
+    "Cheryl Finley": [
+        "ENGL1000",
+        "ENG1000",
+        "ENG1001",
+        "ENG2000",
+        "ENGL1001"
+    ],
+    "Cristina Florea": [
+        "HIST2969"
+    ],
+    "Gustavo Flores-Macias": [
+        "GOVT3293"
+    ],
+    "Chiara Formichi": [
+        "HIST4408",
+        "ASIAN2208",
+        "ASIAN2247"
+    ],
+    "Jason Frank": [
+        "GOVT1615",
+        "GOV3120"
+    ],
+    "Jill Frank": [
+        "GOVT1101"
+    ],
+    "Chelsea Frazier": [
+        "HIST1483",
+        "HIST1493"
+    ],
+    "Jack Freed": [
+        "CHEM2870"
+    ],
+    "David Freund": [
+        "MATH1110",
+        "MATH1920"
+    ],
+    "Debra Fried": [
+        "ENGL2045",
+        "FWS2702",
+        "ENGL3610"
+    ],
+    "Valentina Fulginiti": [
+        "ITAL1202",
+        "ROMS1113",
+        "ITAL1201"
+    ],
+    "Sergio Garcia-Rios": [
+        "GOVT2152",
+        "GOVT3990",
+        "GOVT4283",
+        "LSP4283"
+    ],
+    "Thomas Gilovich": [
+        "PSYCH2800"
+    ],
+    "Daniel Gold": [
+        "ASIAN4402",
+        "ASIAN4467"
+    ],
+    "Paul Goldsmith": [
+        "ARC2412",
+        "BLDGS3333",
+        "BS3375"
+    ],
+    "Seema Golestaneh": [
+        "NES2722"
+    ],
+    "Mitchell Greenberg": [
+        "FREN4160"
+    ],
+    "Sandra Greene": [
+        "HIST3652",
+        "HIST2308"
+    ],
+    "Davydd Greenwood": [
+        "ANTHR2472",
+        "ANTHR1130"
+    ],
+    "Leonard Gross": [
+        "MATH6110",
+        "MATH7130"
+    ],
+    "Yuval Grossman": [
+        "PHYS3317",
+        "PHYS3327",
+        "PHYS4444",
+        "PHYS3318"
+    ],
+    "Sol Gruner": [
+        "PHYS2207",
+        "PHYS2208"
+    ],
+    "John Guckenheimer": [
+        "MATH1910",
+        "MATH2310",
+        "MATH2230",
+        "MATH4130"
+    ],
+    "Edward Gunn": [
+        "ASIAN4410"
+    ],
+    "Sabine Haenni": [
+        "AMST2760",
+        "AMST1101",
+        "AMST3465",
+        "FILM2760",
+        "AMST3812",
+        "FILM3750"
+    ],
+    "Daniel Halpern-Leistner": [
+        "MATH1340",
+        "MATH1920",
+        "MATH2210"
+    ],
+    "Ellis Hanson": [
+        "ENGL1191",
+        "ENGL3552",
+        "ENGL2760",
+        "ENG2780",
+        "ENGL3550"
+    ],
+    "Rebecca Harris-Warrick": [
+        "MUSIC1202",
+        "MUSIC2207",
+        "MUSIC2241"
+    ],
+    "Thomas Hartman": [
+        "PHYS1116"
+    ],
+    "Allen Hatcher": [
+        "MATH3320",
+        "MATH2220",
+        "MATH1220"
+    ],
+    "Alexander Hayes": [
+        "ASTRO2202"
+    ],
+    "Douglas Heckathorn": [
+        "SOC2460"
+    ],
+    "John Henderson": [
+        "ANTHR1200",
+        "ARKEO3255",
+        "ANTHRO1200",
+        "ARKEO1200"
+    ],
+    "Ronald Herring": [
+        "GOVT1313",
+        "GOV1313"
+    ],
+    "Terry Herter": [
+        "ASTRO2211",
+        "ASTRO1101",
+        "ASTRO1103"
+    ],
+    "TJ Hinrichs": [
+        "HIST1740",
+        "HIST2562",
+        "CAPS2262",
+        "HIST2209",
+        "ASIAN1174"
+    ],
+    "Molly Hite": [
+        "ENGL1270"
+    ],
+    "Harold Hodes": [
+        "MATH3840",
+        "PHIL2310",
+        "PHIL4261",
+        "PHIL2300",
+        "PHIL2610"
+    ],
+    "Tara Holm": [
+        "MATH1110",
+        "MATH4310",
+        "MATH1120"
+    ],
+    "David Holmberg": [
+        "ANTHR1140",
+        "ANTHR3420",
+        "ANTH1400",
+        "ANTHR1400"
+    ],
+    "Yongmiao Hong": [
+        "ECON6190",
+        "ECON3130",
+        "ECON3190"
+    ],
+    "Cary Howie": [
+        "FREN3770",
+        "ROMS1102",
+        "MEDIEVAL3570"
+    ],
+    "Juliana Hu Pegues": [
+        "POL1019",
+        "AMIN1001"
+    ],
+    "Karolina H\u00fcbner": [
+        "PHIL3180",
+        "PHIL2220",
+        "PHIL3535",
+        "PHIL3222",
+        "PHIL2510"
+    ],
+    "Isabel Hull": [
+        "HIST3080"
+    ],
+    "Mary Ann Huntley": [
+        "MATH1110"
+    ],
+    "Gene Hwang": [
+        "MATH1101",
+        "MATH1105",
+        "MATH1710"
+    ],
+    "Ngampit Jagacinski": [
+        "THAI1101",
+        "THAI2202"
+    ],
+    "Karen Jaime": [
+        "PMA3754"
+    ],
+    "Ray Jayawardhana": [
+        "ASTIO1201"
+    ],
+    "Kurt Jordan": [
+        "ANTHR2720",
+        "AIIS1100",
+        "ANTHR2235",
+        "AIS1100",
+        "ARTH2101",
+        "ANTHR1162"
+    ],
+    "Peter Kahn": [
+        "MATH3560",
+        "MATH3040",
+        "MATH2210"
+    ],
+    "Rachana Kamtekar": [
+        "PHIL2200",
+        "PHIL3460",
+        "FWSPHIL1112",
+        "PHIL1112"
+    ],
+    "Steven Kaplan": [
+        "HIST2740",
+        "HIST4621"
+    ],
+    "Mary Katzenstein": [
+        "GOVT3141",
+        "GOV1102",
+        "GOVT3140",
+        "GOV4003"
+    ],
+    "Patricia Keller": [
+        "SPAN4825",
+        "SPAN4750",
+        "SPAN3910",
+        "SPAN2730",
+        "SPAN2230"
+    ],
+    "William Kennedy": [
+        "ENGL3490"
+    ],
+    "Yu Yu Khaing": [
+        "BURM1121"
+    ],
+    "Lori Khatchadourian": [
+        "ARKEO2010"
+    ],
+    "Nicholas Kiefer": [
+        "ECON3340"
+    ],
+    "Eun-Ah Kim": [
+        "PHYS1116",
+        "PHYS7636",
+        "PHYS2218"
+    ],
+    "Jonathan Kirshner": [
+        "GOVT3809",
+        "GOVT1817",
+        "GOV1817"
+    ],
+    "Richard Klein": [
+        "FRLIT3860"
+    ],
+    "Michael Koch": [
+        "ENGL3820"
+    ],
+    "Julilly Kohler-Hausmann": [
+        "HIST1640",
+        "HIST2680",
+        "HIST2423",
+        "AMST2682"
+    ],
+    "Michelle Kosch": [
+        "PHIL3250",
+        "PHIL2240"
+    ],
+    "Isaac Kramnick": [
+        "GOVT1615",
+        "GOVT3665",
+        "GOVT6075",
+        "GOVT3655",
+        "GOV1650"
+    ],
+    "Amy Krosch": [
+        "PSYCH4800"
+    ],
+    "Clement Lai": [
+        "AAS3000"
+    ],
+    "Claudia Lazzaro": [
+        "ARTH2400",
+        "ARTH3443",
+        "ARTHI2400"
+    ],
+    "Robert Lennon": [
+        "ENGL1134"
+    ],
+    "Bruce Levitt": [
+        "PMA4681",
+        "ENGL4820",
+        "PMA2682"
+    ],
+    "Philip Lewis": [
+        "MUAC1504"
+    ],
+    "Daniel Lichter": [
+        "PAM2030"
+    ],
+    "Hening Lin": [
+        "CHEM4500",
+        "CHEM3600"
+    ],
+    "Alexander Livingston": [
+        "GOV3785",
+        "GOVT3785",
+        "GOVT3675"
+    ],
+    "Kathleen Long": [
+        "FREN1108",
+        "FRLIT1108"
+    ],
+    "Richard Lovelace": [
+        "MATH2900"
+    ],
+    "Michael Lovenheim": [
+        "PAM3100",
+        "PAM3550",
+        "PAM3300"
+    ],
+    "Theodore Lowi": [
+        "GOVT1111"
+    ],
+    "Michael Lynch": [
+        "STS3011",
+        "BSOC3011"
+    ],
+    "Scott MacDonald": [
+        "PHIL1112",
+        "RELST2630"
+    ],
+    "Mukul Majumdar": [
+        "ECON4050",
+        "ECON3370",
+        "ECON3130",
+        "HIST3130",
+        "ECON4160"
+    ],
+    "Sturt Manning": [
+        "CLASS2729"
+    ],
+    "Vida Maralani": [
+        "SOC3010",
+        "SOC6020"
+    ],
+    "Phillip Marcus": [
+        "PHYS1402",
+        "BIOL2420"
+    ],
+    "Patchen Markell": [
+        "GOVT1615",
+        "GOV1615"
+    ],
+    "Robert Masson": [
+        "ECON3030",
+        "ECON3130"
+    ],
+    "Grit Matthias Phelps": [
+        "GERST3080",
+        "GERST1210"
+    ],
+    "Patrizia McBride": [
+        "GERST1170"
+    ],
+    "Kaja McGowan": [
+        "ARTH3850",
+        "ARTH3855",
+        "ARTH1129"
+    ],
+    "Laura Meixner": [
+        "ARTH3765",
+        "ARTH6761"
+    ],
+    "David Mermin": [
+        "MATH1715",
+        "MATH1613",
+        "MATH1483"
+    ],
+    "Andrew Mertha": [
+        "GOV1101",
+        "GOVT3403",
+        "GOVT1313",
+        "GOVT4000",
+        "GOVT2403",
+        "CAPS2403"
+    ],
+    "Marilyn Migiel": [
+        "ITAL2240",
+        "ROMS1102",
+        "ITAL2970",
+        "ITAL1210"
+    ],
+    "Richard Miller": [
+        "PHIL3460",
+        "PHIL1940",
+        "PHIL1490",
+        "GOVT2940"
+    ],
+    "Beth Milles": [
+        "PMA2810",
+        "PMA4660",
+        "THETR1770"
+    ],
+    "Francesca Molinari": [
+        "ECON3140",
+        "ECON3210",
+        "ECON3190"
+    ],
+    "Chris Monroe": [
+        "ARKEO2668",
+        "NES2522",
+        "NES2668",
+        "ARKEO2552",
+        "ARKEO2661",
+        "NES2661",
+        "HIST2668"
+    ],
+    "Jonathan Monroe": [
+        "COML2030",
+        "COML2020",
+        "COML3800",
+        "ENGL3910",
+        "COML1109",
+        "COML4290"
+    ],
+    "Lauren Monroe": [
+        "NES2724",
+        "NES3588",
+        "NS2550",
+        "NES2550",
+        "NES3270"
+    ],
+    "Erich Mueller": [
+        "PHYS2207",
+        "PHYS2208",
+        "PHYS3317"
+    ],
+    "Kelly Musick": [
+        "PAM3120",
+        "PAM4470",
+        "PAM2030"
+    ],
+    "John Najemy": [
+        "HIST3500",
+        "HIST3501"
+    ],
+    "Jess Newman": [
+        "GSWS2000"
+    ],
+    "Mukoma Wa Ngugi": [
+        "ASRC2770"
+    ],
+    "Michael Niemack": [
+        "PHYS2217",
+        "PHYS1116"
+    ],
+    "Mary Beth Norton": [
+        "ASTRO1700",
+        "HIST2090"
+    ],
+    "Alexander Ophir": [
+        "PSYCH3220"
+    ],
+    "Jeffrey Palmer": [
+        "ITNW2373",
+        "ITMT1450"
+    ],
+    "An-yi Pan": [
+        "ARTH4820",
+        "ASIAN2280",
+        "ARH4816",
+        "ARTH3820",
+        "ARTH3800"
+    ],
+    "Hayden Pelliccia": [
+        "GREEK1101"
+    ],
+    "Thomas Pepinsky": [
+        "GOVT3443",
+        "GOVT3273",
+        "GOVT1101"
+    ],
+    "Maxim Perelstein": [
+        "PHYS3327",
+        "PHYS4443",
+        "PHYS2213"
+    ],
+    "Charles Peterson": [
+        "MATH0305"
+    ],
+    "Daniel Pfeffer": [
+        "MMHA6050"
+    ],
+    "Benjamin Piekut": [
+        "MUSIC2260",
+        "MUSIC2280"
+    ],
+    "Karen Pinkus": [
+        "COML2021",
+        "COML3110",
+        "ITAL2204",
+        "HCC2021"
+    ],
+    "Robert Pohl": [
+        "ECON4000"
+    ],
+    "Steven Pond": [
+        "MUSIC1101",
+        "FWS1701",
+        "MUSIC1313",
+        "MUSIC1111"
+    ],
+    "Rachel Prentice": [
+        "BSOC2051",
+        "COMM3560",
+        "INFO3560"
+    ],
+    "Pietro Pucci": [
+        "CLAS2603",
+        "GREEK2140",
+        "ITGC2603"
+    ],
+    "Chen Qiu": [
+        "ADM1340",
+        "ADM2342",
+        "ADM2341",
+        "BUSI1004",
+        "BUSI1005",
+        "BUSI1001"
+    ],
+    "Natasha Raheja": [
+        "ANTHR2400",
+        "ANTH2400"
+    ],
+    "Lucinda Ramberg": [
+        "LGBT2421",
+        "FGSS2421",
+        "FGSS2010",
+        "ANTHR4490",
+        "FGSS2290"
+    ],
+    "Don Randel": [
+        "EDUC1300"
+    ],
+    "Mary Kathryn Redmond": [
+        "SPAN2090",
+        "SPAN1250",
+        "SPAN1120",
+        "SPAN1210"
+    ],
+    "Adriana Reyes": [
+        "PAM3180"
+    ],
+    "Kenneth Roberts": [
+        "GOVT3290",
+        "GOVT1313"
+    ],
+    "David Rosen": [
+        "BIO1002",
+        "BIO1001",
+        "BIO3020",
+        "BIO3121"
+    ],
+    "Bryn Rosenfeld": [
+        "GOVT2283"
+    ],
+    "Margaret Rossiter": [
+        "STS1121"
+    ],
+    "Diane Rubenstein": [
+        "GOVT4051"
+    ],
+    "Jeffrey Rusten": [
+        "CLAS2651",
+        "CLASS2605",
+        "CLASS2651"
+    ],
+    "Neil Saccamano": [
+        "ENGL2725",
+        "ENGL4315",
+        "ENGL1131",
+        "ENGL1270"
+    ],
+    "Aaron Sachs": [
+        "HIST4262",
+        "HIST3452",
+        "BSOC2581",
+        "HIST2581",
+        "HIST3150"
+    ],
+    "Nicholas Salvato": [
+        "PMA3751",
+        "THETR2160"
+    ],
+    "Nicholas Salvatore": [
+        "ILR1100",
+        "ILRLR1100",
+        "ILR3860",
+        "ILRLR3860",
+        "ILRLR3042",
+        "ILRLH1100",
+        "ILRLH3860",
+        "ILRCB3042",
+        "AMST1240",
+        "ILRCB1100"
+    ],
+    "Shirley Samuels": [
+        "ENGLISH2030",
+        "ENGL2030"
+    ],
+    "Elizabeth Sanders": [
+        "GOVT3161",
+        "GOVT4990",
+        "GOVT6121",
+        "HIST3021"
+    ],
+    "Steven Sangren": [
+        "ANTHR3000",
+        "ANTH3000",
+        "ANTHR4543"
+    ],
+    "Maria Savella": [
+        "TAG3302"
+    ],
+    "Dmitry Savransky": [
+        "MAE4060",
+        "MAE2030"
+    ],
+    "Paul Sawyer": [
+        "ENG4415",
+        "ENGL2680",
+        "ENGL3670"
+    ],
+    "Alfred Schatz": [
+        "MATH4220",
+        "MATH6220"
+    ],
+    "Britney Schmidt": [
+        "EAS1601"
+    ],
+    "Frank Schroeder": [
+        "CHEM6250"
+    ],
+    "Anette Schwarz": [
+        "GERST3330",
+        "GERST3350",
+        "GERST2700",
+        "GERST2250"
+    ],
+    "Daniel Schwarz": [
+        "ENGL2580",
+        "ENG3000"
+    ],
+    "Shankar Sen": [
+        "MATH1120",
+        "MATH4330",
+        "MATH4340",
+        "MATH2210",
+        "MATH7860"
+    ],
+    "Gavriel Shapiro": [
+        "COML1109",
+        "RUSSL3335",
+        "RUSSL3385",
+        "RUSSL3334"
+    ],
+    "Harry Shaw": [
+        "ENGL1270",
+        "ENGL2740",
+        "ENGL3390"
+    ],
+    "Martin Shefter": [
+        "GOVT3111",
+        "GOV3111"
+    ],
+    "David Shoemaker": [
+        "PHIL1100"
+    ],
+    "Albert Sievers": [
+        "PHYS2217",
+        "PHYS2216"
+    ],
+    "Nicholas Silins": [
+        "PHIL4620",
+        "PHIL3510"
+    ],
+    "Jason Simms": [
+        "ANT2000"
+    ],
+    "Sujata Singh": [
+        "HIND1102",
+        "HINDI1101",
+        "HINDI1102"
+    ],
+    "Rebecca Slayton": [
+        "STS3181",
+        "SOC2100",
+        "STS2011"
+    ],
+    "Meredith Small": [
+        "ANTH3305",
+        "ANTHR3305"
+    ],
+    "Anna Marie Smith": [
+        "GOVT3635"
+    ],
+    "David Smith": [
+        "PSYCH2330",
+        "PSYCH2230"
+    ],
+    "Robert Smith": [
+        "ILRLE2400",
+        "LE2400"
+    ],
+    "Dotsevi Sogah": [
+        "CHEM3330",
+        "CHEM3590",
+        "CHEM3580"
+    ],
+    "Gordon Stacey": [
+        "ASTRO3303",
+        "ASTRO1195"
+    ],
+    "Deborah Starr": [
+        "COML3799",
+        "NES2728"
+    ],
+    "Robert Stern": [
+        "HD1170"
+    ],
+    "Byron Suber": [
+        "PMA3210",
+        "PMA2300"
+    ],
+    "Richard Swedberg": [
+        "SOC3750"
+    ],
+    "Olufemi Taiwo": [
+        "ASRC1500"
+    ],
+    "Keith Taylor": [
+        "HIST3312"
+    ],
+    "Qiuyun Teng": [
+        "CHIN2201",
+        "CHIN2202",
+        "CHIN4411"
+    ],
+    "Felix Thoemmes": [
+        "HD4750"
+    ],
+    "Julia Thom": [
+        "PHYS1112",
+        "PHYS4444"
+    ],
+    "Nafissa Thompson-Spires": [
+        "ENGL2800"
+    ],
+    "Robert Thorne": [
+        "PHYS1204",
+        "PHYS2214",
+        "PHYS1112",
+        "PHY2214"
+    ],
+    "Pamela Tolbert": [
+        "ILROB5200",
+        "ILROB1220"
+    ],
+    "Robert Travers": [
+        "HIST2760",
+        "HIST1400",
+        "HIST3101"
+    ],
+    "Irina Troconis": [
+        "SPAN2150"
+    ],
+    "Scott Tucker": [
+        "MUSIC3356"
+    ],
+    "Henry Tye": [
+        "PHYS2213"
+    ],
+    "Marten van Schijndel": [
+        "CS4744",
+        "LING4434",
+        "LING4424"
+    ],
+    "Astrid Van Oyen": [
+        "CLASS2712",
+        "ARKEO3738",
+        "ARTH2711",
+        "SHUM2711",
+        "CLASS2711",
+        "CLASS3738"
+    ],
+    "Joseph Veverka": [
+        "ASTRO2202"
+    ],
+    "Helena Viramontes": [
+        "ENGL3820",
+        "ENGL1270",
+        "ENGL3320"
+    ],
+    "Kora von Wittelsbach": [
+        "ROMS1115",
+        "ITAL1401",
+        "ROMS1108",
+        "ITAL1210",
+        "ITAL3130",
+        "ITAL1113",
+        "ITA3130",
+        "JWST2720",
+        "GOVT3323",
+        "PAM3320",
+        "ITALI3130",
+        "ITAL1230"
+    ],
+    "Jeremy Wallace": [
+        "GOVT3044"
+    ],
+    "Maureen Waller": [
+        "PAM4160",
+        "SOC4160",
+        "PAM3350"
+    ],
+    "Henry Wan": [
+        "ECON4510",
+        "ECON3040",
+        "ECON3140",
+        "ECON3110",
+        "ECON4450",
+        "ECON4730"
+    ],
+    "Jane Wang": [
+        "MAE4230"
+    ],
+    "Michelle Wang": [
+        "MGT3120",
+        "MGT3000",
+        "MGT3300"
+    ],
+    "Ding Xiang Warner": [
+        "ASIAN2271",
+        "CAPS3307",
+        "CHILT4420",
+        "ASIAN1101",
+        "CHLIT4420",
+        "ASIAN2241"
+    ],
+    "Sara Warner": [
+        "PMA3755",
+        "PMA1700",
+        "PMA6825",
+        "THEAT2400"
+    ],
+    "James Webster": [
+        "MUSIC1105",
+        "MUSC1701"
+    ],
+    "John Weiss": [
+        "HIST4600",
+        "HIST2791",
+        "HIST3710"
+    ],
+    "Shelley Wong": [
+        "ENGL2620"
+    ],
+    "Xin Xu": [
+        "ITEC2120",
+        "ITEC1001",
+        "ITEC2140",
+        "ITECH2140",
+        "ITEC2110",
+        "ITEC4450",
+        "DIGME1102",
+        "ITEC1101",
+        "ITEC3100",
+        "ITEC1201",
+        "ITECH1001"
+    ],
+    "Benjamin Yost": [
+        "PHIL1960"
+    ],
+    "Samantha Zacher": [
+        "ENGL1191",
+        "ENGL6180",
+        "ENGL4180"
+    ],
+    "Neal Zaslaw": [
+        "MUSIC3310"
+    ],
+    "Draga Zec": [
+        "LING4401"
+    ],
+    "Xin Zhou": [
+        "MATH4130"
+    ],
+    "Daniel Barbash": [
+        "BIOMG2800"
+    ],
+    "Brooks Crickard": [
+        "BIOMG3350"
+    ],
+    "Peter Davies": [
+        "BIOPL2420"
+    ],
+    "Tobias D\u00f6rr": [
+        "BIOMI2900"
+    ],
+    "Cedric Feschotte": [
+        "BIOL3315"
+    ],
+    "John Fitzpatrick": [
+        "PHIL1010",
+        "PHIL4250",
+        "PHIL0000"
+    ],
+    "Joseph Fromme": [
+        "BIOMG1350",
+        "BIOMG3350",
+        "BIOMG2810"
+    ],
+    "Maria Gandolfo": [
+        "ENG8002",
+        "ENGH0802",
+        "ENG0802"
+    ],
+    "William Ghiorse": [
+        "BIOMI2900"
+    ],
+    "Michael Goldberg": [
+        "BIOMG2801",
+        "BIOMG2810",
+        "BIO2810",
+        "BIOG2810",
+        "BIOGD2810"
+    ],
+    "Susan Henry": [
+        "BIOMG1150",
+        "BIOMG2800"
+    ],
+    "James Morin": [
+        "BIOEE2780"
+    ],
+    "Karl Niklas": [
+        "BIOPL2410",
+        "PLBIO2410",
+        "BIOPL4480",
+        "PLBIO4480",
+        "BIOPL2430",
+        "BIOPL2401"
+    ],
+    "Thomas Owens": [
+        "BIOG1440",
+        "BIO1440",
+        "BIOG1101",
+        "BIOG2000",
+        "BIO2000",
+        "BIOPL3420",
+        "BIOL2000",
+        "BIOLG2000"
+    ],
+    "Kern Reeve": [
+        "BIONB2100",
+        "BIONB2210"
+    ],
+    "Jeffrey Roberts": [
+        "HIST3410",
+        "HIST4620",
+        "HIST3360",
+        "HIST4570",
+        "HON4013",
+        "HIST4730",
+        "HIST2010",
+        "HIST5570",
+        "HIST2410",
+        "HIST2020",
+        "ENG1110"
+    ],
+    "Eric Schwarz": [
+        "GSC7650"
+    ],
+    "Bik-Kwoon Tye": [
+        "BIOMG3350"
+    ],
+    "Volker Vogt": [
+        "BIOMG4320"
+    ],
+    "Charles Walcott": [
+        "BIONB2100",
+        "BIOG1012",
+        "BIO1012"
+    ],
+    "Melissa Warden": [
+        "BIONB4370",
+        "BIONB2220"
+    ],
+    "Xiangtao Xu": [
+        "BIOEE1610"
+    ],
+    "Stephen Zinder": [
+        "BIOMI2900",
+        "BIOMI4140"
+    ],
+    "Stephen Jesch": [
+        "BIOMG4400",
+        "BIOMG1350"
+    ],
+    "Susan Merkel": [
+        "BIOMI2500",
+        "BIOM2500",
+        "BIO2500",
+        "BIOMI2911"
+    ],
+    "Stephen Bloom": [
+        "NS6110"
+    ],
+    "Fay-Wei Li": [
+        "BTRY4080"
+    ],
+    "James Liebherr": [
+        "ENTOM3330",
+        "ENTOM2120"
+    ],
+    "Andrew Nelson": [
+        "BIOEE1610",
+        "BIOEE4570"
+    ],
+    "Sorina Popescu": [
+        "BCH4603"
+    ],
+    "Eric Richards": [
+        "BUSL1419"
+    ],
+    "John Schimenti": [
+        "BIOMG4000",
+        "BIOGD4000"
+    ],
+    "Dennis Stevenson": [
+        "AMH2020",
+        "AMH2010",
+        "AMH1020",
+        "EUH1000",
+        "LAH2020",
+        "AMH2223"
+    ],
+    "Andrew Bass": [
+        "BIONB4200",
+        "BIONB2220"
+    ],
+    "William Brown": [
+        "MATH1401"
+    ],
+    "David Deitcher": [
+        "BIONB3950"
+    ],
+    "Joseph Fetcho": [
+        "BIONB2220"
+    ],
+    "Jesse Goldberg": [
+        "BIONB2210",
+        "BIONB2220"
+    ],
+    "Christine Goodale": [
+        "BIOEE1610"
+    ],
+    "Nelson Hairston": [
+        "BIOEE1610",
+        "BIOEE4570"
+    ],
+    "William Lai": [
+        "SW3510",
+        "SW3100"
+    ],
+    "Siu Sylvia Lee": [
+        "BIOMG4370"
+    ],
+    "Christine Linster": [
+        "BIONB3330"
+    ],
+    "Linda Nicholson": [
+        "BIOMG3310",
+        "BIOMG6310"
+    ],
+    "Thomas Seeley": [
+        "BIONB4350",
+        "BIOG1440"
+    ],
+    "Kathleen Kelly": [
+        "PUR6416",
+        "PUR4932",
+        "PUR3801",
+        "PUR3800",
+        "PUR3000"
+    ],
+    "John Cisne": [
+        "EAS1109",
+        "EAS1700",
+        "EAS1101",
+        "EAS1090"
+    ],
+    "Yoav Artzi": [
+        "CS5740"
+    ],
+    "Kavita Bala": [
+        "CS4670"
+    ],
+    "David Bindel": [
+        "CS6210"
+    ],
+    "Kenneth Birman": [
+        "CS5412",
+        "CS4414",
+        "CS2110"
+    ],
+    "Jeremy Birnholtz": [
+        "INFO2450",
+        "COMM2450"
+    ],
+    "Ahmed El Alauoi": [
+        "BTRY3080",
+        "STSCI3080"
+    ],
+    "Jeff Hancock": [
+        "INFO2450",
+        "COMM1840",
+        "COMM2450",
+        "COMM4500"
+    ],
+    "Wendy Ju": [
+        "PSYC3210",
+        "PSYC3250",
+        "PSYC3260"
+    ],
+    "Ari Juels": [
+        "CL1000"
+    ],
+    "Carl Lagoze": [
+        "INFO4302",
+        "CS4302",
+        "INFO1300"
+    ],
+    "Hod Lipson": [
+        "MAE2250",
+        "CS4700"
+    ],
+    "Steve Marschner": [
+        "CS4620"
+    ],
+    "David Matteson": [
+        "ORIE5640",
+        "ENGRD2700"
+    ],
+    "Helen Nissenbaum": [
+        "INFO5436"
+    ],
+    "Rafael Pass": [
+        "CS2800"
+    ],
+    "David Ruppert": [
+        "ORIE4630",
+        "STSCI2150",
+        "ORIE3120"
+    ],
+    "Noah Snavely": [
+        "CS4670",
+        "CS1114"
+    ],
+    "Matt Wilkens": [
+        "INFO2950",
+        "INFO3350"
+    ],
+    "Xiaolong Yang": [
+        "STSCI5065",
+        "STSCI4060",
+        "STSCI5060"
+    ],
+    "Ramin Zabih": [
+        "CS5112",
+        "IS5400",
+        "CS3110"
+    ],
+    "Shannon Gleeson": [
+        "ILRLR2810",
+        "ILRLR2060",
+        "ILRIC2350"
+    ],
+    "Jeff Niederdeppe": [
+        "COMM2820",
+        "COM2820"
+    ],
+    "Sharon Tennyson": [
+        "PAM3301",
+        "PAM3400",
+        "PAM4240",
+        "PAM3440"
+    ],
+    "Tolunay Aydemir": [
+        "HUN2201"
+    ],
+    "Daniel Berry": [
+        "NS3150",
+        "NS3159"
+    ],
+    "Martha Field": [
+        "NS3320"
+    ],
+    "John Hoddinott": [
+        "AEM6485"
+    ],
+    "Elizabeth Johnson": [
+        "THEO3610",
+        "THEO1810",
+        "THEO3000",
+        "THEO1000",
+        "RSRF1000",
+        "RSFU1000"
+    ],
+    "Marla Lujan": [
+        "NS3420"
+    ],
+    "Saurabh Mehta": [
+        "NS3060"
+    ],
+    "Shu-Bing Qian": [
+        "NS3200"
+    ],
+    "David Sahn": [
+        "ECON3910"
+    ],
+    "Brian Lo": [
+        "NUTR3070"
+    ],
+    "David Erickson": [
+        "ENGRD2210"
+    ],
+    "Mohamed Abdelfattah": [
+        "MBIO3410"
+    ],
+    "John Abel": [
+        "MGT1201"
+    ],
+    "Jayadev Acharya": [
+        "ECE4200"
+    ],
+    "Khurram Afridi": [
+        "ECE2100"
+    ],
+    "Warren Allmon": [
+        "EAS3010",
+        "BIOSM1780",
+        "BIOEE2070"
+    ],
+    "James Antaki": [
+        "BME4080"
+    ],
+    "Brad Anton": [
+        "CHEME3320",
+        "CHEME3130"
+    ],
+    "Alyssa Apsel": [
+        "ECE4530",
+        "ECE2100"
+    ],
+    "Lynden Archer": [
+        "CHEME3230",
+        "CHEME3130"
+    ],
+    "Thomas Avedisian": [
+        "MAE3240"
+    ],
+    "Graeme Bailey": [
+        "CS1110",
+        "CS2110",
+        "CS2800",
+        "JAVA1110"
+    ],
+    "Shefford Baker": [
+        "MSE2610",
+        "ENGRD2610"
+    ],
+    "Siddhartha Banerjee": [
+        "ORIE5580",
+        "ORIE4154",
+        "ORIE4580"
+    ],
+    "James Bisogni": [
+        "CEE1130"
+    ],
+    "Eilyan Bitar": [
+        "ECE4800",
+        "ECE3100"
+    ],
+    "Robert Bland": [
+        "ENGRI1101",
+        "ORIE4350",
+        "ORIE3300",
+        "ORIE5300",
+        "OR3300"
+    ],
+    "Lawrence Bonassar": [
+        "BME4010"
+    ],
+    "John Callister": [
+        "ENGRI1270",
+        "ORIE3150",
+        "ENGRD2700",
+        "MAE4300",
+        "MAE3230",
+        "OR3150",
+        "ORIE9100",
+        "MAE4860",
+        "MAE4610",
+        "ORIE4152",
+        "ORIE4150",
+        "ENGRI1127"
+    ],
+    "Mark Campbell": [
+        "MAE6760"
+    ],
+    "Lawrence Cathles": [
+        "EAS4010"
+    ],
+    "Alfred Center": [
+        "CHEME5000",
+        "CHEME4700"
+    ],
+    "Benjamin Cosgrove": [
+        "BME3110"
+    ],
+    "Edwin Cowen": [
+        "CEE6370",
+        "CEE3310"
+    ],
+    "Jiangang Dai": [
+        "ORIE3510",
+        "ISYE3232"
+    ],
+    "Susan Daniel": [
+        "ENGRD2190",
+        "CHEME2190"
+    ],
+    "Paul Dawson": [
+        "MAE4140"
+    ],
+    "Matthew DeLisa": [
+        "CHEME5430"
+    ],
+    "Olivier Desjardins": [
+        "MAE6010",
+        "MAE5230"
+    ],
+    "Peter Diamessis": [
+        "ENGRD3200"
+    ],
+    "Richard Dick": [
+        "ENR5263"
+    ],
+    "Kathryn Dimiduk": [
+        "ENGN1060",
+        "ENGRG1060",
+        "ENGR1060"
+    ],
+    "Ankit Disa": [
+        "AEP4200"
+    ],
+    "Eve Donnelly": [
+        "ENGRI1190"
+    ],
+    "Michael Duncan": [
+        "ENGRD2190",
+        "CHEME1120",
+        "ENGRI1120",
+        "ENGRI1112",
+        "CHEME1112",
+        "CHEME3900",
+        "MATH1920"
+    ],
+    "Christopher Earls": [
+        "ENGRI1160",
+        "CEE1160"
+    ],
+    "James Engstrom": [
+        "CHEME4840"
+    ],
+    "Rick Evans": [
+        "ENGRC3350",
+        "ENGRC3025",
+        "ENGRC3500"
+    ],
+    "Craig Fennie": [
+        "AEP5500",
+        "AEP4500",
+        "PHYS2217",
+        "PHY2217"
+    ],
+    "Silvia Ferrari": [
+        "MAE5810",
+        "MAE6780"
+    ],
+    "Oliver Gao": [
+        "SYSEN6100"
+    ],
+    "Emmanuel Giannelis": [
+        "ENGRI1110"
+    ],
+    "Andrea Giometto": [
+        "ENGRI1130"
+    ],
+    "Miguel Gomez": [
+        "HIST1020"
+    ],
+    "David Hammer": [
+        "NSE4840",
+        "MAE4590",
+        "ECE5810"
+    ],
+    "Tobias Hanrath": [
+        "CHEME3130"
+    ],
+    "Scott Heinekamp": [
+        "AEP3610"
+    ],
+    "Shane Henderson": [
+        "ORIE5581",
+        "ORIE5580",
+        "ENGRD2700",
+        "ORIE5130",
+        "ENRGD2700"
+    ],
+    "Christopher Hernandez": [
+        "ENGRI1170",
+        "MAE4640",
+        "MAE2120"
+    ],
+    "Chung Hui": [
+        "PCB3063"
+    ],
+    "Peter Jackson": [
+        "ORIE5100",
+        "ORIE3120"
+    ],
+    "Robert Jarrow": [
+        "NBA5900",
+        "NBA5550"
+    ],
+    "Debdeep Jena": [
+        "ECE4070"
+    ],
+    "James Jenkins": [
+        "MATH1920",
+        "CEE6550"
+    ],
+    "Peter Jessel": [
+        "ECE5830"
+    ],
+    "Yong Joo": [
+        "CHEME4620"
+    ],
+    "David Kammer": [
+        "CEE1160"
+    ],
+    "Edwin Kan": [
+        "ECE4960",
+        "ECE4880",
+        "ECE3030",
+        "ECE4740"
+    ],
+    "Robert Kay": [
+        "MATH0028",
+        "MAT0024",
+        "MATH1033",
+        "MATH1028",
+        "MAT1024",
+        "MATH0024",
+        "MAT0012",
+        "MAT1033"
+    ],
+    "Donald Koch": [
+        "CHEME3240"
+    ],
+    "Amit Lal": [
+        "ENGRI1820",
+        "ECE1820"
+    ],
+    "Daniel Lee": [
+        "ACT2292",
+        "ACC2291",
+        "ACT3395",
+        "ACT2291",
+        "ACCT2291",
+        "ACT2201",
+        "ACCT2206"
+    ],
+    "Mark Lewis": [
+        "ORIE3510",
+        "ENGRD2700"
+    ],
+    "Qi Li": [
+        "CEE3310"
+    ],
+    "Leonard Lion": [
+        "CEE3510"
+    ],
+    "Michel Louge": [
+        "MAE3240",
+        "MAE2250"
+    ],
+    "Douglas MacMartin": [
+        "MAE5780"
+    ],
+    "Rajit Manohar": [
+        "ECE3140"
+    ],
+    "Stephen McGuire": [
+        "BUS5000",
+        "MGMT0000"
+    ],
+    "Matthew Miller": [
+        "MAE3280",
+        "MAE2120"
+    ],
+    "Francesco Monticone": [
+        "ECE3030",
+        "ECE5970",
+        "AEP4450",
+        "ECE4380",
+        "ECE4960"
+    ],
+    "Francis Moon": [
+        "HIS1031",
+        "HST1032",
+        "HST1031"
+    ],
+    "Jeffrey Moses": [
+        "AEP2640"
+    ],
+    "David Muller": [
+        "AEP6610"
+    ],
+    "Christopher Ober": [
+        "MSE6010",
+        "MSE5420"
+    ],
+    "William Olbricht": [
+        "CHEME3230"
+    ],
+    "Francesca Parise": [
+        "ECE5960",
+        "ECE6970"
+    ],
+    "Matthew Paszek": [
+        "CHEME3720"
+    ],
+    "Mason Peck": [
+        "MAE4160",
+        "SYSEN5100"
+    ],
+    "Kirstin Petersen": [
+        "ECE3400"
+    ],
+    "Leigh Phoenix": [
+        "ENGRD2020",
+        "TAM3100"
+    ],
+    "David Putnam": [
+        "BME6310"
+    ],
+    "Patrick Reed": [
+        "HST1212"
+    ],
+    "Matthew Reid": [
+        "ENGRI1130"
+    ],
+    "James Renegar": [
+        "ORIE5370",
+        "ORIE3300",
+        "MATH2940"
+    ],
+    "Sidney Resnick": [
+        "ENGRD2700",
+        "ORIE3500"
+    ],
+    "Andy Ruina": [
+        "MAE2030",
+        "MAE5730",
+        "MAE4730",
+        "MAE4710",
+        "ENGRG1112",
+        "MAE6700",
+        "TAM2020",
+        "TAM2030",
+        "ENGRD2020"
+    ],
+    "Mert Sabuncu": [
+        "ECE4250"
+    ],
+    "Mridu Saikia": [
+        "BME3010",
+        "BME2210"
+    ],
+    "Gennady Samorodnitsky": [
+        "ORIE3500",
+        "MATH2940",
+        "ORIE3300"
+    ],
+    "Ashutosh Saxena": [
+        "CS4758",
+        "CS6780"
+    ],
+    "Christopher Schaffer": [
+        "BME4110",
+        "BME1310",
+        "ENGRI1310"
+    ],
+    "Katya Scheinberg": [
+        "MATH2940"
+    ],
+    "Charles Seyler": [
+        "ECE3030",
+        "ECE2400",
+        "ECE2100"
+    ],
+    "Elaine Shi": [
+        "CS4820",
+        "CS4830"
+    ],
+    "Christine Shoemaker": [
+        "CS5720",
+        "ENGRD3200",
+        "ORIE5340"
+    ],
+    "Emin Gun Sirer": [
+        "CS4110",
+        "CS4410"
+    ],
+    "Michael Spencer": [
+        "ECE4340"
+    ],
+    "Harry Stewart": [
+        "CEE3410"
+    ],
+    "Abraham Stroock": [
+        "CHEME3240"
+    ],
+    "Gookwon Suh": [
+        "ECE2300",
+        "ECE3140",
+        "CS3420",
+        "ECE5750",
+        "ECE4750"
+    ],
+    "Jack Thompson": [
+        "OCE2001",
+        "BSC2010",
+        "BSC1005",
+        "BIOL1101"
+    ],
+    "Michael Thompson": [
+        "MSE3030",
+        "MSE5830",
+        "MSE2620"
+    ],
+    "Lang Tong": [
+        "ECE5650",
+        "ECE5960",
+        "ECE2100",
+        "ECE2200"
+    ],
+    "Leslie Trotter": [
+        "ORIE5300",
+        "ORIE3300",
+        "ORIE3310",
+        "ENGRI1101"
+    ],
+    "Bruce Turnbull": [
+        "ENGRD2700",
+        "ENGRD2070"
+    ],
+    "Marjolein van der Meulen": [
+        "TAM2020"
+    ],
+    "Hua Wang": [
+        "PHIL2010",
+        "PHIL4950",
+        "PHIL2200"
+    ],
+    "Zellman Warhaft": [
+        "MAE4020",
+        "MAE4300",
+        "ENGRD2210"
+    ],
+    "Derek Warner": [
+        "CEE4725",
+        "CEE3720"
+    ],
+    "Chekesha Watson": [
+        "MSE5310"
+    ],
+    "Monroe Weber-Shirk": [
+        "CEE4530",
+        "CEE4540",
+        "ENGRI1131",
+        "CEE2550"
+    ],
+    "Ulrich Wiesner": [
+        "MSE6010",
+        "MSE5210"
+    ],
+    "Mark Wilde": [
+        "AEE4807",
+        "AEE5806",
+        "AEE4806",
+        "AEE4242",
+        "AEE4263",
+        "MAE2201"
+    ],
+    "Charles Williamson": [
+        "MAE3230",
+        "MAE4272"
+    ],
+    "Fengi You": [
+        "SYSEN5880",
+        "CHEME6880",
+        "SYSEN6880",
+        "SYSEN5800",
+        "SYSEN6800",
+        "CHEME6800",
+        "SYSEN5888",
+        "CHEME4620",
+        "ENGRG1050",
+        "ORIE3310"
+    ],
+    "Alan Zehnder": [
+        "MATH2930",
+        "MATH2940"
+    ],
+    "(Ke) Max Zhang": [
+        "MAE5010",
+        "ENGRD2210"
+    ],
+    "Fatma Baytar": [
+        "FSAD2650"
+    ],
+    "Charles Brainerd": [
+        "PSYCH3190",
+        "HD3190"
+    ],
+    "Marianella Casasola": [
+        "HD2830"
+    ],
+    "Eve DeRosa": [
+        "HD3250"
+    ],
+    "Yasser Gowayed": [
+        "ENGR1110",
+        "ENGR1100",
+        "FBEN4500"
+    ],
+    "Keith Green": [
+        "CMST0240"
+    ],
+    "Juan Hinestroza": [
+        "FSAD4660"
+    ],
+    "Steven Robertson": [
+        "HD3440"
+    ],
+    "Elaine Wethington": [
+        "SOC2510"
+    ],
+    "Lee Adler": [
+        "ILRLR3045",
+        "ILRIC2350",
+        "ILRLR6015",
+        "ILRLR4860",
+        "CB4865"
+    ],
+    "Ronald Applegate": [
+        "ILRLR3040",
+        "ILRLR3071",
+        "ILRLR3070",
+        "ILRLR1100",
+        "ILRLR1200"
+    ],
+    "Ariel Avgar": [
+        "ILRLR2050",
+        "ILRLR4028"
+    ],
+    "Rosemary Batt": [
+        "ILRIC2350",
+        "ILRIC2650",
+        "ILRHR6616"
+    ],
+    "Sarah Besky": [
+        "ILRIC3325",
+        "ILRIC2385"
+    ],
+    "Dina Bishara": [
+        "ILRIC4337",
+        "ILRIC2390"
+    ],
+    "Vanessa Bohns": [
+        "ILRID1520",
+        "ILROB1220",
+        "ILROB4760"
+    ],
+    "Brittany Bond": [
+        "ILROB3260"
+    ],
+    "George Boyer": [
+        "ILRLE3440",
+        "ILRIC2350",
+        "ECON3300",
+        "ENG0227"
+    ],
+    "Kate Bronfenbrenner": [
+        "ILRLR4000",
+        "ILRLR6050",
+        "ILRLR4870",
+        "ILR4040",
+        "ILRLR6870",
+        "ILRLR6890"
+    ],
+    "Alexander Colvin": [
+        "ILRLR2040",
+        "ILRLR5000"
+    ],
+    "Gary Fields": [
+        "ILRLE5400",
+        "ILR6350",
+        "ILRIC6350"
+    ],
+    "John Haggerty": [
+        "ILRHR3650",
+        "ILRHR6910",
+        "ILRHR2600"
+    ],
+    "John Hausknecht": [
+        "ILRHR2600",
+        "HR2600"
+    ],
+    "Tristan Ivory": [
+        "ILRID1530"
+    ],
+    "Lawrence Kahn": [
+        "ILRLR4030",
+        "ILRCB4030"
+    ],
+    "Harry Katz": [
+        "ILRLR2050",
+        "ILR5040",
+        "ILRCB2500"
+    ],
+    "JR Keller": [
+        "ILRHR2600",
+        "ILRHR4640",
+        "ILRHR4620"
+    ],
+    "Alexander Kowalski": [
+        "ADMS3530"
+    ],
+    "Risa Lieberwitz": [
+        "ILRLR2010",
+        "ILRCB2010",
+        "ILRCB6890"
+    ],
+    "Alice Lee": [
+        "ILROB4795"
+    ],
+    "Adam Litwin": [
+        "ILRLR2050",
+        "ILRLR5000"
+    ],
+    "Brian Lucas": [
+        "ILROB1220",
+        "OB1220",
+        "ILROB4260"
+    ],
+    "John McCarthy": [
+        "ILRLR2050"
+    ],
+    "Tejasvi Nagaraja": [
+        "ILRLR1100",
+        "ILRLR3885"
+    ],
+    "Lisa Nishii": [
+        "ILRHR2690"
+    ],
+    "Devon Proudfoot": [
+        "ILRHR2600"
+    ],
+    "Caitlin Ray": [
+        "ENGL1164",
+        "ENGLISH1150",
+        "ENGL1150"
+    ],
+    "Evan Riehl": [
+        "ILRLE2400",
+        "ECON3770",
+        "ILRLE3445"
+    ],
+    "Emily Zitek": [
+        "ILROB3760",
+        "ILROB1220"
+    ],
+    "Ho Yan Chau": [
+        "AEM4300",
+        "AEM6320"
+    ],
+    "Todd Gerarden": [
+        "AEM4515"
+    ],
+    "Benjamin Leyden": [
+        "AEM2600"
+    ],
+    "Clinton Neill": [
+        "AAEC2434"
+    ],
+    "Charles Nicholson": [
+        "AEM3430"
+    ],
+    "Ivan Rudik": [
+        "ECON3865"
+    ],
+    "Daniela Scur": [
+        "AEM2601"
+    ],
+    "James Stapp": [
+        "BCOM3113"
+    ],
+    "Chris Anderson": [
+        "GOVT1313"
+    ],
+    "Steven Carvell": [
+        "HADM2250"
+    ],
+    "Jacob Chestnut": [
+        "HADM2010"
+    ],
+    "Hae Chun": [
+        "HADM2410"
+    ],
+    "Ravinder Kingra": [
+        "HADM3350"
+    ],
+    "Heather Kolakowski": [
+        "HADM4315",
+        "HADM1360",
+        "DEA1110"
+    ],
+    "Robert Kwortnik": [
+        "HADM7430",
+        "HADM2410",
+        "HADM2430"
+    ],
+    "Daniel Lebret": [
+        "HADM4205",
+        "HADM6280",
+        "HADM4280",
+        "HADM4230",
+        "HADM4428"
+    ],
+    "Soojin Lee": [
+        "ACCT2012",
+        "ACCT2102"
+    ],
+    "Michael Lynn": [
+        "HADM2430",
+        "HADM3470"
+    ],
+    "Asis Martinez-Jerez": [
+        "HADM2210",
+        "HADM4265"
+    ],
+    "Peggy Odom-Reed": [
+        "HADM3650",
+        "HADM1150"
+    ],
+    "Marie Ozanne": [
+        "HADM1360"
+    ],
+    "Meng Qi": [
+        "COSC2436"
+    ],
+    "Daniel Quan": [
+        "HADM3210",
+        "HADM4230",
+        "HADM4423",
+        "HA4423"
+    ],
+    "Alison Shea": [
+        "HADM2720"
+    ],
+    "Yuan Shi": [
+        "ACCT2301"
+    ],
+    "Tyrell Stewart-Harris": [
+        "HADM1650",
+        "AEM2700"
+    ],
+    "Alex Susskind": [
+        "HADM1360",
+        "HADM3550",
+        "HA3305"
+    ],
+    "Simone Tang": [
+        "HADM1150"
+    ],
+    "Neil Tarallo": [
+        "HADM4145",
+        "HADM4130",
+        "HADM4144"
+    ],
+    "Kasey Tarantino": [
+        "HADM4770"
+    ],
+    "Bruce Tracey": [
+        "HADM2810"
+    ],
+    "Brad Wellstead": [
+        "HADM2550"
+    ]
+}
