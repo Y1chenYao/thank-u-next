@@ -19,10 +19,10 @@ MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
 
-mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
+# mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
 
 # Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
-mysql_engine.load_file_into_db()
+# mysql_engine.load_file_into_db()
 
 app = Flask(__name__)
 CORS(app)
@@ -49,47 +49,49 @@ with open(os.path.join(path,"course_to_prof.json"), "r") as f7:
     course_to_prof=json.load(f7) 
 with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
     prof_to_course=json.load(f8)
+with open(os.path.join(path,"course_tfidf.json"), "r") as f9:
+    course_tfidf=json.load(f9)
 prof_num, term_num = tfidf.shape
 
 
-def sql_search(professor):
-    professor = professor.lower()
-    avg_query = f"""SELECT professor, \
-        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-        FROM reviews WHERE professor = '{professor}'"""
-    data = mysql_engine.query_selector(avg_query)
-    keys = ["professor", "average_overall",
-            "average_difficulty", "average_work"]
-    data_list = list(data)
-    result_formatted = []
-    if data_list[0][0] is None:
-        return json.dumps([dict()])
-    average_overall = round(data_list[0][1], 2)
-    average_difficulty = round(data_list[0][2], 2)
-    average_work = round(data_list[0][3], 2)
-    print(average_overall)
-    # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
+# def sql_search(professor):
+#     professor = professor.lower()
+#     avg_query = f"""SELECT professor, \
+#         SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
+#         SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
+#         SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
+#         FROM reviews WHERE professor = '{professor}'"""
+#     data = mysql_engine.query_selector(avg_query)
+#     keys = ["professor", "average_overall",
+#             "average_difficulty", "average_work"]
+#     data_list = list(data)
+#     result_formatted = []
+#     if data_list[0][0] is None:
+#         return json.dumps([dict()])
+#     average_overall = round(data_list[0][1], 2)
+#     average_difficulty = round(data_list[0][2], 2)
+#     average_work = round(data_list[0][3], 2)
+#     print(average_overall)
+#     # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
 
-    alike_query = f"""
-    SELECT professor, \
-        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-    FROM reviews \
-    WHERE professor IN (SELECT prof2 FROM cossim WHERE prof1 = '{professor}') \
-    GROUP BY professor \
-    ORDER BY ABS(avg_overall - {average_overall}) ASC \
-    LIMIT 10; """    
-    # WHERE professor <> '{professor}' \
-    alike_data = list(mysql_engine.query_selector(alike_query))
-    for result in alike_data:
-        if result[0] is None:
-            break
-        result_formatted.append((result[0], str(round(result[1], 2)), str(
-            round(result[2], 2)), str(round(result[3], 2))))
-    return json.dumps([dict(zip(keys, i)) for i in result_formatted])
+#     alike_query = f"""
+#     SELECT professor, \
+#         SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
+#         SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
+#         SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
+#     FROM reviews \
+#     WHERE professor IN (SELECT prof2 FROM cossim WHERE prof1 = '{professor}') \
+#     GROUP BY professor \
+#     ORDER BY ABS(avg_overall - {average_overall}) ASC \
+#     LIMIT 10; """    
+#     # WHERE professor <> '{professor}' \
+#     alike_data = list(mysql_engine.query_selector(alike_query))
+#     for result in alike_data:
+#         if result[0] is None:
+#             break
+#         result_formatted.append((result[0], str(round(result[1], 2)), str(
+#             round(result[2], 2)), str(round(result[3], 2))))
+#     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
 def prof_name_suggest(input_prof):
     prof_scores = {}
@@ -116,21 +118,20 @@ def get_prof_keywords(input_prof):
         prof_vector.append(index_to_vocab[str(idx)])
     return prof_vector
 
-def get_sim(prof1, prof2, input_doc_mat, prof_name_to_index):
-    prof1_doc = input_doc_mat[prof_name_to_index[prof1]]
+def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
     prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
-    dot_product = np.dot(prof1_doc, prof2_doc)
-    prof1_norm = LA.norm(prof1_doc)
+    dot_product = np.dot(vector, prof2_doc)
+    vector_norm = LA.norm(vector)
     prof2_norm = LA.norm(prof2_doc)
     cossim=0
-    if prof1_norm!=0 and prof2_norm!=0:
-        cossim = dot_product / (prof1_norm * prof2_norm)
+    if vector_norm!=0 and prof2_norm!=0:
+        cossim = dot_product / (vector_norm * prof2_norm)
     return cossim
 
-def get_similar_profs(input_prof):
+def get_similar_profs(vector):
     score_arr=[]
     for i in range(prof_num):
-        temp=get_sim(input_prof, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
+        temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
     prof_ids = np.array(score_arr).argsort()[::-1][1:21]
     prof_arr=[]
@@ -140,9 +141,9 @@ def get_similar_profs(input_prof):
         prof_score.append(score_arr[idx])
     return prof_arr,prof_score
 
-def get_professor_data(input_prof):
+def get_professor_data(vector):
     data =[]
-    prof_arr,prof_score = get_similar_profs(input_prof)
+    prof_arr,prof_score = get_similar_profs(vector)
     for i,prof in enumerate(prof_arr):
         prof_kw=get_prof_keywords(prof)
         courses = prof_to_course[prof][:4]
@@ -155,14 +156,25 @@ def get_professor_data(input_prof):
         data.append(temp)
     return json.dumps(data)
 
+def search_by_prof(input_prof):
+    prof1_doc = tfidf[prof_name_to_index[input_prof]]
+    return get_professor_data(prof1_doc)
+    
+def search_by_course(input_course):
+    course_doc = np.array(course_tfidf[input_course])
+    return get_professor_data(course_doc)
+
 @app.route("/")
 def home():
     return render_template('base.html', title="sample html")
 
 @app.route("/reviews")
 def reviews_search():
-    text = request.args.get("title")
-    return get_professor_data(text)
+    prof = request.args.get("prof")
+    course = request.args.get("course")
+    if course!="":
+        return search_by_course(course)
+    return search_by_prof(prof)
 
 @app.route("/suggestion/prof")
 def suggest_prof():
@@ -174,4 +186,4 @@ def suggest_course():
     text = request.args.get("title")
     return course_name_suggest(text)
 
-# app.run(debug=True)
+app.run(debug=True)

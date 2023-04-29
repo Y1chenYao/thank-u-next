@@ -41,11 +41,12 @@ const courseAutoBox = document.querySelector("#course-auto-box")
 //query
 function sendQuery() {
   answerBox.innerHTML = "";
-  if (profInputBox.value != "") {
+  if (profInputBox.value != "" || courseInputBox.value != "") {
     fetch(
       "/reviews?" +
       new URLSearchParams({
-        title: profInputBox.value,
+        prof: profInputBox.value,
+        course: courseInputBox.value
       }).toString()
     ).then((response) => response.json())
     .then((data) =>
