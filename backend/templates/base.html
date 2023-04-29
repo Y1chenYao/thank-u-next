@@ -32,12 +32,21 @@
   <main>
     <div class="flex-box">
       <div id="side-bar">
-        <div>Tip: please use only one search bar at a time!</div>
+        <div class = "tip-box">Tip: Use drop down menu to select the prof/course you like (can be left blank). Adjust weights from 5 (most important) to 1 (least important).</div>
         <h4 class="title">Search by professor:</h4>
         <div id="prof-search-box">
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="e.g. David Gries" id="search-professor" onkeyup="loadProfSuggestion()"/>
+          <div class="flex-box">
+            <div class="input-box">
+              <img src="{{ url_for('static', filename='images/mag.png') }}" />
+              <input placeholder="e.g. David Gries" id="search-professor" onkeyup="loadProfSuggestion()"/>
+            </div>
+            <select id="prof-weight">
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
           </div>
           <div id="prof-auto-box">
           </div>
@@ -45,37 +54,55 @@
         
         <h4 class="title">Search by course:</h4>
         <div id="course-search-box">
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="e.g. CS4300" id="search-course" onkeyup="loadCourseSuggestion()"/>
+          <div class="flex-box">
+            <div class="input-box">
+              <img src="{{ url_for('static', filename='images/mag.png') }}" />
+              <input placeholder="e.g. CS4300" id="search-course" onkeyup="loadCourseSuggestion()"/>
+            </div>
+            <select id="course-weight">
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
           </div>
           <div id="course-auto-box">
           </div> 
         </div>
 
         <h4 class="title">Search by keyword:</h4>
-        <div class="input-box">
-          <img src="{{ url_for('static', filename='images/mag.png') }}" />
-          <input placeholder="Input a keyword" id="search-keyword" />
+        <div class="flex-box">
+          <div class="input-box">
+            <img src="{{ url_for('static', filename='images/mag.png') }}" />
+            <input placeholder="e.g. fun" id="search-keyword" />
+          </div>
+          <select id="free-weight">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
         </div>
 
         <button class="accordion">
           <div class="flex-container">
             <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
-            <div class="toggle-label">Filter by college</div>
+            <div class="toggle-label">Filter by department</div>
           </div>
         </button>
 
         <div class="panel">
-          <input type="checkbox" id="cas" name="college" value="cas">
+          <input type="checkbox" id="cas" name="department" value="cas">
           <label for="cas" class="checkbox-label">Arts and Sciences</label><br>
-          <input type="checkbox" id="coe" name="college" value="coe">
+          <input type="checkbox" id="coe" name="department" value="coe">
           <label for="coe" class="checkbox-label">College of Engineering</label><br>
-          <input type="checkbox" id="cis" name="college" value="senior">
+          <input type="checkbox" id="cis" name="department" value="senior">
           <label for="cis" class="checkbox-label">Bowers CIS</label>
         </div>
 
-        <button class="accordion">
+        <!-- <button class="accordion">
           <div class="flex-container">
             <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
             <div class="toggle-label">Filter by course level</div>
@@ -90,7 +117,7 @@
           <label for="2000" class="checkbox-label">2000</label><br>
           <input type="checkbox" id="1000" name="level" value="1000">
           <label for="1000" class="checkbox-label">1000</label>
-        </div>
+        </div> -->
 
         <button type="submit" onclick="sendQuery()" id="search-button">
           Search

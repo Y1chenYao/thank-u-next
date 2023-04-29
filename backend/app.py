@@ -128,22 +128,24 @@ def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
         cossim = dot_product / (vector_norm * prof2_norm)
     return cossim
 
-def get_similar_profs(vector):
+def get_similar_profs(vector,exclude_prof):
     score_arr=[]
     for i in range(prof_num):
         temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
-    prof_ids = np.array(score_arr).argsort()[::-1][1:21]
+    prof_ids = np.array(score_arr).argsort()[::-1][:20] #changed from [1:21]
     prof_arr=[]
     prof_score=[]
     for idx in prof_ids:
-        prof_arr.append(prof_index_to_name[str(idx)])
+        cur_prof = prof_index_to_name[str(idx)]
+        if exclude_prof!="" and cur_prof!=exclude_prof:
+            prof_arr.append(cur_prof)
         prof_score.append(score_arr[idx])
     return prof_arr,prof_score
 
-def get_professor_data(vector):
+def get_professor_data(vector,exclude_prof):
     data =[]
-    prof_arr,prof_score = get_similar_profs(vector)
+    prof_arr,prof_score = get_similar_profs(vector,exclude_prof)
     for i,prof in enumerate(prof_arr):
         prof_kw=get_prof_keywords(prof)
         courses = prof_to_course[prof][:4]
@@ -156,13 +158,13 @@ def get_professor_data(vector):
         data.append(temp)
     return json.dumps(data)
 
-def search_by_prof(input_prof):
+def get_prof_vec(input_prof):
     prof1_doc = tfidf[prof_name_to_index[input_prof]]
-    return get_professor_data(prof1_doc)
+    return prof1_doc
     
-def search_by_course(input_course):
+def get_course_vec(input_course):
     course_doc = np.array(course_tfidf[input_course])
-    return get_professor_data(course_doc)
+    return course_doc
 
 @app.route("/")
 def home():
@@ -172,9 +174,23 @@ def home():
 def reviews_search():
     prof = request.args.get("prof")
     course = request.args.get("course")
+    
+    fine_tune_coeff = 2
+    prof_weight = int(request.args.get("prof_weight"))
+    course_weight = int(request.args.get("course_weight"))*fine_tune_coeff
+    
+    total_weight = 0
+    total_vector = np.zeros(932)
+    if prof!="":
+        total_weight+=prof_weight
+        total_vector+=get_prof_vec(prof)*prof_weight
     if course!="":
-        return search_by_course(course)
-    return search_by_prof(prof)
+        total_weight+=course_weight
+        total_vector+=get_course_vec(course)*course_weight
+    if total_weight == 0:
+        return None
+    total_vector/=total_weight
+    return get_professor_data(total_vector,prof)
 
 @app.route("/suggestion/prof")
 def suggest_prof():

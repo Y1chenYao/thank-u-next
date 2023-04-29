@@ -38,6 +38,9 @@ const courseInputBox = document.querySelector("#search-course")
 const courseSearchBox = document.querySelector("#course-search-box")
 const courseAutoBox = document.querySelector("#course-auto-box")
 
+const profWeight = document.querySelector("#prof-weight")
+const courseWeight = document.querySelector("#course-weight")
+
 //query
 function sendQuery() {
   answerBox.innerHTML = "";
@@ -46,7 +49,9 @@ function sendQuery() {
       "/reviews?" +
       new URLSearchParams({
         prof: profInputBox.value,
-        course: courseInputBox.value
+        course: courseInputBox.value,
+        prof_weight: profWeight.value,
+        course_weight: courseWeight.value
       }).toString()
     ).then((response) => response.json())
     .then((data) =>
