@@ -83,9 +83,9 @@ function sendQuery() {
           ? answerBoxTemplate(
             row.professor,
             row.department,
-            scoreToLevel(row.average_overall),
-            scoreToLevel(row.average_difficulty),
-            scoreToLevel(row.average_workload),
+            scoreToLevel(row.overall),
+            scoreToLevel(row.difficulty),
+            scoreToLevel(row.workload),
             row.keyword,
             row.tier,
             row.similarity,
