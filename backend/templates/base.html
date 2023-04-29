@@ -98,6 +98,30 @@
 
       <div id="main-table">
         <div id="answer-box"></div>
+        <div class="flex-box result">
+          <div class="left">
+            <h3 class="professor-name">adsfads</h3>
+            <p class="info"><b>Department: </b></p>
+            <p class="info"><b>Difficulty: </b>afdfasd</p>
+            <p class="info"><b>Workload: </b>sdfs</p>
+            <div id="vote-buttons">
+              <button type="submit" onclick=upvoted() class="vote-button">
+                <img src="static/images/plus.png" alt="plus button" />
+              </button>
+
+              <button type="submit" onclick=downvoted() class="vote-button">
+                <img src="static/images/minus.png" alt="minus button" />
+              </button>
+            </div>
+          </div>
+          <div class="right">
+            <p class="info"><b>Past Courses: </b></p>
+            <p class="info"><b>Keywords: </b></p>
+            <p class="info"><b>Reviews: </b></p>
+            <div class="review"></div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -109,6 +133,15 @@
               <p class="info"><b>Department: </b></p>
               <p class="info"><b>Difficulty: </b>${difficulty}</p>
               <p class="info"><b>Workload: </b>${workload}</p>
+              <div id="vote-buttons">
+              <button type="submit" onclick=upvoted() class="vote-button">
+                <img src="static/images/plus.png" alt="plus button" />
+              </button>
+
+              <button type="submit" onclick=downvoted() class="vote-button">
+                <img src="static/images/minus.png" alt="minus button" />
+              </button>
+            </div>
             </div>
             <div class="right">
               <p class="info"><b>Past Courses: </b></p>
@@ -126,7 +159,6 @@
               </button>
             </div>
 
-
           </div>`;
       }
 
@@ -137,10 +169,12 @@
       }
 
       function downvoted() {
+        console.log("downvoted");
 
       }
 
       function upvoted() {
+        console.log("upvoted");
 
       }
 
@@ -222,7 +256,7 @@
           });
         }
       }
-
+      answerBoxTemplate(name, overall, difficulty, workload)
       function load_prof_suggestion() {
         const inputBox = document.querySelector("#search-professor")
         const searchBox = document.querySelector("#search-box")
