@@ -109,20 +109,19 @@ def course_name_suggest(input_course):
     sorted_courses = sorted(course_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([course[0] for course in sorted_courses])
 
-def get_prof_keywords(any_prof,exclude_prof):
+def get_prof_keywords(any_prof,vector):
     prof_id=prof_name_to_index[any_prof]
     term_scores=np.array(tfidf[prof_id])
     term_ids = term_scores.argsort()[::-1][:8]
     prof_kw=[]
     for idx in term_ids:
         prof_kw.append(index_to_vocab[str(idx)])
-    kw_tier = get_correlation_by_keyword(term_ids,any_prof,exclude_prof)
+    kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
     return prof_kw, kw_tier
 
-def get_correlation_by_keyword(term_ids,any_prof,exclude_prof):
+def get_correlation_by_keyword(term_ids,any_prof,vector):
     prof1_doc = tfidf[prof_name_to_index[any_prof]]
-    prof2_doc = tfidf[prof_name_to_index[exclude_prof]]
-    correlation = np.multiply(prof1_doc,prof2_doc)
+    correlation = np.multiply(prof1_doc,vector)
     kw_score=[]
     for idx in term_ids:
         kw_score.append(correlation[idx])
@@ -139,7 +138,6 @@ def get_correlation_by_keyword(term_ids,any_prof,exclude_prof):
             kw_tier.append(2)
         else:
             kw_tier.append(1)
-    # print(kw_tier)
     return kw_tier
 
 def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
@@ -162,16 +160,17 @@ def get_similar_profs(vector,exclude_prof):
     prof_score=[]
     for idx in prof_ids:
         cur_prof = prof_index_to_name[str(idx)]
-        if exclude_prof!="" and cur_prof!=exclude_prof: #not sending the prof searched
-            prof_arr.append(cur_prof)
-            prof_score.append(score_arr[idx])
+        if cur_prof==exclude_prof: #not sending the prof searched
+            continue
+        prof_arr.append(cur_prof)
+        prof_score.append(score_arr[idx])
     return prof_arr,prof_score
 
 def get_professor_data(vector,exclude_prof):
     data =[]
     prof_arr,prof_score = get_similar_profs(vector,exclude_prof)
     for i,prof in enumerate(prof_arr):
-        prof_kw, kw_tier=get_prof_keywords(prof,exclude_prof)
+        prof_kw, kw_tier=get_prof_keywords(prof,vector)
         courses = prof_to_course[prof][:4]
         temp = {
             "professor": prof,
