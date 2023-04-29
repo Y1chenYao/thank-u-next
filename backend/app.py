@@ -60,7 +60,9 @@ with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
     prof_to_review=json.load(f11)
 prof_num, term_num = tfidf.shape
 
-
+"""
+note: functions for edit distance in dropdowns
+"""
 def prof_name_suggest(input_prof):
     prof_scores = {}
     for prof in prof_list:
@@ -68,7 +70,6 @@ def prof_name_suggest(input_prof):
         prof_scores[prof] = score
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([prof[0] for prof in sorted_profs])
-
 def course_name_suggest(input_course):
     course_scores = {}
     for course in course_list:
@@ -77,6 +78,10 @@ def course_name_suggest(input_course):
     sorted_courses = sorted(course_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([course[0] for course in sorted_courses])
 
+"""
+input: any_prof (string of prof), vector (any weight vector with length 932)
+output: keyword list with tiers 0 (most relevant),1,2 (least relevant)
+"""
 def get_prof_keywords(any_prof,vector):
     prof_id=prof_name_to_index[any_prof]
     term_scores=np.array(tfidf[prof_id])
@@ -86,7 +91,7 @@ def get_prof_keywords(any_prof,vector):
         prof_kw.append(index_to_vocab[str(idx)])
     kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
     return prof_kw, kw_tier
-
+#helper function for get_prof_keywords
 def get_correlation_by_keyword(term_ids,any_prof,vector):
     prof1_doc = tfidf[prof_name_to_index[any_prof]]
     correlation = np.multiply(prof1_doc,vector)
@@ -94,8 +99,8 @@ def get_correlation_by_keyword(term_ids,any_prof,vector):
     for idx in term_ids:
         kw_score.append(correlation[idx])
     kw_rank=np.array(kw_score).argsort()[::-1] #ranking of keyword ids by correlation
-    first_third = len(kw_rank)//3 #0,1,2
-    second_third = len(kw_rank)-len(kw_rank)//3 #5,6,7
+    first_third = len(kw_rank)//3
+    second_third = len(kw_rank)-len(kw_rank)//3
     first_third_threshold = kw_score[first_third]
     second_third_threshold = kw_score[second_third]
     kw_tier=[]
@@ -108,16 +113,11 @@ def get_correlation_by_keyword(term_ids,any_prof,vector):
             kw_tier.append(1)
     return kw_tier
 
-def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
-    prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
-    dot_product = np.dot(vector, prof2_doc)
-    vector_norm = LA.norm(vector)
-    prof2_norm = LA.norm(prof2_doc)
-    cossim=0
-    if vector_norm!=0 and prof2_norm!=0:
-        cossim = dot_product / (vector_norm * prof2_norm)
-    return cossim
-
+"""
+note: helper function for get_professor_data
+input: vector (any weight vector with length 932), exclude_prof (prof in the search bar)
+output: prof_arr (array of relevant profs), prof_score (array of similarity scores)
+"""
 def get_similar_profs(vector,exclude_prof):
     score_arr=[]
     for i in range(prof_num):
@@ -133,7 +133,21 @@ def get_similar_profs(vector,exclude_prof):
         prof_arr.append(cur_prof)
         prof_score.append(score_arr[idx])
     return prof_arr,prof_score
+#helper function for get_similar_profs
+def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
+    prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
+    dot_product = np.dot(vector, prof2_doc)
+    vector_norm = LA.norm(vector)
+    prof2_norm = LA.norm(prof2_doc)
+    cossim=0
+    if vector_norm!=0 and prof2_norm!=0:
+        cossim = dot_product / (vector_norm * prof2_norm)
+    return cossim
 
+"""
+input: vector (any weight vector with length 932), exclude_prof (prof in the search bar)
+output: json for html
+"""
 def get_professor_data(vector,exclude_prof):
     data =[]
     prof_arr,prof_score = get_similar_profs(vector,exclude_prof)
@@ -155,11 +169,11 @@ def get_professor_data(vector,exclude_prof):
         }
         data.append(temp)
     return json.dumps(data)
-
+#helper function for get_professor_data
 def get_prof_vec(input_prof):
     prof1_doc = tfidf[prof_name_to_index[input_prof]]
     return prof1_doc
-    
+#helper function for get_professor_data
 def get_course_vec(input_course):
     course_doc = np.array(course_tfidf[input_course])
     return course_doc
@@ -173,7 +187,7 @@ def reviews_search():
     prof = request.args.get("prof")
     course = request.args.get("course")
     
-    fine_tune_coeff = 2
+    fine_tune_coeff = 1.2
     prof_weight = int(request.args.get("prof_weight"))
     course_weight = int(request.args.get("course_weight"))*fine_tune_coeff
     
