@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>{% block title %}{% endblock %} - Flask</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <title>{% block title %}{% endblock %} - Flask</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
-  rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
+    rel="stylesheet"
+  />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="static/script.js" async></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="static/script.js" async></script>
+  </head>
 
-<body>
-  <header>
-    <div class="parent">
-      <div id="white-space"></div>
-      <div id="header">
-        <h1>Cornell Professor Recommendation</h1>
+  <body>
+    <header>
+      <div class="parent">
+        <div id="white-space"></div>
+        <div id="header">
+          <h1>Cornell Professor Recommendation</h1>
+        </div>
+        <div id="bubble">
+          <img src="../static/images/bubble.png" alt="text bubble" />
+        </div>
+        <div id="bear">
+          <img id="bear" src="../static/images/bear.png" alt="bear logo" />
+        </div>
       </div>
-      <div id="bubble">
-        <img src="../static/images/bubble.png" alt="text bubble" />
-      </div>
-      <div id="bear">
-        <img id="bear" src="../static/images/bear.png" alt="bear logo" />
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div class="flex-box">
-      <div id="side-bar">
-        <div>Tip: please use only one search bar at a time!</div>
-        <h4 class="title">Search by professor:</h4>
-        <div id="prof-search-box">
+    <main>
+      <div class="flex-box">
+        <div id="side-bar">
+          <div>Tip: please use only one search bar at a time!</div>
+          <h4 class="title">Search by professor:</h4>
+          <div id="prof-search-box">
+            <div class="input-box">
+              <img src="{{ url_for('static', filename='images/mag.png') }}" />
+              <input
+                placeholder="e.g. David Gries"
+                id="search-professor"
+                onkeyup="loadProfSuggestion()"
+              />
+            </div>
+            <div id="prof-auto-box"></div>
+          </div>
+
+          <h4 class="title">Search by course:</h4>
+          <div id="course-search-box">
+            <div class="input-box">
+              <img src="{{ url_for('static', filename='images/mag.png') }}" />
+              <input
+                placeholder="e.g. CS4300"
+                id="search-course"
+                onkeyup="loadCourseSuggestion()"
+              />
+            </div>
+            <div id="course-auto-box"></div>
+          </div>
+
+          <h4 class="title">Search by keyword:</h4>
           <div class="input-box">
             <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="e.g. David Gries" id="search-professor" onkeyup="loadProfSuggestion()"/>
+            <input placeholder="Input a keyword" id="search-keyword" />
           </div>
-          <div id="prof-auto-box">
-          </div>
-        </div>
-        
-        <h4 class="title">Search by course:</h4>
-        <div id="course-search-box">
-          <div class="input-box">
-            <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="e.g. CS4300" id="search-course" onkeyup="loadCourseSuggestion()"/>
-          </div>
-          <div id="course-auto-box">
-          </div> 
-        </div>
 
-        <h4 class="title">Search by keyword:</h4>
-        <div class="input-box">
-          <img src="{{ url_for('static', filename='images/mag.png') }}" />
-          <input placeholder="Input a keyword" id="search-keyword" />
-        </div>
+          <button class="accordion">
+            <div class="flex-container">
+              <img
+                src="{{ url_for('static', filename='images/filter.png') }}"
+                class="filter-image"
+              />
+              <div class="toggle-label">Filter by college</div>
+            </div>
+          </button>
 
-        <button class="accordion">
-          <div class="flex-container">
-            <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
-            <div class="toggle-label">Filter by college</div>
+          <div class="panel">
+            <input type="checkbox" id="cas" name="college" value="cas" />
+            <label for="cas" class="checkbox-label">Arts and Sciences</label
+            ><br />
+            <input type="checkbox" id="coe" name="college" value="coe" />
+            <label for="coe" class="checkbox-label"
+              >College of Engineering</label
+            ><br />
+            <input type="checkbox" id="cis" name="college" value="senior" />
+            <label for="cis" class="checkbox-label">Bowers CIS</label>
           </div>
-        </button>
 
-        <div class="panel">
-          <input type="checkbox" id="cas" name="college" value="cas">
-          <label for="cas" class="checkbox-label">Arts and Sciences</label><br>
-          <input type="checkbox" id="coe" name="college" value="coe">
-          <label for="coe" class="checkbox-label">College of Engineering</label><br>
-          <input type="checkbox" id="cis" name="college" value="senior">
-          <label for="cis" class="checkbox-label">Bowers CIS</label>
-        </div>
-
-        <button class="accordion">
-          <div class="flex-container">
-            <img src="{{ url_for('static', filename='images/filter.png') }}" class="filter-image"/>
-            <div class="toggle-label">Filter by course level</div>
+          <button class="accordion">
+            <div class="flex-container">
+              <img
+                src="{{ url_for('static', filename='images/filter.png') }}"
+                class="filter-image"
+              />
+              <div class="toggle-label">Filter by course level</div>
+            </div>
+          </button>
+          <div class="panel">
+            <input type="checkbox" id="4000" name="level" value="4000" />
+            <label for="4000" class="checkbox-label">4000</label><br />
+            <input type="checkbox" id="3000" name="level" value="3000" />
+            <label for="3000" class="checkbox-label">3000</label><br />
+            <input type="checkbox" id="2000" name="level" value="2000" />
+            <label for="2000" class="checkbox-label">2000</label><br />
+            <input type="checkbox" id="1000" name="level" value="1000" />
+            <label for="1000" class="checkbox-label">1000</label>
           </div>
-        </button>
-        <div class="panel">
-          <input type="checkbox" id="4000" name="level" value="4000">
-          <label for="4000" class="checkbox-label">4000</label><br>
-          <input type="checkbox" id="3000" name="level" value="3000">
-          <label for="3000" class="checkbox-label">3000</label><br>
-          <input type="checkbox" id="2000" name="level" value="2000">
-          <label for="2000" class="checkbox-label">2000</label><br>
-          <input type="checkbox" id="1000" name="level" value="1000">
-          <label for="1000" class="checkbox-label">1000</label>
+
+          <button type="submit" onclick="sendQuery()" id="search-button">
+            Search
+          </button>
         </div>
 
-        <button type="submit" onclick="sendQuery()" id="search-button">
-          Search
-        </button>
+        <div id="main-table">
+          <div id="answer-box"></div>
+        </div>
       </div>
-
-      <div id="main-table">
-        <div id="answer-box"></div>
-      </div>
-    </div>
     </main>
   </body>
 </html>
-

@@ -6,6 +6,7 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
+from random import sample
 
 # ROOT_PATH for linking with all your files.
 # Feel free to use a config.py or settings.py with a global export variable
@@ -15,7 +16,8 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 # Don't worry about the deployment credentials, those are fixed
 # You can use a different DB name if you want to
 MYSQL_USER = "root"
-MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
+# MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
+MYSQL_USER_PASSWORD = ""
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
 
@@ -49,6 +51,12 @@ with open(os.path.join(path,"course_to_prof.json"), "r") as f7:
     course_to_prof=json.load(f7) 
 with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
     prof_to_course=json.load(f8)
+with open(os.path.join(path,"prof_to_department.json"), "r") as f9:
+    prof_to_department=json.load(f9)
+with open(os.path.join(path,"prof_scores.json"), "r") as f10:
+    prof_scores=json.load(f10)
+with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
+    prof_to_review=json.load(f11)
 prof_num, term_num = tfidf.shape
 
 
@@ -145,12 +153,18 @@ def get_professor_data(input_prof):
     prof_arr,prof_score = get_similar_profs(input_prof)
     for i,prof in enumerate(prof_arr):
         prof_kw=get_prof_keywords(prof)
+        department = prof_to_department[prof]
         courses = prof_to_course[prof][:4]
         temp = {
             "professor": prof,
-            "keyword":prof_kw,
-            "similarity":round(prof_score[i], 3),
-            "course":courses
+            "overall": prof_scores[prof][0],
+            "difficulty": prof_scores[prof][1],
+            "workload": prof_scores[prof][2],
+            "department": (', ').join(department),
+            "keyword": (', ').join(prof_kw),
+            "similarity": round(prof_score[i], 3),
+            "course": (', ').join(courses),
+            "review": sample(prof_to_review[prof], 1)
         }
         data.append(temp)
     return json.dumps(data)

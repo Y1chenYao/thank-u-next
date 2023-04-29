@@ -109,7 +109,7 @@ html {
   cursor: pointer;
 }
 
-#search-button:hover{
+#search-button:hover {
   background-color: #c85353;
 }
 
@@ -128,7 +128,7 @@ html {
   cursor: pointer;
 }
 
-#suggest-button:hover{
+#suggest-button:hover {
   background-color: #c85353;
 }
 
@@ -147,9 +147,10 @@ html {
 
 .left {
   background-color: white;
-  margin: 0px 10px 0px 20px;
-  padding: 5px 15px 20px 15px;
-  width: 40%;
+  margin: 0px 5px 0px 20px;
+  padding: 5px 10px 20px 15px;
+  width: 30%;
+  /* border: 1px black solid; */
 }
 
 .left p {
@@ -159,8 +160,8 @@ html {
 .right {
   background-color: white;
   margin: 0px 20px 0px 10px;
-  padding: 80px 15px 20px 15px;
-  width: 60%;
+  padding: 80px 15px 20px 10px;
+  width: 70%;
 }
 
 .right p {
@@ -172,9 +173,12 @@ html {
 }
 
 .review {
-  height: 80px;
+  /* height: 100px; */
   background-color: lightgrey;
+  padding: 15px;
   margin-bottom: 20px;
+  line-height: 25px;
+  font-size: medium;
 }
 
 .filter-image {
@@ -192,7 +196,7 @@ html {
   justify-content: center;
   outline: none;
   transition: 0.4s;
-  font-size:16px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 6px;
   margin-top: 6px;
@@ -203,13 +207,14 @@ html {
   flex-wrap: wrap;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
 
-.toggle-label{
+.toggle-label {
   padding-top: 6px;
-  padding-left:12px;
+  padding-left: 12px;
 }
 
 .panel {
@@ -219,24 +224,24 @@ html {
   overflow: hidden;
 }
 
-.checkbox-label{
+.checkbox-label {
   padding: 0px;
-  margin:6px;
+  margin: 6px;
   font-size: 15px;
 }
 
-#prof-auto-box{
+#prof-auto-box {
   box-shadow: 0 3px 10px #ccc;
   max-width: 98%;
 }
 
-#prof-auto-box li{
+#prof-auto-box li {
   list-style: none;
   padding: 3px 16px;
   display: none;
 }
 
-#prof-search-box.active #prof-auto-box li{
+#prof-search-box.active #prof-auto-box li {
   display: block;
 }
 
@@ -244,29 +249,29 @@ html {
   background-color: #fff;
 }
 
-#prof-auto-box li:hover{
+#prof-auto-box li:hover {
   background-color: #efefef;
 }
 
-#course-auto-box{
+#course-auto-box {
   box-shadow: 0 3px 10px #ccc;
   max-width: 98%;
 }
 
-#course-auto-box li{
+#course-auto-box li {
   list-style: none;
   padding: 3px 16px;
   display: none;
 }
 
-#course-search-box.active #course-auto-box li{
+#course-search-box.active #course-auto-box li {
   display: block;
 }
 
-#course-search-box{
+#course-search-box {
   background-color: #fff;
 }
 
-#course-auto-box li:hover{
+#course-auto-box li:hover {
   background-color: #efefef;
 }
