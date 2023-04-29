@@ -7,30 +7,21 @@ from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
 from random import sample
+import spacy
+from spacy.tokenizer import Tokenizer
 
-# ROOT_PATH for linking with all your files.
-# Feel free to use a config.py or settings.py with a global export variable
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
-# These are the DB credentials for your OWN MySQL
-# Don't worry about the deployment credentials, those are fixed
-# You can use a different DB name if you want to
+#deprecate db
 MYSQL_USER = "root"
 MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
-
 mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
-
-# Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
 mysql_engine.load_file_into_db()
 
 app = Flask(__name__)
 CORS(app)
-
-# Sample search, the LIKE operator in this case is hard-coded,
-# but if you decide to use SQLAlchemy ORM framework,
-# there's a much better and cleaner way to do this
 
 #data loaded
 path= "./static/json"
@@ -59,6 +50,16 @@ with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
 with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
     course_tfidf=json.load(f12)
 prof_num, term_num = tfidf.shape
+
+#preparing model and tokens
+nlp = spacy.load('en_core_web_md')
+token_raw=""
+for k,v in index_to_vocab.items():
+    token_raw+=v
+    token_raw+=" "
+token_raw=token_raw[:-1]
+tokenizer = Tokenizer(nlp.vocab)
+tokens = tokenizer(token_raw)
 
 """
 note: functions for edit distance in dropdowns
@@ -123,7 +124,7 @@ def get_similar_profs(vector,exclude_prof):
     for i in range(prof_num):
         temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
-    prof_ids = np.array(score_arr).argsort()[::-1][:20]
+    prof_ids = np.array(score_arr).argsort()[::-1][:50]
     prof_arr=[]
     prof_score=[]
     for idx in prof_ids:
@@ -169,14 +170,27 @@ def get_professor_data(vector,exclude_prof):
         }
         data.append(temp)
     return json.dumps(data)
-#helper function for get_professor_data
+
 def get_prof_vec(input_prof):
     prof1_doc = tfidf[prof_name_to_index[input_prof]]
     return prof1_doc
-#helper function for get_professor_data
+
 def get_course_vec(input_course):
     course_doc = np.array(course_tfidf[input_course])
     return course_doc
+
+def get_free_search_kw_and_vec(input_keyword):
+    scores=[]
+    similar_word=nlp(input_keyword)
+    for token in tokens:
+        scores.append(similar_word.similarity(token))
+    indices=np.argsort(scores)[::-1][:10]
+    kw_list = []
+    vector = np.zeros(932)
+    for i in indices:
+        kw_list.append(index_to_vocab[str(i)])
+        vector[i]=1
+    return kw_list, vector
 
 @app.route("/")
 def home():
@@ -186,10 +200,12 @@ def home():
 def reviews_search():
     prof = request.args.get("prof")
     course = request.args.get("course")
+    free = request.args.get("free")
     
-    fine_tune_coeff = 1.2
+    fine_tune_coeff = 1.5
     prof_weight = int(request.args.get("prof_weight"))
     course_weight = int(request.args.get("course_weight"))*fine_tune_coeff
+    free_weight = int(request.args.get("free_weight"))
     
     total_weight = 0
     total_vector = np.zeros(932)
@@ -199,6 +215,10 @@ def reviews_search():
     if course!="":
         total_weight+=course_weight
         total_vector+=get_course_vec(course)*course_weight
+    if free!="":
+        total_weight+=free_weight
+        free_kw_list, free_vector = get_free_search_kw_and_vec(free)
+        total_vector+=free_vector
     if total_weight == 0:
         return None
     total_vector/=total_weight

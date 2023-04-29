@@ -59,21 +59,24 @@ const profAutoBox = document.querySelector("#prof-auto-box")
 const courseInputBox = document.querySelector("#search-course")
 const courseSearchBox = document.querySelector("#course-search-box")
 const courseAutoBox = document.querySelector("#course-auto-box")
-
+const freeInputBox = document.querySelector("#search-free")
 const profWeight = document.querySelector("#prof-weight")
 const courseWeight = document.querySelector("#course-weight")
+const freeWeight = document.querySelector("#free-weight")
 
 //query
 function sendQuery() {
   answerBox.innerHTML = "";
-  if (profInputBox.value != "" || courseInputBox.value != "") {
+  if (profInputBox.value != "" || courseInputBox.value != "" || freeInputBox.value !="") {
     fetch(
       "/reviews?" +
       new URLSearchParams({
         prof: profInputBox.value,
         course: courseInputBox.value,
+        free: freeInputBox.value,
         prof_weight: profWeight.value,
-        course_weight: courseWeight.value
+        course_weight: courseWeight.value,
+        free_weight:freeWeight.value
       }).toString()
     ).then((response) => response.json())
     .then((data) =>
