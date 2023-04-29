@@ -16,7 +16,7 @@ function answerBoxTemplate(name,
   similarity,
   course,
   review) {
-  console.log(tier)
+  // console.log(tier)
   return `<div class="flex-box">
       <div class="vote-button-group">
         <button type="submit" onclick="updateRelevance()" id="upvote">
@@ -77,7 +77,7 @@ function sendQuery() {
       }).toString()
     ).then((response) => response.json())
     .then((data) =>
-      data.forEach((row) => {
+      data.filter(v=>checkDepartment(v)).forEach((row) => {
         let tempDiv = document.createElement("div");
         tempDiv.innerHTML = row.professor
           ? answerBoxTemplate(
@@ -215,4 +215,16 @@ for (var i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
+}
+
+//department select
+//range and approx imported from department.js
+const departmentBox = document.querySelector("#department")
+function checkDepartment(prof){
+  if(range.includes(departmentBox.value)){
+    const cat=approx[departmentBox.value]
+    return prof.department.includes(cat)
+  }else{
+    return true
+  }
 }

@@ -50,14 +50,14 @@ with open(os.path.join(path,"course_to_prof.json"), "r") as f7:
     course_to_prof=json.load(f7) 
 with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
     prof_to_course=json.load(f8)
-with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
-    course_tfidf=json.load(f12)
 with open(os.path.join(path,"prof_to_department.json"), "r") as f9:
     prof_to_department=json.load(f9)
 with open(os.path.join(path,"prof_scores.json"), "r") as f10:
     prof_scores=json.load(f10)
 with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
     prof_to_review=json.load(f11)
+with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
+    course_tfidf=json.load(f12)
 prof_num, term_num = tfidf.shape
 
 """
@@ -160,7 +160,7 @@ def get_professor_data(vector,exclude_prof):
             "overall": prof_scores[prof][0],
             "difficulty": prof_scores[prof][1],
             "workload": prof_scores[prof][2],
-            "department": (', ').join(department),
+            "department": department,
             "keyword":prof_kw,
             "tier":kw_tier,
             "similarity":round(prof_score[i], 3),
