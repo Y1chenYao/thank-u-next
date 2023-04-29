@@ -109,14 +109,38 @@ def course_name_suggest(input_course):
     sorted_courses = sorted(course_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([course[0] for course in sorted_courses])
 
-def get_prof_keywords(input_prof):
-    prof_id=prof_name_to_index[input_prof]
+def get_prof_keywords(any_prof,exclude_prof):
+    prof_id=prof_name_to_index[any_prof]
     term_scores=np.array(tfidf[prof_id])
     term_ids = term_scores.argsort()[::-1][:8]
-    prof_vector=[]
+    prof_kw=[]
     for idx in term_ids:
-        prof_vector.append(index_to_vocab[str(idx)])
-    return prof_vector
+        prof_kw.append(index_to_vocab[str(idx)])
+    kw_tier = get_correlation_by_keyword(term_ids,any_prof,exclude_prof)
+    return prof_kw, kw_tier
+
+def get_correlation_by_keyword(term_ids,any_prof,exclude_prof):
+    prof1_doc = tfidf[prof_name_to_index[any_prof]]
+    prof2_doc = tfidf[prof_name_to_index[exclude_prof]]
+    correlation = np.multiply(prof1_doc,prof2_doc)
+    kw_score=[]
+    for idx in term_ids:
+        kw_score.append(correlation[idx])
+    kw_rank=np.array(kw_score).argsort()[::-1] #ranking of keyword ids by correlation
+    first_third = len(kw_rank)//3 #0,1,2
+    second_third = len(kw_rank)-len(kw_rank)//3 #5,6,7
+    first_third_threshold = kw_score[first_third]
+    second_third_threshold = kw_score[second_third]
+    kw_tier=[]
+    for score in kw_score:
+        if score>=first_third_threshold:
+            kw_tier.append(0)
+        elif score>=second_third_threshold:
+            kw_tier.append(2)
+        else:
+            kw_tier.append(1)
+    # print(kw_tier)
+    return kw_tier
 
 def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
     prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
@@ -133,27 +157,28 @@ def get_similar_profs(vector,exclude_prof):
     for i in range(prof_num):
         temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
-    prof_ids = np.array(score_arr).argsort()[::-1][:20] #changed from [1:21]
+    prof_ids = np.array(score_arr).argsort()[::-1][:20]
     prof_arr=[]
     prof_score=[]
     for idx in prof_ids:
         cur_prof = prof_index_to_name[str(idx)]
-        if exclude_prof!="" and cur_prof!=exclude_prof:
+        if exclude_prof!="" and cur_prof!=exclude_prof: #not sending the prof searched
             prof_arr.append(cur_prof)
-        prof_score.append(score_arr[idx])
+            prof_score.append(score_arr[idx])
     return prof_arr,prof_score
 
 def get_professor_data(vector,exclude_prof):
     data =[]
     prof_arr,prof_score = get_similar_profs(vector,exclude_prof)
     for i,prof in enumerate(prof_arr):
-        prof_kw=get_prof_keywords(prof)
+        prof_kw, kw_tier=get_prof_keywords(prof,exclude_prof)
         courses = prof_to_course[prof][:4]
         temp = {
             "professor": prof,
             "keyword":prof_kw,
+            "tier":kw_tier,
             "similarity":round(prof_score[i], 3),
-            "course":courses
+            "course":courses,
         }
         data.append(temp)
     return json.dumps(data)

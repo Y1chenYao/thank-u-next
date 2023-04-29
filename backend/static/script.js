@@ -6,7 +6,8 @@ window.onload = init();
 console.log("Window onload is", window.onload);
 
 //template
-function answerBoxTemplate(name, keyword, similarity, course) {
+function answerBoxTemplate(name, keyword, tier, similarity, course) {
+  console.log(tier)
   return `<div class="flex-box result">
       <div class="left">
         <h3 class="professor-name">${name}</h3>
@@ -63,7 +64,8 @@ function sendQuery() {
             // scoreToLevel(row.average_overall),
             // scoreToLevel(row.average_difficulty),
             // scoreToLevel(row.average_workload),
-            row.keyword.toString(),
+            row.keyword,
+            row.tier,
             row.similarity,
             row.course
           )
