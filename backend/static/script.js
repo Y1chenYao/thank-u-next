@@ -6,21 +6,42 @@ window.onload = init();
 console.log("Window onload is", window.onload);
 
 //template
-function answerBoxTemplate(name, keyword, tier, similarity, course) {
+function answerBoxTemplate(name,
+  department,
+  overall,
+  difficulty,
+  workload,
+  keyword,
+  tier,
+  similarity,
+  course,
+  review) {
   console.log(tier)
-  return `<div class="flex-box result">
-      <div class="left">
-        <h3 class="professor-name">${name}</h3>
-        <p class="info"><b>Department: </b></p>
-        <p class="info"><b>Difficulty: </b></p>
-        <p class="info"><b>Workload: </b></p>
+  return `<div class="flex-box">
+      <div class="vote-button-group">
+        <button type="submit" onclick="updateRelevance()" id="upvote">
+          +
+        </button>
+        <div id="vote-count">0</div>
+        <button type="submit" onclick="updateRelevance()" id="downvote">
+          -
+        </button>
       </div>
-      <div class="right">
-        <p class="info"><b>Past Courses: </b>${course}</p>
-        <p class="info"><b>Keywords: </b>${keyword}</p>
-        <p class="info"><b>Similarity Score: </b>${similarity}</p>
-        <p class="info"><b>Reviews: </b></p>
-        <div class="review"></div>
+      <div class="flex-box result">
+        <div class="left">
+          <h3 class="professor-name">${name}</h3>
+          <p class="info"><b>Department: </b><br>${department}</p>
+          <p class="info"><b>Overall: </b>${overall}</p>
+          <p class="info"><b>Difficulty: </b>${difficulty}</p>
+          <p class="info"><b>Workload: </b>${workload}</p>
+        </div>
+        <div class="right">
+          <p class="info"><b>Past Courses: </b>${course}</p>
+          <p class="info"><b>Keywords: </b>${keyword}</p>
+          <p class="info"><b>Similarity Score: </b>${similarity}</p>
+          <p class="info"><b>Reviews: </b></p>
+          <div class="review">${review}</div>
+        </div>
       </div>
     </div>`;
 }
@@ -61,13 +82,15 @@ function sendQuery() {
         tempDiv.innerHTML = row.professor
           ? answerBoxTemplate(
             row.professor,
-            // scoreToLevel(row.average_overall),
-            // scoreToLevel(row.average_difficulty),
-            // scoreToLevel(row.average_workload),
+            row.department,
+            scoreToLevel(row.average_overall),
+            scoreToLevel(row.average_difficulty),
+            scoreToLevel(row.average_workload),
             row.keyword,
             row.tier,
             row.similarity,
-            row.course
+            row.course,
+            row.review
           )
           : noResultTemplate();
         answerBox.appendChild(tempDiv);
@@ -84,6 +107,10 @@ function scoreToLevel(score) {
   } else {
     return "Medium";
   }
+}
+
+function updateRelevance() {
+  return None;
 }
 
 //prof suggestion

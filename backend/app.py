@@ -6,6 +6,7 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
+from random import sample
 
 # ROOT_PATH for linking with all your files.
 # Feel free to use a config.py or settings.py with a global export variable
@@ -49,49 +50,16 @@ with open(os.path.join(path,"course_to_prof.json"), "r") as f7:
     course_to_prof=json.load(f7) 
 with open(os.path.join(path,"prof_to_course.json"), "r") as f8:
     prof_to_course=json.load(f8)
-with open(os.path.join(path,"course_tfidf.json"), "r") as f9:
-    course_tfidf=json.load(f9)
+with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
+    course_tfidf=json.load(f12)
+with open(os.path.join(path,"prof_to_department.json"), "r") as f9:
+    prof_to_department=json.load(f9)
+with open(os.path.join(path,"prof_scores.json"), "r") as f10:
+    prof_scores=json.load(f10)
+with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
+    prof_to_review=json.load(f11)
 prof_num, term_num = tfidf.shape
 
-
-# def sql_search(professor):
-#     professor = professor.lower()
-#     avg_query = f"""SELECT professor, \
-#         SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-#         SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-#         SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-#         FROM reviews WHERE professor = '{professor}'"""
-#     data = mysql_engine.query_selector(avg_query)
-#     keys = ["professor", "average_overall",
-#             "average_difficulty", "average_work"]
-#     data_list = list(data)
-#     result_formatted = []
-#     if data_list[0][0] is None:
-#         return json.dumps([dict()])
-#     average_overall = round(data_list[0][1], 2)
-#     average_difficulty = round(data_list[0][2], 2)
-#     average_work = round(data_list[0][3], 2)
-#     print(average_overall)
-#     # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
-
-#     alike_query = f"""
-#     SELECT professor, \
-#         SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-#         SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-#         SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-#     FROM reviews \
-#     WHERE professor IN (SELECT prof2 FROM cossim WHERE prof1 = '{professor}') \
-#     GROUP BY professor \
-#     ORDER BY ABS(avg_overall - {average_overall}) ASC \
-#     LIMIT 10; """    
-#     # WHERE professor <> '{professor}' \
-#     alike_data = list(mysql_engine.query_selector(alike_query))
-#     for result in alike_data:
-#         if result[0] is None:
-#             break
-#         result_formatted.append((result[0], str(round(result[1], 2)), str(
-#             round(result[2], 2)), str(round(result[3], 2))))
-#     return json.dumps([dict(zip(keys, i)) for i in result_formatted])
 
 def prof_name_suggest(input_prof):
     prof_scores = {}
@@ -172,12 +140,18 @@ def get_professor_data(vector,exclude_prof):
     for i,prof in enumerate(prof_arr):
         prof_kw, kw_tier=get_prof_keywords(prof,vector)
         courses = prof_to_course[prof][:4]
+        department = prof_to_department[prof]
         temp = {
             "professor": prof,
+            "overall": prof_scores[prof][0],
+            "difficulty": prof_scores[prof][1],
+            "workload": prof_scores[prof][2],
+            "department": (', ').join(department),
             "keyword":prof_kw,
             "tier":kw_tier,
             "similarity":round(prof_score[i], 3),
             "course":courses,
+            "review": sample(prof_to_review[prof], 1)
         }
         data.append(temp)
     return json.dumps(data)
