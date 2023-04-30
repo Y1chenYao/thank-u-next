@@ -53,7 +53,8 @@ prof_num, term_num = tfidf.shape
 
 #preparing model and tokens
 try:
-    nlp = spacy.load('en_core_web_sm')
+    spacy.cli.download("en_core_web_md")
+    nlp = spacy.load('en_core_web_md')
     token_raw=""
     for k,v in index_to_vocab.items():
         token_raw+=v
