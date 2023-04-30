@@ -52,14 +52,17 @@ with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
 prof_num, term_num = tfidf.shape
 
 #preparing model and tokens
-nlp = spacy.load('en_core_web_md')
-token_raw=""
-for k,v in index_to_vocab.items():
-    token_raw+=v
-    token_raw+=" "
-token_raw=token_raw[:-1]
-tokenizer = Tokenizer(nlp.vocab)
-tokens = tokenizer(token_raw)
+try:
+    nlp = spacy.load('en_core_web_md')
+    token_raw=""
+    for k,v in index_to_vocab.items():
+        token_raw+=v
+        token_raw+=" "
+    token_raw=token_raw[:-1]
+    tokenizer = Tokenizer(nlp.vocab)
+    tokens = tokenizer(token_raw)
+except:
+    print("failed to load spacy")
 
 """
 note: functions for edit distance in dropdowns
