@@ -7,8 +7,8 @@ from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
 from random import sample
-# import spacy
-# from spacy.tokenizer import Tokenizer
+import spacy
+from spacy.tokenizer import Tokenizer
 
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
@@ -53,7 +53,7 @@ prof_num, term_num = tfidf.shape
 
 #preparing model and tokens
 try:
-    nlp = spacy.load('en_core_web_md')
+    nlp = spacy.load('en_core_web_sm')
     token_raw=""
     for k,v in index_to_vocab.items():
         token_raw+=v
