@@ -7,8 +7,8 @@ from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
 from random import sample
-import spacy
-from spacy.tokenizer import Tokenizer
+# import spacy
+# from spacy.tokenizer import Tokenizer
 
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
