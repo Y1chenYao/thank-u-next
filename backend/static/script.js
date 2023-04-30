@@ -16,7 +16,6 @@ function answerBoxTemplate(name,
   similarity,
   course,
   review) {
-  // console.log(tier)
   return `<div class="flex-box">
       <div class="vote-button-group">
         <button type="submit" onclick="updateRelevance()" id="upvote">
@@ -37,7 +36,16 @@ function answerBoxTemplate(name,
         </div>
         <div class="right">
           <p class="info"><b>Past Courses: </b>${course}</p>
-          <p class="info"><b>Keywords: </b>${keyword}</p>
+          <div class="keyword-box"><b>Keywords: </b>
+            <div class="keyword ${tier[0]}">${keyword[0]}</div>
+            <div class="keyword ${tier[1]}">${keyword[1]}</div>
+            <div class="keyword ${tier[2]}">${keyword[2]}</div>
+            <div class="keyword ${tier[3]}">${keyword[3]}</div>
+            <div class="keyword ${tier[4]}">${keyword[4]}</div>
+            <div class="keyword ${tier[5]}">${keyword[5]}</div>
+            <div class="keyword ${tier[6]}">${keyword[6]}</div>
+            <div class="keyword ${tier[7]}">${keyword[7]}</div>
+          </div>
           <p class="info"><b>Similarity Score: </b>${similarity}</p>
           <p class="info"><b>Reviews: </b></p>
           <div class="review">${review}</div>

@@ -284,3 +284,31 @@ html {
 #course-auto-box li:hover{
   background-color: #efefef;
 }
+
+.keyword-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyword{
+  border-radius:15px;
+  padding: 10px;
+  font-size:12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+  line-height: 12px;
+  color: #fff;
+}
+
+.high{
+  background-color: #65010c;
+}
+
+.med{
+  background-color: #cb1b16;
+}
+
+.low{
+  background-color: #f26a4f;
+}

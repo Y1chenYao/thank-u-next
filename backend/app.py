@@ -106,16 +106,18 @@ def get_correlation_by_keyword(term_ids,any_prof,vector):
     kw_rank=np.array(kw_score).argsort()[::-1] #ranking of keyword ids by correlation
     first_third = len(kw_rank)//3
     second_third = len(kw_rank)-len(kw_rank)//3
-    first_third_threshold = kw_score[first_third]
-    second_third_threshold = kw_score[second_third]
+    first_third_threshold = kw_score[kw_rank[first_third]]
+    second_third_threshold = kw_score[kw_rank[second_third]]
     kw_tier=[]
     for score in kw_score:
-        if score>=first_third_threshold:
-            kw_tier.append(0)
-        elif score>=second_third_threshold:
-            kw_tier.append(2)
+        if score==0:
+            kw_tier.append("low")
+        if score<=second_third_threshold:
+            kw_tier.append("low")
+        elif score<=first_third_threshold:
+            kw_tier.append("med")
         else:
-            kw_tier.append(1)
+            kw_tier.append("high")
     return kw_tier
 
 """
@@ -128,7 +130,7 @@ def get_similar_profs(vector,exclude_prof):
     for i in range(prof_num):
         temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
-    prof_ids = np.array(score_arr).argsort()[::-1][:50]
+    prof_ids = np.array(score_arr).argsort()[::-1][:30]
     prof_arr=[]
     prof_score=[]
     for idx in prof_ids:
@@ -188,7 +190,7 @@ def get_free_search_kw_and_vec(input_keyword):
     similar_word=nlp(input_keyword)
     for token in tokens:
         scores.append(similar_word.similarity(token))
-    indices=np.argsort(scores)[::-1][:10]
+    indices=np.argsort(scores)[::-1][:20]
     kw_list = []
     vector = np.zeros(932)
     for i in indices:
@@ -206,10 +208,11 @@ def reviews_search():
     course = request.args.get("course")
     free = request.args.get("free")
     
-    fine_tune_coeff = 1.5
+    fine_tune_coeff_course = 1.5
+    fint_tune_coeff_free = 3
     prof_weight = int(request.args.get("prof_weight"))
-    course_weight = int(request.args.get("course_weight"))*fine_tune_coeff
-    free_weight = int(request.args.get("free_weight"))
+    course_weight = int(request.args.get("course_weight"))*fine_tune_coeff_course
+    free_weight = int(request.args.get("free_weight"))*fint_tune_coeff_free
     
     total_weight = 0
     total_vector = np.zeros(932)

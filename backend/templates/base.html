@@ -33,13 +33,13 @@
   <main>
     <div class="flex-box">
       <div id="side-bar">
-        <div class = "tip-box">Tip: Use drop down menu to select the prof/course you like (can be left blank). Adjust weights from 5 (most important) to 1 (least important).</div>
+        <div class = "tip-box">Tip: Use drop down menu to select the prof/course you like (can be left blank). Adjust weights from 5 (most important) to 1 (least important). To clear the filter, you can delete everything in the input box.</div>
         <h4 class="title">Search by professor:</h4>
         <div id="prof-search-box">
           <div class="flex-box">
             <div class="input-box">
               <img src="{{ url_for('static', filename='images/mag.png') }}" />
-              <input placeholder="e.g. David Gries" id="search-professor" onkeyup="loadProfSuggestion()"/>
+              <input placeholder="e.g. Anke van Zuylen" id="search-professor" onkeyup="loadProfSuggestion()"/>
             </div>
             <select id="prof-weight">
               <option value="5">5</option>
@@ -76,7 +76,7 @@
         <div class="flex-box">
           <div class="input-box">
             <img src="{{ url_for('static', filename='images/mag.png') }}" />
-            <input placeholder="e.g. fun" id="search-free" />
+            <input placeholder="e.g. Enthusiastic" id="search-free" />
           </div>
           <select id="free-weight">
             <option value="5">5</option>
