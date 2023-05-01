@@ -19,7 +19,8 @@ function answerBoxTemplate(
   tier,
   similarity,
   course,
-  review
+  review,
+  sentiment
 ) {
   like_disabled = "";
   dislike_disabled = "";
@@ -51,13 +52,11 @@ function answerBoxTemplate(
           <div class="keyword-box rating-box"><b>Overall: </b><div class="keyword ${overall}">${overall}</div></div>
           <div class="keyword-box rating-box"><b>Difficulty: </b><div class="keyword ${difficulty}">${difficulty}</div></div>
           <div class="keyword-box rating-box"><b>Workload: </b><div class="keyword ${workload}">${workload}</div></div>
+          <div class="info"><b>Similarity Score: </b>${similarity}</div>
         </div>
         <div class="right"><b>Past Courses: </b>
           <div class="keyword-box">
-            <div class="keyword course-box">${course[0]}</div>
-            <div class="keyword course-box">${course[1]}</div>
-            <div class="keyword course-box">${course[2]}</div>
-            <div class="keyword course-box">${course[3]}</div>
+            ${update_course_list(course)}
           </div>
           <p class="info"><b>Keywords: </b></p>
           <div class="keyword-box">
@@ -70,9 +69,14 @@ function answerBoxTemplate(
             <div class="keyword ${tier[6]}">${keyword[6]}</div>
             <div class="keyword ${tier[7]}">${keyword[7]}</div>
           </div>
-          <p class="info"><b>Similarity Score: </b>${similarity}</p>
           <p class="info"><b>Review, but from an anonymous student 👀</b></p>
           <div class="review">${review}</div>
+          <b>Student sentiment toward this professor's course: </b><br>
+          <div class="keyword-box">
+            <div class="keyword course-box">${sentiment[0]}</div>
+            <div class="keyword course-box">${sentiment[1]}</div>
+            <div class="keyword course-box">${sentiment[2]}</div>
+          </div>
         </div>
       </div>
     </div>`;
@@ -133,7 +137,8 @@ function sendQuery() {
                   row.tier,
                   row.similarity,
                   row.course,
-                  row.review
+                  row.review,
+                  row.sentiment
                 )
               : noResultTemplate();
             answerBox.appendChild(tempDiv);
@@ -167,9 +172,9 @@ function update_like_dislike_list() {
   dislike_list_string = "";
   for (let [prof, vote] of votes) {
     if (vote === 1) {
-      like_list_string += "<p>" + prof + "</p>";
+      like_list_string += `<div class="keyword course-box"> ${prof} </div>`
     } else if (vote === -1) {
-      dislike_list_string += "<p>" + prof + "</p>";
+      dislike_list_string += `<div class="keyword course-box"> ${prof} </div>`;
     }
   }
   document.getElementById("like-list").innerHTML = like_list_string;
@@ -179,7 +184,15 @@ function update_like_dislike_list() {
 function update_department_list(departments){
   html = ""
   for(let c of departments){
-    html+=`<div class="keyword department-box"> ${c} </div>`
+    html+=`<div class="keyword course-box"> ${c} </div>`
+  }
+  return html
+}
+
+function update_course_list(courses){
+  html = ""
+  for(let c of courses){
+    html+=`<div class="keyword course-box"> ${c} </div>`
   }
   return html
 }

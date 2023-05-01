@@ -49,6 +49,8 @@ with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
     prof_to_review=json.load(f11)
 with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
     course_tfidf=json.load(f12)
+with open(os.path.join(path,"prof_to_sentiment.json"), "r") as f13:
+    prof_to_sentiment=json.load(f13)
 prof_num, term_num = tfidf.shape
 
 #preparing model and tokens
@@ -180,7 +182,8 @@ def get_professor_data(vector,exclude_prof):
             "tier":kw_tier,
             "similarity":round(prof_score[i], 3),
             "course":courses,
-            "review": sample(prof_to_review[prof], 1)
+            "review": sample(prof_to_review[prof], 1),
+            "sentiment":prof_to_sentiment[prof]
         }
         data.append(temp)
     return json.dumps(data)
