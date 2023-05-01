@@ -36,10 +36,12 @@
       <div class="flex-box">
         <div id="side-bar">
           <div class="tip-box">
-            Tip: Use drop down menu to select the prof/course you like (can be
-            left blank). Adjust weights from 5 (most important) to 1 (least
-            important). To clear the filter, you can delete everything in the
-            input box.
+            <p>🤩 Use drop down menu to select the prof/course you like (can be
+              left blank).</p>
+            <p>👏 Adjust weights from most important (5) to least
+              important (1).</p>
+            <p>🙈 Refresh browser to clean all data for thumbs up/down</p>
+              
           </div>
           <h4 class="title">Search by professor:</h4>
           <div id="prof-search-box">
@@ -52,7 +54,7 @@
                   onkeyup="loadProfSuggestion()"
                 />
               </div>
-              <select id="prof-weight">
+              <select id="prof-weight" class="weight-box">
                 <option value="5">5</option>
                 <option value="4">4</option>
                 <option value="3">3</option>
@@ -74,7 +76,7 @@
                   onkeyup="loadCourseSuggestion()"
                 />
               </div>
-              <select id="course-weight">
+              <select id="course-weight" class="weight-box">
                 <option value="5">5</option>
                 <option value="4">4</option>
                 <option value="3">3</option>
@@ -91,7 +93,7 @@
               <img src="{{ url_for('static', filename='images/mag.png') }}" />
               <input placeholder="e.g. Enthusiastic" id="search-free" />
             </div>
-            <select id="free-weight">
+            <select id="free-weight" class="weight-box">
               <option value="5">5</option>
               <option value="4">4</option>
               <option value="3">3</option>

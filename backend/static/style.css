@@ -67,7 +67,7 @@ html {
 
 .tip-box {
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #eee;
   border-radius: 4px;
   line-height: 20px;
@@ -75,7 +75,8 @@ html {
 
 .input-box {
   border-radius: 3px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: 0 3px 10px #ccc;
   display: flex;
   align-items: center;
   padding: 12px;
@@ -182,12 +183,11 @@ html {
 }
 
 .review {
-  /* height: 100px; */
-  background-color: lightgrey;
+  background-color: #eee;
   padding: 15px;
   margin-bottom: 20px;
-  line-height: 25px;
-  font-size: medium;
+  line-height: 23px;
+  font-size: 0.9rem;
 }
 
 .filter-image {
@@ -208,7 +208,7 @@ html {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 6px;
-  margin-top: 6px;
+  margin-top: 15px;
 }
 
 .flex-container {
@@ -241,7 +241,8 @@ html {
 
 #prof-auto-box {
   box-shadow: 0 3px 10px #ccc;
-  max-width: 98%;
+  max-width: 89%;
+  margin-left: 3px;
 }
 
 #prof-auto-box li {
@@ -264,7 +265,14 @@ html {
 
 #course-auto-box {
   box-shadow: 0 3px 10px #ccc;
-  max-width: 98%;
+  max-width: 89%;
+  margin-left: 3px;
+}
+
+.weight-box {
+  border: none;
+  box-shadow: 0 3px 10px #ccc;
+  background-color: #fff;
 }
 
 #course-auto-box li {
@@ -299,6 +307,11 @@ html {
   margin: 2px;
   line-height: 12px;
   color: #fff;
+}
+
+.course-box {
+  color:#000;
+  background-color: #dcd4d4;
 }
 
 .vote-button-group {
@@ -336,4 +349,31 @@ html {
 
 .low {
   background-color: #f26a4f;
+}
+
+.rating-box {
+  padding: 5px 0px;
+}
+
+.High {
+  background-color: #ff4040;
+  max-width: 30px;
+  margin-left: 10px;
+}
+
+.Medium {
+  background-color: #ffc23e;
+  max-width: 45px;
+  margin-left: 10px;
+}
+
+.Low {
+  background-color: #00c81e;
+  max-width: 30px;
+  margin-left: 10px;
+}
+
+.department-box{
+  color:#000;
+  background-color: #dcd4d4;
 }

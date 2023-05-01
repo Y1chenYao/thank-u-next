@@ -46,13 +46,19 @@ function answerBoxTemplate(
         </div>
         <div class="left">
           <h3 class="professor-name">${name}</h3>
-          <p class="info"><b>Department: </b><br>${department}</p>
-          <p class="info"><b>Overall: </b>${overall}</p>
-          <p class="info"><b>Difficulty: </b>${difficulty}</p>
-          <p class="info"><b>Workload: </b>${workload}</p>
+          <b>Department: </b><br>
+          <div class="keyword-box"> ${update_department_list(department)}</div>
+          <div class="keyword-box rating-box"><b>Overall: </b><div class="keyword ${overall}">${overall}</div></div>
+          <div class="keyword-box rating-box"><b>Difficulty: </b><div class="keyword ${difficulty}">${difficulty}</div></div>
+          <div class="keyword-box rating-box"><b>Workload: </b><div class="keyword ${workload}">${workload}</div></div>
         </div>
-        <div class="right">
-          <p class="info"><b>Past Courses: </b>${course}</p>
+        <div class="right"><b>Past Courses: </b>
+          <div class="keyword-box">
+            <div class="keyword course-box">${course[0]}</div>
+            <div class="keyword course-box">${course[1]}</div>
+            <div class="keyword course-box">${course[2]}</div>
+            <div class="keyword course-box">${course[3]}</div>
+          </div>
           <p class="info"><b>Keywords: </b></p>
           <div class="keyword-box">
             <div class="keyword ${tier[0]}">${keyword[0]}</div>
@@ -65,7 +71,7 @@ function answerBoxTemplate(
             <div class="keyword ${tier[7]}">${keyword[7]}</div>
           </div>
           <p class="info"><b>Similarity Score: </b>${similarity}</p>
-          <p class="info"><b>Reviews: </b></p>
+          <p class="info"><b>Review, but from an anonymous student 👀</b></p>
           <div class="review">${review}</div>
         </div>
       </div>
@@ -168,6 +174,14 @@ function update_like_dislike_list() {
   }
   document.getElementById("like-list").innerHTML = like_list_string;
   document.getElementById("dislike-list").innerHTML = dislike_list_string;
+}
+
+function update_department_list(departments){
+  html = ""
+  for(let c of departments){
+    html+=`<div class="keyword department-box"> ${c} </div>`
+  }
+  return html
 }
 
 function updateRelevance(name, update) {
