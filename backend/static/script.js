@@ -5,6 +5,9 @@ function init() {
 window.onload = init();
 console.log("Window onload is", window.onload);
 
+// upvotes and downvotes
+let votes = new Map();
+
 //template
 function answerBoxTemplate(
   name,
@@ -13,22 +16,34 @@ function answerBoxTemplate(
   difficulty,
   workload,
   keyword,
+  tier,
   similarity,
   course,
   review
 ) {
+  like_disabled = "";
+  dislike_disabled = "";
+  up_button = "up.png";
+  down_button = "down.png";
+  if (votes.has(name)) {
+    if (votes.get(name) === 1) {
+      like_disabled = "disabled: disabled";
+      up_button = "up_clicked.png";
+    } else if (votes.get(name) === -1) {
+      dislike_disabled = "disabled: disabled";
+      down_button = "down_clicked.png";
+    }
+  }
   return `<div class="flex-box">
-      <div class="vote-button-group">
-        <button type="submit" onclick="updateRelevance()" id="upvote">
-          +
-        </button>
-        <div id="vote-count">0</div>
-        <button type="submit" onclick="updateRelevance()" id="downvote">
-          -
-        </button>
-      </div>
-
       <div class="flex-box result">
+        <div class="vote-button-group">
+          <button class="vote_button" type="submit" ${like_disabled} onclick="updateRelevance(\'${name}\', 1)" id="like-button-${name}">
+            <img src="/static/images/${up_button}" id="thumb-up-${name}" alt="Thumb Up"/>
+          </button>
+          <button class="vote_button" type="submit" ${dislike_disabled} onclick="updateRelevance(\'${name}\', -1)" id="dislike-button-${name}">
+            <img src="/static/images/${down_button}" id="thumb-down-${name}" alt="Thumb Down"/>
+          </button>
+        </div>
         <div class="left">
           <h3 class="professor-name">${name}</h3>
           <p class="info"><b>Department: </b><br>${department}</p>
@@ -38,7 +53,17 @@ function answerBoxTemplate(
         </div>
         <div class="right">
           <p class="info"><b>Past Courses: </b>${course}</p>
-          <p class="info"><b>Keywords: </b>${keyword}</p>
+          <p class="info"><b>Keywords: </b></p>
+          <div class="keyword-box">
+            <div class="keyword ${tier[0]}">${keyword[0]}</div>
+            <div class="keyword ${tier[1]}">${keyword[1]}</div>
+            <div class="keyword ${tier[2]}">${keyword[2]}</div>
+            <div class="keyword ${tier[3]}">${keyword[3]}</div>
+            <div class="keyword ${tier[4]}">${keyword[4]}</div>
+            <div class="keyword ${tier[5]}">${keyword[5]}</div>
+            <div class="keyword ${tier[6]}">${keyword[6]}</div>
+            <div class="keyword ${tier[7]}">${keyword[7]}</div>
+          </div>
           <p class="info"><b>Similarity Score: </b>${similarity}</p>
           <p class="info"><b>Reviews: </b></p>
           <div class="review">${review}</div>
@@ -46,14 +71,13 @@ function answerBoxTemplate(
       </div>
     </div>`;
 }
-
 function noResultTemplate() {
   return `<div class=''>
           <h3 class='professor-name'>No result found.</h3>
       </div>`;
 }
 
-//constants
+//consts
 const answerBox = document.getElementById("answer-box");
 const profInputBox = document.querySelector("#search-professor");
 const profSearchBox = document.querySelector("#prof-search-box");
@@ -61,42 +85,55 @@ const profAutoBox = document.querySelector("#prof-auto-box");
 const courseInputBox = document.querySelector("#search-course");
 const courseSearchBox = document.querySelector("#course-search-box");
 const courseAutoBox = document.querySelector("#course-auto-box");
+const freeInputBox = document.querySelector("#search-free");
+const profWeight = document.querySelector("#prof-weight");
+const courseWeight = document.querySelector("#course-weight");
+const freeWeight = document.querySelector("#free-weight");
 
 //query
 function sendQuery() {
   answerBox.innerHTML = "";
-  if (profInputBox.value != "") {
+  if (
+    profInputBox.value != "" ||
+    courseInputBox.value != "" ||
+    freeInputBox.value != ""
+  ) {
     fetch(
       "/reviews?" +
         new URLSearchParams({
-          title: profInputBox.value,
+          prof: profInputBox.value,
+          course: courseInputBox.value,
+          free: freeInputBox.value,
+          prof_weight: profWeight.value,
+          course_weight: courseWeight.value,
+          free_weight: freeWeight.value,
+          votes: get_vote_param_string(votes),
         }).toString()
     )
       .then((response) => response.json())
       .then((data) =>
-        data.forEach((row) => {
-          let tempDiv = document.createElement("div");
-          tempDiv.innerHTML = row.professor
-            ? answerBoxTemplate(
-                row.professor,
-                row.department,
-                scoreToLevel(row.overall),
-                scoreToLevel(row.difficulty),
-                scoreToLevel(row.workload),
-                row.keyword,
-                row.similarity,
-                row.course,
-                row.review
-              )
-            : noResultTemplate();
-          answerBox.appendChild(tempDiv);
-        })
+        data
+          .filter((v) => checkDepartment(v))
+          .forEach((row) => {
+            let tempDiv = document.createElement("div");
+            tempDiv.innerHTML = row.professor
+              ? answerBoxTemplate(
+                  row.professor,
+                  row.department,
+                  scoreToLevel(row.overall),
+                  scoreToLevel(row.difficulty),
+                  scoreToLevel(row.workload),
+                  row.keyword,
+                  row.tier,
+                  row.similarity,
+                  row.course,
+                  row.review
+                )
+              : noResultTemplate();
+            answerBox.appendChild(tempDiv);
+          })
       );
   }
-}
-
-function updateRelevance() {
-  return None;
 }
 
 function scoreToLevel(score) {
@@ -107,6 +144,52 @@ function scoreToLevel(score) {
   } else {
     return "Medium";
   }
+}
+
+function get_vote_param_string() {
+  s = "";
+  for (let [key, value] of votes) {
+    if (value != 0) {
+      s += "," + key + ":" + value;
+    }
+  }
+  return s.substring(1);
+}
+
+function update_like_dislike_list() {
+  like_list_string = "";
+  dislike_list_string = "";
+  for (let [prof, vote] of votes) {
+    if (vote === 1) {
+      like_list_string += "<p>" + prof + "</p>";
+    } else if (vote === -1) {
+      dislike_list_string += "<p>" + prof + "</p>";
+    }
+  }
+  document.getElementById("like-list").innerHTML = like_list_string;
+  document.getElementById("dislike-list").innerHTML = dislike_list_string;
+}
+
+function updateRelevance(name, update) {
+  votes.set(name, update);
+  if (update === 1) {
+    document.getElementById("like-button-" + name).disabled = true;
+    document.getElementById("dislike-button-" + name).disabled = false;
+    document.getElementById("thumb-up-" + name).src =
+      "/static/images/up_clicked.png";
+    document.getElementById("thumb-down-" + name).src =
+      "/static/images/down.png";
+    // document.getElementById("dislike-button-" + name).img = (
+    //   <img src="/static/images/up_clicked.png" alt="Thumb Up" />
+    // );
+  } else if (update === -1) {
+    document.getElementById("dislike-button-" + name).disabled = true;
+    document.getElementById("like-button-" + name).disabled = false;
+    document.getElementById("thumb-up-" + name).src = "/static/images/up.png";
+    document.getElementById("thumb-down-" + name).src =
+      "/static/images/down_clicked.png";
+  }
+  update_like_dislike_list();
 }
 
 //prof suggestion
@@ -205,4 +288,16 @@ for (var i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
+}
+
+//department select
+//range and approx imported from department.js
+const departmentBox = document.querySelector("#department");
+function checkDepartment(prof) {
+  if (range.includes(departmentBox.value)) {
+    const cat = approx[departmentBox.value];
+    return prof.department.includes(cat);
+  } else {
+    return true;
+  }
 }

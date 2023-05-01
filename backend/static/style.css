@@ -65,6 +65,14 @@ html {
   margin: 0 0 0 0;
 }
 
+.tip-box {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #eee;
+  border-radius: 4px;
+  line-height: 20px;
+}
+
 .input-box {
   border-radius: 3px;
   border: 1px solid black;
@@ -73,6 +81,7 @@ html {
   padding: 12px;
   width: 90%;
   height: 20px;
+  margin: 0rem 0.2rem;
 }
 
 .input-box img {
@@ -274,4 +283,57 @@ html {
 
 #course-auto-box li:hover {
   background-color: #efefef;
+}
+
+.keyword-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keyword {
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2px;
+  line-height: 12px;
+  color: #fff;
+}
+
+.vote-button-group {
+  margin: auto;
+  width: 8%;
+}
+
+.vote_button {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* height: 20px; */
+  padding: 2px;
+  background-color: white;
+  border: 0.5px white solid;
+  cursor: pointer;
+}
+
+.vote_button img {
+  /* margin: 5px; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  cursor: pointer;
+}
+
+.high {
+  background-color: #65010c;
+}
+
+.med {
+  background-color: #cb1b16;
+}
+
+.low {
+  background-color: #f26a4f;
 }

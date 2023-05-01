@@ -166,7 +166,6 @@
     "MATH2940": [
         "Damek Davis",
         "Adrian Lewis",
-        "DROP",
         "Paul Davis",
         "Timothy Healey",
         "Ravi Ramakrishna",
@@ -196,7 +195,6 @@
     ],
     "CS4820": [
         "Frans Schalekamp",
-        "DROP",
         "David Easley",
         "Dexter Kozen",
         "Anke van Zuylen",
@@ -561,17 +559,9 @@
     ],
     "PE1300": [
         "Douglas Volbrecht",
-        "Jon LaRock",
-        "DROP"
-    ],
-    "PE1616": [
-        "DROP"
-    ],
-    "PE1690": [
-        "DROP"
+        "Jon LaRock"
     ],
     "COMM2450": [
-        "DROP",
         "Drew Margolin",
         "J. Matias",
         "Chao Yu",
@@ -580,7 +570,6 @@
         "Jeff Hancock"
     ],
     "CS1110": [
-        "DROP",
         "Lillian Lee",
         "Anne Bracy",
         "Walker White",
@@ -590,14 +579,12 @@
         "Graeme Bailey"
     ],
     "CS1300": [
-        "DROP",
         "Kyle Harms",
         "Haym Hirsh",
         "Madeline Smith",
         "Daniel Cosley"
     ],
     "CS2800": [
-        "DROP",
         "Kyle Harms",
         "Siddhartha Chaudhuri",
         "Dexter Kozen",
@@ -612,27 +599,20 @@
         "Graeme Bailey"
     ],
     "ENGRC3025": [
-        "DROP",
         "Rick Evans"
     ],
     "GERST1109": [
-        "DROP",
         "Amparo Necker",
         "Douglas McBride",
         "Mark Mandych",
         "Ekaterina Pirozhenko",
         "Leslie Adelson"
     ],
-    "BIOEE1781": [
-        "DROP"
-    ],
     "BIONB1220": [
-        "DROP",
         "Caleb Vogt",
         "Michael Pardo"
     ],
     "INFO1300": [
-        "DROP",
         "Phoebe Sengers",
         "Gilly Leshed",
         "Kyle Harms",
@@ -643,7 +623,6 @@
         "Carl Lagoze"
     ],
     "INFO2450": [
-        "DROP",
         "Drew Margolin",
         "J. Matias",
         "Chao Yu",
@@ -653,11 +632,9 @@
         "Jeff Hancock"
     ],
     "ITAL2201": [
-        "DROP",
         "Michela Baraldi"
     ],
     "MATH1110": [
-        "DROP",
         "Scott Messick",
         "Brock Schmutzler",
         "Justin Moore",
@@ -669,7 +646,6 @@
         "Mary Ann Huntley"
     ],
     "MATH1120": [
-        "DROP",
         "Shiping Cao",
         "Harrison Chen",
         "David Zywina",
@@ -685,12 +661,10 @@
         "Shankar Sen"
     ],
     "MATH1710": [
-        "DROP",
         "Michael Nussbaum",
         "Gene Hwang"
     ],
     "MATH2210": [
-        "DROP",
         "James West",
         "Reyer Sjamaar",
         "Nicolas Templier",
@@ -707,7 +681,6 @@
         "Shankar Sen"
     ],
     "MATH3360": [
-        "DROP",
         "Allen Knutson",
         "Birgit Speh",
         "Martin Kassabov",

@@ -7,31 +7,21 @@ from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 from fuzzywuzzy import fuzz
 from random import sample
+import spacy
+from spacy.tokenizer import Tokenizer
 
-# ROOT_PATH for linking with all your files.
-# Feel free to use a config.py or settings.py with a global export variable
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
-# These are the DB credentials for your OWN MySQL
-# Don't worry about the deployment credentials, those are fixed
-# You can use a different DB name if you want to
-MYSQL_USER = "root"
-MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
+# #deprecate db
+# MYSQL_USER = "root"
 # MYSQL_USER_PASSWORD = ""
-MYSQL_PORT = 3306
-MYSQL_DATABASE = "project"
-
-mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
-
-# Path to init.sql file. This file can be replaced with your own file for testing on localhost, but do NOT move the init.sql file
-mysql_engine.load_file_into_db()
+# MYSQL_PORT = 3306
+# MYSQL_DATABASE = "project"
+# mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
+# mysql_engine.load_file_into_db()
 
 app = Flask(__name__)
 CORS(app)
-
-# Sample search, the LIKE operator in this case is hard-coded,
-# but if you decide to use SQLAlchemy ORM framework,
-# there's a much better and cleaner way to do this
 
 #data loaded
 path= "./static/json"
@@ -57,48 +47,27 @@ with open(os.path.join(path,"prof_scores.json"), "r") as f10:
     prof_scores=json.load(f10)
 with open(os.path.join(path,"prof_to_review.json"), "r") as f11:
     prof_to_review=json.load(f11)
+with open(os.path.join(path,"course_tfidf.json"), "r") as f12:
+    course_tfidf=json.load(f12)
 prof_num, term_num = tfidf.shape
 
+#preparing model and tokens
+try:
+    # spacy.cli.download("en_core_web_md")
+    nlp = spacy.load('en_core_web_md')
+    token_raw=""
+    for k,v in index_to_vocab.items():
+        token_raw+=v
+        token_raw+=" "
+    token_raw=token_raw[:-1]
+    tokenizer = Tokenizer(nlp.vocab)
+    tokens = tokenizer(token_raw)
+except:
+    print("failed to load spacy")
 
-def sql_search(professor):
-    professor = professor.lower()
-    avg_query = f"""SELECT professor, \
-        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-        FROM reviews WHERE professor = '{professor}'"""
-    data = mysql_engine.query_selector(avg_query)
-    keys = ["professor", "average_overall",
-            "average_difficulty", "average_work"]
-    data_list = list(data)
-    result_formatted = []
-    if data_list[0][0] is None:
-        return json.dumps([dict()])
-    average_overall = round(data_list[0][1], 2)
-    average_difficulty = round(data_list[0][2], 2)
-    average_work = round(data_list[0][3], 2)
-    print(average_overall)
-    # TODO (future): handle the case where overall, difficulty, work might be -1 for missing data
-
-    alike_query = f"""
-    SELECT professor, \
-        SUM(CASE WHEN overall = -1 THEN 0 ELSE overall END) / SUM(CASE WHEN overall = -1 THEN 0 ELSE 1 END) as avg_overall, \
-        SUM(CASE WHEN difficulty = -1 THEN 0 ELSE difficulty END) / SUM(CASE WHEN difficulty = -1 THEN 0 ELSE 1 END) as avg_difficulty, \
-        SUM(CASE WHEN work = -1 THEN 0 ELSE work END) / SUM(CASE WHEN work = -1 THEN 0 ELSE 1 END) as avg_work \
-    FROM reviews \
-    WHERE professor IN (SELECT prof2 FROM cossim WHERE prof1 = '{professor}') \
-    GROUP BY professor \
-    ORDER BY ABS(avg_overall - {average_overall}) ASC \
-    LIMIT 10; """    
-    # WHERE professor <> '{professor}' \
-    alike_data = list(mysql_engine.query_selector(alike_query))
-    for result in alike_data:
-        if result[0] is None:
-            break
-        result_formatted.append((result[0], str(round(result[1], 2)), str(
-            round(result[2], 2)), str(round(result[3], 2))))
-    return json.dumps([dict(zip(keys, i)) for i in result_formatted])
-
+"""
+note: functions for edit distance in dropdowns
+"""
 def prof_name_suggest(input_prof):
     prof_scores = {}
     for prof in prof_list:
@@ -106,7 +75,6 @@ def prof_name_suggest(input_prof):
         prof_scores[prof] = score
     sorted_profs = sorted(prof_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([prof[0] for prof in sorted_profs])
-
 def course_name_suggest(input_course):
     course_scores = {}
     for course in course_list:
@@ -115,59 +83,140 @@ def course_name_suggest(input_course):
     sorted_courses = sorted(course_scores.items(), key=lambda x:x[1], reverse=True)[:5]
     return json.dumps([course[0] for course in sorted_courses])
 
-def get_prof_keywords(input_prof):
-    prof_id=prof_name_to_index[input_prof]
+"""
+input: any_prof (string of prof), vector (any weight vector with length 932)
+output: keyword list with tiers 0 (most relevant),1,2 (least relevant)
+"""
+def get_prof_keywords(any_prof,vector):
+    prof_id=prof_name_to_index[any_prof]
     term_scores=np.array(tfidf[prof_id])
-    term_ids = term_scores.argsort()[::-1][:8]
-    prof_vector=[]
+    all_ids = term_scores.argsort()[::-1][:30]
+    all_terms = ' '.join([index_to_vocab[str(idx)] for idx in all_ids])
+    prof_kw = []
+    term_ids = []
+    for idx, token in zip(all_ids, nlp(all_terms)):
+        if len(prof_kw) < 10:
+            if token.pos_ == 'ADJ' or token.pos_ == 'VERB':
+                prof_kw.append(index_to_vocab[str(idx)])
+                term_ids.append(idx)
+        else: break
+    
+    kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
+    return prof_kw, kw_tier
+
+
+#helper function for get_prof_keywords
+def get_correlation_by_keyword(term_ids,any_prof,vector):
+    prof1_doc = tfidf[prof_name_to_index[any_prof]]
+    correlation = np.multiply(prof1_doc,vector)
+    kw_score=[]
     for idx in term_ids:
-        prof_vector.append(index_to_vocab[str(idx)])
-    return prof_vector
+        kw_score.append(correlation[idx])
+    kw_rank=np.array(kw_score).argsort()[::-1] #ranking of keyword ids by correlation
+    first_third = len(kw_rank)//3
+    second_third = len(kw_rank)-len(kw_rank)//3
+    first_third_threshold = kw_score[kw_rank[first_third]]
+    second_third_threshold = kw_score[kw_rank[second_third]]
+    kw_tier=[]
+    for score in kw_score:
+        if score==0:
+            kw_tier.append("low")
+        if score<=second_third_threshold:
+            kw_tier.append("low")
+        elif score<=first_third_threshold:
+            kw_tier.append("med")
+        else:
+            kw_tier.append("high")
+    return kw_tier
 
-def get_sim(prof1, prof2, input_doc_mat, prof_name_to_index):
-    prof1_doc = input_doc_mat[prof_name_to_index[prof1]]
-    prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
-    dot_product = np.dot(prof1_doc, prof2_doc)
-    prof1_norm = LA.norm(prof1_doc)
-    prof2_norm = LA.norm(prof2_doc)
-    cossim=0
-    if prof1_norm!=0 and prof2_norm!=0:
-        cossim = dot_product / (prof1_norm * prof2_norm)
-    return cossim
-
-def get_similar_profs(input_prof):
+"""
+note: helper function for get_professor_data
+input: vector (any weight vector with length 932), exclude_prof (prof in the search bar)
+output: prof_arr (array of relevant profs), prof_score (array of similarity scores)
+"""
+def get_similar_profs(vector,exclude_prof):
     score_arr=[]
     for i in range(prof_num):
-        temp=get_sim(input_prof, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
+        temp=get_sim(vector, prof_index_to_name[str(i)],tfidf, prof_name_to_index)
         score_arr.append(temp)
-    prof_ids = np.array(score_arr).argsort()[::-1][1:21]
+    prof_ids = np.array(score_arr).argsort()[::-1][:30]
     prof_arr=[]
     prof_score=[]
     for idx in prof_ids:
-        prof_arr.append(prof_index_to_name[str(idx)])
+        cur_prof = prof_index_to_name[str(idx)]
+        if cur_prof==exclude_prof: #not sending the prof searched
+            print(cur_prof, exclude_prof)
+            continue
+        prof_arr.append(cur_prof)
         prof_score.append(score_arr[idx])
     return prof_arr,prof_score
+#helper function for get_similar_profs
+def get_sim(vector, prof2, input_doc_mat, prof_name_to_index):
+    prof2_doc = input_doc_mat[prof_name_to_index[prof2]]
+    dot_product = np.dot(vector, prof2_doc)
+    vector_norm = LA.norm(vector)
+    prof2_norm = LA.norm(prof2_doc)
+    cossim=0
+    if vector_norm!=0 and prof2_norm!=0:
+        cossim = dot_product / (vector_norm * prof2_norm)
+    return cossim
 
-def get_professor_data(input_prof):
+"""
+input: vector (any weight vector with length 932), exclude_prof (prof in the search bar)
+output: json for html
+"""
+def get_professor_data(vector,exclude_prof):
     data =[]
-    prof_arr,prof_score = get_similar_profs(input_prof)
+    prof_arr,prof_score = get_similar_profs(vector,exclude_prof)
     for i,prof in enumerate(prof_arr):
-        prof_kw=get_prof_keywords(prof)
-        department = prof_to_department[prof]
+        prof_kw, kw_tier=get_prof_keywords(prof,vector)
         courses = prof_to_course[prof][:4]
+        department = prof_to_department[prof]
         temp = {
             "professor": prof,
             "overall": prof_scores[prof][0],
             "difficulty": prof_scores[prof][1],
             "workload": prof_scores[prof][2],
-            "department": (', ').join(department),
-            "keyword": (', ').join(prof_kw),
-            "similarity": round(prof_score[i], 3),
-            "course": (', ').join(courses),
+            "department": department,
+            "keyword":prof_kw,
+            "tier":kw_tier,
+            "similarity":round(prof_score[i], 3),
+            "course":courses,
             "review": sample(prof_to_review[prof], 1)
         }
         data.append(temp)
     return json.dumps(data)
+
+def get_prof_vec(input_prof):
+    prof1_doc = tfidf[prof_name_to_index[input_prof]]
+    return prof1_doc
+
+def get_course_vec(input_course):
+    course_doc = np.array(course_tfidf[input_course])
+    return course_doc
+
+def get_free_search_kw_and_vec(input_keyword):
+    scores=[]
+    similar_word=nlp(input_keyword)
+    for token in tokens:
+        scores.append(similar_word.similarity(token))
+    indices=np.argsort(scores)[::-1][:20]
+    kw_list = []
+    vector = np.zeros(932)
+    for i in indices:
+        kw_list.append(index_to_vocab[str(i)])
+        vector[i]=1
+    return kw_list, vector
+
+def parse_vote_string(s) -> dict:
+    entries = s.split(',')
+    vote_dict = dict()
+    if entries[0]: # nonempty vote param
+        for entry in entries:
+            name, vote = entry.split(':')
+            vote_dict[name] = vote
+    return vote_dict
+
 
 @app.route("/")
 def home():
@@ -175,8 +224,60 @@ def home():
 
 @app.route("/reviews")
 def reviews_search():
-    text = request.args.get("title")
-    return get_professor_data(text)
+    prof = request.args.get("prof")
+    course = request.args.get("course")
+    free = request.args.get("free")
+    vote_string = request.args.get("votes")
+    vote_dict = parse_vote_string(vote_string)
+    likes_update_weight = np.zeros(932)
+    dislikes_update_weight = np.zeros(932)
+    likes, dislikes = 0, 0
+    for p, update in vote_dict.items(): # update is either 1 or -1
+        if update == 1:
+            likes_update_weight += get_prof_vec(p)
+            likes += 1
+        else:
+            dislikes_update_weight += get_prof_vec(p)
+            dislikes += 1
+    
+    fine_tune_coeff_course = 1.5
+    fint_tune_coeff_free = 3
+    prof_weight = int(request.args.get("prof_weight"))
+    course_weight = int(request.args.get("course_weight"))*fine_tune_coeff_course
+    free_weight = int(request.args.get("free_weight"))*fint_tune_coeff_free
+    
+    total_weight = 0
+    total_vector = np.zeros(932)
+    if prof!="":
+        total_weight+=prof_weight
+        total_vector+=get_prof_vec(prof)*prof_weight
+    if course!="":
+        total_weight+=course_weight
+        total_vector+=get_course_vec(course)*course_weight
+    if free!="":
+        total_weight+=free_weight
+        free_kw_list, free_vector = get_free_search_kw_and_vec(free)
+        total_vector+=free_vector
+    if total_weight == 0:
+        return None
+    total_vector/=total_weight
+
+    # Rocchio: adjust relevant / irrevelant professor weights
+    # _a, _b, _c = 1, 0.01, 0.01
+    _a, _b, _c = 0.55, 0.55, 0.1
+
+    total_vector = _a * total_vector
+    
+    if likes > 0:
+        total_vector += _b * likes_update_weight / likes
+    if dislikes > 0:
+        total_vector -= _c * dislikes_update_weight / dislikes
+
+    for i in range(len(total_vector)):
+        if total_vector[i] < 0:
+            total_vector[i] = 0
+
+    return get_professor_data(total_vector,prof)
 
 @app.route("/suggestion/prof")
 def suggest_prof():
