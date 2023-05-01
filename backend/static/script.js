@@ -82,8 +82,8 @@ function answerBoxTemplate(
     </div>`;
 }
 function noResultTemplate() {
-  return `<div class=''>
-          <h3 class='professor-name'>No result found.</h3>
+  return `<div>
+          <h3>No result found.</h3>
       </div>`;
 }
 
