@@ -75,14 +75,12 @@ html {
 
 .input-box {
   border-radius: 3px;
-  /* border: 1px solid black; */
   box-shadow: 0 3px 10px #ccc;
   display: flex;
   align-items: center;
   padding: 12px;
   width: 90%;
   height: 20px;
-  margin: 0rem 0.2rem;
 }
 
 .input-box img {
@@ -376,4 +374,8 @@ html {
 .department-box{
   color:#000;
   background-color: #dcd4d4;
+}
+
+.general-search{
+  margin-bottom: 5px;
 }

@@ -1,0 +1,8862 @@
+{
+    "Laura Barre": [
+        "negative",
+        "surprise",
+        "anticipation"
+    ],
+    "John Michael": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "David Levitsky": [
+        "joy",
+        "disgust",
+        "fear"
+    ],
+    "Pamela Weisberg Shapiro": [
+        "surprise",
+        "anticipation",
+        "sadness"
+    ],
+    "Tashara Leak": [
+        "anticipation",
+        "positive",
+        "negative"
+    ],
+    "Jeanne Moseley": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Dan Berry": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Joanna Fiddler": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Marie Caudill": [
+        "anger",
+        "fear",
+        "disgust"
+    ],
+    "Kimberly O'Brien": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Julia Finkelstein": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Emily Gier": [
+        "anticipation",
+        "negative",
+        "joy"
+    ],
+    "Clifford Kraft": [
+        "negative",
+        "surprise",
+        "anger"
+    ],
+    "Marc Goebel": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Richard Stedman": [
+        "positive",
+        "anticipation",
+        "disgust"
+    ],
+    "David Bonter": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Evan Cooch": [
+        "surprise",
+        "sadness",
+        "trust"
+    ],
+    "Rebecca Schneider": [
+        "anticipation",
+        "surprise",
+        "negative"
+    ],
+    "James Tantillo": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Peter Frazier": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "Peter Fraizer": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "John Richard Callister": [
+        "fear",
+        "anticipation",
+        "surprise"
+    ],
+    "Jim Dai": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Damek Davis": [
+        "sadness",
+        "disgust",
+        "trust"
+    ],
+    "Adrian Lewis": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Frans Schalekamp": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "David Williamson": [
+        "fear",
+        "positive",
+        "joy"
+    ],
+    "David Goldberg": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Jamol Pender": [
+        "fear",
+        "sadness",
+        "anger"
+    ],
+    "Patie Pierre": [
+        "sadness",
+        "anticipation",
+        "anger"
+    ],
+    "Yudong Chen": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "Madeleine Udell": [
+        "fear",
+        "disgust",
+        "negative"
+    ],
+    "Kathryn Caggiano": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Eric Gentsch": [
+        "anticipation",
+        "surprise",
+        "trust"
+    ],
+    "Michael Jauch": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Sharon Sassler": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Brandon Tripp": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Thomas Evans": [
+        "fear",
+        "trust",
+        "disgust"
+    ],
+    "Matthew Hall": [
+        "positive",
+        "joy",
+        "surprise"
+    ],
+    "Kim Weeden": [
+        "positive",
+        "joy",
+        "fear"
+    ],
+    "Steven Alvarado": [
+        "sadness",
+        "disgust",
+        "positive"
+    ],
+    "Anna Haskins": [
+        "positive",
+        "anger",
+        "joy"
+    ],
+    "Peter Rich": [
+        "fear",
+        "positive",
+        "disgust"
+    ],
+    "Rosemary Avery": [
+        "surprise",
+        "anger",
+        "disgust"
+    ],
+    "Sean Nicholson": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Pauline Leung": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Nicolas Bottan": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Colleen Carey": [
+        "anger",
+        "sadness",
+        "fear"
+    ],
+    "Laura Tach": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Julie Carmalt": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Don Kenkel": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Alan Mathios": [
+        "fear",
+        "sadness",
+        "positive"
+    ],
+    "Nicholas Sanders": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Nicolas Ziebarth": [
+        "trust",
+        "positive",
+        "negative"
+    ],
+    "John Cawley": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Brooke Hollis": [
+        "fear",
+        "trust",
+        "disgust"
+    ],
+    "Jordan Matsudaira": [
+        "anticipation",
+        "surprise",
+        "anger"
+    ],
+    "Diane Beckwith": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Susan Ball": [
+        "fear",
+        "positive",
+        "anticipation"
+    ],
+    "Tim Sayers": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Iska Ziver": [
+        "joy",
+        "surprise",
+        "sadness"
+    ],
+    "June Seaney": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Michael Ristorucci": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Cynthia Overstreet": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Han Cho": [
+        "anticipation",
+        "joy",
+        "anger"
+    ],
+    "Dustin Paul": [
+        "anticipation",
+        "negative",
+        "sadness"
+    ],
+    "Bert Adams-Kucik": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Kimberley Alger-Norton": [
+        "anticipation",
+        "anger",
+        "negative"
+    ],
+    "Adrian Durant": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Priscilla Timberlake": [
+        "anticipation",
+        "negative",
+        "positive"
+    ],
+    "Douglas Volbrecht": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Jon LaRock": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Mary Gerlach": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Jonathan Billing": [
+        "surprise",
+        "anticipation",
+        "disgust"
+    ],
+    "Kevin Seaman": [
+        "anger",
+        "joy",
+        "anticipation"
+    ],
+    "Shad Ryan": [
+        "anticipation",
+        "anger",
+        "trust"
+    ],
+    "William Myers": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "John Burger": [
+        "disgust",
+        "anticipation",
+        "positive"
+    ],
+    "Helen Tseng": [
+        "joy",
+        "disgust",
+        "positive"
+    ],
+    "Lewis Freedman": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Carol Hawk": [
+        "fear",
+        "anticipation",
+        "positive"
+    ],
+    "Jen Gudaz": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Michael Bryant": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Arthur Falkson": [
+        "negative",
+        "anticipation",
+        "joy"
+    ],
+    "Daniel Evett": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Gene Nighman": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Jamie Rattray": [
+        "anger",
+        "negative",
+        "fear"
+    ],
+    "Patrick Crowley": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Gregory Brown": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Benjamin Blakeley": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Charles Rendleman": [
+        "anger",
+        "fear",
+        "joy"
+    ],
+    "Matt Hayes": [
+        "anticipation",
+        "fear",
+        "sadness"
+    ],
+    "Linda McKeown": [
+        "positive",
+        "anticipation",
+        "trust"
+    ],
+    "Matthew Essigmann": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Scott Flickinger": [
+        "disgust",
+        "anticipation",
+        "joy"
+    ],
+    "Marlon Sears": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Mark Holton": [
+        "anticipation",
+        "surprise",
+        "anger"
+    ],
+    "Chris Leeming": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Andrew McLaughlin": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Rob Cook": [
+        "sadness",
+        "negative",
+        "surprise"
+    ],
+    "Amy Woodin": [
+        "anticipation",
+        "sadness",
+        "fear"
+    ],
+    "Sarah Myers": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "Iago Gocheleishvili": [
+        "joy",
+        "surprise",
+        "negative"
+    ],
+    "Nathaniel Bulthuis": [
+        "surprise",
+        "anticipation",
+        "trust"
+    ],
+    "Theodore Korzukhin": [
+        "anger",
+        "disgust",
+        "sadness"
+    ],
+    "Karen Bennett": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Marta Heckel": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Alex Esposito": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Daniel Manne": [
+        "negative",
+        "anticipation",
+        "trust"
+    ],
+    "Alicia Patterson": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "Matthew Paskell": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Lyu Zhou": [
+        "positive",
+        "negative",
+        "surprise"
+    ],
+    "Yuna Won": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "August Faller": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "William Starr": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Tad Brennan": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Derk Pereboom": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Alexander Kocurek": [
+        "surprise",
+        "joy",
+        "fear"
+    ],
+    "Kate Manne": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Julia Markovits": [
+        "positive",
+        "anger",
+        "surprise"
+    ],
+    "Robert Lieberman": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Nicholas Taylor": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Philip Krasicky": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Robert Fulbright": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Jeevak Parpia": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Jim Alexander": [
+        "fear",
+        "anticipation",
+        "anger"
+    ],
+    "Kyle Shen": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Liam McAllister": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Itai Cohen": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Natasha Holmes": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Katherine Selby": [
+        "joy",
+        "positive",
+        "sadness"
+    ],
+    "Glenn Case": [
+        "disgust",
+        "fear",
+        "anger"
+    ],
+    "Tomas Arias": [
+        "anticipation",
+        "fear",
+        "surprise"
+    ],
+    "Nam Kim": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Alan Giambattista": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Namjung Kim": [
+        "fear",
+        "surprise",
+        "anticipation"
+    ],
+    "Ivan Bazarov": [
+        "disgust",
+        "fear",
+        "trust"
+    ],
+    "Matthias Liepe": [
+        "sadness",
+        "fear",
+        "anger"
+    ],
+    "Chris Xu": [
+        "fear",
+        "sadness",
+        "joy"
+    ],
+    "Gennady Shvets": [
+        "fear",
+        "joy",
+        "sadness"
+    ],
+    "Brad Ramshaw": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Andre Leclair": [
+        "anger",
+        "surprise",
+        "fear"
+    ],
+    "Seamus Davis": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Carl Franck": [
+        "trust",
+        "joy",
+        "disgust"
+    ],
+    "Katja Nowack": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Peter Wittich": [
+        "anger",
+        "positive",
+        "fear"
+    ],
+    "Jared Maxson": [
+        "fear",
+        "surprise",
+        "joy"
+    ],
+    "Lawrence Gibbons": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Earl Kirkland": [
+        "anticipation",
+        "surprise",
+        "sadness"
+    ],
+    "Georg Hoffstaetter": [
+        "fear",
+        "disgust",
+        "negative"
+    ],
+    "Paul Ginsparg": [
+        "positive",
+        "fear",
+        "negative"
+    ],
+    "James Sethna": [
+        "fear",
+        "positive",
+        "surprise"
+    ],
+    "Tom Silva": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Marvin Pritts": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Kathie Hodge": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "William Miller": [
+        "joy",
+        "anticipation",
+        "sadness"
+    ],
+    "Frank Rossi": [
+        "anticipation",
+        "positive",
+        "joy"
+    ],
+    "Taryn Bauerle": [
+        "surprise",
+        "anticipation",
+        "anger"
+    ],
+    "Matthew Ryan": [
+        "anticipation",
+        "positive",
+        "sadness"
+    ],
+    "Tim Setter": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Diana Sinton": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Aoise Stratford": [
+        "joy",
+        "surprise",
+        "positive"
+    ],
+    "Samuel Blake": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Ellen Gainor": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Andrew Campana": [
+        "anticipation",
+        "joy",
+        "fear"
+    ],
+    "Samantha Sheppard": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Philip Lorenz": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "Roger Gilbert": [
+        "anger",
+        "surprise",
+        "negative"
+    ],
+    "Carolyn Goelzer": [
+        "anticipation",
+        "trust",
+        "surprise"
+    ],
+    "Theo Black": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Timothy Murray": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Amy Villarejo": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Warren Cross": [
+        "anger",
+        "negative",
+        "fear"
+    ],
+    "Austin Bunn": [
+        "anticipation",
+        "negative",
+        "surprise"
+    ],
+    "Jura D. Oliveira": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "David Pizarro": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Kat Caldwell": [
+        "surprise",
+        "sadness",
+        "positive"
+    ],
+    "Khena Swallow": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "Shaun Nichols": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Stewart McCauley": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Jennifer Schwade": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Gary Evans": [
+        "positive",
+        "anticipation",
+        "surprise"
+    ],
+    "Michael Goldstein": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Morten Christiansen": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Thomas Cleland": [
+        "anticipation",
+        "fear",
+        "disgust"
+    ],
+    "Parnia Haj-Mohamadi": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Jeffrey Rachlinski": [
+        "anticipation",
+        "surprise",
+        "trust"
+    ],
+    "Vivian Zayas": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Tom Gilovich": [
+        "positive",
+        "disgust",
+        "fear"
+    ],
+    "Lauren Korfine": [
+        "trust",
+        "joy",
+        "sadness"
+    ],
+    "Laura Niemi": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Shimon Edelman": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Carol Krumhansl": [
+        "joy",
+        "anticipation",
+        "sadness"
+    ],
+    "Harry Segal": [
+        "positive",
+        "sadness",
+        "joy"
+    ],
+    "Christiane Linster": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Jane Mendle": [
+        "anticipation",
+        "surprise",
+        "positive"
+    ],
+    "David Field": [
+        "positive",
+        "anticipation",
+        "trust"
+    ],
+    "Daniel Boucher": [
+        "negative",
+        "joy",
+        "surprise"
+    ],
+    "Kim Haines-Eitzen": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "David Powers": [
+        "positive",
+        "anger",
+        "sadness"
+    ],
+    "Julia Karczewski": [
+        "anger",
+        "fear",
+        "sadness"
+    ],
+    "Richard Gibbs": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Nicholas Huelster": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Itziar Rodriguez de Rivera": [
+        "joy",
+        "sadness",
+        "positive"
+    ],
+    "Irene Eibenstein-Alvisi": [
+        "anticipation",
+        "anger",
+        "sadness"
+    ],
+    "Gustavo Quintero": [
+        "joy",
+        "sadness",
+        "surprise"
+    ],
+    "Ti Alkire": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Kendra Bischoff": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Landon Schnabel": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Filiz Garip": [
+        "anticipation",
+        "trust",
+        "surprise"
+    ],
+    "David Strang": [
+        "positive",
+        "negative",
+        "anger"
+    ],
+    "David Easley": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Stephen Hilgartner": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Victor Nee": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Dario Azzellini": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "John Sipple": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Christine Leuenberger": [
+        "sadness",
+        "disgust",
+        "anger"
+    ],
+    "John Zinda": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Cristobal Young": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Tom Hirschl": [
+        "anticipation",
+        "positive",
+        "disgust"
+    ],
+    "Erin York Cornwell": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Tomas Bevia": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "Emilia Illana Mahiques": [
+        "surprise",
+        "disgust",
+        "anticipation"
+    ],
+    "Sebastian Antezana Quiroga": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Janet Hendrickson": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Monica Bevia": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Silvia Amigo-Silvestre": [
+        "anger",
+        "anticipation",
+        "sadness"
+    ],
+    "Paulo Lorca Fuentealba": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Kelly Moore": [
+        "surprise",
+        "disgust",
+        "trust"
+    ],
+    "Alice McAdams": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "Andy Barrientos-Gomez": [
+        "fear",
+        "trust",
+        "negative"
+    ],
+    "Omar Figueredo": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Brisa Teutli": [
+        "trust",
+        "positive",
+        "anger"
+    ],
+    "Nilsa Maldonado-Mendez": [
+        "negative",
+        "joy",
+        "trust"
+    ],
+    "Cecelia Lawless": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Alvaro Garrote Pascual": [
+        "fear",
+        "trust",
+        "positive"
+    ],
+    "Simone Pinet": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "Christopher Roebuck": [
+        "surprise",
+        "negative",
+        "joy"
+    ],
+    "Christopher Hesselbein": [
+        "disgust",
+        "anger",
+        "positive"
+    ],
+    "Derek Parrott": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Jeffrey Mathias": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Rebecca Harrison": [
+        "positive",
+        "joy",
+        "negative"
+    ],
+    "Michelle Smith": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Steven Jackson": [
+        "negative",
+        "disgust",
+        "joy"
+    ],
+    "Kim Overby": [
+        "anticipation",
+        "positive",
+        "joy"
+    ],
+    "Park Doing": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Suman Seth": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "Anindita Banerjee": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Sara Pritchard": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Stacey Langwick": [
+        "anger",
+        "negative",
+        "surprise"
+    ],
+    "Saida Hodzic": [
+        "anger",
+        "sadness",
+        "negative"
+    ],
+    "Tj Hinrichs": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Ronald Kline": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Jessica Ratcliff": [
+        "anticipation",
+        "negative",
+        "fear"
+    ],
+    "Noah Tamarkin": [
+        "sadness",
+        "negative",
+        "surprise"
+    ],
+    "Norman Porticella": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Phoebe Sengers": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Christopher Csikszentmihalyi": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Kevin Packard": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Elizabeth Karns": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Melissa Smith": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Jeremy Entner": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Cecilia Earls": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Florentina Bunea": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Rajendran Narayanan": [
+        "anticipation",
+        "fear",
+        "surprise"
+    ],
+    "Thomas Diciccio": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Martin Wells": [
+        "positive",
+        "disgust",
+        "joy"
+    ],
+    "Russell Lloyd": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Giles Hooker": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Yang Ning": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Haiyan Deng": [
+        "joy",
+        "surprise",
+        "anticipation"
+    ],
+    "Dwayne Bershaw": [
+        "joy",
+        "surprise",
+        "positive"
+    ],
+    "John Elliott": [
+        "surprise",
+        "disgust",
+        "anticipation"
+    ],
+    "Andrew Moisey": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Ananda Cohen-Aponte": [
+        "positive",
+        "surprise",
+        "sadness"
+    ],
+    "Christopher Miller": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Bradley Zukovic": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Kelly King-O'Brien": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Athena Kirk": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Todd Clary": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "Christopher Monroe": [
+        "sadness",
+        "negative",
+        "anticipation"
+    ],
+    "Courtney Roby": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Caitlin Barrett": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Nathan Pilkington": [
+        "positive",
+        "surprise",
+        "fear"
+    ],
+    "Barry Strauss": [
+        "surprise",
+        "positive",
+        "fear"
+    ],
+    "Eric Rebillard": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Annetta Alexandridis": [
+        "sadness",
+        "surprise",
+        "negative"
+    ],
+    "Nicole Giannella": [
+        "negative",
+        "positive",
+        "anger"
+    ],
+    "Cindy Hsin-Liu Kao": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Adam Anderson": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Kaushik Basu": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Mats Rooth": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "John Hale": [
+        "anger",
+        "sadness",
+        "surprise"
+    ],
+    "Claire Cardie": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Lillian Lee": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Jonathan Park": [
+        "negative",
+        "surprise",
+        "sadness"
+    ],
+    "Van Le": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Marc Kohlbry": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Joe Zappa": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Oliver Aas": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Marie Lambert": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Jorge Cartaya": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Raissa Krivitsky": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Tom McEnaney": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Natalie Melas": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Nancy Pollak": [
+        "negative",
+        "trust",
+        "joy"
+    ],
+    "Tracy McNulty": [
+        "trust",
+        "surprise",
+        "joy"
+    ],
+    "Drew Margolin": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Sahara Byrne": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Poppy McLeod": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Andrea Won": [
+        "negative",
+        "sadness",
+        "joy"
+    ],
+    "Jodi Cohen": [
+        "anticipation",
+        "fear",
+        "joy"
+    ],
+    "Lee Humphreys": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Lauren Chambliss": [
+        "positive",
+        "trust",
+        "sadness"
+    ],
+    "J. Matias": [
+        "fear",
+        "positive",
+        "anger"
+    ],
+    "Chao Yu": [
+        "trust",
+        "negative",
+        "disgust"
+    ],
+    "Flavien Glidja": [
+        "anticipation",
+        "joy",
+        "fear"
+    ],
+    "Neil Lewis": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Natalie Bazarova": [
+        "negative",
+        "positive",
+        "anticipation"
+    ],
+    "Peter Enns": [
+        "fear",
+        "negative",
+        "trust"
+    ],
+    "Brooke Duffy": [
+        "disgust",
+        "negative",
+        "positive"
+    ],
+    "Gilly Leshed": [
+        "anticipation",
+        "anger",
+        "disgust"
+    ],
+    "Qian Yang": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Francois Guimbretiere": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Susan Fussell": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Katelin Olson": [
+        "disgust",
+        "sadness",
+        "joy"
+    ],
+    "Kieran Donaghy": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Ziye Zhang": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Suzanne Charles": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "Anne Bracy": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Walker White": [
+        "joy",
+        "anticipation",
+        "trust"
+    ],
+    "Charles Van Loan": [
+        "sadness",
+        "disgust",
+        "negative"
+    ],
+    "Kit-Yee Daisy Fan": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "Kyle Harms": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Haym Hirsh": [
+        "fear",
+        "disgust",
+        "negative"
+    ],
+    "Madeline Smith": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Daniel Cosley": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Donald Greenberg": [
+        "positive",
+        "joy",
+        "surprise"
+    ],
+    "Ronald DiNapoli": [
+        "sadness",
+        "anticipation",
+        "surprise"
+    ],
+    "Craig Frey": [
+        "negative",
+        "trust",
+        "anger"
+    ],
+    "David Gries": [
+        "surprise",
+        "negative",
+        "anger"
+    ],
+    "Curran Muhlberger": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Siddhartha Chaudhuri": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Dexter Kozen": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Andrew Myers": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Nate Foster": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Steve Mohlke": [
+        "joy",
+        "trust",
+        "disgust"
+    ],
+    "Steven Mohlke": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Carla Gomes": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Michael George": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Anke van Zuylen": [
+        "surprise",
+        "fear",
+        "anticipation"
+    ],
+    "Joseph Halpern": [
+        "disgust",
+        "negative",
+        "fear"
+    ],
+    "Michael Clarkson": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Robert Constable": [
+        "negative",
+        "trust",
+        "disgust"
+    ],
+    "David Mimno": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Jeff Rzeszotarski": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Hakim Weatherspoon": [
+        "disgust",
+        "anger",
+        "positive"
+    ],
+    "Nils Napp": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Jose Martinez": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Edward Suh": [
+        "fear",
+        "anticipation",
+        "anger"
+    ],
+    "Adrian Sampson": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "John Foster": [
+        "joy",
+        "disgust",
+        "sadness"
+    ],
+    "Chrissy Lau": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Alexander Vladimirsky": [
+        "disgust",
+        "fear",
+        "sadness"
+    ],
+    "Austin Benson": [
+        "disgust",
+        "negative",
+        "fear"
+    ],
+    "Anil Damle": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Cristian Danescu-Niculescu-Mizil": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Christopher Buckley": [
+        "anticipation",
+        "trust",
+        "surprise"
+    ],
+    "Immanuel Trummer": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Lorenzo Alvisi": [
+        "sadness",
+        "disgust",
+        "anger"
+    ],
+    "Robbert Van Renesse": [
+        "surprise",
+        "negative",
+        "disgust"
+    ],
+    "Jon Kleinberg": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "Rachit Agarwal": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Ken Birman": [
+        "negative",
+        "anticipation",
+        "joy"
+    ],
+    "Christina Delimitrou": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Abe Davis": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Stephen Marschner": [
+        "anger",
+        "fear",
+        "disgust"
+    ],
+    "Bharath Hariharan": [
+        "sadness",
+        "disgust",
+        "negative"
+    ],
+    "Bart Selman": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Robert Kleinberg": [
+        "fear",
+        "disgust",
+        "positive"
+    ],
+    "Ross Knepper": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Jaehee Kim": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Amy Williams": [
+        "anticipation",
+        "sadness",
+        "trust"
+    ],
+    "Thorsten Joachims": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Wen Sun": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Christopher De Sa": [
+        "surprise",
+        "fear",
+        "disgust"
+    ],
+    "Kilian Weinberger": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Karthik Sridharan": [
+        "surprise",
+        "trust",
+        "fear"
+    ],
+    "John Hopcroft": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "David Steurer": [
+        "anticipation",
+        "negative",
+        "sadness"
+    ],
+    "Eva Tardos": [
+        "fear",
+        "sadness",
+        "anger"
+    ],
+    "Eshan Chattopadhyay": [
+        "positive",
+        "joy",
+        "surprise"
+    ],
+    "Noah Stephens-Davidowitz": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Cristobal Cheyre Forestier": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Arpita Ghosh": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "William Arms": [
+        "surprise",
+        "anticipation",
+        "negative"
+    ],
+    "Ross Tate": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Owolabi Legunsen": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Fred Schneider": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Serge Belongie": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Volodymyr Kuleshov": [
+        "fear",
+        "trust",
+        "disgust"
+    ],
+    "So-Yeon Yoon": [
+        "anticipation",
+        "fear",
+        "sadness"
+    ],
+    "Kathleen Gibson": [
+        "disgust",
+        "anticipation",
+        "positive"
+    ],
+    "Nooshin Ahmadi": [
+        "disgust",
+        "anger",
+        "surprise"
+    ],
+    "Rhonda Gilmore": [
+        "disgust",
+        "anger",
+        "anticipation"
+    ],
+    "Alan Hedge": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Jay Yoon": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Larry Brown": [
+        "negative",
+        "joy",
+        "anger"
+    ],
+    "Mark Wysocki": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Bruce Monger": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Susan Riha": [
+        "fear",
+        "anticipation",
+        "sadness"
+    ],
+    "Robert Ross": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "Rowena Lohman": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Bill White": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Arthur DeGaetano": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Gang Chen": [
+        "anticipation",
+        "trust",
+        "disgust"
+    ],
+    "Peter Hess": [
+        "fear",
+        "negative",
+        "anger"
+    ],
+    "David Albonesi": [
+        "anticipation",
+        "joy",
+        "sadness"
+    ],
+    "Alyosha Molnar": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Clifford Pollock": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Zhiru Zhang": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Christopher Batten": [
+        "trust",
+        "anticipation",
+        "positive"
+    ],
+    "Aaron Wagner": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "Farhan Rana": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Qing Zhao": [
+        "disgust",
+        "anger",
+        "positive"
+    ],
+    "David Delchamps": [
+        "surprise",
+        "disgust",
+        "sadness"
+    ],
+    "A. Kevin Tang": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "James Shealy": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Carl Poitras": [
+        "fear",
+        "joy",
+        "negative"
+    ],
+    "David Forbes Delchamps": [
+        "positive",
+        "joy",
+        "surprise"
+    ],
+    "Stephen Wicker": [
+        "disgust",
+        "negative",
+        "trust"
+    ],
+    "Hsiao-Dong Chiang": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Van Adams": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "Adam Bojanczyk": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Bruce Johnson": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Vikram Krishnamurthy": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Anthony Reeves": [
+        "sadness",
+        "negative",
+        "anger"
+    ],
+    "Joseph Skovira": [
+        "anticipation",
+        "joy",
+        "fear"
+    ],
+    "George Orlov": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Albert Alexander": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Stephanie Thomas": [
+        "fear",
+        "surprise",
+        "negative"
+    ],
+    "Jennifer Wissink": [
+        "surprise",
+        "negative",
+        "disgust"
+    ],
+    "Richard Burkhauser": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Arnab Basu": [
+        "sadness",
+        "negative",
+        "anger"
+    ],
+    "David Lee": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Douglas McKee": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Philipp Kircher": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Maxim Troshkin": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Tapan Mitra": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Gregory Besharov": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Christopher Huckfeldt": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Mathieu Taschereau-Dumouchel": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Levon Barseghyan": [
+        "surprise",
+        "anger",
+        "disgust"
+    ],
+    "George Jakubson": [
+        "disgust",
+        "negative",
+        "fear"
+    ],
+    "Joerg Stoye": [
+        "surprise",
+        "fear",
+        "sadness"
+    ],
+    "Max Kapustin": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Francine Blau": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "George Hay": [
+        "anticipation",
+        "trust",
+        "negative"
+    ],
+    "Tommaso Denti": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Kristoffer Nimark": [
+        "trust",
+        "joy",
+        "negative"
+    ],
+    "Giulia Brancaccio": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Ted O'Donoghue": [
+        "positive",
+        "fear",
+        "joy"
+    ],
+    "Eleonora Patacchini": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Marco Battaglini": [
+        "fear",
+        "sadness",
+        "anticipation"
+    ],
+    "Annalisa Raymer": [
+        "sadness",
+        "fear",
+        "disgust"
+    ],
+    "Jeffrey Perry": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Adi Grabiner Keinan": [
+        "disgust",
+        "anticipation",
+        "anger"
+    ],
+    "Jazlin Gomez": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Bryan Duff": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Kathryn Diaz": [
+        "positive",
+        "anticipation",
+        "trust"
+    ],
+    "Madeline Reynolds": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Emily Mercurio": [
+        "surprise",
+        "disgust",
+        "anticipation"
+    ],
+    "Christopher Hewitt": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Jane Glaubman": [
+        "anticipation",
+        "negative",
+        "surprise"
+    ],
+    "Krithika Vachali": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Olanrewaju Akinsiku": [
+        "anticipation",
+        "trust",
+        "positive"
+    ],
+    "Bwesigye Bwa Mwesigire": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Katherine Thorsteinson": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Cathy Caruth": [
+        "anger",
+        "joy",
+        "surprise"
+    ],
+    "Derrick Spires": [
+        "positive",
+        "disgust",
+        "joy"
+    ],
+    "Brianna Thompson": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Molly MacVeagh": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Lily Codera": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Sara Schlemm": [
+        "trust",
+        "positive",
+        "sadness"
+    ],
+    "Christine Vines": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Elie Piha": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Zahid Rafiq": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Lily Yu": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Carlos Gomez": [
+        "trust",
+        "positive",
+        "sadness"
+    ],
+    "Ashley Hand": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Alice Turski": [
+        "anticipation",
+        "sadness",
+        "surprise"
+    ],
+    "Ariel Estrella": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Robert Romero": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Samson Jardine": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Jennifer Rabedeau": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "Malcolm Bare": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Adin Lears": [
+        "joy",
+        "trust",
+        "disgust"
+    ],
+    "Andrew Galloway": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Rayna Kalas": [
+        "anticipation",
+        "negative",
+        "surprise"
+    ],
+    "Elisha Cohn": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Sunn Wong": [
+        "anticipation",
+        "positive",
+        "disgust"
+    ],
+    "Charlie Green": [
+        "joy",
+        "trust",
+        "negative"
+    ],
+    "Gregory Londe": [
+        "negative",
+        "anticipation",
+        "disgust"
+    ],
+    "Vivian Ludford": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Alice Mercier": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Joanie Mackowski": [
+        "anticipation",
+        "anger",
+        "disgust"
+    ],
+    "Lauren Schenkman": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Emma Perry": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Jasmine Reid": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Stephanie Vaughn": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Charles Green": [
+        "anticipation",
+        "sadness",
+        "trust"
+    ],
+    "Corey Earle": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Edward Baptist": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "Thomas Hill": [
+        "joy",
+        "surprise",
+        "negative"
+    ],
+    "Masha Raskolnikov": [
+        "anger",
+        "disgust",
+        "positive"
+    ],
+    "Jane Juffer": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Ernesto Quinonez": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Maureen McCoy": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Robert Morgan": [
+        "anger",
+        "sadness",
+        "trust"
+    ],
+    "Ishion Hutchinson": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Satya Mohanty": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Traci Nathans-Kelly": [
+        "negative",
+        "trust",
+        "disgust"
+    ],
+    "Allison Hutchison": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Sharon Ahlers": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Jingjie Yeo": [
+        "anticipation",
+        "sadness",
+        "disgust"
+    ],
+    "Hadas Ritz": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Atieh Moridi": [
+        "fear",
+        "surprise",
+        "anticipation"
+    ],
+    "Peter Doerschuk": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Elizabeth Fisher": [
+        "positive",
+        "fear",
+        "trust"
+    ],
+    "Perrine Pepiot": [
+        "fear",
+        "disgust",
+        "sadness"
+    ],
+    "Harold Craighead": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Lois Pollack": [
+        "joy",
+        "surprise",
+        "fear"
+    ],
+    "John March": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Mingming Wu": [
+        "sadness",
+        "negative",
+        "positive"
+    ],
+    "Andrej Singer": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Bruce van Dover": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Marie Chazal": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Jacob Feldman": [
+        "disgust",
+        "fear",
+        "sadness"
+    ],
+    "Edwin (Todd) Cowen": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Celia Evans": [
+        "disgust",
+        "fear",
+        "trust"
+    ],
+    "Samitha Samaranayake": [
+        "fear",
+        "joy",
+        "sadness"
+    ],
+    "Brenda Dietrich": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "David Shmoys": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Samuel Gutekunst": [
+        "surprise",
+        "joy",
+        "disgust"
+    ],
+    "Jeffrey Varner": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Christopher Alabi": [
+        "fear",
+        "surprise",
+        "negative"
+    ],
+    "Julianne Quinn": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Scott Maguffin": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Kenneth Hover": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Zhiting Tian": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "Wolfgang Sachse": [
+        "anticipation",
+        "surprise",
+        "anger"
+    ],
+    "Lena Kourkoutis": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Frank Wise": [
+        "fear",
+        "positive",
+        "anger"
+    ],
+    "Esak Lee": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Robert Newman": [
+        "negative",
+        "disgust",
+        "anticipation"
+    ],
+    "Andrea Ippolito": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Erik Eshelman": [
+        "negative",
+        "anticipation",
+        "joy"
+    ],
+    "Marina Caillaud": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "John Sanderson": [
+        "fear",
+        "anticipation",
+        "positive"
+    ],
+    "Linda Rayor": [
+        "surprise",
+        "disgust",
+        "joy"
+    ],
+    "Johannes Lehmann": [
+        "anticipation",
+        "fear",
+        "disgust"
+    ],
+    "Peter McIntyre": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Christopher Loss": [
+        "anger",
+        "fear",
+        "sadness"
+    ],
+    "Alicia Orta-Ramirez": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Julie Goddard": [
+        "sadness",
+        "disgust",
+        "anger"
+    ],
+    "Dennis Miller": [
+        "sadness",
+        "anger",
+        "joy"
+    ],
+    "Carl Batt": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Robin Dando": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Syed Rizvi": [
+        "trust",
+        "joy",
+        "surprise"
+    ],
+    "Julia Chang": [
+        "disgust",
+        "sadness",
+        "anger"
+    ],
+    "Kate McCullough": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Margaret Washington": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Thierry Torea": [
+        "fear",
+        "anticipation",
+        "surprise"
+    ],
+    "Claire Menard": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Sarena Tien": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Elise Finielz": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Pauline Goul": [
+        "anticipation",
+        "positive",
+        "joy"
+    ],
+    "Marie-Claire Vallois": [
+        "surprise",
+        "fear",
+        "negative"
+    ],
+    "Laurent Ferri": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Paul Friedland": [
+        "anger",
+        "fear",
+        "negative"
+    ],
+    "Huiju Park": [
+        "surprise",
+        "fear",
+        "positive"
+    ],
+    "Denise Green": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Anil Netravali": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Kimberly Phoenix": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "Jooyoung Shin": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Tasha Lewis": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Frances Kozen": [
+        "negative",
+        "anticipation",
+        "disgust"
+    ],
+    "Mehmet Ozturk": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Van Dyk Lewis": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Amparo Necker": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Douglas McBride": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Mark Mandych": [
+        "anticipation",
+        "disgust",
+        "sadness"
+    ],
+    "Ekaterina Pirozhenko": [
+        "surprise",
+        "disgust",
+        "anticipation"
+    ],
+    "Jordan Thomson": [
+        "surprise",
+        "fear",
+        "positive"
+    ],
+    "Gunhild Lischke": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Grit Matthias": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Erik Born": [
+        "anticipation",
+        "trust",
+        "disgust"
+    ],
+    "Seth Thomas": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Jacy Tackett": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Sander Oosterom": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "David Forman": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Elke Siegel": [
+        "disgust",
+        "sadness",
+        "anticipation"
+    ],
+    "Alexandra Blackman": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Douglas Kriner": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "Suzanne Mettler": [
+        "negative",
+        "fear",
+        "anger"
+    ],
+    "Nicolas van de Walle": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Kristin Roebuck": [
+        "positive",
+        "anticipation",
+        "disgust"
+    ],
+    "Peter Katzenstein": [
+        "positive",
+        "anger",
+        "fear"
+    ],
+    "Sarah Kreps": [
+        "disgust",
+        "fear",
+        "anger"
+    ],
+    "Sabrina Karim": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Rachel Riedl": [
+        "surprise",
+        "negative",
+        "disgust"
+    ],
+    "Christopher Way": [
+        "surprise",
+        "anticipation",
+        "fear"
+    ],
+    "Jamila Michener": [
+        "positive",
+        "trust",
+        "sadness"
+    ],
+    "Joseph Margulies": [
+        "positive",
+        "anticipation",
+        "trust"
+    ],
+    "Dawn Chutkow": [
+        "fear",
+        "sadness",
+        "trust"
+    ],
+    "Alexandra Cirone": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Daniel Schade": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Begum Adalet": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Ross Brann": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Richard Bensel": [
+        "anger",
+        "positive",
+        "surprise"
+    ],
+    "Tony Simons": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Kristina Workman": [
+        "anticipation",
+        "joy",
+        "anger"
+    ],
+    "Stephani Robson": [
+        "trust",
+        "disgust",
+        "anticipation"
+    ],
+    "Mary MacAusland": [
+        "joy",
+        "trust",
+        "surprise"
+    ],
+    "Dave Roberts": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Reneta McCarthy": [
+        "negative",
+        "trust",
+        "joy"
+    ],
+    "Howard Chong": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Adam Walden": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Christina Homrighouse": [
+        "fear",
+        "surprise",
+        "negative"
+    ],
+    "Mark McCarthy": [
+        "fear",
+        "anticipation",
+        "negative"
+    ],
+    "Andrew Whitmore": [
+        "trust",
+        "anger",
+        "disgust"
+    ],
+    "Xuege (Cathy) Lu": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Kate Walsh": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Elena Belavina": [
+        "sadness",
+        "disgust",
+        "negative"
+    ],
+    "Gary Thompson": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Michael Paz": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Pamela Moulton": [
+        "sadness",
+        "anticipation",
+        "negative"
+    ],
+    "Kyu Ha Cho": [
+        "fear",
+        "joy",
+        "surprise"
+    ],
+    "Paul Strebel": [
+        "anticipation",
+        "surprise",
+        "anger"
+    ],
+    "Linda Canina": [
+        "positive",
+        "negative",
+        "fear"
+    ],
+    "Yifei Mao": [
+        "fear",
+        "anticipation",
+        "joy"
+    ],
+    "Christopher Gaulke": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Yiwei Li": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Kathryn LaTour": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Chekitan Dev": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Lisa Chervinsky": [
+        "negative",
+        "trust",
+        "positive"
+    ],
+    "Tashlin Lakhani": [
+        "positive",
+        "anticipation",
+        "disgust"
+    ],
+    "John Tracey": [
+        "joy",
+        "sadness",
+        "negative"
+    ],
+    "Jamie Perry": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Vince Slaugh": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "John Corgel": [
+        "negative",
+        "disgust",
+        "surprise"
+    ],
+    "Lilly Jan": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Douglass Miller": [
+        "joy",
+        "anticipation",
+        "fear"
+    ],
+    "William Lynn": [
+        "disgust",
+        "negative",
+        "surprise"
+    ],
+    "Jeanne Varney": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Christina McDowell": [
+        "trust",
+        "sadness",
+        "negative"
+    ],
+    "Andrew Quagliata": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "David Sherwyn": [
+        "anticipation",
+        "positive",
+        "sadness"
+    ],
+    "Crocker Liu": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Peng Liu": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Alexei Tchistyi": [
+        "sadness",
+        "fear",
+        "positive"
+    ],
+    "Cheryl Stanley": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Arturs Kalnins": [
+        "anticipation",
+        "trust",
+        "disgust"
+    ],
+    "Adam Klausner": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Tamar Kushnir": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Robert Sternberg": [
+        "negative",
+        "sadness",
+        "surprise"
+    ],
+    "Anthony Burrow": [
+        "joy",
+        "positive",
+        "surprise"
+    ],
+    "Jen Agans": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Daniel Casasanto": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Derek Chang": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Christine Balance": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Pedro Perez": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Matthew Rodgers": [
+        "anticipation",
+        "trust",
+        "fear"
+    ],
+    "Robert Karpman": [
+        "anticipation",
+        "negative",
+        "trust"
+    ],
+    "Donna Haeger": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Reza Moghimi": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "Cindy van Es": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Eric Lewis": [
+        "negative",
+        "surprise",
+        "trust"
+    ],
+    "James Sinclair": [
+        "anger",
+        "sadness",
+        "trust"
+    ],
+    "Marquise Riley": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "John Little": [
+        "surprise",
+        "negative",
+        "positive"
+    ],
+    "John McKinley": [
+        "anticipation",
+        "positive",
+        "surprise"
+    ],
+    "Jawad Addoum": [
+        "trust",
+        "sadness",
+        "positive"
+    ],
+    "Byoung-Hyoun Hwang": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Rich Curtis": [
+        "surprise",
+        "anger",
+        "disgust"
+    ],
+    "Bradley Rickard": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Debra Perosio": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Nathan Yang": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Scott Erickson": [
+        "sadness",
+        "anger",
+        "negative"
+    ],
+    "Suzanne Shu": [
+        "fear",
+        "surprise",
+        "anticipation"
+    ],
+    "Daniel Hooker": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Terence Alexander": [
+        "fear",
+        "surprise",
+        "negative"
+    ],
+    "David Lennox": [
+        "joy",
+        "anticipation",
+        "disgust"
+    ],
+    "Mark Constas": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Denise Ramzy": [
+        "negative",
+        "disgust",
+        "trust"
+    ],
+    "Patti Mandel": [
+        "trust",
+        "negative",
+        "joy"
+    ],
+    "Dale Grossman": [
+        "anger",
+        "trust",
+        "disgust"
+    ],
+    "John Doris": [
+        "anticipation",
+        "fear",
+        "anger"
+    ],
+    "Aija Leiponen": [
+        "anticipation",
+        "surprise",
+        "positive"
+    ],
+    "Kevin Kniffin": [
+        "trust",
+        "surprise",
+        "fear"
+    ],
+    "Deborah Streeter": [
+        "anticipation",
+        "surprise",
+        "sadness"
+    ],
+    "Mani Sethuraman": [
+        "surprise",
+        "anticipation",
+        "fear"
+    ],
+    "Anke Wessels": [
+        "surprise",
+        "positive",
+        "anticipation"
+    ],
+    "Alison Shields": [
+        "positive",
+        "fear",
+        "trust"
+    ],
+    "Brian Wansink": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Geoffrey Fisher": [
+        "disgust",
+        "anticipation",
+        "anger"
+    ],
+    "Harry Kaiser": [
+        "negative",
+        "trust",
+        "joy"
+    ],
+    "Jura Liaukonyte": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Edward McLaughlin": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Cynthia Lin Lawell": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Shanjun Li": [
+        "fear",
+        "anticipation",
+        "sadness"
+    ],
+    "Wesley Sine": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Stephen Sauer": [
+        "sadness",
+        "negative",
+        "trust"
+    ],
+    "Lisa Wickham": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Bruce Kusse": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Chad Uran": [
+        "positive",
+        "anticipation",
+        "surprise"
+    ],
+    "Paul Nadasdy": [
+        "disgust",
+        "anger",
+        "positive"
+    ],
+    "Jon Parmenter": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Noliwe Rooks": [
+        "positive",
+        "sadness",
+        "trust"
+    ],
+    "Judith Peraino": [
+        "joy",
+        "sadness",
+        "positive"
+    ],
+    "Lawrence Glickman": [
+        "positive",
+        "disgust",
+        "trust"
+    ],
+    "Russell Rickford": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Maria Cristina Garcia": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Stephen Vider": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Louis Hyman": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Thomas Overton": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Debbie Cherney": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Lindsay Goodale": [
+        "positive",
+        "negative",
+        "sadness"
+    ],
+    "Jeremy Allen": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Eugene Won": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Michael Thonney": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Susan Quirk": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Joseph McFadden": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Magnus Fiskesjo": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Simon Posner": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Alexandra Dalferro": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Jane Fajans": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Adam Arcadi": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Andrew Willford": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Sofia Villenas": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Matthew Velasco": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "Frederic Gleach": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Adam Smith": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Marina Welker": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Makda Weatherspoon": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Atoor Lawandow": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Bilal Al-Omar": [
+        "anticipation",
+        "anger",
+        "positive"
+    ],
+    "Munther Younes": [
+        "trust",
+        "anger",
+        "disgust"
+    ],
+    "Vincent Mulcahy": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Mark Cruvellier": [
+        "fear",
+        "trust",
+        "sadness"
+    ],
+    "Sherene Baugher": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Joanna Malinowska": [
+        "sadness",
+        "anticipation",
+        "negative"
+    ],
+    "Cynthia Robinson": [
+        "sadness",
+        "disgust",
+        "joy"
+    ],
+    "Maria Fernandez": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Verity Platt": [
+        "anticipation",
+        "positive",
+        "fear"
+    ],
+    "Arnika Fuhrmann": [
+        "positive",
+        "disgust",
+        "trust"
+    ],
+    "Jahyon Park": [
+        "anticipation",
+        "negative",
+        "anger"
+    ],
+    "Manasicha Akepiyapornchai": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Yue Du": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Janice Kanemitsu": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Jane-Marie Law": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Ivanna Yi": [
+        "positive",
+        "anticipation",
+        "disgust"
+    ],
+    "Robin McNeal": [
+        "anticipation",
+        "surprise",
+        "positive"
+    ],
+    "Tamara Loos": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "John Whitman": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Brenda Schertz": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Anthony Cosgrave": [
+        "disgust",
+        "sadness",
+        "anger"
+    ],
+    "Judith Byfield": [
+        "anticipation",
+        "negative",
+        "positive"
+    ],
+    "James Lloyd": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Lisa Kaltenegger": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Steven Squyres": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Martha Haynes": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Nicholas Battaglia": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "Dominik Riechers": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Phil Nicholson": [
+        "fear",
+        "disgust",
+        "anticipation"
+    ],
+    "Dong Lai": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "David Chernoff": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Brian Richards": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Ashim Datta": [
+        "anger",
+        "fear",
+        "surprise"
+    ],
+    "Buz Barstow": [
+        "fear",
+        "anticipation",
+        "trust"
+    ],
+    "Andrew White": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Jillian Ditner": [
+        "anticipation",
+        "sadness",
+        "surprise"
+    ],
+    "Robert Howarth": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Justin St. Juliana": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Anurag Agrawal": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Elizabeth Lombardi": [
+        "surprise",
+        "disgust",
+        "anticipation"
+    ],
+    "Abby Drake": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Robert Reed": [
+        "anticipation",
+        "anger",
+        "disgust"
+    ],
+    "Willy Bemis": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Robert Turgeon": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Vimal Selvaraj": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "James Shapleigh": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "Darlene Campbell": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "Mark Sarvary": [
+        "negative",
+        "anticipation",
+        "anger"
+    ],
+    "Frank Castelli": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Elizabeth Ogata": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Charles Aquadro": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Jim Blankenship": [
+        "anger",
+        "sadness",
+        "anticipation"
+    ],
+    "Tim Huffaker": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Kelly Liu": [
+        "anger",
+        "disgust",
+        "sadness"
+    ],
+    "Anthony Bretscher": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "Maria Garcia-Garcia": [
+        "fear",
+        "positive",
+        "surprise"
+    ],
+    "Ross MacIntyre": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Daniel Barbasch": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Kristina Blake-Hodek": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Gerald Feigenson": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Marcos Simoes-Costa": [
+        "anticipation",
+        "disgust",
+        "positive"
+    ],
+    "Chun Han": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Ailong Ke": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Hojoong Kwak": [
+        "surprise",
+        "sadness",
+        "fear"
+    ],
+    "Andrew Clark": [
+        "fear",
+        "anticipation",
+        "sadness"
+    ],
+    "Daniel Buckley": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Steve Winans": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Rania Abou-Kandil": [
+        "positive",
+        "anticipation",
+        "surprise"
+    ],
+    "Beth Rhoades": [
+        "fear",
+        "positive",
+        "sadness"
+    ],
+    "Caleb Vogt": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Michael Pardo": [
+        "surprise",
+        "positive",
+        "anticipation"
+    ],
+    "Ronald Hoy": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Shelby Dietz": [
+        "disgust",
+        "surprise",
+        "anger"
+    ],
+    "Jonathan Butcher": [
+        "surprise",
+        "negative",
+        "positive"
+    ],
+    "Iwijn De Vlaminck": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Brian Kirby": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Nerissa Russell": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Haiyuan Yu": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Sumanta Basu": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Jery Stedinger": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Ricardo Daziano": [
+        "surprise",
+        "fear",
+        "negative"
+    ],
+    "Gregory McLaskey": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Blair Johnson": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Greeshma Gadikota": [
+        "fear",
+        "surprise",
+        "positive"
+    ],
+    "Ruth Richardson": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Francis Vanek": [
+        "disgust",
+        "fear",
+        "anticipation"
+    ],
+    "Steve Johnson": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Brandon Bogusz": [
+        "sadness",
+        "fear",
+        "positive"
+    ],
+    "Jane Walcott": [
+        "joy",
+        "anticipation",
+        "trust"
+    ],
+    "Tom Ruttledge": [
+        "anger",
+        "disgust",
+        "sadness"
+    ],
+    "Dan Lorey": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Cynthia Kinsland": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Stephen Lee": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Kyle Lancaster": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Hector Abruna": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Melissa Hines": [
+        "fear",
+        "negative",
+        "anger"
+    ],
+    "Robert DiStasio": [
+        "fear",
+        "surprise",
+        "anger"
+    ],
+    "John Marohn": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Andrew Musser": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Floyd Davis": [
+        "negative",
+        "joy",
+        "anticipation"
+    ],
+    "Peter Wolczanski": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "H. Davis": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Justin Wilson": [
+        "anticipation",
+        "fear",
+        "negative"
+    ],
+    "David Zax": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Tristan Lambert": [
+        "fear",
+        "sadness",
+        "anger"
+    ],
+    "Bruce Ganem": [
+        "surprise",
+        "negative",
+        "anger"
+    ],
+    "William Dichtel": [
+        "fear",
+        "anticipation",
+        "positive"
+    ],
+    "Geoffrey Coates": [
+        "surprise",
+        "joy",
+        "fear"
+    ],
+    "Brett Fors": [
+        "fear",
+        "sadness",
+        "surprise"
+    ],
+    "Song Lin": [
+        "positive",
+        "fear",
+        "sadness"
+    ],
+    "Roger Loring": [
+        "negative",
+        "fear",
+        "surprise"
+    ],
+    "Stephanie Divo": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Yunfei Du": [
+        "anticipation",
+        "trust",
+        "surprise"
+    ],
+    "Yufen Mehta": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Fangfang Li": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Rui Liu": [
+        "surprise",
+        "anticipation",
+        "sadness"
+    ],
+    "Felicia Teng": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "Su George": [
+        "anger",
+        "sadness",
+        "disgust"
+    ],
+    "Natasha Binek": [
+        "joy",
+        "fear",
+        "anticipation"
+    ],
+    "Michael Fontaine": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Alan Nussbaum": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Christina Chick": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Corinna Loeckenhoff": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Michael Toglia": [
+        "fear",
+        "negative",
+        "anticipation"
+    ],
+    "Anthony Ong": [
+        "anger",
+        "surprise",
+        "trust"
+    ],
+    "Cindy Hazan": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Qi Wang": [
+        "joy",
+        "disgust",
+        "anger"
+    ],
+    "Korana Stipetic": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Michael Chen": [
+        "negative",
+        "surprise",
+        "anticipation"
+    ],
+    "Shalom Shoer": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Nava Scharf": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Michael Miller": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Shiau-Yun Chen": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Sujin Lee": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Eric Tagliacozzo": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "Nicholas Mulder": [
+        "fear",
+        "negative",
+        "positive"
+    ],
+    "Mostafa Minawi": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Rachel Weil": [
+        "negative",
+        "joy",
+        "sadness"
+    ],
+    "Paul Davis": [
+        "sadness",
+        "positive",
+        "disgust"
+    ],
+    "Linda Gasser": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Diane Burton": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Robert Hutchens": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Michelle Chen": [
+        "disgust",
+        "anger",
+        "joy"
+    ],
+    "Veronica Martinez-Matsuda": [
+        "disgust",
+        "surprise",
+        "anger"
+    ],
+    "Ileen DeVault": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Jason Newton": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Michael Gold": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Kate Griffith": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Duanyi Yang": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Adam Seth Litwin": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Allison Heinemann": [
+        "sadness",
+        "negative",
+        "positive"
+    ],
+    "Samuel Nelson": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "James Gross": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Matthew Saleh": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Tove Hammer": [
+        "trust",
+        "fear",
+        "joy"
+    ],
+    "Sean Fath": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Ben Rissing": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Thomas DiCiccio": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Matthew Wilkens": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Rene Kizilcec": [
+        "surprise",
+        "anger",
+        "sadness"
+    ],
+    "Hane Aung": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Karen Levy": [
+        "anticipation",
+        "surprise",
+        "trust"
+    ],
+    "Cheng Zhang": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Malte Jung": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Jeff Christen": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Sharlane Cleare": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Amanda Recupero": [
+        "anticipation",
+        "negative",
+        "surprise"
+    ],
+    "Michela Baraldi": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Timothy Campbell": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Naomi Larson": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Eriko Akamatsu": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Misako Chapman": [
+        "fear",
+        "positive",
+        "joy"
+    ],
+    "Misako Suzuki": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Hannah Phan": [
+        "positive",
+        "anticipation",
+        "disgust"
+    ],
+    "Meejeong Song": [
+        "anger",
+        "anticipation",
+        "fear"
+    ],
+    "Hankyul Kim": [
+        "joy",
+        "fear",
+        "negative"
+    ],
+    "Nina Bassuk": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Daniel Gallagher": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Kenneth Merkley": [
+        "fear",
+        "anticipation",
+        "joy"
+    ],
+    "Larry Van De Valk": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Dorit Abusch": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Frances Sobolak": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Joseph Rhyne": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Samuel Tilsen": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Miloje Despic": [
+        "fear",
+        "sadness",
+        "anticipation"
+    ],
+    "Sarah Murray": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Wayne Harbert": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Abby Cohn": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Molly Diesing": [
+        "anticipation",
+        "fear",
+        "positive"
+    ],
+    "James West": [
+        "fear",
+        "negative",
+        "anger"
+    ],
+    "Debra Castillo": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Guy Hoffman": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Robert Shepherd": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Richard Robinson": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Hadas Kress-Gazit": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "Benjamin Finio": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Rebecca Barthelmie": [
+        "negative",
+        "trust",
+        "joy"
+    ],
+    "Brendan Caseria": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "James Belk": [
+        "anticipation",
+        "fear",
+        "trust"
+    ],
+    "Allen Back": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "Scott Messick": [
+        "fear",
+        "joy",
+        "trust"
+    ],
+    "Brock Schmutzler": [
+        "surprise",
+        "joy",
+        "negative"
+    ],
+    "Justin Moore": [
+        "fear",
+        "trust",
+        "sadness"
+    ],
+    "Kelly Delp": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Ian Pendleton": [
+        "trust",
+        "positive",
+        "anger"
+    ],
+    "Shiping Cao": [
+        "anticipation",
+        "trust",
+        "fear"
+    ],
+    "Harrison Chen": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "David Zywina": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "James Barnes": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Maru Sarazola Duarte": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Ian Lizarraga": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "James Hyde": [
+        "joy",
+        "anticipation",
+        "fear"
+    ],
+    "Michael Nussbaum": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Farbod Shokrieh": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Reyer Sjamaar": [
+        "surprise",
+        "fear",
+        "anticipation"
+    ],
+    "Steven Strogatz": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Robert Connelly": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Jason Manning": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Andrew Marshall": [
+        "fear",
+        "sadness",
+        "anger"
+    ],
+    "Maria Terrell": [
+        "fear",
+        "sadness",
+        "surprise"
+    ],
+    "Herbert Hui": [
+        "surprise",
+        "trust",
+        "negative"
+    ],
+    "Artem Pulemotov": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Nicolas Templier": [
+        "fear",
+        "anticipation",
+        "joy"
+    ],
+    "Timothy Healey": [
+        "trust",
+        "positive",
+        "sadness"
+    ],
+    "Benjamin Dozier": [
+        "fear",
+        "negative",
+        "anger"
+    ],
+    "Ed Swartz": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Marie MacDonald": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Anil Nerode": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Inna Zakharevich": [
+        "fear",
+        "positive",
+        "trust"
+    ],
+    "Kathryn Mann": [
+        "fear",
+        "positive",
+        "trust"
+    ],
+    "Robert Strichartz": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Ravi Ramakrishna": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "John Hubbard": [
+        "disgust",
+        "fear",
+        "negative"
+    ],
+    "Allen Knutson": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "Hubbard": [
+        "fear",
+        "trust",
+        "anticipation"
+    ],
+    "Yuri Berest": [
+        "fear",
+        "negative",
+        "anticipation"
+    ],
+    "Mahdi Esmaily": [
+        "joy",
+        "anticipation",
+        "trust"
+    ],
+    "Sanjay Dharmavaram": [
+        "trust",
+        "disgust",
+        "positive"
+    ],
+    "Richard Rand": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Laurent Saloff-Coste": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Edward Swartz": [
+        "fear",
+        "anticipation",
+        "surprise"
+    ],
+    "Michael Stillman": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Alex Townsend": [
+        "fear",
+        "joy",
+        "anticipation"
+    ],
+    "Birgit Speh": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Martin Kassabov": [
+        "fear",
+        "disgust",
+        "trust"
+    ],
+    "Marcelo Aguiar": [
+        "fear",
+        "surprise",
+        "sadness"
+    ],
+    "Florin Camil Muscalu": [
+        "fear",
+        "anger",
+        "surprise"
+    ],
+    "Christian Noack": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Yiannis Loizides": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Irena Peeva": [
+        "fear",
+        "surprise",
+        "sadness"
+    ],
+    "Karola Meszaros": [
+        "trust",
+        "fear",
+        "anticipation"
+    ],
+    "Philippe Sosoe": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Marten Wegkamp": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Richard Shore": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Christopher Umbach": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "James Spinazzola": [
+        "sadness",
+        "trust",
+        "disgust"
+    ],
+    "Andrew Hicks": [
+        "sadness",
+        "negative",
+        "joy"
+    ],
+    "Kevin Ernste": [
+        "trust",
+        "positive",
+        "sadness"
+    ],
+    "Jordan Musser": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Lawrence Shuster": [
+        "joy",
+        "surprise",
+        "sadness"
+    ],
+    "Annie Lewandowski": [
+        "joy",
+        "negative",
+        "surprise"
+    ],
+    "Annette Richards": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Roger Moseley": [
+        "anger",
+        "positive",
+        "joy"
+    ],
+    "Catherine Appert": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Michael Sparhuber": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Scott Stewart": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "David Nichols": [
+        "joy",
+        "trust",
+        "disgust"
+    ],
+    "Michael Hostetler": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Bradley Treat": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Randy Allen": [
+        "positive",
+        "sadness",
+        "fear"
+    ],
+    "Tolunay Beker Aydemir": [
+        "fear",
+        "positive",
+        "joy"
+    ],
+    "Sam Nugen": [
+        "fear",
+        "sadness",
+        "anticipation"
+    ],
+    "Xoco Shinbrot": [
+        "anticipation",
+        "negative",
+        "joy"
+    ],
+    "Paul Rodewald": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Sara Kaiser": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Louis Derry": [
+        "surprise",
+        "anticipation",
+        "fear"
+    ],
+    "Joseph Yavitt": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "James Booth": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Andrew Wilson": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Kae-Lynn Wilson": [
+        "anticipation",
+        "fear",
+        "sadness"
+    ],
+    "J.C. Seamus Davis": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Julie Lauren": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Antonio DiTommaso": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "John Losey": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Stephen Ceci": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Michael Macy": [
+        "negative",
+        "positive",
+        "trust"
+    ],
+    "Valerie Hans": [
+        "anticipation",
+        "trust",
+        "negative"
+    ],
+    "Robert Frank": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "J. Russo": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "William Schulze": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Viktoria Tsimberov": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Slava Paperno": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Stephen Sansom": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Russell Moss": [
+        "anticipation",
+        "positive",
+        "negative"
+    ],
+    "Kathy Arnink": [
+        "anticipation",
+        "surprise",
+        "sadness"
+    ],
+    "Justine Vanden Heuvel": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Mark Roberson": [
+        "anticipation",
+        "joy",
+        "sadness"
+    ],
+    "Praveen Sethupathy": [
+        "joy",
+        "sadness",
+        "anticipation"
+    ],
+    "Douglas James": [
+        "anger",
+        "fear",
+        "positive"
+    ],
+    "Not Listed": [
+        "anticipation",
+        "fear",
+        "negative"
+    ],
+    "Alexandra Silva": [
+        "anger",
+        "fear",
+        "disgust"
+    ],
+    "Matt Eichorn": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Yunhao Zhang": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Nika Haghtalab": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Lawrence Blume": [
+        "negative",
+        "disgust",
+        "surprise"
+    ],
+    "Toby Ault": [
+        "positive",
+        "trust",
+        "anger"
+    ],
+    "Matthew Pritchard": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Lyrae Van Clief-Stefanon": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "Jean Hunter": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Dan Luo": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Nandini Ananth": [
+        "fear",
+        "joy",
+        "positive"
+    ],
+    "Paulette Clancy": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Laura Harrington": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Paul Wagner": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Nick Nickitas": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Joe Regenstein": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Jonathan Boyarin": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Durba Ghosh": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Nikole Lewis": [
+        "fear",
+        "disgust",
+        "anticipation"
+    ],
+    "Jonathan Lunine": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "Gregory Weiland": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Maurine Linder": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Alison Power": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Alexander Flecker": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Maren Vitousek": [
+        "disgust",
+        "surprise",
+        "anger"
+    ],
+    "Brian Lazzaro": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Irby Lovette": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Amy McCune": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Jeremy Searle": [
+        "anticipation",
+        "anger",
+        "disgust"
+    ],
+    "Harry Greene": [
+        "sadness",
+        "anger",
+        "joy"
+    ],
+    "Kelly Zamudio": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Chelsea Specht": [
+        "joy",
+        "anger",
+        "anticipation"
+    ],
+    "Nicolas Buchon": [
+        "positive",
+        "fear",
+        "anger"
+    ],
+    "Paul Soloway": [
+        "anger",
+        "joy",
+        "surprise"
+    ],
+    "Cole Gilbert": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Ellis Loew": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Tom Owens": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Chris Fromme": [
+        "anger",
+        "anticipation",
+        "negative"
+    ],
+    "Thomas Fox": [
+        "surprise",
+        "sadness",
+        "fear"
+    ],
+    "Andrew Grimson": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Marcus Smolka": [
+        "surprise",
+        "disgust",
+        "joy"
+    ],
+    "Kerry Shaw": [
+        "surprise",
+        "fear",
+        "negative"
+    ],
+    "Robert Raguso": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Michael Webster": [
+        "negative",
+        "anger",
+        "trust"
+    ],
+    "Hudson Reeve": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Ronald Harris-Warrick": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "David Usher": [
+        "negative",
+        "fear",
+        "positive"
+    ],
+    "Claudia Verhoeven": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Eli Friedman": [
+        "surprise",
+        "disgust",
+        "positive"
+    ],
+    "Sarosh Kuruvilla": [
+        "surprise",
+        "anger",
+        "negative"
+    ],
+    "Virginia Doellgast": [
+        "anger",
+        "anticipation",
+        "joy"
+    ],
+    "Jason Judd": [
+        "joy",
+        "anticipation",
+        "trust"
+    ],
+    "Jim Jenkins": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Kenneth Rother": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "George Schneider": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Beth Ahner": [
+        "joy",
+        "surprise",
+        "negative"
+    ],
+    "Lindsay Anderson": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Christopher Barrett": [
+        "trust",
+        "joy",
+        "surprise"
+    ],
+    "James Bartsch": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Gary Bergstrom": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Rachel Bezner Kerr": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Garrick Blalock": [
+        "negative",
+        "fear",
+        "anger"
+    ],
+    "Vicki Bogan": [
+        "sadness",
+        "trust",
+        "negative"
+    ],
+    "Susan Brown": [
+        "surprise",
+        "positive",
+        "anticipation"
+    ],
+    "Edward Buckler": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Christopher Byrne": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Ralph Christy": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Paul Curtis": [
+        "negative",
+        "anticipation",
+        "disgust"
+    ],
+    "Richard Curtis": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Harry de Gorter": [
+        "fear",
+        "anticipation",
+        "anger"
+    ],
+    "Tobias Doerr": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "William Drake": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Parfait Eloundou-Enyegue": [
+        "surprise",
+        "joy",
+        "negative"
+    ],
+    "Margaret Frank": [
+        "anger",
+        "disgust",
+        "surprise"
+    ],
+    "Giulia Friso": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Kifle Gebremedhin": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "Patrick Gibney": [
+        "trust",
+        "surprise",
+        "joy"
+    ],
+    "Tarleton Gillespie": [
+        "surprise",
+        "anger",
+        "disgust"
+    ],
+    "Sarah Giroux": [
+        "fear",
+        "sadness",
+        "surprise"
+    ],
+    "Jillian Goldfarb": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Heather Grab": [
+        "anticipation",
+        "trust",
+        "sadness"
+    ],
+    "Robert Gravani": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Charles Greene": [
+        "surprise",
+        "negative",
+        "sadness"
+    ],
+    "Joe Guinness": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Matthew Hare": [
+        "anticipation",
+        "trust",
+        "positive"
+    ],
+    "Anthony Hay": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Tory Hendry": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Ian Hewson": [
+        "trust",
+        "negative",
+        "disgust"
+    ],
+    "Thomas Hirschl": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "Peter Hitchcock": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Peter Hobbs": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Jian Hua": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Heather Huson": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Yu Jiang": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Karim-Aly Kassam": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Barbara Knuth": [
+        "surprise",
+        "trust",
+        "fear"
+    ],
+    "Steven Kyle": [
+        "sadness",
+        "fear",
+        "joy"
+    ],
+    "Flavio Lehner": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Xingen Lei": [
+        "anger",
+        "sadness",
+        "negative"
+    ],
+    "Lori Leonard": [
+        "disgust",
+        "anger",
+        "surprise"
+    ],
+    "Bruce Lewenstein": [
+        "disgust",
+        "trust",
+        "positive"
+    ],
+    "Fouad Makki": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Nathan Matias": [
+        "anticipation",
+        "positive",
+        "disgust"
+    ],
+    "Michael Mazourek": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Murray McBride": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Katherine McComas": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Susan McCouch": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Andrew McDonald": [
+        "negative",
+        "anticipation",
+        "trust"
+    ],
+    "Jason Mezey": [
+        "trust",
+        "surprise",
+        "disgust"
+    ],
+    "Marc Miller": [
+        "joy",
+        "positive",
+        "negative"
+    ],
+    "Virginia Moore": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Stephen Morreale": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Courtney Murdock": [
+        "trust",
+        "anger",
+        "surprise"
+    ],
+    "June Nasrallah": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Rebecca Nelson": [
+        "anger",
+        "sadness",
+        "negative"
+    ],
+    "Jeffrey Niederdeppe": [
+        "positive",
+        "anger",
+        "trust"
+    ],
+    "Jan Nyrop": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Keith Perry": [
+        "sadness",
+        "negative",
+        "anger"
+    ],
+    "Scott Peters": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Prabhu Pingali": [
+        "negative",
+        "positive",
+        "trust"
+    ],
+    "Sharon Poczter": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "Eswar Prasad": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Sara Pryor": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Troy Richardson": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Amanda Rodewald": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Jonathan Russell-Anelli": [
+        "anticipation",
+        "disgust",
+        "negative"
+    ],
+    "Michael Scanlon": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Todd Schmit": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Dawn Schrader": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Jonathon Schuldt": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Steven Schwager": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Jeffrey Scott": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "Michael Shapiro": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Thomas Silva": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Patrick Sullivan": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Ying Sun": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Loren Tauer": [
+        "positive",
+        "negative",
+        "sadness"
+    ],
+    "Jennifer Thaler": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Michael Timmons": [
+        "disgust",
+        "anticipation",
+        "fear"
+    ],
+    "Calum Turvey": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Michael Van Amburgh": [
+        "anger",
+        "surprise",
+        "anticipation"
+    ],
+    "Harold van Es": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Todd Walter": [
+        "anticipation",
+        "surprise",
+        "positive"
+    ],
+    "Ping Wang": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Mildred Warner": [
+        "disgust",
+        "sadness",
+        "anger"
+    ],
+    "Randy Wayne": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Anne Weber": [
+        "negative",
+        "disgust",
+        "anticipation"
+    ],
+    "Stephen Winans": [
+        "trust",
+        "negative",
+        "positive"
+    ],
+    "Steven Wolf": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Randy Worobo": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Scott Yonker": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Yu (Connie) Yuan": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Sean Anderson": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Michael Ashkin": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Victoria Beard": [
+        "anger",
+        "disgust",
+        "sadness"
+    ],
+    "Roberto Bertoia": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Nancy Brooks": [
+        "fear",
+        "surprise",
+        "sadness"
+    ],
+    "Thomas Campanella": [
+        "disgust",
+        "anticipation",
+        "sadness"
+    ],
+    "John Carruthers": [
+        "anticipation",
+        "disgust",
+        "sadness"
+    ],
+    "Lily Chi": [
+        "trust",
+        "disgust",
+        "surprise"
+    ],
+    "David Costanza": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Renate Ferro": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "George Frantz": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Nicholas Klein": [
+        "joy",
+        "negative",
+        "anticipation"
+    ],
+    "Neema Kudva": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Medina Lasansky": [
+        "anger",
+        "disgust",
+        "sadness"
+    ],
+    "Leeza Meksin": [
+        "joy",
+        "surprise",
+        "anticipation"
+    ],
+    "Elisabeth Meyer": [
+        "anger",
+        "sadness",
+        "fear"
+    ],
+    "Martin Miller": [
+        "trust",
+        "anger",
+        "positive"
+    ],
+    "Carl Ostendarp": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Maria Park": [
+        "surprise",
+        "anticipation",
+        "positive"
+    ],
+    "Jolene Rickard": [
+        "negative",
+        "trust",
+        "joy"
+    ],
+    "Stephan Schmidt": [
+        "surprise",
+        "joy",
+        "negative"
+    ],
+    "Linda Shi": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Andrea Simitch": [
+        "negative",
+        "surprise",
+        "sadness"
+    ],
+    "Daniel Torop": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Sasa Zivkovic": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "Gerard Aching": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Barry Adams": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Leslie Adelson": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Nick Admussen": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "Frederick Ahl": [
+        "trust",
+        "positive",
+        "anger"
+    ],
+    "Chloe Ahmann": [
+        "anticipation",
+        "positive",
+        "disgust"
+    ],
+    "Glenn Altschuler": [
+        "disgust",
+        "surprise",
+        "positive"
+    ],
+    "Benjamin Anderson": [
+        "positive",
+        "anticipation",
+        "joy"
+    ],
+    "Nozomi Ando": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Elizabeth Anker": [
+        "anger",
+        "surprise",
+        "positive"
+    ],
+    "N\u2019Dri Assi\u00e9-Lumumba": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Kevin Attell": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Ewa Bachminska": [
+        "positive",
+        "anticipation",
+        "surprise"
+    ],
+    "Andrea Bachner": [
+        "disgust",
+        "negative",
+        "anticipation"
+    ],
+    "Dan Barbasch": [
+        "negative",
+        "surprise",
+        "fear"
+    ],
+    "Jeremy Baskin": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "John Barwick": [
+        "anticipation",
+        "sadness",
+        "negative"
+    ],
+    "Panle Barwick": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Ernesto Bassi": [
+        "trust",
+        "joy",
+        "surprise"
+    ],
+    "David Bateman": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Rachel Bean": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "James Bell": [
+        "disgust",
+        "joy",
+        "anger"
+    ],
+    "Daryl Bem": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "Mabel Berezin": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Judith Bernstock": [
+        "joy",
+        "surprise",
+        "anticipation"
+    ],
+    "Louis Billera": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "Adrienne Bitar": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Anne Blackburn": [
+        "negative",
+        "surprise",
+        "sadness"
+    ],
+    "Fredric Bogel": [
+        "negative",
+        "anticipation",
+        "positive"
+    ],
+    "Carole Boyce Davies": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Jeremy Braddock": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Laura Brown": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Happiness Bulugu": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Xiaodong Cao": [
+        "fear",
+        "negative",
+        "anger"
+    ],
+    "Allen Carlson": [
+        "surprise",
+        "positive",
+        "anger"
+    ],
+    "Calum Carmichael": [
+        "surprise",
+        "positive",
+        "negative"
+    ],
+    "David Cassel": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Jian Chen": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Peng Chen": [
+        "fear",
+        "anger",
+        "surprise"
+    ],
+    "Zhihong Chen": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "Eric Cheyfitz": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Tanzeem Choudhury": [
+        "surprise",
+        "disgust",
+        "sadness"
+    ],
+    "David Collum": [
+        "negative",
+        "anger",
+        "surprise"
+    ],
+    "Benjamin Cornwell": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Barbara Correll": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Raymond Craib": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Brian Crane": [
+        "negative",
+        "anticipation",
+        "anger"
+    ],
+    "Csaba Csaki": [
+        "joy",
+        "surprise",
+        "positive"
+    ],
+    "Jonathan Culler": [
+        "negative",
+        "sadness",
+        "anticipation"
+    ],
+    "James Cutting": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Iftikhar Dadi": [
+        "disgust",
+        "positive",
+        "anger"
+    ],
+    "Stuart Arrowsmith Davis": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Peter Dear": [
+        "negative",
+        "positive",
+        "trust"
+    ],
+    "Brett de Bary": [
+        "surprise",
+        "positive",
+        "disgust"
+    ],
+    "Keith Dennis": [
+        "sadness",
+        "negative",
+        "positive"
+    ],
+    "Timothy DeVoogd": [
+        "anger",
+        "trust",
+        "disgust"
+    ],
+    "Naminata Diabate": [
+        "joy",
+        "disgust",
+        "anticipation"
+    ],
+    "Stephanie Alison Divo": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Laura Donaldson": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Yue Mara Du": [
+        "fear",
+        "anticipation",
+        "disgust"
+    ],
+    "Laurent Dubreuil": [
+        "anger",
+        "joy",
+        "anticipation"
+    ],
+    "Gerald Dugan": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "David Dunning": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Hisam Elaqad": [
+        "trust",
+        "surprise",
+        "joy"
+    ],
+    "Veit Elser": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Juan Manuel Escalona Torres": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Darlene Evans": [
+        "anger",
+        "negative",
+        "surprise"
+    ],
+    "Elizabeth Evans": [
+        "anticipation",
+        "trust",
+        "positive"
+    ],
+    "Jerel Ezell": [
+        "negative",
+        "surprise",
+        "joy"
+    ],
+    "Gregory Ezra": [
+        "fear",
+        "trust",
+        "sadness"
+    ],
+    "Ziad Fahmy": [
+        "disgust",
+        "fear",
+        "anger"
+    ],
+    "Oren Falk": [
+        "joy",
+        "negative",
+        "disgust"
+    ],
+    "Grant Farred": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "David Faulkner": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Robert Fay": [
+        "surprise",
+        "negative",
+        "anticipation"
+    ],
+    "David Feldshuh": [
+        "surprise",
+        "positive",
+        "anticipation"
+    ],
+    "Gail Fine": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Barbara Finlay": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Cheryl Finley": [
+        "sadness",
+        "disgust",
+        "negative"
+    ],
+    "Cristina Florea": [
+        "fear",
+        "trust",
+        "positive"
+    ],
+    "Gustavo Flores-Macias": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Chiara Formichi": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Jason Frank": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Jill Frank": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Chelsea Frazier": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Jack Freed": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "David Freund": [
+        "trust",
+        "surprise",
+        "disgust"
+    ],
+    "Debra Fried": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Valentina Fulginiti": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Sergio Garcia-Rios": [
+        "anticipation",
+        "negative",
+        "trust"
+    ],
+    "Thomas Gilovich": [
+        "surprise",
+        "anticipation",
+        "negative"
+    ],
+    "Daniel Gold": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Paul Goldsmith": [
+        "anger",
+        "negative",
+        "sadness"
+    ],
+    "Seema Golestaneh": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Mitchell Greenberg": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Sandra Greene": [
+        "positive",
+        "negative",
+        "anger"
+    ],
+    "Davydd Greenwood": [
+        "surprise",
+        "fear",
+        "disgust"
+    ],
+    "Leonard Gross": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Yuval Grossman": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Sol Gruner": [
+        "anticipation",
+        "trust",
+        "fear"
+    ],
+    "John Guckenheimer": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Edward Gunn": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Sabine Haenni": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Daniel Halpern-Leistner": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Ellis Hanson": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "Rebecca Harris-Warrick": [
+        "positive",
+        "joy",
+        "sadness"
+    ],
+    "Thomas Hartman": [
+        "positive",
+        "surprise",
+        "fear"
+    ],
+    "Allen Hatcher": [
+        "fear",
+        "anticipation",
+        "joy"
+    ],
+    "Alexander Hayes": [
+        "positive",
+        "fear",
+        "disgust"
+    ],
+    "Douglas Heckathorn": [
+        "surprise",
+        "sadness",
+        "positive"
+    ],
+    "John Henderson": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Ronald Herring": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Terry Herter": [
+        "positive",
+        "joy",
+        "disgust"
+    ],
+    "TJ Hinrichs": [
+        "anger",
+        "sadness",
+        "fear"
+    ],
+    "Molly Hite": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Harold Hodes": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Tara Holm": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "David Holmberg": [
+        "negative",
+        "surprise",
+        "anticipation"
+    ],
+    "Yongmiao Hong": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Cary Howie": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Juliana Hu Pegues": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Karolina H\u00fcbner": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Isabel Hull": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Mary Ann Huntley": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Gene Hwang": [
+        "negative",
+        "surprise",
+        "trust"
+    ],
+    "Ngampit Jagacinski": [
+        "anticipation",
+        "negative",
+        "sadness"
+    ],
+    "Karen Jaime": [
+        "surprise",
+        "trust",
+        "joy"
+    ],
+    "Ray Jayawardhana": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Kurt Jordan": [
+        "anticipation",
+        "positive",
+        "surprise"
+    ],
+    "Peter Kahn": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Rachana Kamtekar": [
+        "sadness",
+        "positive",
+        "negative"
+    ],
+    "Steven Kaplan": [
+        "sadness",
+        "negative",
+        "surprise"
+    ],
+    "Mary Katzenstein": [
+        "trust",
+        "positive",
+        "negative"
+    ],
+    "Patricia Keller": [
+        "anger",
+        "joy",
+        "negative"
+    ],
+    "William Kennedy": [
+        "joy",
+        "negative",
+        "disgust"
+    ],
+    "Yu Yu Khaing": [
+        "negative",
+        "anticipation",
+        "joy"
+    ],
+    "Lori Khatchadourian": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Nicholas Kiefer": [
+        "surprise",
+        "trust",
+        "positive"
+    ],
+    "Eun-Ah Kim": [
+        "positive",
+        "fear",
+        "negative"
+    ],
+    "Jonathan Kirshner": [
+        "positive",
+        "surprise",
+        "anticipation"
+    ],
+    "Richard Klein": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Michael Koch": [
+        "surprise",
+        "joy",
+        "anger"
+    ],
+    "Julilly Kohler-Hausmann": [
+        "anticipation",
+        "positive",
+        "negative"
+    ],
+    "Michelle Kosch": [
+        "sadness",
+        "anger",
+        "surprise"
+    ],
+    "Isaac Kramnick": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Amy Krosch": [
+        "joy",
+        "anticipation",
+        "trust"
+    ],
+    "Clement Lai": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "Claudia Lazzaro": [
+        "positive",
+        "negative",
+        "anticipation"
+    ],
+    "Robert Lennon": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Bruce Levitt": [
+        "trust",
+        "anger",
+        "anticipation"
+    ],
+    "Philip Lewis": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Daniel Lichter": [
+        "negative",
+        "surprise",
+        "disgust"
+    ],
+    "Hening Lin": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Alexander Livingston": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Kathleen Long": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Richard Lovelace": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Michael Lovenheim": [
+        "trust",
+        "positive",
+        "negative"
+    ],
+    "Theodore Lowi": [
+        "anger",
+        "negative",
+        "fear"
+    ],
+    "Michael Lynch": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Scott MacDonald": [
+        "positive",
+        "sadness",
+        "negative"
+    ],
+    "Mukul Majumdar": [
+        "negative",
+        "trust",
+        "surprise"
+    ],
+    "Sturt Manning": [
+        "fear",
+        "disgust",
+        "sadness"
+    ],
+    "Vida Maralani": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Phillip Marcus": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Patchen Markell": [
+        "negative",
+        "trust",
+        "anticipation"
+    ],
+    "Robert Masson": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "Grit Matthias Phelps": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Patrizia McBride": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Kaja McGowan": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Laura Meixner": [
+        "positive",
+        "sadness",
+        "trust"
+    ],
+    "David Mermin": [
+        "fear",
+        "negative",
+        "sadness"
+    ],
+    "Andrew Mertha": [
+        "anticipation",
+        "negative",
+        "anger"
+    ],
+    "Marilyn Migiel": [
+        "joy",
+        "surprise",
+        "trust"
+    ],
+    "Richard Miller": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Beth Milles": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Francesca Molinari": [
+        "fear",
+        "anticipation",
+        "surprise"
+    ],
+    "Chris Monroe": [
+        "surprise",
+        "positive",
+        "anticipation"
+    ],
+    "Jonathan Monroe": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Lauren Monroe": [
+        "positive",
+        "sadness",
+        "trust"
+    ],
+    "Erich Mueller": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Kelly Musick": [
+        "fear",
+        "anticipation",
+        "joy"
+    ],
+    "John Najemy": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Jess Newman": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Mukoma Wa Ngugi": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Michael Niemack": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Mary Beth Norton": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Alexander Ophir": [
+        "sadness",
+        "negative",
+        "anger"
+    ],
+    "Jeffrey Palmer": [
+        "sadness",
+        "surprise",
+        "negative"
+    ],
+    "An-yi Pan": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Hayden Pelliccia": [
+        "positive",
+        "fear",
+        "joy"
+    ],
+    "Thomas Pepinsky": [
+        "surprise",
+        "positive",
+        "anger"
+    ],
+    "Maxim Perelstein": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Charles Peterson": [
+        "anticipation",
+        "negative",
+        "anger"
+    ],
+    "Daniel Pfeffer": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Benjamin Piekut": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Karen Pinkus": [
+        "negative",
+        "trust",
+        "fear"
+    ],
+    "Robert Pohl": [
+        "sadness",
+        "disgust",
+        "anger"
+    ],
+    "Steven Pond": [
+        "disgust",
+        "anticipation",
+        "trust"
+    ],
+    "Rachel Prentice": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Pietro Pucci": [
+        "joy",
+        "negative",
+        "positive"
+    ],
+    "Chen Qiu": [
+        "positive",
+        "fear",
+        "disgust"
+    ],
+    "Natasha Raheja": [
+        "anticipation",
+        "joy",
+        "fear"
+    ],
+    "Lucinda Ramberg": [
+        "anticipation",
+        "positive",
+        "joy"
+    ],
+    "Don Randel": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Mary Kathryn Redmond": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Adriana Reyes": [
+        "anticipation",
+        "surprise",
+        "negative"
+    ],
+    "Kenneth Roberts": [
+        "surprise",
+        "negative",
+        "joy"
+    ],
+    "David Rosen": [
+        "sadness",
+        "anger",
+        "disgust"
+    ],
+    "Bryn Rosenfeld": [
+        "anticipation",
+        "anger",
+        "fear"
+    ],
+    "Margaret Rossiter": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Diane Rubenstein": [
+        "trust",
+        "anticipation",
+        "sadness"
+    ],
+    "Jeffrey Rusten": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Neil Saccamano": [
+        "positive",
+        "disgust",
+        "sadness"
+    ],
+    "Aaron Sachs": [
+        "disgust",
+        "positive",
+        "anticipation"
+    ],
+    "Nicholas Salvato": [
+        "anticipation",
+        "surprise",
+        "fear"
+    ],
+    "Nicholas Salvatore": [
+        "surprise",
+        "anticipation",
+        "negative"
+    ],
+    "Shirley Samuels": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Elizabeth Sanders": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Steven Sangren": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Maria Savella": [
+        "anticipation",
+        "sadness",
+        "joy"
+    ],
+    "Dmitry Savransky": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Paul Sawyer": [
+        "joy",
+        "surprise",
+        "positive"
+    ],
+    "Alfred Schatz": [
+        "anticipation",
+        "joy",
+        "surprise"
+    ],
+    "Britney Schmidt": [
+        "sadness",
+        "negative",
+        "surprise"
+    ],
+    "Frank Schroeder": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Anette Schwarz": [
+        "joy",
+        "sadness",
+        "surprise"
+    ],
+    "Daniel Schwarz": [
+        "positive",
+        "joy",
+        "anticipation"
+    ],
+    "Shankar Sen": [
+        "trust",
+        "surprise",
+        "anger"
+    ],
+    "Gavriel Shapiro": [
+        "trust",
+        "anger",
+        "positive"
+    ],
+    "Harry Shaw": [
+        "anger",
+        "surprise",
+        "negative"
+    ],
+    "Martin Shefter": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "David Shoemaker": [
+        "negative",
+        "surprise",
+        "positive"
+    ],
+    "Albert Sievers": [
+        "negative",
+        "surprise",
+        "anticipation"
+    ],
+    "Nicholas Silins": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Jason Simms": [
+        "sadness",
+        "negative",
+        "positive"
+    ],
+    "Sujata Singh": [
+        "negative",
+        "positive",
+        "trust"
+    ],
+    "Rebecca Slayton": [
+        "anticipation",
+        "positive",
+        "joy"
+    ],
+    "Meredith Small": [
+        "trust",
+        "fear",
+        "negative"
+    ],
+    "Anna Marie Smith": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "David Smith": [
+        "surprise",
+        "positive",
+        "trust"
+    ],
+    "Robert Smith": [
+        "trust",
+        "sadness",
+        "joy"
+    ],
+    "Dotsevi Sogah": [
+        "fear",
+        "sadness",
+        "disgust"
+    ],
+    "Gordon Stacey": [
+        "joy",
+        "positive",
+        "anticipation"
+    ],
+    "Deborah Starr": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "Robert Stern": [
+        "negative",
+        "sadness",
+        "surprise"
+    ],
+    "Byron Suber": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Richard Swedberg": [
+        "anticipation",
+        "negative",
+        "sadness"
+    ],
+    "Olufemi Taiwo": [
+        "anticipation",
+        "positive",
+        "trust"
+    ],
+    "Keith Taylor": [
+        "surprise",
+        "anticipation",
+        "trust"
+    ],
+    "Qiuyun Teng": [
+        "sadness",
+        "disgust",
+        "anger"
+    ],
+    "Felix Thoemmes": [
+        "anticipation",
+        "negative",
+        "disgust"
+    ],
+    "Julia Thom": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Nafissa Thompson-Spires": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Robert Thorne": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Pamela Tolbert": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Robert Travers": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Irina Troconis": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Scott Tucker": [
+        "joy",
+        "surprise",
+        "anger"
+    ],
+    "Henry Tye": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Marten van Schijndel": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "Astrid Van Oyen": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Joseph Veverka": [
+        "trust",
+        "negative",
+        "anticipation"
+    ],
+    "Helena Viramontes": [
+        "positive",
+        "surprise",
+        "sadness"
+    ],
+    "Kora von Wittelsbach": [
+        "joy",
+        "trust",
+        "positive"
+    ],
+    "Jeremy Wallace": [
+        "disgust",
+        "positive",
+        "sadness"
+    ],
+    "Maureen Waller": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Henry Wan": [
+        "sadness",
+        "fear",
+        "negative"
+    ],
+    "Jane Wang": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Michelle Wang": [
+        "surprise",
+        "sadness",
+        "trust"
+    ],
+    "Ding Xiang Warner": [
+        "negative",
+        "joy",
+        "anger"
+    ],
+    "Sara Warner": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "James Webster": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "John Weiss": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Shelley Wong": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Xin Xu": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Benjamin Yost": [
+        "fear",
+        "anger",
+        "negative"
+    ],
+    "Samantha Zacher": [
+        "disgust",
+        "positive",
+        "anticipation"
+    ],
+    "Neal Zaslaw": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Draga Zec": [
+        "anticipation",
+        "joy",
+        "disgust"
+    ],
+    "Xin Zhou": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Daniel Barbash": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Brooks Crickard": [
+        "anticipation",
+        "surprise",
+        "trust"
+    ],
+    "Peter Davies": [
+        "anticipation",
+        "negative",
+        "disgust"
+    ],
+    "Tobias D\u00f6rr": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Cedric Feschotte": [
+        "surprise",
+        "negative",
+        "fear"
+    ],
+    "John Fitzpatrick": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Joseph Fromme": [
+        "joy",
+        "sadness",
+        "positive"
+    ],
+    "Maria Gandolfo": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "William Ghiorse": [
+        "surprise",
+        "anticipation",
+        "anger"
+    ],
+    "Michael Goldberg": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Susan Henry": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "James Morin": [
+        "negative",
+        "anger",
+        "trust"
+    ],
+    "Karl Niklas": [
+        "surprise",
+        "positive",
+        "sadness"
+    ],
+    "Thomas Owens": [
+        "anger",
+        "fear",
+        "negative"
+    ],
+    "Kern Reeve": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Jeffrey Roberts": [
+        "surprise",
+        "disgust",
+        "negative"
+    ],
+    "Eric Schwarz": [
+        "joy",
+        "anticipation",
+        "surprise"
+    ],
+    "Bik-Kwoon Tye": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Volker Vogt": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Charles Walcott": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Melissa Warden": [
+        "fear",
+        "trust",
+        "positive"
+    ],
+    "Xiangtao Xu": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Stephen Zinder": [
+        "disgust",
+        "anger",
+        "trust"
+    ],
+    "Stephen Jesch": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "Susan Merkel": [
+        "anger",
+        "sadness",
+        "disgust"
+    ],
+    "Stephen Bloom": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Fay-Wei Li": [
+        "negative",
+        "surprise",
+        "fear"
+    ],
+    "James Liebherr": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Andrew Nelson": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "Sorina Popescu": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Eric Richards": [
+        "anticipation",
+        "anger",
+        "disgust"
+    ],
+    "John Schimenti": [
+        "surprise",
+        "positive",
+        "disgust"
+    ],
+    "Dennis Stevenson": [
+        "anticipation",
+        "trust",
+        "surprise"
+    ],
+    "Andrew Bass": [
+        "anger",
+        "negative",
+        "fear"
+    ],
+    "William Brown": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "David Deitcher": [
+        "disgust",
+        "anger",
+        "surprise"
+    ],
+    "Joseph Fetcho": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Jesse Goldberg": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Christine Goodale": [
+        "anticipation",
+        "trust",
+        "joy"
+    ],
+    "Nelson Hairston": [
+        "trust",
+        "joy",
+        "positive"
+    ],
+    "William Lai": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Siu Sylvia Lee": [
+        "sadness",
+        "fear",
+        "disgust"
+    ],
+    "Christine Linster": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Linda Nicholson": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Thomas Seeley": [
+        "sadness",
+        "surprise",
+        "anger"
+    ],
+    "Kathleen Kelly": [
+        "positive",
+        "joy",
+        "sadness"
+    ],
+    "John Cisne": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Yoav Artzi": [
+        "fear",
+        "negative",
+        "disgust"
+    ],
+    "Kavita Bala": [
+        "positive",
+        "negative",
+        "sadness"
+    ],
+    "David Bindel": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Kenneth Birman": [
+        "negative",
+        "surprise",
+        "disgust"
+    ],
+    "Jeremy Birnholtz": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Ahmed El Alauoi": [
+        "fear",
+        "sadness",
+        "anger"
+    ],
+    "Jeff Hancock": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Wendy Ju": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Ari Juels": [
+        "joy",
+        "positive",
+        "disgust"
+    ],
+    "Carl Lagoze": [
+        "disgust",
+        "sadness",
+        "negative"
+    ],
+    "Hod Lipson": [
+        "negative",
+        "anger",
+        "joy"
+    ],
+    "Steve Marschner": [
+        "anticipation",
+        "negative",
+        "fear"
+    ],
+    "David Matteson": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Helen Nissenbaum": [
+        "negative",
+        "sadness",
+        "fear"
+    ],
+    "Rafael Pass": [
+        "joy",
+        "anticipation",
+        "fear"
+    ],
+    "David Ruppert": [
+        "negative",
+        "positive",
+        "joy"
+    ],
+    "Noah Snavely": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Matt Wilkens": [
+        "fear",
+        "joy",
+        "sadness"
+    ],
+    "Xiaolong Yang": [
+        "negative",
+        "fear",
+        "surprise"
+    ],
+    "Ramin Zabih": [
+        "negative",
+        "anticipation",
+        "fear"
+    ],
+    "Shannon Gleeson": [
+        "surprise",
+        "fear",
+        "joy"
+    ],
+    "Jeff Niederdeppe": [
+        "positive",
+        "anger",
+        "trust"
+    ],
+    "Sharon Tennyson": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Tolunay Aydemir": [
+        "positive",
+        "anticipation",
+        "trust"
+    ],
+    "Daniel Berry": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Martha Field": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "John Hoddinott": [
+        "surprise",
+        "trust",
+        "disgust"
+    ],
+    "Elizabeth Johnson": [
+        "negative",
+        "disgust",
+        "fear"
+    ],
+    "Marla Lujan": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Saurabh Mehta": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Shu-Bing Qian": [
+        "trust",
+        "joy",
+        "disgust"
+    ],
+    "David Sahn": [
+        "negative",
+        "trust",
+        "anticipation"
+    ],
+    "Brian Lo": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "David Erickson": [
+        "sadness",
+        "negative",
+        "fear"
+    ],
+    "Mohamed Abdelfattah": [
+        "trust",
+        "anticipation",
+        "joy"
+    ],
+    "John Abel": [
+        "positive",
+        "trust",
+        "fear"
+    ],
+    "Jayadev Acharya": [
+        "positive",
+        "trust",
+        "negative"
+    ],
+    "Khurram Afridi": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Warren Allmon": [
+        "anger",
+        "surprise",
+        "joy"
+    ],
+    "James Antaki": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Brad Anton": [
+        "disgust",
+        "positive",
+        "anger"
+    ],
+    "Alyssa Apsel": [
+        "surprise",
+        "sadness",
+        "anticipation"
+    ],
+    "Lynden Archer": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Thomas Avedisian": [
+        "surprise",
+        "trust",
+        "joy"
+    ],
+    "Graeme Bailey": [
+        "anger",
+        "fear",
+        "disgust"
+    ],
+    "Shefford Baker": [
+        "negative",
+        "surprise",
+        "disgust"
+    ],
+    "Siddhartha Banerjee": [
+        "disgust",
+        "negative",
+        "trust"
+    ],
+    "James Bisogni": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Eilyan Bitar": [
+        "anticipation",
+        "fear",
+        "joy"
+    ],
+    "Robert Bland": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Lawrence Bonassar": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "John Callister": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Mark Campbell": [
+        "anticipation",
+        "trust",
+        "negative"
+    ],
+    "Lawrence Cathles": [
+        "anticipation",
+        "joy",
+        "positive"
+    ],
+    "Alfred Center": [
+        "joy",
+        "negative",
+        "anticipation"
+    ],
+    "Benjamin Cosgrove": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Edwin Cowen": [
+        "anticipation",
+        "joy",
+        "fear"
+    ],
+    "Jiangang Dai": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Susan Daniel": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Paul Dawson": [
+        "disgust",
+        "anger",
+        "negative"
+    ],
+    "Matthew DeLisa": [
+        "trust",
+        "surprise",
+        "anger"
+    ],
+    "Olivier Desjardins": [
+        "fear",
+        "anger",
+        "sadness"
+    ],
+    "Peter Diamessis": [
+        "fear",
+        "sadness",
+        "anticipation"
+    ],
+    "Richard Dick": [
+        "disgust",
+        "negative",
+        "fear"
+    ],
+    "Kathryn Dimiduk": [
+        "surprise",
+        "trust",
+        "joy"
+    ],
+    "Ankit Disa": [
+        "fear",
+        "sadness",
+        "surprise"
+    ],
+    "Eve Donnelly": [
+        "trust",
+        "positive",
+        "anger"
+    ],
+    "Michael Duncan": [
+        "surprise",
+        "sadness",
+        "trust"
+    ],
+    "Christopher Earls": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "James Engstrom": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Rick Evans": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Craig Fennie": [
+        "negative",
+        "sadness",
+        "disgust"
+    ],
+    "Silvia Ferrari": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Oliver Gao": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Emmanuel Giannelis": [
+        "surprise",
+        "joy",
+        "negative"
+    ],
+    "Andrea Giometto": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Miguel Gomez": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "David Hammer": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Tobias Hanrath": [
+        "positive",
+        "surprise",
+        "negative"
+    ],
+    "Scott Heinekamp": [
+        "trust",
+        "joy",
+        "disgust"
+    ],
+    "Shane Henderson": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Christopher Hernandez": [
+        "anticipation",
+        "surprise",
+        "anger"
+    ],
+    "Chung Hui": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "Peter Jackson": [
+        "joy",
+        "trust",
+        "negative"
+    ],
+    "Robert Jarrow": [
+        "joy",
+        "anticipation",
+        "fear"
+    ],
+    "Debdeep Jena": [
+        "sadness",
+        "surprise",
+        "negative"
+    ],
+    "James Jenkins": [
+        "trust",
+        "sadness",
+        "negative"
+    ],
+    "Peter Jessel": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Yong Joo": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "David Kammer": [
+        "fear",
+        "negative",
+        "anticipation"
+    ],
+    "Edwin Kan": [
+        "surprise",
+        "joy",
+        "trust"
+    ],
+    "Robert Kay": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Donald Koch": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Amit Lal": [
+        "negative",
+        "fear",
+        "sadness"
+    ],
+    "Daniel Lee": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Mark Lewis": [
+        "joy",
+        "negative",
+        "anger"
+    ],
+    "Qi Li": [
+        "anticipation",
+        "disgust",
+        "anger"
+    ],
+    "Leonard Lion": [
+        "positive",
+        "fear",
+        "anger"
+    ],
+    "Michel Louge": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Douglas MacMartin": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Rajit Manohar": [
+        "trust",
+        "positive",
+        "anticipation"
+    ],
+    "Stephen McGuire": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "Matthew Miller": [
+        "disgust",
+        "sadness",
+        "anger"
+    ],
+    "Francesco Monticone": [
+        "positive",
+        "surprise",
+        "trust"
+    ],
+    "Francis Moon": [
+        "joy",
+        "trust",
+        "surprise"
+    ],
+    "Jeffrey Moses": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "David Muller": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Christopher Ober": [
+        "negative",
+        "disgust",
+        "sadness"
+    ],
+    "William Olbricht": [
+        "sadness",
+        "anticipation",
+        "surprise"
+    ],
+    "Francesca Parise": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "Matthew Paszek": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Mason Peck": [
+        "anger",
+        "negative",
+        "surprise"
+    ],
+    "Kirstin Petersen": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Leigh Phoenix": [
+        "surprise",
+        "anticipation",
+        "negative"
+    ],
+    "David Putnam": [
+        "surprise",
+        "trust",
+        "anticipation"
+    ],
+    "Patrick Reed": [
+        "anticipation",
+        "joy",
+        "trust"
+    ],
+    "Matthew Reid": [
+        "surprise",
+        "positive",
+        "negative"
+    ],
+    "James Renegar": [
+        "fear",
+        "surprise",
+        "disgust"
+    ],
+    "Sidney Resnick": [
+        "negative",
+        "anger",
+        "disgust"
+    ],
+    "Andy Ruina": [
+        "disgust",
+        "negative",
+        "anger"
+    ],
+    "Mert Sabuncu": [
+        "anger",
+        "fear",
+        "negative"
+    ],
+    "Mridu Saikia": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Gennady Samorodnitsky": [
+        "trust",
+        "surprise",
+        "negative"
+    ],
+    "Ashutosh Saxena": [
+        "disgust",
+        "trust",
+        "anger"
+    ],
+    "Christopher Schaffer": [
+        "surprise",
+        "anticipation",
+        "fear"
+    ],
+    "Katya Scheinberg": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Charles Seyler": [
+        "positive",
+        "surprise",
+        "joy"
+    ],
+    "Elaine Shi": [
+        "anger",
+        "trust",
+        "negative"
+    ],
+    "Christine Shoemaker": [
+        "surprise",
+        "negative",
+        "fear"
+    ],
+    "Emin Gun Sirer": [
+        "anger",
+        "negative",
+        "disgust"
+    ],
+    "Michael Spencer": [
+        "sadness",
+        "negative",
+        "disgust"
+    ],
+    "Harry Stewart": [
+        "joy",
+        "negative",
+        "anger"
+    ],
+    "Abraham Stroock": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Gookwon Suh": [
+        "negative",
+        "anticipation",
+        "sadness"
+    ],
+    "Jack Thompson": [
+        "negative",
+        "sadness",
+        "trust"
+    ],
+    "Michael Thompson": [
+        "trust",
+        "fear",
+        "joy"
+    ],
+    "Lang Tong": [
+        "sadness",
+        "anticipation",
+        "disgust"
+    ],
+    "Leslie Trotter": [
+        "negative",
+        "surprise",
+        "sadness"
+    ],
+    "Bruce Turnbull": [
+        "surprise",
+        "negative",
+        "joy"
+    ],
+    "Marjolein van der Meulen": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Hua Wang": [
+        "surprise",
+        "anger",
+        "anticipation"
+    ],
+    "Zellman Warhaft": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Derek Warner": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Chekesha Watson": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Monroe Weber-Shirk": [
+        "disgust",
+        "positive",
+        "sadness"
+    ],
+    "Ulrich Wiesner": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Mark Wilde": [
+        "fear",
+        "anger",
+        "disgust"
+    ],
+    "Charles Williamson": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Fengi You": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Alan Zehnder": [
+        "surprise",
+        "negative",
+        "anger"
+    ],
+    "(Ke) Max Zhang": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Fatma Baytar": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Charles Brainerd": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Marianella Casasola": [
+        "joy",
+        "trust",
+        "disgust"
+    ],
+    "Eve DeRosa": [
+        "surprise",
+        "positive",
+        "sadness"
+    ],
+    "Yasser Gowayed": [
+        "negative",
+        "positive",
+        "fear"
+    ],
+    "Keith Green": [
+        "joy",
+        "anger",
+        "surprise"
+    ],
+    "Juan Hinestroza": [
+        "negative",
+        "fear",
+        "disgust"
+    ],
+    "Steven Robertson": [
+        "surprise",
+        "negative",
+        "positive"
+    ],
+    "Elaine Wethington": [
+        "negative",
+        "disgust",
+        "anger"
+    ],
+    "Lee Adler": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Ronald Applegate": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Ariel Avgar": [
+        "trust",
+        "negative",
+        "surprise"
+    ],
+    "Rosemary Batt": [
+        "surprise",
+        "anticipation",
+        "trust"
+    ],
+    "Sarah Besky": [
+        "negative",
+        "anger",
+        "fear"
+    ],
+    "Dina Bishara": [
+        "positive",
+        "trust",
+        "joy"
+    ],
+    "Vanessa Bohns": [
+        "trust",
+        "positive",
+        "joy"
+    ],
+    "Brittany Bond": [
+        "trust",
+        "positive",
+        "fear"
+    ],
+    "George Boyer": [
+        "joy",
+        "positive",
+        "surprise"
+    ],
+    "Kate Bronfenbrenner": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "Alexander Colvin": [
+        "surprise",
+        "disgust",
+        "anger"
+    ],
+    "Gary Fields": [
+        "trust",
+        "surprise",
+        "positive"
+    ],
+    "John Haggerty": [
+        "trust",
+        "surprise",
+        "disgust"
+    ],
+    "John Hausknecht": [
+        "surprise",
+        "joy",
+        "positive"
+    ],
+    "Tristan Ivory": [
+        "negative",
+        "anticipation",
+        "anger"
+    ],
+    "Lawrence Kahn": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Harry Katz": [
+        "surprise",
+        "anticipation",
+        "joy"
+    ],
+    "JR Keller": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Alexander Kowalski": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Risa Lieberwitz": [
+        "trust",
+        "surprise",
+        "sadness"
+    ],
+    "Alice Lee": [
+        "anticipation",
+        "joy",
+        "negative"
+    ],
+    "Adam Litwin": [
+        "surprise",
+        "negative",
+        "fear"
+    ],
+    "Brian Lucas": [
+        "positive",
+        "trust",
+        "anticipation"
+    ],
+    "John McCarthy": [
+        "surprise",
+        "fear",
+        "anticipation"
+    ],
+    "Tejasvi Nagaraja": [
+        "trust",
+        "surprise",
+        "anticipation"
+    ],
+    "Lisa Nishii": [
+        "joy",
+        "positive",
+        "trust"
+    ],
+    "Devon Proudfoot": [
+        "anger",
+        "disgust",
+        "fear"
+    ],
+    "Caitlin Ray": [
+        "disgust",
+        "anger",
+        "fear"
+    ],
+    "Evan Riehl": [
+        "fear",
+        "positive",
+        "trust"
+    ],
+    "Emily Zitek": [
+        "disgust",
+        "anticipation",
+        "anger"
+    ],
+    "Ho Yan Chau": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Todd Gerarden": [
+        "fear",
+        "sadness",
+        "negative"
+    ],
+    "Benjamin Leyden": [
+        "sadness",
+        "negative",
+        "anger"
+    ],
+    "Clinton Neill": [
+        "surprise",
+        "fear",
+        "anticipation"
+    ],
+    "Charles Nicholson": [
+        "trust",
+        "negative",
+        "sadness"
+    ],
+    "Ivan Rudik": [
+        "surprise",
+        "joy",
+        "anticipation"
+    ],
+    "Daniela Scur": [
+        "positive",
+        "trust",
+        "surprise"
+    ],
+    "James Stapp": [
+        "negative",
+        "anger",
+        "sadness"
+    ],
+    "Chris Anderson": [
+        "surprise",
+        "anticipation",
+        "disgust"
+    ],
+    "Steven Carvell": [
+        "fear",
+        "trust",
+        "surprise"
+    ],
+    "Jacob Chestnut": [
+        "trust",
+        "disgust",
+        "anger"
+    ],
+    "Hae Chun": [
+        "trust",
+        "positive",
+        "disgust"
+    ],
+    "Ravinder Kingra": [
+        "positive",
+        "disgust",
+        "anger"
+    ],
+    "Heather Kolakowski": [
+        "surprise",
+        "positive",
+        "joy"
+    ],
+    "Robert Kwortnik": [
+        "anger",
+        "disgust",
+        "negative"
+    ],
+    "Daniel Lebret": [
+        "joy",
+        "anticipation",
+        "positive"
+    ],
+    "Soojin Lee": [
+        "negative",
+        "positive",
+        "disgust"
+    ],
+    "Michael Lynn": [
+        "disgust",
+        "negative",
+        "sadness"
+    ],
+    "Asis Martinez-Jerez": [
+        "surprise",
+        "fear",
+        "anger"
+    ],
+    "Peggy Odom-Reed": [
+        "negative",
+        "sadness",
+        "anger"
+    ],
+    "Marie Ozanne": [
+        "fear",
+        "positive",
+        "trust"
+    ],
+    "Meng Qi": [
+        "disgust",
+        "anger",
+        "sadness"
+    ],
+    "Daniel Quan": [
+        "positive",
+        "joy",
+        "trust"
+    ],
+    "Alison Shea": [
+        "fear",
+        "disgust",
+        "anger"
+    ],
+    "Yuan Shi": [
+        "fear",
+        "surprise",
+        "sadness"
+    ],
+    "Tyrell Stewart-Harris": [
+        "anticipation",
+        "surprise",
+        "joy"
+    ],
+    "Alex Susskind": [
+        "anger",
+        "surprise",
+        "disgust"
+    ],
+    "Simone Tang": [
+        "positive",
+        "trust",
+        "disgust"
+    ],
+    "Neil Tarallo": [
+        "trust",
+        "positive",
+        "surprise"
+    ],
+    "Kasey Tarantino": [
+        "anticipation",
+        "fear",
+        "disgust"
+    ],
+    "Bruce Tracey": [
+        "joy",
+        "trust",
+        "anticipation"
+    ],
+    "Brad Wellstead": [
+        "negative",
+        "surprise",
+        "disgust"
+    ]
+}

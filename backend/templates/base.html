@@ -40,11 +40,12 @@
               left blank).</p>
             <p>👏 Adjust weights from most important (5) to least
               important (1).</p>
+            <p>🤔️ You must choose valid department from dropdown, otherwise, no filter is applied </p>
             <p>🙈 Refresh browser to clean all data for thumbs up/down</p>
               
           </div>
           <h4 class="title">Search by professor:</h4>
-          <div id="prof-search-box">
+          <div id="prof-search-box" class="general-search">
             <div class="flex-box">
               <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -66,7 +67,7 @@
           </div>
 
           <h4 class="title">Search by course:</h4>
-          <div id="course-search-box">
+          <div id="course-search-box" class="general-search">
             <div class="flex-box">
               <div class="input-box">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -88,7 +89,7 @@
           </div>
 
           <h4 class="title">Search by keyword:</h4>
-          <div class="flex-box">
+          <div class="flex-box general-search" >
             <div class="input-box">
               <img src="{{ url_for('static', filename='images/mag.png') }}" />
               <input placeholder="e.g. Enthusiastic" id="search-free" />
@@ -102,250 +103,256 @@
             </select>
           </div>
 
+          <h4 class="title">Filter by department:</h4>
+          <div class="flex-box general-search">
+            <div class="input-box">
+              <img src="{{ url_for('static', filename='images/mag.png') }}" />
+              <input placeholder="e.g. CS" list="departments" name="department" id="department" />
+            </div>
+          </div>
+          <datalist id="departments">
+            <option value="ASRC">Africana Studies & Res Center (ASRC)</option>
+            <option value="ALS">Agriculture & Life Sciences (ALS)</option>
+            <option value="AGSCI">Agriculture Sciences (AGSCI)</option>
+            <option value="AIRS">Air Force Science (AIRS)</option>
+            <option value="AIIS">American Indian & Indigenous (AIIS)</option>
+            <option value="ASL">American Sign Language (ASL)</option>
+            <option value="AMST">American Studies (AMST)</option>
+            <option value="BIOAP">Animal Physiology & Anatomy (BIOAP)</option>
+            <option value="ANSC">Animal Science (ANSC)</option>
+            <option value="ANTHR">Anthropology (ANTHR)</option>
+            <option value="AEP">Applied & Engineering Physics (AEP)</option>
+            <option value="AEM">Applied Economics & Management (AEM)</option>
+            <option value="ARAB">Arabic (ARAB)</option>
+            <option value="ARKEO">Archaeology (ARKEO)</option>
+            <option value="ARCH">Architecture (ARCH)</option>
+            <option value="AAP">Architecture, Art, and Plannin (AAP)</option>
+            <option value="ART">Art (ART)</option>
+            <option value="ARTH">Art History (ARTH)</option>
+            <option value="AS">Arts & Sciences (AS)</option>
+            <option value="AAS">Asian American Studies (AAS)</option>
+            <option value="ASIAN">Asian Studies (ASIAN)</option>
+            <option value="ASTRO">Astronomy (ASTRO)</option>
+            <option value="BENGL">Bengali (BENGL)</option>
+            <option value="BIOMS">Bio Medical Science (BIOMS)</option>
+            <option value="BEE">Biological & Environmental Eng (BEE)</option>
+            <option value="BSOC">Biology & Society (BSOC)</option>
+            <option value="BIOG">Biology: General Courses (BIOG)</option>
+            <option value="BME">Biomedical Engineering (BME)</option>
+            <option value="BTRY">Biometry & Statistics (BTRY)</option>
+            <option value="BURM">Burmese (BURM)</option>
+            <option value="NBAE">Business Admin Electives EMBA (NBAE)</option>
+            <option value="CHEME">Chemical Engineering (CHEME)</option>
+            <option value="CHEM">Chemistry (CHEM)</option>
+            <option value="CAPS">China & Asia Pacific Studies (CAPS)</option>
+            <option value="CHIN">Chinese (CHIN)</option>
+            <option value="CHLIT">Chinese Literature (CHLIT)</option>
+            <option value="CRP">City & Regional Planning (CRP)</option>
+            <option value="CEE">Civil & Environmental Engr (CEE)</option>
+            <option value="CLASS">Classics (CLASS)</option>
+            <option value="COGST">Cognitive Science (COGST)</option>
+            <option value="COLLS">College Scholar Program (COLLS)</option>
+            <option value="NCCE">Common Core Courses EMBA (NCCE)</option>
+            <option value="COMM">Communication (COMM)</option>
+            <option value="COML">Comparative Literature (COML)</option>
+            <option value="CS">Computer Science (CS)</option>
+            <option value="UNIV">Cornell University General (UNIV)</option>
+            <option value="CZECH">Czech (CZECH)</option>
+            <option value="DEA">Design & Environmental Analy (DEA)</option>
+            <option value="DESIGN">Design (DESIGN)</option>
+            <option value="TECHIE">
+              Digital Tech Interdisciplinary (TECHIE)
+            </option>
+            <option value="TECH">Digital Technology & Practice (TECH)</option>
+            <option value="DUTCH">Dutch (DUTCH)</option>
+            <option value="EAS">Earth & Atmospheric Sciences (EAS)</option>
+            <option value="BIOEE">
+              Ecology & Evolutionary Biology (BIOEE)
+            </option>
+            <option value="ECON">Economics (ECON)</option>
+            <option value="EDUC">Education (EDUC)</option>
+            <option value="ECE">Electrical & Computer Engr (ECE)</option>
+            <option value="ENGRC">Engineering Communications (ENGRC)</option>
+            <option value="ENGRD">Engineering Distribution (ENGRD)</option>
+            <option value="ENGRG">
+              Engineering General Interest (ENGRG)
+            </option>
+            <option value="ENGRI">Engineering Introduction (ENGRI)</option>
+            <option value="ENMGT">Engineering Management (ENMGT)</option>
+            <option value="ENGL">English (ENGL)</option>
+            <option value="ELSO">English Language Support (ELSO)</option>
+            <option value="ENINT">
+              English for International Stdt (ENINT)
+            </option>
+            <option value="ENTOM">Entomology (ENTOM)</option>
+            <option value="ENVS">Environment & Sustainability (ENVS)</option>
+            <option value="NCCB">Executive Boardroom Core (NCCB)</option>
+            <option value="NBAB">Executive Boardroom Electives (NBAB)</option>
+            <option value="FGSS">
+              Feminist,Gender,Sexuality Stdy (FGSS)
+            </option>
+            <option value="FSAD">
+              Fiber Science & Apparel Design (FSAD)
+            </option>
+            <option value="FINN">Finnish (FINN)</option>
+            <option value="FDSC">Food Science (FDSC)</option>
+            <option value="FREN">French (FREN)</option>
+            <option value="GERST">German Studies (GERST)</option>
+            <option value="GDEV">Global Development (GDEV)</option>
+            <option value="GOVT">Government (GOVT)</option>
+            <option value="NACCT">Grad Mgmt Acct (NACCT)</option>
+            <option value="NBA">Grad Mgmt Business Admin (NBA)</option>
+            <option value="NBAT">Grad Mgmt Business Admin CT (NBAT)</option>
+            <option value="NBAY">Grad Mgmt Business Admin NYT (NBAY)</option>
+            <option value="NBAW">
+              Grad Mgmt Business Admin Weill (NBAW)
+            </option>
+            <option value="BANA">Grad Mgmt Business Analytics (BANA)</option>
+            <option value="NCC">Grad Mgmt Common Core (NCC)</option>
+            <option value="NCCT">Grad Mgmt Common Core CT (NCCT)</option>
+            <option value="NCCW">Grad Mgmt Common Core Weill (NCCW)</option>
+            <option value="NMI">Grad Mgmt Individual Study (NMI)</option>
+            <option value="MGMT">Graduate Management (MGMT)</option>
+            <option value="NRE">Graduate Management Research (NRE)</option>
+            <option value="GRAD">Graduate Research (GRAD)</option>
+            <option value="GREEK">Greek (GREEK)</option>
+            <option value="HEBRW">Hebrew (HEBRW)</option>
+            <option value="HIERO">Hieroglyphic Egyptian (HIERO)</option>
+            <option value="HINDI">Hindi (HINDI)</option>
+            <option value="HIST">History (HIST)</option>
+            <option value="PLHRT">Horticulture Sciences (PLHRT)</option>
+            <option value="HADM">Hotel Administration (HADM)</option>
+            <option value="HD">Human Development (HD)</option>
+            <option value="HE">Human Ecology Nondepartmental (HE)</option>
+            <option value="HUNGR">Hungarian (HUNGR)</option>
+            <option value="EXTLS">ILR Extension Labor Studies (EXTLS)</option>
+            <option value="ILRHR">ILR Human Resource Studies (ILRHR)</option>
+            <option value="ILRID">ILR Interdepartmental (ILRID)</option>
+            <option value="ILRIC">
+              ILR International & Comp Labor (ILRIC)
+            </option>
+            <option value="ILRLE">ILR Labor Economics (ILRLE)</option>
+            <option value="ILRLR">
+              ILR Labor Relations, Law, Hist (ILRLR)
+            </option>
+            <option value="ILROB">ILR Organizational Behavior (ILROB)</option>
+            <option value="ILRST">ILR Social Statistics (ILRST)</option>
+            <option value="IM">Independent Major (IM)</option>
+            <option value="INDO">Indonesian (INDO)</option>
+            <option value="INFO">Information Science (INFO)</option>
+            <option value="ITAL">Italian (ITAL)</option>
+            <option value="JAPAN">Japanese (JAPAN)</option>
+            <option value="JPLIT">Japanese Literature (JPLIT)</option>
+            <option value="JWST">Jewish Studies (JWST)</option>
+            <option value="KANAD">Kannada (KANAD)</option>
+            <option value="KHMER">Khmer (KHMER)</option>
+            <option value="KOREA">Korean (KOREA)</option>
+            <option value="LA">Landscape Architecture (LA)</option>
+            <option value="LATIN">Latin (LATIN)</option>
+            <option value="LATA">Latin American Studies (LATA)</option>
+            <option value="LSP">Latino Studies Program (LSP)</option>
+            <option value="LAW">Law (LAW)</option>
+            <option value="LEAD">Leadership (LEAD)</option>
+            <option value="UNILWYL">Learning Where you Live (UNILWYL)</option>
+            <option value="LEGAL">Legal Studies (LEGAL)</option>
+            <option value="LGBT">
+              Lesbian,Gay,Bisexual,Trns Stdy (LGBT)
+            </option>
+            <option value="LING">Linguistics (LING)</option>
+            <option value="MSE">Materials Science & Engr (MSE)</option>
+            <option value="MATH">Mathematics (MATH)</option>
+            <option value="MAE">Mechanical & Aerospace Eng (MAE)</option>
+            <option value="MEDVL">Medieval Studies (MEDVL)</option>
+            <option value="BIOMI">Microbiology (BIOMI)</option>
+            <option value="MILS">Military Science (MILS)</option>
+            <option value="BIOMG">
+              Molecular Biology and Genetics (BIOMG)
+            </option>
+            <option value="MUSIC">Music (MUSIC)</option>
+            <option value="NTRES">Natural Resources (NTRES)</option>
+            <option value="NAVS">Naval Science (NAVS)</option>
+            <option value="NES">Near Eastern Studies (NES)</option>
+            <option value="NEPAL">Nepali (NEPAL)</option>
+            <option value="BIONB">Neurobiology & Behavior (BIONB)</option>
+            <option value="NS">Nutritional Science (NS)</option>
+            <option value="ORIE">
+              Op Research & Information Engr (ORIE)
+            </option>
+            <option value="OVST">Overseas Study (OVST)</option>
+            <option value="PMA">Performing and Media Arts (PMA)</option>
+            <option value="PERSN">Persian (PERSN)</option>
+            <option value="PHIL">Philosophy (PHIL)</option>
+            <option value="PE">Physical Education & Athletics (PE)</option>
+            <option value="PHYS">Physics (PHYS)</option>
+            <option value="PLBIO">Plant Biology (PLBIO)</option>
+            <option value="PLBRG">Plant Breeding (PLBRG)</option>
+            <option value="PLPPM">Plant Pathology (PLPPM)</option>
+            <option value="PLSCI">Plant Sciences (PLSCI)</option>
+            <option value="PAM">Policy Analysis & Management (PAM)</option>
+            <option value="POLSH">Polish (POLSH)</option>
+            <option value="PORT">Portuguese (PORT)</option>
+            <option value="PSYCH">Psychology (PSYCH)</option>
+            <option value="PADM">Public Administration (PADM)</option>
+            <option value="PUNJB">Punjabi (PUNJB)</option>
+            <option value="QUECH">Quechua (QUECH)</option>
+            <option value="RELST">Religious Studies (RELST)</option>
+            <option value="ROMS">Romance Studies (ROMS)</option>
+            <option value="ROMAN">Romanian (ROMAN)</option>
+            <option value="RUSSA">Russian (RUSSA)</option>
+            <option value="RUSSL">Russian Literature (RUSSL)</option>
+            <option value="SANSK">Sanskrit (SANSK)</option>
+            <option value="SNLIT">Sanskrit Literature (SNLIT)</option>
+            <option value="STS">Science & Technology Studies (STS)</option>
+            <option value="SINHA">Sinhalese (SINHA)</option>
+            <option value="SHUM">Society for Humanities (SHUM)</option>
+            <option value="SOC">Sociology (SOC)</option>
+            <option value="PLSCS">Soil & Crop Sciences (PLSCS)</option>
+            <option value="SPAN">Spanish (SPAN)</option>
+            <option value="STSCI">Statistical Science (STSCI)</option>
+            <option value="SWAHL">Swahili (SWAHL)</option>
+            <option value="SWED">Swedish (SWED)</option>
+            <option value="SYSEN">Systems Engineering (SYSEN)</option>
+            <option value="TAG">Tagalog (TAG)</option>
+            <option value="TAMIL">Tamil (TAMIL)</option>
+            <option value="THAI">Thai (THAI)</option>
+            <option value="TIBET">Tibetan (TIBET)</option>
+            <option value="TOX">Toxicology (TOX)</option>
+            <option value="TURK">Turkish (TURK)</option>
+            <option value="TWI">Twi (TWI)</option>
+            <option value="UKRAN">Ukrainian (UKRAN)</option>
+            <option value="URDU">Urdu (URDU)</option>
+            <option value="VTBMS">Vet Med BioMedical Sciences (VTBMS)</option>
+            <option value="VETCS">Vet Med Clinical Sciences (VETCS)</option>
+            <option value="VETMI">Vet Med Microbiology (VETMI)</option>
+            <option value="VTMED">Vet Med Prof Curriculum (VTMED)</option>
+            <option value="VTPEH">
+              Vet Med Public & Ecosys Health (VTPEH)
+            </option>
+            <option value="VIET">Vietnamese (VIET)</option>
+            <option value="VISST">Visual Studies (VISST)</option>
+            <option value="VIEN">Viticulture & Enology (VIEN)</option>
+            <option value="WOLOF">Wolof (WOLOF)</option>
+            <option value="WRIT">Writing Program (WRIT)</option>
+            <option value="YORUB">Yoruba (YORUB)</option>
+            <option value="ZULU">Zulu (ZULU)</option>
+          </datalist>
+
           <button class="accordion">
             <div class="flex-container">
               <img
                 src="{{ url_for('static', filename='images/filter.png') }}"
                 class="filter-image"
               />
-              <div class="toggle-label">Filter by department</div>
+              <div class="toggle-label">Feedback History 🤔️</div>
             </div>
           </button>
           <div class="panel">
-            <input list="departments" name="department" id="department" />
-            <datalist id="departments">
-              <option value="ASRC">Africana Studies & Res Center (ASRC)</option>
-              <option value="ALS">Agriculture & Life Sciences (ALS)</option>
-              <option value="AGSCI">Agriculture Sciences (AGSCI)</option>
-              <option value="AIRS">Air Force Science (AIRS)</option>
-              <option value="AIIS">American Indian & Indigenous (AIIS)</option>
-              <option value="ASL">American Sign Language (ASL)</option>
-              <option value="AMST">American Studies (AMST)</option>
-              <option value="BIOAP">Animal Physiology & Anatomy (BIOAP)</option>
-              <option value="ANSC">Animal Science (ANSC)</option>
-              <option value="ANTHR">Anthropology (ANTHR)</option>
-              <option value="AEP">Applied & Engineering Physics (AEP)</option>
-              <option value="AEM">Applied Economics & Management (AEM)</option>
-              <option value="ARAB">Arabic (ARAB)</option>
-              <option value="ARKEO">Archaeology (ARKEO)</option>
-              <option value="ARCH">Architecture (ARCH)</option>
-              <option value="AAP">Architecture, Art, and Plannin (AAP)</option>
-              <option value="ART">Art (ART)</option>
-              <option value="ARTH">Art History (ARTH)</option>
-              <option value="AS">Arts & Sciences (AS)</option>
-              <option value="AAS">Asian American Studies (AAS)</option>
-              <option value="ASIAN">Asian Studies (ASIAN)</option>
-              <option value="ASTRO">Astronomy (ASTRO)</option>
-              <option value="BENGL">Bengali (BENGL)</option>
-              <option value="BIOMS">Bio Medical Science (BIOMS)</option>
-              <option value="BEE">Biological & Environmental Eng (BEE)</option>
-              <option value="BSOC">Biology & Society (BSOC)</option>
-              <option value="BIOG">Biology: General Courses (BIOG)</option>
-              <option value="BME">Biomedical Engineering (BME)</option>
-              <option value="BTRY">Biometry & Statistics (BTRY)</option>
-              <option value="BURM">Burmese (BURM)</option>
-              <option value="NBAE">Business Admin Electives EMBA (NBAE)</option>
-              <option value="CHEME">Chemical Engineering (CHEME)</option>
-              <option value="CHEM">Chemistry (CHEM)</option>
-              <option value="CAPS">China & Asia Pacific Studies (CAPS)</option>
-              <option value="CHIN">Chinese (CHIN)</option>
-              <option value="CHLIT">Chinese Literature (CHLIT)</option>
-              <option value="CRP">City & Regional Planning (CRP)</option>
-              <option value="CEE">Civil & Environmental Engr (CEE)</option>
-              <option value="CLASS">Classics (CLASS)</option>
-              <option value="COGST">Cognitive Science (COGST)</option>
-              <option value="COLLS">College Scholar Program (COLLS)</option>
-              <option value="NCCE">Common Core Courses EMBA (NCCE)</option>
-              <option value="COMM">Communication (COMM)</option>
-              <option value="COML">Comparative Literature (COML)</option>
-              <option value="CS">Computer Science (CS)</option>
-              <option value="UNIV">Cornell University General (UNIV)</option>
-              <option value="CZECH">Czech (CZECH)</option>
-              <option value="DEA">Design & Environmental Analy (DEA)</option>
-              <option value="DESIGN">Design (DESIGN)</option>
-              <option value="TECHIE">
-                Digital Tech Interdisciplinary (TECHIE)
-              </option>
-              <option value="TECH">Digital Technology & Practice (TECH)</option>
-              <option value="DUTCH">Dutch (DUTCH)</option>
-              <option value="EAS">Earth & Atmospheric Sciences (EAS)</option>
-              <option value="BIOEE">
-                Ecology & Evolutionary Biology (BIOEE)
-              </option>
-              <option value="ECON">Economics (ECON)</option>
-              <option value="EDUC">Education (EDUC)</option>
-              <option value="ECE">Electrical & Computer Engr (ECE)</option>
-              <option value="ENGRC">Engineering Communications (ENGRC)</option>
-              <option value="ENGRD">Engineering Distribution (ENGRD)</option>
-              <option value="ENGRG">
-                Engineering General Interest (ENGRG)
-              </option>
-              <option value="ENGRI">Engineering Introduction (ENGRI)</option>
-              <option value="ENMGT">Engineering Management (ENMGT)</option>
-              <option value="ENGL">English (ENGL)</option>
-              <option value="ELSO">English Language Support (ELSO)</option>
-              <option value="ENINT">
-                English for International Stdt (ENINT)
-              </option>
-              <option value="ENTOM">Entomology (ENTOM)</option>
-              <option value="ENVS">Environment & Sustainability (ENVS)</option>
-              <option value="NCCB">Executive Boardroom Core (NCCB)</option>
-              <option value="NBAB">Executive Boardroom Electives (NBAB)</option>
-              <option value="FGSS">
-                Feminist,Gender,Sexuality Stdy (FGSS)
-              </option>
-              <option value="FSAD">
-                Fiber Science & Apparel Design (FSAD)
-              </option>
-              <option value="FINN">Finnish (FINN)</option>
-              <option value="FDSC">Food Science (FDSC)</option>
-              <option value="FREN">French (FREN)</option>
-              <option value="GERST">German Studies (GERST)</option>
-              <option value="GDEV">Global Development (GDEV)</option>
-              <option value="GOVT">Government (GOVT)</option>
-              <option value="NACCT">Grad Mgmt Acct (NACCT)</option>
-              <option value="NBA">Grad Mgmt Business Admin (NBA)</option>
-              <option value="NBAT">Grad Mgmt Business Admin CT (NBAT)</option>
-              <option value="NBAY">Grad Mgmt Business Admin NYT (NBAY)</option>
-              <option value="NBAW">
-                Grad Mgmt Business Admin Weill (NBAW)
-              </option>
-              <option value="BANA">Grad Mgmt Business Analytics (BANA)</option>
-              <option value="NCC">Grad Mgmt Common Core (NCC)</option>
-              <option value="NCCT">Grad Mgmt Common Core CT (NCCT)</option>
-              <option value="NCCW">Grad Mgmt Common Core Weill (NCCW)</option>
-              <option value="NMI">Grad Mgmt Individual Study (NMI)</option>
-              <option value="MGMT">Graduate Management (MGMT)</option>
-              <option value="NRE">Graduate Management Research (NRE)</option>
-              <option value="GRAD">Graduate Research (GRAD)</option>
-              <option value="GREEK">Greek (GREEK)</option>
-              <option value="HEBRW">Hebrew (HEBRW)</option>
-              <option value="HIERO">Hieroglyphic Egyptian (HIERO)</option>
-              <option value="HINDI">Hindi (HINDI)</option>
-              <option value="HIST">History (HIST)</option>
-              <option value="PLHRT">Horticulture Sciences (PLHRT)</option>
-              <option value="HADM">Hotel Administration (HADM)</option>
-              <option value="HD">Human Development (HD)</option>
-              <option value="HE">Human Ecology Nondepartmental (HE)</option>
-              <option value="HUNGR">Hungarian (HUNGR)</option>
-              <option value="EXTLS">ILR Extension Labor Studies (EXTLS)</option>
-              <option value="ILRHR">ILR Human Resource Studies (ILRHR)</option>
-              <option value="ILRID">ILR Interdepartmental (ILRID)</option>
-              <option value="ILRIC">
-                ILR International & Comp Labor (ILRIC)
-              </option>
-              <option value="ILRLE">ILR Labor Economics (ILRLE)</option>
-              <option value="ILRLR">
-                ILR Labor Relations, Law, Hist (ILRLR)
-              </option>
-              <option value="ILROB">ILR Organizational Behavior (ILROB)</option>
-              <option value="ILRST">ILR Social Statistics (ILRST)</option>
-              <option value="IM">Independent Major (IM)</option>
-              <option value="INDO">Indonesian (INDO)</option>
-              <option value="INFO">Information Science (INFO)</option>
-              <option value="ITAL">Italian (ITAL)</option>
-              <option value="JAPAN">Japanese (JAPAN)</option>
-              <option value="JPLIT">Japanese Literature (JPLIT)</option>
-              <option value="JWST">Jewish Studies (JWST)</option>
-              <option value="KANAD">Kannada (KANAD)</option>
-              <option value="KHMER">Khmer (KHMER)</option>
-              <option value="KOREA">Korean (KOREA)</option>
-              <option value="LA">Landscape Architecture (LA)</option>
-              <option value="LATIN">Latin (LATIN)</option>
-              <option value="LATA">Latin American Studies (LATA)</option>
-              <option value="LSP">Latino Studies Program (LSP)</option>
-              <option value="LAW">Law (LAW)</option>
-              <option value="LEAD">Leadership (LEAD)</option>
-              <option value="UNILWYL">Learning Where you Live (UNILWYL)</option>
-              <option value="LEGAL">Legal Studies (LEGAL)</option>
-              <option value="LGBT">
-                Lesbian,Gay,Bisexual,Trns Stdy (LGBT)
-              </option>
-              <option value="LING">Linguistics (LING)</option>
-              <option value="MSE">Materials Science & Engr (MSE)</option>
-              <option value="MATH">Mathematics (MATH)</option>
-              <option value="MAE">Mechanical & Aerospace Eng (MAE)</option>
-              <option value="MEDVL">Medieval Studies (MEDVL)</option>
-              <option value="BIOMI">Microbiology (BIOMI)</option>
-              <option value="MILS">Military Science (MILS)</option>
-              <option value="BIOMG">
-                Molecular Biology and Genetics (BIOMG)
-              </option>
-              <option value="MUSIC">Music (MUSIC)</option>
-              <option value="NTRES">Natural Resources (NTRES)</option>
-              <option value="NAVS">Naval Science (NAVS)</option>
-              <option value="NES">Near Eastern Studies (NES)</option>
-              <option value="NEPAL">Nepali (NEPAL)</option>
-              <option value="BIONB">Neurobiology & Behavior (BIONB)</option>
-              <option value="NS">Nutritional Science (NS)</option>
-              <option value="ORIE">
-                Op Research & Information Engr (ORIE)
-              </option>
-              <option value="OVST">Overseas Study (OVST)</option>
-              <option value="PMA">Performing and Media Arts (PMA)</option>
-              <option value="PERSN">Persian (PERSN)</option>
-              <option value="PHIL">Philosophy (PHIL)</option>
-              <option value="PE">Physical Education & Athletics (PE)</option>
-              <option value="PHYS">Physics (PHYS)</option>
-              <option value="PLBIO">Plant Biology (PLBIO)</option>
-              <option value="PLBRG">Plant Breeding (PLBRG)</option>
-              <option value="PLPPM">Plant Pathology (PLPPM)</option>
-              <option value="PLSCI">Plant Sciences (PLSCI)</option>
-              <option value="PAM">Policy Analysis & Management (PAM)</option>
-              <option value="POLSH">Polish (POLSH)</option>
-              <option value="PORT">Portuguese (PORT)</option>
-              <option value="PSYCH">Psychology (PSYCH)</option>
-              <option value="PADM">Public Administration (PADM)</option>
-              <option value="PUNJB">Punjabi (PUNJB)</option>
-              <option value="QUECH">Quechua (QUECH)</option>
-              <option value="RELST">Religious Studies (RELST)</option>
-              <option value="ROMS">Romance Studies (ROMS)</option>
-              <option value="ROMAN">Romanian (ROMAN)</option>
-              <option value="RUSSA">Russian (RUSSA)</option>
-              <option value="RUSSL">Russian Literature (RUSSL)</option>
-              <option value="SANSK">Sanskrit (SANSK)</option>
-              <option value="SNLIT">Sanskrit Literature (SNLIT)</option>
-              <option value="STS">Science & Technology Studies (STS)</option>
-              <option value="SINHA">Sinhalese (SINHA)</option>
-              <option value="SHUM">Society for Humanities (SHUM)</option>
-              <option value="SOC">Sociology (SOC)</option>
-              <option value="PLSCS">Soil & Crop Sciences (PLSCS)</option>
-              <option value="SPAN">Spanish (SPAN)</option>
-              <option value="STSCI">Statistical Science (STSCI)</option>
-              <option value="SWAHL">Swahili (SWAHL)</option>
-              <option value="SWED">Swedish (SWED)</option>
-              <option value="SYSEN">Systems Engineering (SYSEN)</option>
-              <option value="TAG">Tagalog (TAG)</option>
-              <option value="TAMIL">Tamil (TAMIL)</option>
-              <option value="THAI">Thai (THAI)</option>
-              <option value="TIBET">Tibetan (TIBET)</option>
-              <option value="TOX">Toxicology (TOX)</option>
-              <option value="TURK">Turkish (TURK)</option>
-              <option value="TWI">Twi (TWI)</option>
-              <option value="UKRAN">Ukrainian (UKRAN)</option>
-              <option value="URDU">Urdu (URDU)</option>
-              <option value="VTBMS">Vet Med BioMedical Sciences (VTBMS)</option>
-              <option value="VETCS">Vet Med Clinical Sciences (VETCS)</option>
-              <option value="VETMI">Vet Med Microbiology (VETMI)</option>
-              <option value="VTMED">Vet Med Prof Curriculum (VTMED)</option>
-              <option value="VTPEH">
-                Vet Med Public & Ecosys Health (VTPEH)
-              </option>
-              <option value="VIET">Vietnamese (VIET)</option>
-              <option value="VISST">Visual Studies (VISST)</option>
-              <option value="VIEN">Viticulture & Enology (VIEN)</option>
-              <option value="WOLOF">Wolof (WOLOF)</option>
-              <option value="WRIT">Writing Program (WRIT)</option>
-              <option value="YORUB">Yoruba (YORUB)</option>
-              <option value="ZULU">Zulu (ZULU)</option>
-            </datalist>
-          </div>
-
-          <div class="like-dislike-list">
-            <h4 class="title">Professors you thumbed up:</h4>
-            <div id="like-list"></div>
-            <h4 class="title">Professors you thumbed down:</h4>
-            <div id="dislike-list"></div>
+            <div class="like-dislike-list">
+              <h4 class="title">Professors you thumbed up:</h4>
+              <div id="like-list"></div>
+              <h4 class="title">Professors you thumbed down:</h4>
+              <div id="dislike-list"></div>
+            </div>
           </div>
 
           <button type="submit" onclick="sendQuery()" id="search-button">
