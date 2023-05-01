@@ -14,7 +14,7 @@ os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
 #deprecate db
 MYSQL_USER = "root"
-MYSQL_USER_PASSWORD = "MayankRao16Cornell.edu"
+MYSQL_USER_PASSWORD = ""
 MYSQL_PORT = 3306
 MYSQL_DATABASE = "project"
 mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
@@ -90,12 +90,20 @@ output: keyword list with tiers 0 (most relevant),1,2 (least relevant)
 def get_prof_keywords(any_prof,vector):
     prof_id=prof_name_to_index[any_prof]
     term_scores=np.array(tfidf[prof_id])
-    term_ids = term_scores.argsort()[::-1][:8]
-    prof_kw=[]
-    for idx in term_ids:
-        prof_kw.append(index_to_vocab[str(idx)])
+    all_ids = term_scores.argsort()[::-1][:30]
+    all_terms = ' '.join([index_to_vocab[str(idx)] for idx in all_ids])
+    prof_kw = []
+    term_ids = []
+    for idx, token in zip(all_ids, nlp(all_terms)):
+        if len(prof_kw) < 10:
+            if token.pos_ == 'ADJ' or token.pos_ == 'VERB':
+                prof_kw.append(index_to_vocab[str(idx)])
+                term_ids.append(idx)
+        else: break
+    
     kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
     return prof_kw, kw_tier
+
 #helper function for get_prof_keywords
 def get_correlation_by_keyword(term_ids,any_prof,vector):
     prof1_doc = tfidf[prof_name_to_index[any_prof]]
@@ -198,6 +206,15 @@ def get_free_search_kw_and_vec(input_keyword):
         vector[i]=1
     return kw_list, vector
 
+def parse_vote_string(s) -> dict:
+    entries = s.split(',')
+    vote_dict = dict()
+    if entries[0]: # nonempty vote param
+        for entry in entries:
+            name, vote = entry.split(':')
+            vote_dict[name] = vote
+    return vote_dict
+    
 @app.route("/")
 def home():
     return render_template('base.html', title="sample html")
@@ -207,6 +224,19 @@ def reviews_search():
     prof = request.args.get("prof")
     course = request.args.get("course")
     free = request.args.get("free")
+
+    vote_string = request.args.get("votes")
+    vote_dict = parse_vote_string(vote_string)
+    likes_update_weight = np.zeros(932)
+    dislikes_update_weight = np.zeros(932)
+    likes, dislikes = 0, 0
+    for p, update in vote_dict.items(): # update is either 1 or -1
+        if update == 1:
+            likes_update_weight += get_prof_vec(p)
+            likes += 1
+        else:
+            dislikes_update_weight += get_prof_vec(p)
+            dislikes += 1
     
     fine_tune_coeff_course = 1.5
     fint_tune_coeff_free = 3
@@ -229,6 +259,23 @@ def reviews_search():
     if total_weight == 0:
         return None
     total_vector/=total_weight
+
+
+    # Rocchio: adjust relevant / irrevelant professor weights
+    # _a, _b, _c = 1, 0.01, 0.01
+    _a, _b, _c = 0.55, 0.55, 0.1
+
+    total_vector = _a * total_vector
+    
+    if likes > 0:
+        total_vector += _b * likes_update_weight / likes
+    if dislikes > 0:
+        total_vector -= _c * dislikes_update_weight / dislikes
+
+    for i in range(len(total_vector)):
+        if total_vector[i] < 0:
+            total_vector[i] = 0
+
     return get_professor_data(total_vector,prof)
 
 @app.route("/suggestion/prof")
