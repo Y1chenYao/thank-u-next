@@ -63,7 +63,7 @@ try:
     tokenizer = Tokenizer(nlp.vocab)
     tokens = tokenizer(token_raw)
 except:
-    print("failed to load spacy")
+    print("failed to load nlp model")
 
 """
 note: functions for edit distance in dropdowns
@@ -214,6 +214,9 @@ def parse_vote_string(s) -> dict:
             name, vote = entry.split(':')
             vote_dict[name] = vote
     return vote_dict
+
+def clip_np_vector(vector):
+    return np.where(vector<0, 0, vector)
     
 @app.route("/")
 def home():
@@ -262,20 +265,21 @@ def reviews_search():
 
 
     # Rocchio: adjust relevant / irrevelant professor weights
-    # _a, _b, _c = 1, 0.01, 0.01
-    _a, _b, _c = 0.55, 0.55, 0.1
+    # _a, _b, _c = 0.55, 0.55, 0.1
+    _a, _b, _c = 0.5, 0.2, 0.2
 
     total_vector = _a * total_vector
     
+    #modified rocchio by yichen
+    ori_vector = total_vector.copy()
     if likes > 0:
-        total_vector += _b * likes_update_weight / likes
+        rel_vector = likes_update_weight / likes
+        total_vector += _b * clip_np_vector(rel_vector-ori_vector)
     if dislikes > 0:
-        total_vector -= _c * dislikes_update_weight / dislikes
-
-    for i in range(len(total_vector)):
-        if total_vector[i] < 0:
-            total_vector[i] = 0
-
+        irrel_vector = dislikes_update_weight / dislikes
+        total_vector -= _c * clip_np_vector(irrel_vector-ori_vector)
+    total_vector = clip_np_vector(total_vector)
+    
     return get_professor_data(total_vector,prof)
 
 @app.route("/suggestion/prof")
