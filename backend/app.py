@@ -12,13 +12,13 @@ from spacy.tokenizer import Tokenizer
 
 os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..", os.curdir))
 
-# #deprecate db
-# MYSQL_USER = "root"
-# MYSQL_USER_PASSWORD = ""
-# MYSQL_PORT = 3306
-# MYSQL_DATABASE = "project"
-# mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
-# mysql_engine.load_file_into_db()
+#deprecate db
+MYSQL_USER = "root"
+MYSQL_USER_PASSWORD = ""
+MYSQL_PORT = 3306
+MYSQL_DATABASE = "project"
+mysql_engine = MySQLDatabaseHandler(MYSQL_USER, MYSQL_USER_PASSWORD, MYSQL_PORT, MYSQL_DATABASE)
+mysql_engine.load_file_into_db()
 
 app = Flask(__name__)
 CORS(app)
