@@ -53,7 +53,7 @@ prof_num, term_num = tfidf.shape
 
 #preparing model and tokens
 try:
-    # spacy.cli.download("en_core_web_md")
+    spacy.cli.download("en_core_web_md")
     nlp = spacy.load('en_core_web_md')
     token_raw=""
     for k,v in index_to_vocab.items():
@@ -104,7 +104,6 @@ def get_prof_keywords(any_prof,vector):
     kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
     return prof_kw, kw_tier
 
-
 #helper function for get_prof_keywords
 def get_correlation_by_keyword(term_ids,any_prof,vector):
     prof1_doc = tfidf[prof_name_to_index[any_prof]]
@@ -145,7 +144,6 @@ def get_similar_profs(vector,exclude_prof):
     for idx in prof_ids:
         cur_prof = prof_index_to_name[str(idx)]
         if cur_prof==exclude_prof: #not sending the prof searched
-            print(cur_prof, exclude_prof)
             continue
         prof_arr.append(cur_prof)
         prof_score.append(score_arr[idx])
@@ -216,8 +214,7 @@ def parse_vote_string(s) -> dict:
             name, vote = entry.split(':')
             vote_dict[name] = vote
     return vote_dict
-
-
+    
 @app.route("/")
 def home():
     return render_template('base.html', title="sample html")
@@ -227,6 +224,7 @@ def reviews_search():
     prof = request.args.get("prof")
     course = request.args.get("course")
     free = request.args.get("free")
+
     vote_string = request.args.get("votes")
     vote_dict = parse_vote_string(vote_string)
     likes_update_weight = np.zeros(932)
@@ -261,6 +259,7 @@ def reviews_search():
     if total_weight == 0:
         return None
     total_vector/=total_weight
+
 
     # Rocchio: adjust relevant / irrevelant professor weights
     # _a, _b, _c = 1, 0.01, 0.01
