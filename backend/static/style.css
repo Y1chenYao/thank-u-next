@@ -5,8 +5,12 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
-html {
+html  {
   overflow-y: scroll;
+}
+
+html * {
+  font-family: 'Barlow' !important;
 }
 
 .parent {
@@ -66,7 +70,7 @@ html {
 }
 
 .tip-box {
-  font-size: 14px;
+  font-size: 15px;
   padding: 5px 20px;
   background-color: #eee;
   border-radius: 4px;
@@ -124,7 +128,7 @@ html {
 
 #suggest-button {
   font-size: 98%;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
   background-color: #b31b1b;
   color: rgb(255, 255, 255);
@@ -151,7 +155,7 @@ html {
 .result {
   width: 97%;
   margin: 15px;
-  border-bottom: 2px grey solid;
+  border-bottom: 2px #d7d7d7 solid;
 }
 
 .left {
@@ -159,7 +163,6 @@ html {
   margin: 0px 5px 0px 20px;
   padding: 5px 10px 20px 15px;
   width: 30%;
-  /* border: 1px black solid; */
 }
 
 .left p {
@@ -232,12 +235,6 @@ html {
   overflow: hidden;
 }
 
-.checkbox-label {
-  padding: 0px;
-  margin: 6px;
-  font-size: 15px;
-}
-
 #prof-auto-box {
   box-shadow: 0 3px 10px #ccc;
   max-width: 89%;
@@ -300,7 +297,7 @@ html {
 .keyword {
   border-radius: 15px;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   margin: 2px;

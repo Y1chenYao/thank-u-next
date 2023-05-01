@@ -71,19 +71,20 @@ function answerBoxTemplate(
           </div>
           <p class="info"><b>Review, but from an anonymous student 👀</b></p>
           <div class="review">${review}</div>
-          <b>Student sentiment toward this professor's course: </b><br>
+          <b>Students' sentiment toward this professor's course: </b><br>
           <div class="keyword-box">
-            <div class="keyword course-box">${sentiment[0]}</div>
-            <div class="keyword course-box">${sentiment[1]}</div>
-            <div class="keyword course-box">${sentiment[2]}</div>
+            <div class="keyword course-box">${emojize[sentiment[0]]}</div>
+            <div class="keyword course-box">${emojize[sentiment[1]]}</div>
+            <div class="keyword course-box">${emojize[sentiment[2]]}</div>
           </div>
         </div>
       </div>
     </div>`;
 }
 function noResultTemplate() {
-  return `<div>
-          <h3>No result found.</h3>
+  answerBox.innerHTML =  `<div>
+          <h3>Uh oh, 404 not found</h3>
+          <p>No result found under the department filter in the top 30 most similar profs</p>
       </div>`;
 }
 
@@ -122,28 +123,28 @@ function sendQuery() {
     )
       .then((response) => response.json())
       .then((data) =>
-        data
-          .filter((v) => checkDepartment(v))
-          .forEach((row) => {
-            let tempDiv = document.createElement("div");
-            tempDiv.innerHTML = row.professor
-              ? answerBoxTemplate(
-                  row.professor,
-                  row.department,
-                  scoreToLevel(row.overall),
-                  scoreToLevel(row.difficulty),
-                  scoreToLevel(row.workload),
-                  row.keyword,
-                  row.tier,
-                  row.similarity,
-                  row.course,
-                  row.review,
-                  row.sentiment
-                )
-              : noResultTemplate();
-            answerBox.appendChild(tempDiv);
-          })
-      );
+        data.filter((v) => checkDepartment(v)))
+      .then((data)=> data.length===0 ? noResultTemplate():(
+        console.log("debugging"),
+        data.forEach((row) => {
+          let tempDiv = document.createElement("div");
+          tempDiv.innerHTML = answerBoxTemplate(
+                row.professor,
+                row.department,
+                scoreToLevel(row.overall),
+                scoreToLevel(row.difficulty),
+                scoreToLevel(row.workload),
+                row.keyword,
+                row.tier,
+                row.similarity,
+                row.course,
+                row.review,
+                row.sentiment
+              )
+          answerBox.appendChild(tempDiv);
+        })
+      ))
+    ;
   }
 }
 

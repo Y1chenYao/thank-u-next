@@ -198,3 +198,16 @@ let approx = {'AAP': 'Architecture, Art, and Plannin',
 'ZULU': 'Zulu'};
 
 let range = ['ASRC', 'ALS', 'AGSCI', 'AIRS', 'AIIS', 'ASL', 'AMST', 'BIOAP', 'ANSC', 'ANTHR', 'AEP', 'AEM', 'ARAB', 'ARKEO', 'ARCH', 'AAP', 'ART', 'ARTH', 'AS', 'AAS', 'ASIAN', 'ASTRO', 'BENGL', 'BIOMS', 'BEE', 'BSOC', 'BIOG', 'BME', 'BTRY', 'BURM', 'NBAE', 'CHEME', 'CHEM', 'CAPS', 'CHIN', 'CHLIT', 'CRP', 'CEE', 'CLASS', 'COGST', 'COLLS', 'NCCE', 'COMM', 'COML', 'CS', 'UNIV', 'CZECH', 'DEA', 'DESIGN', 'TECHIE', 'TECH', 'DUTCH', 'EAS', 'BIOEE', 'ECON', 'EDUC', 'ECE', 'ENGRC', 'ENGRD', 'ENGRG', 'ENGRI', 'ENMGT', 'ENGL', 'ELSO', 'ENINT', 'ENTOM', 'ENVS', 'NCCB', 'NBAB', 'FGSS', 'FSAD', 'FINN', 'FDSC', 'FREN', 'GERST', 'GDEV', 'GOVT', 'NACCT', 'NBA', 'NBAT', 'NBAY', 'NBAW', 'BANA', 'NCC', 'NCCT', 'NCCW', 'NMI', 'MGMT', 'NRE', 'GRAD', 'GREEK', 'HEBRW', 'HIERO', 'HINDI', 'HIST', 'PLHRT', 'HADM', 'HD', 'HE', 'HUNGR', 'EXTLS', 'ILRHR', 'ILRID', 'ILRIC', 'ILRLE', 'ILRLR', 'ILROB', 'ILRST', 'IM', 'INDO', 'INFO', 'ITAL', 'JAPAN', 'JPLIT', 'JWST', 'KANAD', 'KHMER', 'KOREA', 'LA', 'LATIN', 'LATA', 'LSP', 'LAW', 'LEAD', 'UNILWYL', 'LEGAL', 'LGBT', 'LING', 'MSE', 'MATH', 'MAE', 'MEDVL', 'BIOMI', 'MILS', 'BIOMG', 'MUSIC', 'NTRES', 'NAVS', 'NES', 'NEPAL', 'BIONB', 'NS', 'ORIE', 'OVST', 'PMA', 'PERSN', 'PHIL', 'PE', 'PHYS', 'PLBIO', 'PLBRG', 'PLPPM', 'PLSCI', 'PAM', 'POLSH', 'PORT', 'PSYCH', 'PADM', 'PUNJB', 'QUECH', 'RELST', 'ROMS', 'ROMAN', 'RUSSA', 'RUSSL', 'SANSK', 'SNLIT', 'STS', 'SINHA', 'SHUM', 'SOC', 'PLSCS', 'SPAN', 'STSCI', 'SWAHL', 'SWED', 'SYSEN', 'TAG', 'TAMIL', 'THAI', 'TIBET', 'TOX', 'TURK', 'TWI', 'UKRAN', 'URDU', 'VTBMS', 'VETCS', 'VETMI', 'VTMED', 'VTPEH', 'VIET', 'VISST', 'VIEN', 'WOLOF', 'WRIT', 'YORUB', 'ZULU']
+
+let emojize = {
+  "anger":"Anger 😠",
+  "anticipation":"Anticipation 🥺",
+  "disgust":"Disgust 😓",
+  "fear":"Fear 😱",
+  "joy":"Joy 🤩",
+  "negative":"Negative 😐",
+  "positive":"Positive 🥰",
+  "sadness":"Sadness 😭",
+  "surprise":"Surprise 😲",
+  "trust":"Trust 😎"
+}

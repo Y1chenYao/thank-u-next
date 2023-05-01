@@ -201,7 +201,7 @@ def get_free_search_kw_and_vec(input_keyword):
     similar_word=nlp(input_keyword)
     for token in tokens:
         scores.append(similar_word.similarity(token))
-    indices=np.argsort(scores)[::-1][:20]
+    indices=np.argsort(scores)[::-1][:30]
     kw_list = []
     vector = np.zeros(932)
     for i in indices:
