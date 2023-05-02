@@ -99,8 +99,9 @@ def get_prof_keywords(any_prof,vector):
     for idx, token in zip(all_ids, nlp(all_terms)):
         if len(prof_kw) < 10:
             if token.pos_ == 'ADJ' or token.pos_ == 'VERB':
-                prof_kw.append(index_to_vocab[str(idx)])
-                term_ids.append(idx)
+                if(index_to_vocab[str(idx)]!=prof_to_sentiment["_sentinel"]):
+                    prof_kw.append(index_to_vocab[str(idx)])
+                    term_ids.append(idx)
         else: break
     
     kw_tier = get_correlation_by_keyword(term_ids,any_prof,vector)
