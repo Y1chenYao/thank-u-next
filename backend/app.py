@@ -182,12 +182,12 @@ def get_professor_data(vector,exclude_prof):
             "tier":kw_tier,
             "similarity":round(prof_score[i], 3),
             "course":courses,
-            "review": sample(prof_to_review[prof], 1),
+            "review": "\"test\"",
             "sentiment":prof_to_sentiment[prof]
         }
         data.append(temp)
     return json.dumps(data)
-
+            # "review": sample(prof_to_review[prof], 1),
 def get_prof_vec(input_prof):
     prof1_doc = tfidf[prof_name_to_index[input_prof]]
     return prof1_doc
