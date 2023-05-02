@@ -5,14 +5,14 @@
         "anticipation"
     ],
     "John Michael": [
-        "disgust",
         "anger",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "David Levitsky": [
         "joy",
-        "disgust",
-        "fear"
+        "fear",
+        "trust"
     ],
     "Pamela Weisberg Shapiro": [
         "surprise",
@@ -26,8 +26,8 @@
     ],
     "Jeanne Moseley": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Dan Berry": [
         "joy",
@@ -41,13 +41,13 @@
     ],
     "Marie Caudill": [
         "anger",
-        "fear",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Kimberly O'Brien": [
         "negative",
-        "anger",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "Julia Finkelstein": [
         "surprise",
@@ -62,17 +62,17 @@
     "Clifford Kraft": [
         "negative",
         "surprise",
-        "anger"
+        "anticipation"
     ],
     "Marc Goebel": [
         "anticipation",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Richard Stedman": [
         "positive",
         "anticipation",
-        "disgust"
+        "sadness"
     ],
     "David Bonter": [
         "trust",
@@ -90,9 +90,9 @@
         "negative"
     ],
     "James Tantillo": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Peter Frazier": [
         "positive",
@@ -101,8 +101,8 @@
     ],
     "Peter Fraizer": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "John Richard Callister": [
         "fear",
@@ -111,18 +111,18 @@
     ],
     "Jim Dai": [
         "fear",
-        "sadness",
-        "disgust"
+        "trust",
+        "anticipation"
     ],
     "Damek Davis": [
         "sadness",
-        "disgust",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Adrian Lewis": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Frans Schalekamp": [
         "surprise",
@@ -136,33 +136,33 @@
     ],
     "David Goldberg": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Jamol Pender": [
         "fear",
-        "sadness",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Patie Pierre": [
         "sadness",
         "anticipation",
-        "anger"
+        "surprise"
     ],
     "Yudong Chen": [
         "anger",
-        "disgust",
-        "fear"
+        "trust",
+        "anticipation"
     ],
     "Madeleine Udell": [
         "fear",
-        "disgust",
-        "negative"
+        "positive",
+        "trust"
     ],
     "Kathryn Caggiano": [
         "fear",
-        "sadness",
-        "disgust"
+        "surprise",
+        "positive"
     ],
     "Eric Gentsch": [
         "anticipation",
@@ -170,14 +170,14 @@
         "trust"
     ],
     "Michael Jauch": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Sharon Sassler": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Brandon Tripp": [
         "trust",
@@ -187,7 +187,7 @@
     "Thomas Evans": [
         "fear",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Matthew Hall": [
         "positive",
@@ -201,8 +201,8 @@
     ],
     "Steven Alvarado": [
         "sadness",
-        "disgust",
-        "positive"
+        "positive",
+        "joy"
     ],
     "Anna Haskins": [
         "positive",
@@ -212,12 +212,12 @@
     "Peter Rich": [
         "fear",
         "positive",
-        "disgust"
+        "trust"
     ],
     "Rosemary Avery": [
         "surprise",
         "anger",
-        "disgust"
+        "joy"
     ],
     "Sean Nicholson": [
         "positive",
@@ -225,19 +225,19 @@
         "trust"
     ],
     "Pauline Leung": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Nicolas Bottan": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Colleen Carey": [
         "anger",
-        "sadness",
-        "fear"
+        "joy",
+        "anticipation"
     ],
     "Laura Tach": [
         "surprise",
@@ -256,8 +256,8 @@
     ],
     "Alan Mathios": [
         "fear",
-        "sadness",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Nicholas Sanders": [
         "positive",
@@ -277,7 +277,7 @@
     "Brooke Hollis": [
         "fear",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Jordan Matsudaira": [
         "anticipation",
@@ -312,7 +312,7 @@
     "Michael Ristorucci": [
         "anticipation",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Cynthia Overstreet": [
         "joy",
@@ -327,17 +327,17 @@
     "Dustin Paul": [
         "anticipation",
         "negative",
-        "sadness"
+        "trust"
     ],
     "Bert Adams-Kucik": [
-        "disgust",
         "anger",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "Kimberley Alger-Norton": [
         "anticipation",
         "anger",
-        "negative"
+        "positive"
     ],
     "Adrian Durant": [
         "anticipation",
@@ -361,13 +361,13 @@
     ],
     "Mary Gerlach": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Jonathan Billing": [
         "surprise",
         "anticipation",
-        "disgust"
+        "anger"
     ],
     "Kevin Seaman": [
         "anger",
@@ -385,19 +385,19 @@
         "joy"
     ],
     "John Burger": [
-        "disgust",
         "anticipation",
-        "positive"
+        "positive",
+        "negative"
     ],
     "Helen Tseng": [
         "joy",
-        "disgust",
-        "positive"
+        "positive",
+        "sadness"
     ],
     "Lewis Freedman": [
         "negative",
         "anticipation",
-        "sadness"
+        "trust"
     ],
     "Carol Hawk": [
         "fear",
@@ -431,8 +431,8 @@
     ],
     "Jamie Rattray": [
         "anger",
-        "negative",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Patrick Crowley": [
         "anticipation",
@@ -451,13 +451,13 @@
     ],
     "Charles Rendleman": [
         "anger",
-        "fear",
-        "joy"
+        "joy",
+        "anticipation"
     ],
     "Matt Hayes": [
         "anticipation",
         "fear",
-        "sadness"
+        "positive"
     ],
     "Linda McKeown": [
         "positive",
@@ -470,14 +470,14 @@
         "positive"
     ],
     "Scott Flickinger": [
-        "disgust",
         "anticipation",
-        "joy"
+        "joy",
+        "sadness"
     ],
     "Marlon Sears": [
-        "disgust",
         "anger",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Mark Holton": [
         "anticipation",
@@ -490,19 +490,19 @@
         "joy"
     ],
     "Andrew McLaughlin": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Rob Cook": [
         "sadness",
-        "negative",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Amy Woodin": [
         "anticipation",
         "sadness",
-        "fear"
+        "joy"
     ],
     "Sarah Myers": [
         "trust",
@@ -521,8 +521,8 @@
     ],
     "Theodore Korzukhin": [
         "anger",
-        "disgust",
-        "sadness"
+        "joy",
+        "anticipation"
     ],
     "Karen Bennett": [
         "joy",
@@ -547,12 +547,12 @@
     "Alicia Patterson": [
         "positive",
         "joy",
-        "disgust"
+        "trust"
     ],
     "Matthew Paskell": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Lyu Zhou": [
         "positive",
@@ -581,8 +581,8 @@
     ],
     "Derk Pereboom": [
         "anger",
-        "disgust",
-        "negative"
+        "anticipation",
+        "trust"
     ],
     "Alexander Kocurek": [
         "surprise",
@@ -601,13 +601,13 @@
     ],
     "Robert Lieberman": [
         "negative",
-        "sadness",
-        "fear"
+        "positive",
+        "anticipation"
     ],
     "Nicholas Taylor": [
         "negative",
-        "sadness",
-        "fear"
+        "anticipation",
+        "trust"
     ],
     "Philip Krasicky": [
         "anticipation",
@@ -616,18 +616,18 @@
     ],
     "Robert Fulbright": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Jeevak Parpia": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "positive"
     ],
     "Jim Alexander": [
         "fear",
         "anticipation",
-        "anger"
+        "surprise"
     ],
     "Kyle Shen": [
         "positive",
@@ -641,8 +641,8 @@
     ],
     "Itai Cohen": [
         "fear",
-        "negative",
-        "disgust"
+        "trust",
+        "positive"
     ],
     "Natasha Holmes": [
         "joy",
@@ -655,9 +655,9 @@
         "sadness"
     ],
     "Glenn Case": [
-        "disgust",
         "fear",
-        "anger"
+        "anticipation",
+        "trust"
     ],
     "Tomas Arias": [
         "anticipation",
@@ -666,13 +666,13 @@
     ],
     "Nam Kim": [
         "negative",
-        "fear",
-        "disgust"
+        "positive",
+        "joy"
     ],
     "Alan Giambattista": [
         "fear",
-        "anger",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Namjung Kim": [
         "fear",
@@ -680,34 +680,34 @@
         "anticipation"
     ],
     "Ivan Bazarov": [
-        "disgust",
         "fear",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Matthias Liepe": [
         "sadness",
-        "fear",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Chris Xu": [
         "fear",
-        "sadness",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Gennady Shvets": [
         "fear",
         "joy",
-        "sadness"
+        "positive"
     ],
     "Brad Ramshaw": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Andre Leclair": [
         "anger",
         "surprise",
-        "fear"
+        "joy"
     ],
     "Seamus Davis": [
         "positive",
@@ -717,17 +717,17 @@
     "Carl Franck": [
         "trust",
         "joy",
-        "disgust"
+        "anticipation"
     ],
     "Katja Nowack": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Peter Wittich": [
         "anger",
         "positive",
-        "fear"
+        "joy"
     ],
     "Jared Maxson": [
         "fear",
@@ -736,8 +736,8 @@
     ],
     "Lawrence Gibbons": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Earl Kirkland": [
         "anticipation",
@@ -746,13 +746,13 @@
     ],
     "Georg Hoffstaetter": [
         "fear",
-        "disgust",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Paul Ginsparg": [
         "positive",
         "fear",
-        "negative"
+        "joy"
     ],
     "James Sethna": [
         "fear",
@@ -762,7 +762,7 @@
     "Tom Silva": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Marvin Pritts": [
         "joy",
@@ -812,7 +812,7 @@
     "Samuel Blake": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Ellen Gainor": [
         "trust",
@@ -826,18 +826,18 @@
     ],
     "Samantha Sheppard": [
         "sadness",
-        "fear",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Philip Lorenz": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Roger Gilbert": [
         "anger",
         "surprise",
-        "negative"
+        "joy"
     ],
     "Carolyn Goelzer": [
         "anticipation",
@@ -850,19 +850,19 @@
         "surprise"
     ],
     "Timothy Murray": [
-        "disgust",
         "sadness",
-        "negative"
+        "positive",
+        "anticipation"
     ],
     "Amy Villarejo": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "anticipation"
     ],
     "Warren Cross": [
         "anger",
-        "negative",
-        "fear"
+        "anticipation",
+        "positive"
     ],
     "Austin Bunn": [
         "anticipation",
@@ -870,9 +870,9 @@
         "surprise"
     ],
     "Jura D. Oliveira": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "David Pizarro": [
         "positive",
@@ -886,8 +886,8 @@
     ],
     "Khena Swallow": [
         "negative",
-        "disgust",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Shaun Nichols": [
         "positive",
@@ -896,13 +896,13 @@
     ],
     "Stewart McCauley": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Jennifer Schwade": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Gary Evans": [
         "positive",
@@ -922,12 +922,12 @@
     "Thomas Cleland": [
         "anticipation",
         "fear",
-        "disgust"
+        "positive"
     ],
     "Parnia Haj-Mohamadi": [
         "fear",
-        "disgust",
-        "anger"
+        "positive",
+        "trust"
     ],
     "Jeffrey Rachlinski": [
         "anticipation",
@@ -936,13 +936,13 @@
     ],
     "Vivian Zayas": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Tom Gilovich": [
         "positive",
-        "disgust",
-        "fear"
+        "fear",
+        "anticipation"
     ],
     "Lauren Korfine": [
         "trust",
@@ -956,8 +956,8 @@
     ],
     "Shimon Edelman": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Carol Krumhansl": [
         "joy",
@@ -997,12 +997,12 @@
     "David Powers": [
         "positive",
         "anger",
-        "sadness"
+        "trust"
     ],
     "Julia Karczewski": [
         "anger",
-        "fear",
-        "sadness"
+        "joy",
+        "positive"
     ],
     "Richard Gibbs": [
         "surprise",
@@ -1022,7 +1022,7 @@
     "Irene Eibenstein-Alvisi": [
         "anticipation",
         "anger",
-        "sadness"
+        "surprise"
     ],
     "Gustavo Quintero": [
         "joy",
@@ -1052,12 +1052,12 @@
     "David Strang": [
         "positive",
         "negative",
-        "anger"
+        "anticipation"
     ],
     "David Easley": [
         "negative",
-        "fear",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Stephen Hilgartner": [
         "positive",
@@ -1071,23 +1071,23 @@
     ],
     "Dario Azzellini": [
         "negative",
-        "disgust",
-        "fear"
+        "anticipation",
+        "trust"
     ],
     "John Sipple": [
-        "disgust",
         "sadness",
-        "negative"
+        "joy",
+        "anticipation"
     ],
     "Christine Leuenberger": [
         "sadness",
-        "disgust",
-        "anger"
+        "anticipation",
+        "positive"
     ],
     "John Zinda": [
         "negative",
-        "fear",
-        "sadness"
+        "joy",
+        "surprise"
     ],
     "Cristobal Young": [
         "anticipation",
@@ -1097,12 +1097,12 @@
     "Tom Hirschl": [
         "anticipation",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Erin York Cornwell": [
         "negative",
-        "disgust",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Tomas Bevia": [
         "positive",
@@ -1111,13 +1111,13 @@
     ],
     "Emilia Illana Mahiques": [
         "surprise",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "anger"
     ],
     "Sebastian Antezana Quiroga": [
         "negative",
-        "sadness",
-        "fear"
+        "trust",
+        "joy"
     ],
     "Janet Hendrickson": [
         "anticipation",
@@ -1132,32 +1132,32 @@
     "Silvia Amigo-Silvestre": [
         "anger",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Paulo Lorca Fuentealba": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Kelly Moore": [
         "surprise",
-        "disgust",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Alice McAdams": [
         "negative",
-        "disgust",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Andy Barrientos-Gomez": [
         "fear",
         "trust",
-        "negative"
+        "anticipation"
     ],
     "Omar Figueredo": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Brisa Teutli": [
         "trust",
@@ -1170,9 +1170,9 @@
         "trust"
     ],
     "Cecelia Lawless": [
-        "disgust",
         "anger",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Alvaro Garrote Pascual": [
         "fear",
@@ -1181,8 +1181,8 @@
     ],
     "Simone Pinet": [
         "negative",
-        "anger",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Christopher Roebuck": [
         "surprise",
@@ -1190,19 +1190,19 @@
         "joy"
     ],
     "Christopher Hesselbein": [
-        "disgust",
         "anger",
-        "positive"
+        "positive",
+        "surprise"
     ],
     "Derek Parrott": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Jeffrey Mathias": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Rebecca Harrison": [
         "positive",
@@ -1212,12 +1212,12 @@
     "Michelle Smith": [
         "anticipation",
         "joy",
-        "disgust"
+        "surprise"
     ],
     "Steven Jackson": [
         "negative",
-        "disgust",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Kim Overby": [
         "anticipation",
@@ -1236,28 +1236,28 @@
     ],
     "Anindita Banerjee": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Sara Pritchard": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Stacey Langwick": [
         "anger",
-        "negative",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "Saida Hodzic": [
         "anger",
-        "sadness",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Tj Hinrichs": [
         "anger",
-        "negative",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Ronald Kline": [
         "surprise",
@@ -1267,32 +1267,32 @@
     "Jessica Ratcliff": [
         "anticipation",
         "negative",
-        "fear"
+        "surprise"
     ],
     "Noah Tamarkin": [
         "sadness",
-        "negative",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Norman Porticella": [
         "negative",
-        "sadness",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Phoebe Sengers": [
         "anger",
-        "disgust",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Christopher Csikszentmihalyi": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Kevin Packard": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Elizabeth Karns": [
         "surprise",
@@ -1306,8 +1306,8 @@
     ],
     "Jeremy Entner": [
         "negative",
-        "disgust",
-        "anger"
+        "joy",
+        "trust"
     ],
     "Cecilia Earls": [
         "anticipation",
@@ -1316,8 +1316,8 @@
     ],
     "Florentina Bunea": [
         "fear",
-        "disgust",
-        "anger"
+        "anticipation",
+        "joy"
     ],
     "Rajendran Narayanan": [
         "anticipation",
@@ -1326,28 +1326,28 @@
     ],
     "Thomas Diciccio": [
         "fear",
-        "negative",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Martin Wells": [
         "positive",
-        "disgust",
-        "joy"
+        "joy",
+        "anger"
     ],
     "Russell Lloyd": [
         "fear",
-        "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Giles Hooker": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Yang Ning": [
         "positive",
         "trust",
-        "disgust"
+        "anticipation"
     ],
     "Haiyan Deng": [
         "joy",
@@ -1361,8 +1361,8 @@
     ],
     "John Elliott": [
         "surprise",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "joy"
     ],
     "Andrew Moisey": [
         "positive",
@@ -1386,8 +1386,8 @@
     ],
     "Kelly King-O'Brien": [
         "anger",
-        "disgust",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Athena Kirk": [
         "positive",
@@ -1397,12 +1397,12 @@
     "Todd Clary": [
         "positive",
         "joy",
-        "disgust"
+        "negative"
     ],
     "Christopher Monroe": [
         "sadness",
-        "negative",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Courtney Roby": [
         "trust",
@@ -1425,29 +1425,29 @@
         "fear"
     ],
     "Eric Rebillard": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "trust"
     ],
     "Annetta Alexandridis": [
         "sadness",
         "surprise",
-        "negative"
+        "joy"
     ],
     "Nicole Giannella": [
         "negative",
         "positive",
-        "anger"
+        "surprise"
     ],
     "Cindy Hsin-Liu Kao": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "anticipation"
     ],
     "Adam Anderson": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Kaushik Basu": [
         "joy",
@@ -1456,33 +1456,33 @@
     ],
     "Mats Rooth": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "John Hale": [
         "anger",
-        "sadness",
-        "surprise"
+        "surprise",
+        "joy"
     ],
     "Claire Cardie": [
         "negative",
-        "sadness",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Lillian Lee": [
         "anger",
-        "negative",
-        "sadness"
+        "joy",
+        "surprise"
     ],
     "Jonathan Park": [
         "negative",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Van Le": [
         "sadness",
-        "negative",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Marc Kohlbry": [
         "joy",
@@ -1492,7 +1492,7 @@
     "Joe Zappa": [
         "fear",
         "anticipation",
-        "disgust"
+        "positive"
     ],
     "Oliver Aas": [
         "anticipation",
@@ -1512,12 +1512,12 @@
     "Raissa Krivitsky": [
         "trust",
         "positive",
-        "disgust"
+        "sadness"
     ],
     "Tom McEnaney": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Natalie Melas": [
         "anticipation",
@@ -1546,13 +1546,13 @@
     ],
     "Poppy McLeod": [
         "negative",
-        "sadness",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Andrea Won": [
         "negative",
-        "sadness",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Jodi Cohen": [
         "anticipation",
@@ -1572,12 +1572,12 @@
     "J. Matias": [
         "fear",
         "positive",
-        "anger"
+        "surprise"
     ],
     "Chao Yu": [
         "trust",
         "negative",
-        "disgust"
+        "surprise"
     ],
     "Flavien Glidja": [
         "anticipation",
@@ -1596,23 +1596,23 @@
     ],
     "Peter Enns": [
         "fear",
-        "negative",
-        "trust"
+        "trust",
+        "joy"
     ],
     "Brooke Duffy": [
-        "disgust",
         "negative",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Gilly Leshed": [
         "anticipation",
         "anger",
-        "disgust"
+        "surprise"
     ],
     "Qian Yang": [
         "anticipation",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Francois Guimbretiere": [
         "joy",
@@ -1621,13 +1621,13 @@
     ],
     "Susan Fussell": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Katelin Olson": [
-        "disgust",
         "sadness",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Kieran Donaghy": [
         "trust",
@@ -1637,7 +1637,7 @@
     "Ziye Zhang": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Suzanne Charles": [
         "trust",
@@ -1647,7 +1647,7 @@
     "Anne Bracy": [
         "negative",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Walker White": [
         "joy",
@@ -1656,13 +1656,13 @@
     ],
     "Charles Van Loan": [
         "sadness",
-        "disgust",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Kit-Yee Daisy Fan": [
         "anger",
-        "disgust",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Kyle Harms": [
         "anticipation",
@@ -1671,8 +1671,8 @@
     ],
     "Haym Hirsh": [
         "fear",
-        "disgust",
-        "negative"
+        "anticipation",
+        "trust"
     ],
     "Madeline Smith": [
         "joy",
@@ -1681,8 +1681,8 @@
     ],
     "Daniel Cosley": [
         "anger",
-        "disgust",
-        "negative"
+        "surprise",
+        "positive"
     ],
     "Donald Greenberg": [
         "positive",
@@ -1697,17 +1697,17 @@
     "Craig Frey": [
         "negative",
         "trust",
-        "anger"
+        "surprise"
     ],
     "David Gries": [
         "surprise",
         "negative",
-        "anger"
+        "joy"
     ],
     "Curran Muhlberger": [
-        "disgust",
         "anger",
-        "sadness"
+        "joy",
+        "trust"
     ],
     "Siddhartha Chaudhuri": [
         "surprise",
@@ -1732,12 +1732,12 @@
     "Steve Mohlke": [
         "joy",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Steven Mohlke": [
         "fear",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Carla Gomes": [
         "positive",
@@ -1746,8 +1746,8 @@
     ],
     "Michael George": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Anke van Zuylen": [
         "surprise",
@@ -1755,9 +1755,9 @@
         "anticipation"
     ],
     "Joseph Halpern": [
-        "disgust",
         "negative",
-        "fear"
+        "positive",
+        "trust"
     ],
     "Michael Clarkson": [
         "joy",
@@ -1767,12 +1767,12 @@
     "Robert Constable": [
         "negative",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "David Mimno": [
         "fear",
-        "negative",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Jeff Rzeszotarski": [
         "anticipation",
@@ -1780,24 +1780,24 @@
         "positive"
     ],
     "Hakim Weatherspoon": [
-        "disgust",
         "anger",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Nils Napp": [
         "negative",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Jose Martinez": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Edward Suh": [
         "fear",
         "anticipation",
-        "anger"
+        "joy"
     ],
     "Adrian Sampson": [
         "trust",
@@ -1806,23 +1806,23 @@
     ],
     "John Foster": [
         "joy",
-        "disgust",
-        "sadness"
+        "sadness",
+        "surprise"
     ],
     "Chrissy Lau": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Alexander Vladimirsky": [
-        "disgust",
         "fear",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Austin Benson": [
-        "disgust",
         "negative",
-        "fear"
+        "anticipation",
+        "positive"
     ],
     "Anil Damle": [
         "surprise",
@@ -1846,23 +1846,23 @@
     ],
     "Lorenzo Alvisi": [
         "sadness",
-        "disgust",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Robbert Van Renesse": [
         "surprise",
         "negative",
-        "disgust"
+        "joy"
     ],
     "Jon Kleinberg": [
         "fear",
-        "anger",
-        "negative"
+        "anticipation",
+        "positive"
     ],
     "Rachit Agarwal": [
         "negative",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Ken Birman": [
         "negative",
@@ -1876,38 +1876,38 @@
     ],
     "Abe Davis": [
         "fear",
-        "negative",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Stephen Marschner": [
         "anger",
-        "fear",
-        "disgust"
+        "anticipation",
+        "positive"
     ],
     "Bharath Hariharan": [
         "sadness",
-        "disgust",
-        "negative"
+        "joy",
+        "trust"
     ],
     "Bart Selman": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Robert Kleinberg": [
         "fear",
-        "disgust",
-        "positive"
+        "positive",
+        "joy"
     ],
     "Ross Knepper": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Jaehee Kim": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Amy Williams": [
         "anticipation",
@@ -1927,12 +1927,12 @@
     "Christopher De Sa": [
         "surprise",
         "fear",
-        "disgust"
+        "anticipation"
     ],
     "Kilian Weinberger": [
         "negative",
-        "disgust",
-        "anger"
+        "positive",
+        "anticipation"
     ],
     "Karthik Sridharan": [
         "surprise",
@@ -1947,12 +1947,12 @@
     "David Steurer": [
         "anticipation",
         "negative",
-        "sadness"
+        "joy"
     ],
     "Eva Tardos": [
         "fear",
-        "sadness",
-        "anger"
+        "anticipation",
+        "joy"
     ],
     "Eshan Chattopadhyay": [
         "positive",
@@ -1981,8 +1981,8 @@
     ],
     "Ross Tate": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Owolabi Legunsen": [
         "anticipation",
@@ -2002,32 +2002,32 @@
     "Volodymyr Kuleshov": [
         "fear",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "So-Yeon Yoon": [
         "anticipation",
         "fear",
-        "sadness"
+        "joy"
     ],
     "Kathleen Gibson": [
-        "disgust",
         "anticipation",
-        "positive"
+        "positive",
+        "negative"
     ],
     "Nooshin Ahmadi": [
-        "disgust",
         "anger",
-        "surprise"
-    ],
-    "Rhonda Gilmore": [
-        "disgust",
-        "anger",
+        "surprise",
         "anticipation"
     ],
-    "Alan Hedge": [
-        "disgust",
+    "Rhonda Gilmore": [
         "anger",
-        "sadness"
+        "anticipation",
+        "trust"
+    ],
+    "Alan Hedge": [
+        "anger",
+        "anticipation",
+        "joy"
     ],
     "Jay Yoon": [
         "positive",
@@ -2037,12 +2037,12 @@
     "Larry Brown": [
         "negative",
         "joy",
-        "anger"
+        "surprise"
     ],
     "Mark Wysocki": [
         "fear",
-        "anger",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Bruce Monger": [
         "joy",
@@ -2052,12 +2052,12 @@
     "Susan Riha": [
         "fear",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Robert Ross": [
         "positive",
         "joy",
-        "disgust"
+        "anticipation"
     ],
     "Rowena Lohman": [
         "positive",
@@ -2077,12 +2077,12 @@
     "Gang Chen": [
         "anticipation",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Peter Hess": [
         "fear",
-        "negative",
-        "anger"
+        "positive",
+        "anticipation"
     ],
     "David Albonesi": [
         "anticipation",
@@ -2091,8 +2091,8 @@
     ],
     "Alyosha Molnar": [
         "fear",
-        "sadness",
-        "negative"
+        "positive",
+        "surprise"
     ],
     "Clifford Pollock": [
         "surprise",
@@ -2116,33 +2116,33 @@
     ],
     "Farhan Rana": [
         "sadness",
-        "fear",
-        "negative"
+        "surprise",
+        "positive"
     ],
     "Qing Zhao": [
-        "disgust",
         "anger",
-        "positive"
+        "positive",
+        "trust"
     ],
     "David Delchamps": [
         "surprise",
-        "disgust",
-        "sadness"
+        "sadness",
+        "anticipation"
     ],
     "A. Kevin Tang": [
         "fear",
-        "anger",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "James Shealy": [
-        "disgust",
         "sadness",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Carl Poitras": [
         "fear",
         "joy",
-        "negative"
+        "anticipation"
     ],
     "David Forbes Delchamps": [
         "positive",
@@ -2150,14 +2150,14 @@
         "surprise"
     ],
     "Stephen Wicker": [
-        "disgust",
         "negative",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Hsiao-Dong Chiang": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Van Adams": [
         "anticipation",
@@ -2166,8 +2166,8 @@
     ],
     "Adam Bojanczyk": [
         "fear",
-        "sadness",
-        "negative"
+        "trust",
+        "positive"
     ],
     "Bruce Johnson": [
         "trust",
@@ -2176,13 +2176,13 @@
     ],
     "Vikram Krishnamurthy": [
         "fear",
-        "negative",
-        "sadness"
+        "trust",
+        "positive"
     ],
     "Anthony Reeves": [
         "sadness",
-        "negative",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Joseph Skovira": [
         "anticipation",
@@ -2191,8 +2191,8 @@
     ],
     "George Orlov": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Albert Alexander": [
         "joy",
@@ -2202,12 +2202,12 @@
     "Stephanie Thomas": [
         "fear",
         "surprise",
-        "negative"
+        "anticipation"
     ],
     "Jennifer Wissink": [
         "surprise",
         "negative",
-        "disgust"
+        "anticipation"
     ],
     "Richard Burkhauser": [
         "surprise",
@@ -2216,13 +2216,13 @@
     ],
     "Arnab Basu": [
         "sadness",
-        "negative",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "David Lee": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Douglas McKee": [
         "anticipation",
@@ -2236,8 +2236,8 @@
     ],
     "Maxim Troshkin": [
         "fear",
-        "sadness",
-        "negative"
+        "trust",
+        "positive"
     ],
     "Tapan Mitra": [
         "anticipation",
@@ -2262,17 +2262,17 @@
     "Levon Barseghyan": [
         "surprise",
         "anger",
-        "disgust"
+        "anticipation"
     ],
     "George Jakubson": [
-        "disgust",
         "negative",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Joerg Stoye": [
         "surprise",
         "fear",
-        "sadness"
+        "trust"
     ],
     "Max Kapustin": [
         "positive",
@@ -2291,8 +2291,8 @@
     ],
     "Tommaso Denti": [
         "fear",
-        "negative",
-        "sadness"
+        "joy",
+        "surprise"
     ],
     "Kristoffer Nimark": [
         "trust",
@@ -2301,8 +2301,8 @@
     ],
     "Giulia Brancaccio": [
         "fear",
-        "anger",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Ted O'Donoghue": [
         "positive",
@@ -2312,17 +2312,17 @@
     "Eleonora Patacchini": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Marco Battaglini": [
         "fear",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "trust"
     ],
     "Annalisa Raymer": [
         "sadness",
-        "fear",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Jeffrey Perry": [
         "anticipation",
@@ -2330,14 +2330,14 @@
         "joy"
     ],
     "Adi Grabiner Keinan": [
-        "disgust",
         "anticipation",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Jazlin Gomez": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Bryan Duff": [
         "joy",
@@ -2356,8 +2356,8 @@
     ],
     "Emily Mercurio": [
         "surprise",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "anger"
     ],
     "Christopher Hewitt": [
         "anticipation",
@@ -2381,13 +2381,13 @@
     ],
     "Bwesigye Bwa Mwesigire": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "anticipation"
     ],
     "Katherine Thorsteinson": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Cathy Caruth": [
         "anger",
@@ -2396,13 +2396,13 @@
     ],
     "Derrick Spires": [
         "positive",
-        "disgust",
-        "joy"
+        "joy",
+        "anger"
     ],
     "Brianna Thompson": [
         "sadness",
-        "negative",
-        "disgust"
+        "surprise",
+        "positive"
     ],
     "Molly MacVeagh": [
         "positive",
@@ -2412,7 +2412,7 @@
     "Lily Codera": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Sara Schlemm": [
         "trust",
@@ -2431,8 +2431,8 @@
     ],
     "Zahid Rafiq": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Lily Yu": [
         "positive",
@@ -2462,17 +2462,17 @@
     "Robert Romero": [
         "fear",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "Samson Jardine": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Jennifer Rabedeau": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Malcolm Bare": [
         "anticipation",
@@ -2482,7 +2482,7 @@
     "Adin Lears": [
         "joy",
         "trust",
-        "disgust"
+        "positive"
     ],
     "Andrew Galloway": [
         "surprise",
@@ -2502,7 +2502,7 @@
     "Sunn Wong": [
         "anticipation",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Charlie Green": [
         "joy",
@@ -2512,7 +2512,7 @@
     "Gregory Londe": [
         "negative",
         "anticipation",
-        "disgust"
+        "trust"
     ],
     "Vivian Ludford": [
         "surprise",
@@ -2522,17 +2522,17 @@
     "Alice Mercier": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Joanie Mackowski": [
         "anticipation",
         "anger",
-        "disgust"
+        "joy"
     ],
     "Lauren Schenkman": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "surprise"
     ],
     "Emma Perry": [
         "surprise",
@@ -2561,8 +2561,8 @@
     ],
     "Edward Baptist": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Thomas Hill": [
         "joy",
@@ -2571,8 +2571,8 @@
     ],
     "Masha Raskolnikov": [
         "anger",
-        "disgust",
-        "positive"
+        "positive",
+        "joy"
     ],
     "Jane Juffer": [
         "positive",
@@ -2586,48 +2586,48 @@
     ],
     "Maureen McCoy": [
         "negative",
-        "disgust",
-        "sadness"
+        "anticipation",
+        "positive"
     ],
     "Robert Morgan": [
         "anger",
-        "sadness",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Ishion Hutchinson": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Satya Mohanty": [
         "negative",
-        "anger",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Traci Nathans-Kelly": [
         "negative",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Allison Hutchison": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Sharon Ahlers": [
         "negative",
-        "fear",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "Jingjie Yeo": [
         "anticipation",
         "sadness",
-        "disgust"
+        "surprise"
     ],
     "Hadas Ritz": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Atieh Moridi": [
         "fear",
@@ -2646,8 +2646,8 @@
     ],
     "Perrine Pepiot": [
         "fear",
-        "disgust",
-        "sadness"
+        "anticipation",
+        "trust"
     ],
     "Harold Craighead": [
         "positive",
@@ -2661,13 +2661,13 @@
     ],
     "John March": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Mingming Wu": [
         "sadness",
-        "negative",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Andrej Singer": [
         "positive",
@@ -2680,14 +2680,14 @@
         "joy"
     ],
     "Marie Chazal": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "joy"
     ],
     "Jacob Feldman": [
-        "disgust",
         "fear",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Edwin (Todd) Cowen": [
         "joy",
@@ -2695,19 +2695,19 @@
         "anticipation"
     ],
     "Celia Evans": [
-        "disgust",
         "fear",
-        "trust"
+        "trust",
+        "joy"
     ],
     "Samitha Samaranayake": [
         "fear",
         "joy",
-        "sadness"
+        "trust"
     ],
     "Brenda Dietrich": [
         "fear",
-        "negative",
-        "disgust"
+        "anticipation",
+        "trust"
     ],
     "David Shmoys": [
         "trust",
@@ -2717,7 +2717,7 @@
     "Samuel Gutekunst": [
         "surprise",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Jeffrey Varner": [
         "trust",
@@ -2727,17 +2727,17 @@
     "Christopher Alabi": [
         "fear",
         "surprise",
-        "negative"
+        "joy"
     ],
     "Julianne Quinn": [
         "fear",
-        "sadness",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Scott Maguffin": [
         "fear",
-        "sadness",
-        "negative"
+        "joy",
+        "trust"
     ],
     "Kenneth Hover": [
         "surprise",
@@ -2746,8 +2746,8 @@
     ],
     "Zhiting Tian": [
         "fear",
-        "anger",
-        "negative"
+        "anticipation",
+        "trust"
     ],
     "Wolfgang Sachse": [
         "anticipation",
@@ -2757,12 +2757,12 @@
     "Lena Kourkoutis": [
         "negative",
         "anticipation",
-        "sadness"
+        "positive"
     ],
     "Frank Wise": [
         "fear",
         "positive",
-        "anger"
+        "trust"
     ],
     "Esak Lee": [
         "trust",
@@ -2771,13 +2771,13 @@
     ],
     "Robert Newman": [
         "negative",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Andrea Ippolito": [
         "positive",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Erik Eshelman": [
         "negative",
@@ -2796,23 +2796,23 @@
     ],
     "Linda Rayor": [
         "surprise",
-        "disgust",
-        "joy"
+        "joy",
+        "trust"
     ],
     "Johannes Lehmann": [
         "anticipation",
         "fear",
-        "disgust"
+        "positive"
     ],
     "Peter McIntyre": [
         "negative",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Christopher Loss": [
         "anger",
-        "fear",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Alicia Orta-Ramirez": [
         "surprise",
@@ -2821,13 +2821,13 @@
     ],
     "Julie Goddard": [
         "sadness",
-        "disgust",
-        "anger"
+        "anticipation",
+        "trust"
     ],
     "Dennis Miller": [
         "sadness",
-        "anger",
-        "joy"
+        "joy",
+        "surprise"
     ],
     "Carl Batt": [
         "trust",
@@ -2836,8 +2836,8 @@
     ],
     "Robin Dando": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Syed Rizvi": [
         "trust",
@@ -2845,19 +2845,19 @@
         "surprise"
     ],
     "Julia Chang": [
-        "disgust",
         "sadness",
-        "anger"
+        "positive",
+        "trust"
     ],
     "Kate McCullough": [
         "negative",
-        "anger",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Margaret Washington": [
         "fear",
-        "negative",
-        "sadness"
+        "joy",
+        "surprise"
     ],
     "Thierry Torea": [
         "fear",
@@ -2872,7 +2872,7 @@
     "Sarena Tien": [
         "fear",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Elise Finielz": [
         "joy",
@@ -2887,7 +2887,7 @@
     "Marie-Claire Vallois": [
         "surprise",
         "fear",
-        "negative"
+        "trust"
     ],
     "Laurent Ferri": [
         "joy",
@@ -2896,8 +2896,8 @@
     ],
     "Paul Friedland": [
         "anger",
-        "fear",
-        "negative"
+        "anticipation",
+        "joy"
     ],
     "Huiju Park": [
         "surprise",
@@ -2912,7 +2912,7 @@
     "Anil Netravali": [
         "positive",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Kimberly Phoenix": [
         "anticipation",
@@ -2932,22 +2932,22 @@
     "Frances Kozen": [
         "negative",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "Mehmet Ozturk": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "joy"
     ],
     "Van Dyk Lewis": [
-        "disgust",
         "anger",
-        "negative"
+        "positive",
+        "anticipation"
     ],
     "Amparo Necker": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Douglas McBride": [
         "anticipation",
@@ -2956,13 +2956,13 @@
     ],
     "Mark Mandych": [
         "anticipation",
-        "disgust",
-        "sadness"
+        "sadness",
+        "joy"
     ],
     "Ekaterina Pirozhenko": [
         "surprise",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "sadness"
     ],
     "Jordan Thomson": [
         "surprise",
@@ -2970,19 +2970,19 @@
         "positive"
     ],
     "Gunhild Lischke": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "trust"
     ],
     "Grit Matthias": [
         "fear",
-        "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Erik Born": [
         "anticipation",
         "trust",
-        "disgust"
+        "sadness"
     ],
     "Seth Thomas": [
         "surprise",
@@ -2991,13 +2991,13 @@
     ],
     "Jacy Tackett": [
         "anger",
-        "negative",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Sander Oosterom": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "David Forman": [
         "positive",
@@ -3005,9 +3005,9 @@
         "joy"
     ],
     "Elke Siegel": [
-        "disgust",
         "sadness",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Alexandra Blackman": [
         "joy",
@@ -3016,13 +3016,13 @@
     ],
     "Douglas Kriner": [
         "negative",
-        "anger",
-        "fear"
+        "surprise",
+        "positive"
     ],
     "Suzanne Mettler": [
         "negative",
-        "fear",
-        "anger"
+        "positive",
+        "joy"
     ],
     "Nicolas van de Walle": [
         "positive",
@@ -3032,17 +3032,17 @@
     "Kristin Roebuck": [
         "positive",
         "anticipation",
-        "disgust"
+        "anger"
     ],
     "Peter Katzenstein": [
         "positive",
         "anger",
-        "fear"
+        "trust"
     ],
     "Sarah Kreps": [
-        "disgust",
         "fear",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Sabrina Karim": [
         "positive",
@@ -3052,7 +3052,7 @@
     "Rachel Riedl": [
         "surprise",
         "negative",
-        "disgust"
+        "joy"
     ],
     "Christopher Way": [
         "surprise",
@@ -3071,8 +3071,8 @@
     ],
     "Dawn Chutkow": [
         "fear",
-        "sadness",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Alexandra Cirone": [
         "anticipation",
@@ -3101,8 +3101,8 @@
     ],
     "Tony Simons": [
         "sadness",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Kristina Workman": [
         "anticipation",
@@ -3111,8 +3111,8 @@
     ],
     "Stephani Robson": [
         "trust",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "anger"
     ],
     "Mary MacAusland": [
         "joy",
@@ -3131,28 +3131,28 @@
     ],
     "Howard Chong": [
         "sadness",
-        "negative",
-        "disgust"
+        "anticipation",
+        "positive"
     ],
     "Adam Walden": [
         "negative",
-        "sadness",
-        "fear"
+        "trust",
+        "surprise"
     ],
     "Christina Homrighouse": [
         "fear",
         "surprise",
-        "negative"
+        "anticipation"
     ],
     "Mark McCarthy": [
         "fear",
         "anticipation",
-        "negative"
+        "joy"
     ],
     "Andrew Whitmore": [
         "trust",
         "anger",
-        "disgust"
+        "positive"
     ],
     "Xuege (Cathy) Lu": [
         "anticipation",
@@ -3166,13 +3166,13 @@
     ],
     "Elena Belavina": [
         "sadness",
-        "disgust",
-        "negative"
+        "trust",
+        "anticipation"
     ],
     "Gary Thompson": [
-        "disgust",
         "negative",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Michael Paz": [
         "anticipation",
@@ -3182,7 +3182,7 @@
     "Pamela Moulton": [
         "sadness",
         "anticipation",
-        "negative"
+        "trust"
     ],
     "Kyu Ha Cho": [
         "fear",
@@ -3197,7 +3197,7 @@
     "Linda Canina": [
         "positive",
         "negative",
-        "fear"
+        "trust"
     ],
     "Yifei Mao": [
         "fear",
@@ -3205,19 +3205,19 @@
         "joy"
     ],
     "Christopher Gaulke": [
-        "disgust",
         "sadness",
-        "negative"
+        "trust",
+        "surprise"
     ],
     "Yiwei Li": [
         "negative",
-        "disgust",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Kathryn LaTour": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "Chekitan Dev": [
         "positive",
@@ -3232,17 +3232,17 @@
     "Tashlin Lakhani": [
         "positive",
         "anticipation",
-        "disgust"
+        "anger"
     ],
     "John Tracey": [
         "joy",
         "sadness",
-        "negative"
+        "anticipation"
     ],
     "Jamie Perry": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Vince Slaugh": [
         "anticipation",
@@ -3251,8 +3251,8 @@
     ],
     "John Corgel": [
         "negative",
-        "disgust",
-        "surprise"
+        "surprise",
+        "joy"
     ],
     "Lilly Jan": [
         "anticipation",
@@ -3265,19 +3265,19 @@
         "fear"
     ],
     "William Lynn": [
-        "disgust",
         "negative",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Jeanne Varney": [
         "negative",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Christina McDowell": [
         "trust",
         "sadness",
-        "negative"
+        "surprise"
     ],
     "Andrew Quagliata": [
         "positive",
@@ -3291,18 +3291,18 @@
     ],
     "Crocker Liu": [
         "fear",
-        "disgust",
-        "anger"
+        "positive",
+        "trust"
     ],
     "Peng Liu": [
-        "disgust",
         "anger",
-        "sadness"
+        "trust",
+        "positive"
     ],
     "Alexei Tchistyi": [
         "sadness",
-        "fear",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Cheryl Stanley": [
         "anticipation",
@@ -3312,12 +3312,12 @@
     "Arturs Kalnins": [
         "anticipation",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Adam Klausner": [
         "sadness",
-        "negative",
-        "disgust"
+        "positive",
+        "trust"
     ],
     "Tamar Kushnir": [
         "positive",
@@ -3326,8 +3326,8 @@
     ],
     "Robert Sternberg": [
         "negative",
-        "sadness",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Anthony Burrow": [
         "joy",
@@ -3336,8 +3336,8 @@
     ],
     "Jen Agans": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Daniel Casasanto": [
         "anticipation",
@@ -3351,13 +3351,13 @@
     ],
     "Christine Balance": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Pedro Perez": [
         "negative",
-        "disgust",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Matthew Rodgers": [
         "anticipation",
@@ -3371,8 +3371,8 @@
     ],
     "Donna Haeger": [
         "negative",
-        "fear",
-        "sadness"
+        "trust",
+        "anticipation"
     ],
     "Reza Moghimi": [
         "trust",
@@ -3391,8 +3391,8 @@
     ],
     "James Sinclair": [
         "anger",
-        "sadness",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Marquise Riley": [
         "trust",
@@ -3422,7 +3422,7 @@
     "Rich Curtis": [
         "surprise",
         "anger",
-        "disgust"
+        "trust"
     ],
     "Bradley Rickard": [
         "joy",
@@ -3431,18 +3431,18 @@
     ],
     "Debra Perosio": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Nathan Yang": [
-        "disgust",
         "negative",
-        "sadness"
+        "positive",
+        "joy"
     ],
     "Scott Erickson": [
         "sadness",
-        "anger",
-        "negative"
+        "trust",
+        "anticipation"
     ],
     "Suzanne Shu": [
         "fear",
@@ -3450,29 +3450,29 @@
         "anticipation"
     ],
     "Daniel Hooker": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Terence Alexander": [
         "fear",
         "surprise",
-        "negative"
+        "anticipation"
     ],
     "David Lennox": [
         "joy",
         "anticipation",
-        "disgust"
+        "trust"
     ],
     "Mark Constas": [
         "fear",
-        "disgust",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Denise Ramzy": [
         "negative",
-        "disgust",
-        "trust"
+        "trust",
+        "joy"
     ],
     "Patti Mandel": [
         "trust",
@@ -3482,12 +3482,12 @@
     "Dale Grossman": [
         "anger",
         "trust",
-        "disgust"
+        "joy"
     ],
     "John Doris": [
         "anticipation",
         "fear",
-        "anger"
+        "joy"
     ],
     "Aija Leiponen": [
         "anticipation",
@@ -3525,9 +3525,9 @@
         "trust"
     ],
     "Geoffrey Fisher": [
-        "disgust",
         "anticipation",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Harry Kaiser": [
         "negative",
@@ -3541,8 +3541,8 @@
     ],
     "Edward McLaughlin": [
         "negative",
-        "sadness",
-        "fear"
+        "positive",
+        "surprise"
     ],
     "Cynthia Lin Lawell": [
         "joy",
@@ -3552,27 +3552,27 @@
     "Shanjun Li": [
         "fear",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Wesley Sine": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Stephen Sauer": [
         "sadness",
-        "negative",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Lisa Wickham": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Bruce Kusse": [
         "fear",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Chad Uran": [
         "positive",
@@ -3580,9 +3580,9 @@
         "surprise"
     ],
     "Paul Nadasdy": [
-        "disgust",
         "anger",
-        "positive"
+        "positive",
+        "surprise"
     ],
     "Jon Parmenter": [
         "positive",
@@ -3601,18 +3601,18 @@
     ],
     "Lawrence Glickman": [
         "positive",
-        "disgust",
-        "trust"
+        "trust",
+        "anger"
     ],
     "Russell Rickford": [
         "sadness",
-        "negative",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Maria Cristina Garcia": [
         "positive",
         "trust",
-        "disgust"
+        "joy"
     ],
     "Stephen Vider": [
         "trust",
@@ -3621,13 +3621,13 @@
     ],
     "Louis Hyman": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Thomas Overton": [
-        "disgust",
         "anger",
-        "sadness"
+        "joy",
+        "trust"
     ],
     "Debbie Cherney": [
         "anticipation",
@@ -3637,12 +3637,12 @@
     "Lindsay Goodale": [
         "positive",
         "negative",
-        "sadness"
+        "surprise"
     ],
     "Jeremy Allen": [
-        "disgust",
         "anger",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Eugene Won": [
         "anticipation",
@@ -3650,14 +3650,14 @@
         "trust"
     ],
     "Michael Thonney": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Susan Quirk": [
         "fear",
-        "negative",
-        "sadness"
+        "anticipation",
+        "trust"
     ],
     "Joseph McFadden": [
         "surprise",
@@ -3666,8 +3666,8 @@
     ],
     "Magnus Fiskesjo": [
         "negative",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Simon Posner": [
         "positive",
@@ -3681,8 +3681,8 @@
     ],
     "Jane Fajans": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Adam Arcadi": [
         "anticipation",
@@ -3726,8 +3726,8 @@
     ],
     "Atoor Lawandow": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Bilal Al-Omar": [
         "anticipation",
@@ -3737,7 +3737,7 @@
     "Munther Younes": [
         "trust",
         "anger",
-        "disgust"
+        "joy"
     ],
     "Vincent Mulcahy": [
         "surprise",
@@ -3747,7 +3747,7 @@
     "Mark Cruvellier": [
         "fear",
         "trust",
-        "sadness"
+        "surprise"
     ],
     "Sherene Baugher": [
         "surprise",
@@ -3757,12 +3757,12 @@
     "Joanna Malinowska": [
         "sadness",
         "anticipation",
-        "negative"
+        "surprise"
     ],
     "Cynthia Robinson": [
         "sadness",
-        "disgust",
-        "joy"
+        "joy",
+        "surprise"
     ],
     "Maria Fernandez": [
         "anticipation",
@@ -3776,23 +3776,23 @@
     ],
     "Arnika Fuhrmann": [
         "positive",
-        "disgust",
-        "trust"
+        "trust",
+        "sadness"
     ],
     "Jahyon Park": [
         "anticipation",
         "negative",
-        "anger"
+        "joy"
     ],
     "Manasicha Akepiyapornchai": [
         "negative",
-        "anger",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Yue Du": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Janice Kanemitsu": [
         "surprise",
@@ -3802,12 +3802,12 @@
     "Jane-Marie Law": [
         "trust",
         "positive",
-        "disgust"
+        "sadness"
     ],
     "Ivanna Yi": [
         "positive",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "Robin McNeal": [
         "anticipation",
@@ -3830,9 +3830,9 @@
         "trust"
     ],
     "Anthony Cosgrave": [
-        "disgust",
         "sadness",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Judith Byfield": [
         "anticipation",
@@ -3866,33 +3866,33 @@
     ],
     "Dominik Riechers": [
         "sadness",
-        "fear",
-        "negative"
+        "anticipation",
+        "joy"
     ],
     "Phil Nicholson": [
         "fear",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "joy"
     ],
     "Dong Lai": [
         "sadness",
-        "fear",
-        "negative"
+        "anticipation",
+        "trust"
     ],
     "David Chernoff": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Brian Richards": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Ashim Datta": [
         "anger",
-        "fear",
-        "surprise"
+        "surprise",
+        "trust"
     ],
     "Buz Barstow": [
         "fear",
@@ -3926,53 +3926,53 @@
     ],
     "Elizabeth Lombardi": [
         "surprise",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Abby Drake": [
         "negative",
-        "sadness",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Robert Reed": [
         "anticipation",
         "anger",
-        "disgust"
+        "positive"
     ],
     "Willy Bemis": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Robert Turgeon": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "joy"
     ],
     "Vimal Selvaraj": [
         "fear",
-        "sadness",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "James Shapleigh": [
         "fear",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Darlene Campbell": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "trust"
     ],
     "Mark Sarvary": [
         "negative",
         "anticipation",
-        "anger"
+        "surprise"
     ],
     "Frank Castelli": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Elizabeth Ogata": [
         "joy",
@@ -3986,8 +3986,8 @@
     ],
     "Jim Blankenship": [
         "anger",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "trust"
     ],
     "Tim Huffaker": [
         "positive",
@@ -3996,13 +3996,13 @@
     ],
     "Kelly Liu": [
         "anger",
-        "disgust",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Anthony Bretscher": [
         "positive",
         "joy",
-        "disgust"
+        "sadness"
     ],
     "Maria Garcia-Garcia": [
         "fear",
@@ -4010,19 +4010,19 @@
         "surprise"
     ],
     "Ross MacIntyre": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Daniel Barbasch": [
         "fear",
-        "negative",
-        "sadness"
+        "positive",
+        "anticipation"
     ],
     "Kristina Blake-Hodek": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Gerald Feigenson": [
         "trust",
@@ -4031,38 +4031,38 @@
     ],
     "Marcos Simoes-Costa": [
         "anticipation",
-        "disgust",
-        "positive"
+        "positive",
+        "anger"
     ],
     "Chun Han": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Ailong Ke": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Hojoong Kwak": [
         "surprise",
         "sadness",
-        "fear"
+        "anticipation"
     ],
     "Andrew Clark": [
         "fear",
         "anticipation",
-        "sadness"
+        "joy"
     ],
     "Daniel Buckley": [
-        "disgust",
         "sadness",
-        "negative"
+        "joy",
+        "positive"
     ],
     "Steve Winans": [
         "fear",
-        "negative",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Rania Abou-Kandil": [
         "positive",
@@ -4072,7 +4072,7 @@
     "Beth Rhoades": [
         "fear",
         "positive",
-        "sadness"
+        "anticipation"
     ],
     "Caleb Vogt": [
         "anticipation",
@@ -4086,13 +4086,13 @@
     ],
     "Ronald Hoy": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Shelby Dietz": [
-        "disgust",
         "surprise",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Jonathan Butcher": [
         "surprise",
@@ -4100,9 +4100,9 @@
         "positive"
     ],
     "Iwijn De Vlaminck": [
-        "disgust",
         "anger",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Brian Kirby": [
         "surprise",
@@ -4115,24 +4115,24 @@
         "positive"
     ],
     "Haiyuan Yu": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Sumanta Basu": [
         "fear",
-        "sadness",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Jery Stedinger": [
         "negative",
-        "sadness",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Ricardo Daziano": [
         "surprise",
         "fear",
-        "negative"
+        "joy"
     ],
     "Gregory McLaskey": [
         "trust",
@@ -4141,8 +4141,8 @@
     ],
     "Blair Johnson": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Greeshma Gadikota": [
         "fear",
@@ -4155,9 +4155,9 @@
         "anticipation"
     ],
     "Francis Vanek": [
-        "disgust",
         "fear",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Steve Johnson": [
         "joy",
@@ -4166,8 +4166,8 @@
     ],
     "Brandon Bogusz": [
         "sadness",
-        "fear",
-        "positive"
+        "positive",
+        "anticipation"
     ],
     "Jane Walcott": [
         "joy",
@@ -4176,23 +4176,23 @@
     ],
     "Tom Ruttledge": [
         "anger",
-        "disgust",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "Dan Lorey": [
         "fear",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Cynthia Kinsland": [
         "fear",
-        "anger",
-        "sadness"
+        "joy",
+        "positive"
     ],
     "Stephen Lee": [
         "fear",
-        "anger",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Kyle Lancaster": [
         "anticipation",
@@ -4201,28 +4201,28 @@
     ],
     "Hector Abruna": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Melissa Hines": [
         "fear",
-        "negative",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Robert DiStasio": [
         "fear",
         "surprise",
-        "anger"
+        "trust"
     ],
     "John Marohn": [
-        "disgust",
         "anger",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Andrew Musser": [
         "fear",
-        "sadness",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Floyd Davis": [
         "negative",
@@ -4231,33 +4231,33 @@
     ],
     "Peter Wolczanski": [
         "fear",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "H. Davis": [
         "sadness",
-        "fear",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Justin Wilson": [
         "anticipation",
         "fear",
-        "negative"
+        "surprise"
     ],
     "David Zax": [
         "negative",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Tristan Lambert": [
         "fear",
-        "sadness",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Bruce Ganem": [
         "surprise",
         "negative",
-        "anger"
+        "positive"
     ],
     "William Dichtel": [
         "fear",
@@ -4271,18 +4271,18 @@
     ],
     "Brett Fors": [
         "fear",
-        "sadness",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "Song Lin": [
         "positive",
         "fear",
-        "sadness"
+        "trust"
     ],
     "Roger Loring": [
         "negative",
-        "fear",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Stephanie Divo": [
         "anticipation",
@@ -4316,8 +4316,8 @@
     ],
     "Su George": [
         "anger",
-        "sadness",
-        "disgust"
+        "anticipation",
+        "positive"
     ],
     "Natasha Binek": [
         "joy",
@@ -4331,13 +4331,13 @@
     ],
     "Alan Nussbaum": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "positive"
     ],
     "Christina Chick": [
-        "disgust",
         "anger",
-        "fear"
+        "joy",
+        "positive"
     ],
     "Corinna Loeckenhoff": [
         "trust",
@@ -4346,8 +4346,8 @@
     ],
     "Michael Toglia": [
         "fear",
-        "negative",
-        "anticipation"
+        "anticipation",
+        "trust"
     ],
     "Anthony Ong": [
         "anger",
@@ -4361,8 +4361,8 @@
     ],
     "Qi Wang": [
         "joy",
-        "disgust",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Korana Stipetic": [
         "surprise",
@@ -4385,14 +4385,14 @@
         "joy"
     ],
     "Michael Miller": [
-        "disgust",
         "anger",
-        "negative"
+        "positive",
+        "trust"
     ],
     "Shiau-Yun Chen": [
         "negative",
-        "sadness",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Sujin Lee": [
         "joy",
@@ -4402,12 +4402,12 @@
     "Eric Tagliacozzo": [
         "positive",
         "joy",
-        "disgust"
+        "anticipation"
     ],
     "Nicholas Mulder": [
         "fear",
-        "negative",
-        "positive"
+        "positive",
+        "surprise"
     ],
     "Mostafa Minawi": [
         "positive",
@@ -4417,12 +4417,12 @@
     "Rachel Weil": [
         "negative",
         "joy",
-        "sadness"
+        "trust"
     ],
     "Paul Davis": [
         "sadness",
         "positive",
-        "disgust"
+        "trust"
     ],
     "Linda Gasser": [
         "positive",
@@ -4431,23 +4431,23 @@
     ],
     "Diane Burton": [
         "negative",
-        "fear",
-        "disgust"
+        "positive",
+        "joy"
     ],
     "Robert Hutchens": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Michelle Chen": [
-        "disgust",
         "anger",
-        "joy"
+        "joy",
+        "surprise"
     ],
     "Veronica Martinez-Matsuda": [
-        "disgust",
         "surprise",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Ileen DeVault": [
         "positive",
@@ -4461,8 +4461,8 @@
     ],
     "Michael Gold": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Kate Griffith": [
         "trust",
@@ -4481,8 +4481,8 @@
     ],
     "Allison Heinemann": [
         "sadness",
-        "negative",
-        "positive"
+        "positive",
+        "trust"
     ],
     "Samuel Nelson": [
         "surprise",
@@ -4491,13 +4491,13 @@
     ],
     "James Gross": [
         "negative",
-        "anger",
-        "disgust"
+        "trust",
+        "positive"
     ],
     "Matthew Saleh": [
         "sadness",
-        "negative",
-        "fear"
+        "joy",
+        "anticipation"
     ],
     "Tove Hammer": [
         "trust",
@@ -4505,9 +4505,9 @@
         "joy"
     ],
     "Sean Fath": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Ben Rissing": [
         "positive",
@@ -4527,7 +4527,7 @@
     "Rene Kizilcec": [
         "surprise",
         "anger",
-        "sadness"
+        "anticipation"
     ],
     "Hane Aung": [
         "trust",
@@ -4541,13 +4541,13 @@
     ],
     "Cheng Zhang": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Malte Jung": [
         "negative",
-        "sadness",
-        "disgust"
+        "joy",
+        "anticipation"
     ],
     "Jeff Christen": [
         "trust",
@@ -4556,8 +4556,8 @@
     ],
     "Sharlane Cleare": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Amanda Recupero": [
         "anticipation",
@@ -4571,8 +4571,8 @@
     ],
     "Timothy Campbell": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Naomi Larson": [
         "joy",
@@ -4597,17 +4597,17 @@
     "Hannah Phan": [
         "positive",
         "anticipation",
-        "disgust"
+        "anger"
     ],
     "Meejeong Song": [
         "anger",
         "anticipation",
-        "fear"
+        "joy"
     ],
     "Hankyul Kim": [
         "joy",
         "fear",
-        "negative"
+        "trust"
     ],
     "Nina Bassuk": [
         "surprise",
@@ -4615,9 +4615,9 @@
         "joy"
     ],
     "Daniel Gallagher": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Kenneth Merkley": [
         "fear",
@@ -4631,8 +4631,8 @@
     ],
     "Dorit Abusch": [
         "negative",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Frances Sobolak": [
         "surprise",
@@ -4651,13 +4651,13 @@
     ],
     "Miloje Despic": [
         "fear",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Sarah Murray": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Wayne Harbert": [
         "joy",
@@ -4676,8 +4676,8 @@
     ],
     "James West": [
         "fear",
-        "negative",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Debra Castillo": [
         "anticipation",
@@ -4687,7 +4687,7 @@
     "Guy Hoffman": [
         "fear",
         "anticipation",
-        "disgust"
+        "positive"
     ],
     "Robert Shepherd": [
         "trust",
@@ -4696,13 +4696,13 @@
     ],
     "Richard Robinson": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Hadas Kress-Gazit": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Benjamin Finio": [
         "surprise",
@@ -4726,8 +4726,8 @@
     ],
     "Allen Back": [
         "negative",
-        "anger",
-        "fear"
+        "surprise",
+        "joy"
     ],
     "Scott Messick": [
         "fear",
@@ -4742,12 +4742,12 @@
     "Justin Moore": [
         "fear",
         "trust",
-        "sadness"
+        "surprise"
     ],
     "Kelly Delp": [
         "sadness",
-        "negative",
-        "fear"
+        "joy",
+        "trust"
     ],
     "Ian Pendleton": [
         "trust",
@@ -4761,23 +4761,23 @@
     ],
     "Harrison Chen": [
         "fear",
-        "negative",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "David Zywina": [
         "fear",
-        "anger",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "James Barnes": [
         "fear",
-        "negative",
-        "disgust"
+        "joy",
+        "trust"
     ],
     "Maru Sarazola Duarte": [
         "sadness",
-        "fear",
-        "negative"
+        "positive",
+        "surprise"
     ],
     "Ian Lizarraga": [
         "trust",
@@ -4791,8 +4791,8 @@
     ],
     "Michael Nussbaum": [
         "sadness",
-        "negative",
-        "disgust"
+        "joy",
+        "trust"
     ],
     "Farbod Shokrieh": [
         "joy",
@@ -4811,8 +4811,8 @@
     ],
     "Robert Connelly": [
         "negative",
-        "sadness",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Jason Manning": [
         "surprise",
@@ -4821,13 +4821,13 @@
     ],
     "Andrew Marshall": [
         "fear",
-        "sadness",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Maria Terrell": [
         "fear",
-        "sadness",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Herbert Hui": [
         "surprise",
@@ -4835,9 +4835,9 @@
         "negative"
     ],
     "Artem Pulemotov": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "Nicolas Templier": [
         "fear",
@@ -4851,8 +4851,8 @@
     ],
     "Benjamin Dozier": [
         "fear",
-        "negative",
-        "anger"
+        "positive",
+        "trust"
     ],
     "Ed Swartz": [
         "surprise",
@@ -4866,8 +4866,8 @@
     ],
     "Anil Nerode": [
         "negative",
-        "fear",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Inna Zakharevich": [
         "fear",
@@ -4882,7 +4882,7 @@
     "Robert Strichartz": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Ravi Ramakrishna": [
         "joy",
@@ -4890,14 +4890,14 @@
         "positive"
     ],
     "John Hubbard": [
-        "disgust",
         "fear",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Allen Knutson": [
         "fear",
-        "anger",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Hubbard": [
         "fear",
@@ -4906,8 +4906,8 @@
     ],
     "Yuri Berest": [
         "fear",
-        "negative",
-        "anticipation"
+        "anticipation",
+        "trust"
     ],
     "Mahdi Esmaily": [
         "joy",
@@ -4916,8 +4916,8 @@
     ],
     "Sanjay Dharmavaram": [
         "trust",
-        "disgust",
-        "positive"
+        "positive",
+        "surprise"
     ],
     "Richard Rand": [
         "positive",
@@ -4926,8 +4926,8 @@
     ],
     "Laurent Saloff-Coste": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Edward Swartz": [
         "fear",
@@ -4946,23 +4946,23 @@
     ],
     "Birgit Speh": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Martin Kassabov": [
         "fear",
-        "disgust",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Marcelo Aguiar": [
         "fear",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Florin Camil Muscalu": [
         "fear",
-        "anger",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Christian Noack": [
         "joy",
@@ -4971,13 +4971,13 @@
     ],
     "Yiannis Loizides": [
         "sadness",
-        "negative",
-        "fear"
+        "positive",
+        "anticipation"
     ],
     "Irena Peeva": [
         "fear",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Karola Meszaros": [
         "trust",
@@ -4986,33 +4986,33 @@
     ],
     "Philippe Sosoe": [
         "fear",
-        "sadness",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Marten Wegkamp": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Richard Shore": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Christopher Umbach": [
         "negative",
-        "disgust",
-        "anger"
+        "positive",
+        "anticipation"
     ],
     "James Spinazzola": [
         "sadness",
         "trust",
-        "disgust"
+        "anticipation"
     ],
     "Andrew Hicks": [
         "sadness",
-        "negative",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Kevin Ernste": [
         "trust",
@@ -5021,8 +5021,8 @@
     ],
     "Jordan Musser": [
         "sadness",
-        "negative",
-        "disgust"
+        "joy",
+        "surprise"
     ],
     "Lawrence Shuster": [
         "joy",
@@ -5037,7 +5037,7 @@
     "Annette Richards": [
         "anticipation",
         "joy",
-        "disgust"
+        "sadness"
     ],
     "Roger Moseley": [
         "anger",
@@ -5046,13 +5046,13 @@
     ],
     "Catherine Appert": [
         "negative",
-        "fear",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Michael Sparhuber": [
         "positive",
         "trust",
-        "disgust"
+        "joy"
     ],
     "Scott Stewart": [
         "positive",
@@ -5062,22 +5062,22 @@
     "David Nichols": [
         "joy",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Michael Hostetler": [
         "fear",
-        "sadness",
-        "disgust"
+        "joy",
+        "surprise"
     ],
     "Bradley Treat": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "anticipation"
     ],
     "Randy Allen": [
         "positive",
         "sadness",
-        "fear"
+        "anticipation"
     ],
     "Tolunay Beker Aydemir": [
         "fear",
@@ -5086,8 +5086,8 @@
     ],
     "Sam Nugen": [
         "fear",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "positive"
     ],
     "Xoco Shinbrot": [
         "anticipation",
@@ -5096,8 +5096,8 @@
     ],
     "Paul Rodewald": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Sara Kaiser": [
         "surprise",
@@ -5115,19 +5115,19 @@
         "anticipation"
     ],
     "James Booth": [
-        "disgust",
         "negative",
-        "anger"
+        "joy",
+        "surprise"
     ],
     "Andrew Wilson": [
-        "disgust",
         "anger",
-        "fear"
+        "joy",
+        "trust"
     ],
     "Kae-Lynn Wilson": [
         "anticipation",
         "fear",
-        "sadness"
+        "joy"
     ],
     "J.C. Seamus Davis": [
         "anticipation",
@@ -5141,18 +5141,18 @@
     ],
     "Antonio DiTommaso": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "John Losey": [
-        "disgust",
         "anger",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Stephen Ceci": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Michael Macy": [
         "negative",
@@ -5167,17 +5167,17 @@
     "Robert Frank": [
         "fear",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "J. Russo": [
         "fear",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "William Schulze": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Viktoria Tsimberov": [
         "positive",
@@ -5221,18 +5221,18 @@
     ],
     "Douglas James": [
         "anger",
-        "fear",
-        "positive"
+        "positive",
+        "joy"
     ],
     "Not Listed": [
         "anticipation",
         "fear",
-        "negative"
+        "surprise"
     ],
     "Alexandra Silva": [
         "anger",
-        "fear",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Matt Eichorn": [
         "anticipation",
@@ -5251,8 +5251,8 @@
     ],
     "Lawrence Blume": [
         "negative",
-        "disgust",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Toby Ault": [
         "positive",
@@ -5261,18 +5261,18 @@
     ],
     "Matthew Pritchard": [
         "sadness",
-        "negative",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Lyrae Van Clief-Stefanon": [
         "fear",
-        "anger",
-        "negative"
+        "surprise",
+        "joy"
     ],
     "Jean Hunter": [
         "fear",
-        "negative",
-        "sadness"
+        "anticipation",
+        "joy"
     ],
     "Dan Luo": [
         "surprise",
@@ -5285,9 +5285,9 @@
         "positive"
     ],
     "Paulette Clancy": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Laura Harrington": [
         "joy",
@@ -5300,14 +5300,14 @@
         "anticipation"
     ],
     "Nick Nickitas": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Joe Regenstein": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "surprise"
     ],
     "Jonathan Boyarin": [
         "anticipation",
@@ -5321,23 +5321,23 @@
     ],
     "Nikole Lewis": [
         "fear",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "joy"
     ],
     "Jonathan Lunine": [
         "negative",
-        "disgust",
-        "fear"
+        "anticipation",
+        "trust"
     ],
     "Gregory Weiland": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Maurine Linder": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Alison Power": [
         "joy",
@@ -5350,9 +5350,9 @@
         "anticipation"
     ],
     "Maren Vitousek": [
-        "disgust",
         "surprise",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Brian Lazzaro": [
         "positive",
@@ -5360,9 +5360,9 @@
         "anticipation"
     ],
     "Irby Lovette": [
-        "disgust",
         "negative",
-        "anger"
+        "joy",
+        "anticipation"
     ],
     "Amy McCune": [
         "trust",
@@ -5372,12 +5372,12 @@
     "Jeremy Searle": [
         "anticipation",
         "anger",
-        "disgust"
+        "surprise"
     ],
     "Harry Greene": [
         "sadness",
-        "anger",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Kelly Zamudio": [
         "surprise",
@@ -5392,7 +5392,7 @@
     "Nicolas Buchon": [
         "positive",
         "fear",
-        "anger"
+        "trust"
     ],
     "Paul Soloway": [
         "anger",
@@ -5406,23 +5406,23 @@
     ],
     "Ellis Loew": [
         "sadness",
-        "negative",
-        "disgust"
+        "joy",
+        "trust"
     ],
     "Tom Owens": [
         "sadness",
-        "negative",
-        "disgust"
+        "joy",
+        "trust"
     ],
     "Chris Fromme": [
         "anger",
         "anticipation",
-        "negative"
+        "surprise"
     ],
     "Thomas Fox": [
         "surprise",
         "sadness",
-        "fear"
+        "trust"
     ],
     "Andrew Grimson": [
         "surprise",
@@ -5431,13 +5431,13 @@
     ],
     "Marcus Smolka": [
         "surprise",
-        "disgust",
-        "joy"
+        "joy",
+        "positive"
     ],
     "Kerry Shaw": [
         "surprise",
         "fear",
-        "negative"
+        "joy"
     ],
     "Robert Raguso": [
         "anticipation",
@@ -5446,23 +5446,23 @@
     ],
     "Michael Webster": [
         "negative",
-        "anger",
-        "trust"
+        "trust",
+        "surprise"
     ],
     "Hudson Reeve": [
         "fear",
-        "negative",
-        "disgust"
+        "joy",
+        "anticipation"
     ],
     "Ronald Harris-Warrick": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "David Usher": [
         "negative",
-        "fear",
-        "positive"
+        "positive",
+        "joy"
     ],
     "Claudia Verhoeven": [
         "positive",
@@ -5471,13 +5471,13 @@
     ],
     "Eli Friedman": [
         "surprise",
-        "disgust",
-        "positive"
+        "positive",
+        "anticipation"
     ],
     "Sarosh Kuruvilla": [
         "surprise",
         "anger",
-        "negative"
+        "anticipation"
     ],
     "Virginia Doellgast": [
         "anger",
@@ -5491,18 +5491,18 @@
     ],
     "Jim Jenkins": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Kenneth Rother": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "George Schneider": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Beth Ahner": [
         "joy",
@@ -5536,13 +5536,13 @@
     ],
     "Garrick Blalock": [
         "negative",
-        "fear",
-        "anger"
+        "trust",
+        "positive"
     ],
     "Vicki Bogan": [
         "sadness",
         "trust",
-        "negative"
+        "positive"
     ],
     "Susan Brown": [
         "surprise",
@@ -5561,23 +5561,23 @@
     ],
     "Ralph Christy": [
         "sadness",
-        "negative",
-        "fear"
+        "joy",
+        "anticipation"
     ],
     "Paul Curtis": [
         "negative",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Richard Curtis": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Harry de Gorter": [
         "fear",
         "anticipation",
-        "anger"
+        "joy"
     ],
     "Tobias Doerr": [
         "surprise",
@@ -5596,18 +5596,18 @@
     ],
     "Margaret Frank": [
         "anger",
-        "disgust",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "Giulia Friso": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Kifle Gebremedhin": [
         "fear",
-        "anger",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Patrick Gibney": [
         "trust",
@@ -5617,17 +5617,17 @@
     "Tarleton Gillespie": [
         "surprise",
         "anger",
-        "disgust"
+        "joy"
     ],
     "Sarah Giroux": [
         "fear",
-        "sadness",
-        "surprise"
+        "surprise",
+        "trust"
     ],
     "Jillian Goldfarb": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Heather Grab": [
         "anticipation",
@@ -5636,13 +5636,13 @@
     ],
     "Robert Gravani": [
         "anger",
-        "negative",
-        "sadness"
+        "trust",
+        "positive"
     ],
     "Charles Greene": [
         "surprise",
         "negative",
-        "sadness"
+        "trust"
     ],
     "Joe Guinness": [
         "surprise",
@@ -5655,24 +5655,24 @@
         "positive"
     ],
     "Anthony Hay": [
-        "disgust",
         "anger",
-        "negative"
+        "anticipation",
+        "trust"
     ],
     "Tory Hendry": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Ian Hewson": [
         "trust",
         "negative",
-        "disgust"
+        "surprise"
     ],
     "Thomas Hirschl": [
         "negative",
-        "disgust",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Peter Hitchcock": [
         "positive",
@@ -5681,13 +5681,13 @@
     ],
     "Peter Hobbs": [
         "negative",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Jian Hua": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Heather Huson": [
         "joy",
@@ -5696,13 +5696,13 @@
     ],
     "Yu Jiang": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Karim-Aly Kassam": [
         "negative",
-        "anger",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Barbara Knuth": [
         "surprise",
@@ -5711,8 +5711,8 @@
     ],
     "Steven Kyle": [
         "sadness",
-        "fear",
-        "joy"
+        "joy",
+        "surprise"
     ],
     "Flavio Lehner": [
         "anticipation",
@@ -5721,18 +5721,18 @@
     ],
     "Xingen Lei": [
         "anger",
-        "sadness",
-        "negative"
-    ],
-    "Lori Leonard": [
-        "disgust",
-        "anger",
+        "trust",
         "surprise"
     ],
+    "Lori Leonard": [
+        "anger",
+        "surprise",
+        "joy"
+    ],
     "Bruce Lewenstein": [
-        "disgust",
         "trust",
-        "positive"
+        "positive",
+        "sadness"
     ],
     "Fouad Makki": [
         "positive",
@@ -5742,12 +5742,12 @@
     "Nathan Matias": [
         "anticipation",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Michael Mazourek": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Murray McBride": [
         "joy",
@@ -5756,8 +5756,8 @@
     ],
     "Katherine McComas": [
         "negative",
-        "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Susan McCouch": [
         "positive",
@@ -5772,7 +5772,7 @@
     "Jason Mezey": [
         "trust",
         "surprise",
-        "disgust"
+        "anger"
     ],
     "Marc Miller": [
         "joy",
@@ -5781,8 +5781,8 @@
     ],
     "Virginia Moore": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Stephen Morreale": [
         "joy",
@@ -5801,8 +5801,8 @@
     ],
     "Rebecca Nelson": [
         "anger",
-        "sadness",
-        "negative"
+        "trust",
+        "surprise"
     ],
     "Jeffrey Niederdeppe": [
         "positive",
@@ -5816,8 +5816,8 @@
     ],
     "Keith Perry": [
         "sadness",
-        "negative",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Scott Peters": [
         "surprise",
@@ -5846,8 +5846,8 @@
     ],
     "Troy Richardson": [
         "negative",
-        "anger",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Amanda Rodewald": [
         "joy",
@@ -5856,8 +5856,8 @@
     ],
     "Jonathan Russell-Anelli": [
         "anticipation",
-        "disgust",
-        "negative"
+        "negative",
+        "surprise"
     ],
     "Michael Scanlon": [
         "anticipation",
@@ -5866,13 +5866,13 @@
     ],
     "Todd Schmit": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Dawn Schrader": [
-        "disgust",
         "anger",
-        "sadness"
+        "anticipation",
+        "surprise"
     ],
     "Jonathon Schuldt": [
         "positive",
@@ -5881,8 +5881,8 @@
     ],
     "Steven Schwager": [
         "negative",
-        "fear",
-        "disgust"
+        "joy",
+        "surprise"
     ],
     "Jeffrey Scott": [
         "surprise",
@@ -5891,8 +5891,8 @@
     ],
     "Michael Shapiro": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Thomas Silva": [
         "surprise",
@@ -5901,8 +5901,8 @@
     ],
     "Patrick Sullivan": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Ying Sun": [
         "joy",
@@ -5912,22 +5912,22 @@
     "Loren Tauer": [
         "positive",
         "negative",
-        "sadness"
+        "anticipation"
     ],
     "Jennifer Thaler": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Michael Timmons": [
-        "disgust",
         "anticipation",
-        "fear"
+        "fear",
+        "joy"
     ],
     "Calum Turvey": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Michael Van Amburgh": [
         "anger",
@@ -5950,19 +5950,19 @@
         "anticipation"
     ],
     "Mildred Warner": [
-        "disgust",
         "sadness",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Randy Wayne": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Anne Weber": [
         "negative",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Stephen Winans": [
         "trust",
@@ -5971,8 +5971,8 @@
     ],
     "Steven Wolf": [
         "negative",
-        "anger",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Randy Worobo": [
         "surprise",
@@ -5986,13 +5986,13 @@
     ],
     "Yu (Connie) Yuan": [
         "negative",
-        "sadness",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Sean Anderson": [
-        "disgust",
         "anger",
-        "negative"
+        "trust",
+        "surprise"
     ],
     "Michael Ashkin": [
         "positive",
@@ -6001,33 +6001,33 @@
     ],
     "Victoria Beard": [
         "anger",
-        "disgust",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Roberto Bertoia": [
         "anger",
-        "negative",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Nancy Brooks": [
         "fear",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Thomas Campanella": [
-        "disgust",
         "anticipation",
-        "sadness"
+        "sadness",
+        "positive"
     ],
     "John Carruthers": [
         "anticipation",
-        "disgust",
-        "sadness"
+        "sadness",
+        "surprise"
     ],
     "Lily Chi": [
         "trust",
-        "disgust",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "David Costanza": [
         "surprise",
@@ -6035,9 +6035,9 @@
         "positive"
     ],
     "Renate Ferro": [
-        "disgust",
         "anger",
-        "fear"
+        "surprise",
+        "joy"
     ],
     "George Frantz": [
         "trust",
@@ -6050,14 +6050,14 @@
         "anticipation"
     ],
     "Neema Kudva": [
-        "disgust",
         "negative",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Medina Lasansky": [
         "anger",
-        "disgust",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Leeza Meksin": [
         "joy",
@@ -6066,8 +6066,8 @@
     ],
     "Elisabeth Meyer": [
         "anger",
-        "sadness",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Martin Miller": [
         "trust",
@@ -6096,28 +6096,28 @@
     ],
     "Linda Shi": [
         "fear",
-        "disgust",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Andrea Simitch": [
         "negative",
         "surprise",
-        "sadness"
+        "joy"
     ],
     "Daniel Torop": [
-        "disgust",
         "anger",
-        "sadness"
+        "trust",
+        "anticipation"
     ],
     "Sasa Zivkovic": [
         "anger",
-        "disgust",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Gerard Aching": [
         "sadness",
-        "negative",
-        "fear"
+        "trust",
+        "joy"
     ],
     "Barry Adams": [
         "joy",
@@ -6142,12 +6142,12 @@
     "Chloe Ahmann": [
         "anticipation",
         "positive",
-        "disgust"
+        "sadness"
     ],
     "Glenn Altschuler": [
-        "disgust",
         "surprise",
-        "positive"
+        "positive",
+        "anger"
     ],
     "Benjamin Anderson": [
         "positive",
@@ -6166,8 +6166,8 @@
     ],
     "N\u2019Dri Assi\u00e9-Lumumba": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Kevin Attell": [
         "positive",
@@ -6180,14 +6180,14 @@
         "surprise"
     ],
     "Andrea Bachner": [
-        "disgust",
         "negative",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Dan Barbasch": [
         "negative",
         "surprise",
-        "fear"
+        "joy"
     ],
     "Jeremy Baskin": [
         "trust",
@@ -6197,12 +6197,12 @@
     "John Barwick": [
         "anticipation",
         "sadness",
-        "negative"
+        "surprise"
     ],
     "Panle Barwick": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Ernesto Bassi": [
         "trust",
@@ -6216,13 +6216,13 @@
     ],
     "Rachel Bean": [
         "sadness",
-        "negative",
-        "fear"
+        "surprise",
+        "positive"
     ],
     "James Bell": [
-        "disgust",
         "joy",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Daryl Bem": [
         "positive",
@@ -6245,14 +6245,14 @@
         "trust"
     ],
     "Adrienne Bitar": [
-        "disgust",
         "anger",
-        "negative"
+        "anticipation",
+        "joy"
     ],
     "Anne Blackburn": [
         "negative",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Fredric Bogel": [
         "negative",
@@ -6281,8 +6281,8 @@
     ],
     "Xiaodong Cao": [
         "fear",
-        "negative",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Allen Carlson": [
         "surprise",
@@ -6296,18 +6296,18 @@
     ],
     "David Cassel": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Jian Chen": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Peng Chen": [
         "fear",
-        "anger",
-        "surprise"
+        "surprise",
+        "trust"
     ],
     "Zhihong Chen": [
         "anticipation",
@@ -6315,19 +6315,19 @@
         "trust"
     ],
     "Eric Cheyfitz": [
-        "disgust",
         "anger",
-        "fear"
+        "anticipation",
+        "surprise"
     ],
     "Tanzeem Choudhury": [
         "surprise",
-        "disgust",
-        "sadness"
+        "sadness",
+        "anticipation"
     ],
     "David Collum": [
         "negative",
-        "anger",
-        "surprise"
+        "surprise",
+        "joy"
     ],
     "Benjamin Cornwell": [
         "positive",
@@ -6336,8 +6336,8 @@
     ],
     "Barbara Correll": [
         "negative",
-        "anger",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Raymond Craib": [
         "positive",
@@ -6347,7 +6347,7 @@
     "Brian Crane": [
         "negative",
         "anticipation",
-        "anger"
+        "surprise"
     ],
     "Csaba Csaki": [
         "joy",
@@ -6356,8 +6356,8 @@
     ],
     "Jonathan Culler": [
         "negative",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "James Cutting": [
         "surprise",
@@ -6365,9 +6365,9 @@
         "joy"
     ],
     "Iftikhar Dadi": [
-        "disgust",
         "positive",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Stuart Arrowsmith Davis": [
         "positive",
@@ -6382,22 +6382,22 @@
     "Brett de Bary": [
         "surprise",
         "positive",
-        "disgust"
+        "joy"
     ],
     "Keith Dennis": [
         "sadness",
-        "negative",
-        "positive"
+        "positive",
+        "surprise"
     ],
     "Timothy DeVoogd": [
         "anger",
         "trust",
-        "disgust"
+        "surprise"
     ],
     "Naminata Diabate": [
         "joy",
-        "disgust",
-        "anticipation"
+        "anticipation",
+        "anger"
     ],
     "Stephanie Alison Divo": [
         "trust",
@@ -6406,13 +6406,13 @@
     ],
     "Laura Donaldson": [
         "anger",
-        "negative",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Yue Mara Du": [
         "fear",
         "anticipation",
-        "disgust"
+        "trust"
     ],
     "Laurent Dubreuil": [
         "anger",
@@ -6436,18 +6436,18 @@
     ],
     "Veit Elser": [
         "negative",
-        "anger",
-        "disgust"
+        "positive",
+        "trust"
     ],
     "Juan Manuel Escalona Torres": [
         "fear",
-        "sadness",
-        "negative"
+        "positive",
+        "trust"
     ],
     "Darlene Evans": [
         "anger",
-        "negative",
-        "surprise"
+        "surprise",
+        "trust"
     ],
     "Elizabeth Evans": [
         "anticipation",
@@ -6462,27 +6462,27 @@
     "Gregory Ezra": [
         "fear",
         "trust",
-        "sadness"
+        "positive"
     ],
     "Ziad Fahmy": [
-        "disgust",
         "fear",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Oren Falk": [
         "joy",
         "negative",
-        "disgust"
+        "trust"
     ],
     "Grant Farred": [
         "anger",
-        "disgust",
-        "fear"
+        "anticipation",
+        "trust"
     ],
     "David Faulkner": [
         "negative",
-        "anger",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Robert Fay": [
         "surprise",
@@ -6496,18 +6496,18 @@
     ],
     "Gail Fine": [
         "negative",
-        "fear",
-        "disgust"
+        "joy",
+        "trust"
     ],
     "Barbara Finlay": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Cheryl Finley": [
         "sadness",
-        "disgust",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Cristina Florea": [
         "fear",
@@ -6532,7 +6532,7 @@
     "Jill Frank": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Chelsea Frazier": [
         "surprise",
@@ -6541,13 +6541,13 @@
     ],
     "Jack Freed": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "David Freund": [
         "trust",
         "surprise",
-        "disgust"
+        "anger"
     ],
     "Debra Fried": [
         "anticipation",
@@ -6570,14 +6570,14 @@
         "negative"
     ],
     "Daniel Gold": [
-        "disgust",
         "negative",
-        "sadness"
+        "positive",
+        "trust"
     ],
     "Paul Goldsmith": [
         "anger",
-        "negative",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Seema Golestaneh": [
         "positive",
@@ -6586,18 +6586,18 @@
     ],
     "Mitchell Greenberg": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Sandra Greene": [
         "positive",
         "negative",
-        "anger"
+        "trust"
     ],
     "Davydd Greenwood": [
         "surprise",
         "fear",
-        "disgust"
+        "anticipation"
     ],
     "Leonard Gross": [
         "trust",
@@ -6625,19 +6625,19 @@
         "joy"
     ],
     "Sabine Haenni": [
-        "disgust",
         "negative",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Daniel Halpern-Leistner": [
         "fear",
-        "sadness",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Ellis Hanson": [
         "anger",
-        "disgust",
-        "fear"
+        "joy",
+        "anticipation"
     ],
     "Rebecca Harris-Warrick": [
         "positive",
@@ -6657,7 +6657,7 @@
     "Alexander Hayes": [
         "positive",
         "fear",
-        "disgust"
+        "trust"
     ],
     "Douglas Heckathorn": [
         "surprise",
@@ -6666,23 +6666,23 @@
     ],
     "John Henderson": [
         "negative",
-        "disgust",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "Ronald Herring": [
         "anger",
-        "negative",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Terry Herter": [
         "positive",
         "joy",
-        "disgust"
+        "trust"
     ],
     "TJ Hinrichs": [
         "anger",
-        "sadness",
-        "fear"
+        "positive",
+        "surprise"
     ],
     "Molly Hite": [
         "joy",
@@ -6691,8 +6691,8 @@
     ],
     "Harold Hodes": [
         "negative",
-        "sadness",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Tara Holm": [
         "positive",
@@ -6705,9 +6705,9 @@
         "anticipation"
     ],
     "Yongmiao Hong": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Cary Howie": [
         "trust",
@@ -6716,8 +6716,8 @@
     ],
     "Juliana Hu Pegues": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Karolina H\u00fcbner": [
         "positive",
@@ -6742,7 +6742,7 @@
     "Ngampit Jagacinski": [
         "anticipation",
         "negative",
-        "sadness"
+        "trust"
     ],
     "Karen Jaime": [
         "surprise",
@@ -6751,8 +6751,8 @@
     ],
     "Ray Jayawardhana": [
         "negative",
-        "disgust",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Kurt Jordan": [
         "anticipation",
@@ -6761,18 +6761,18 @@
     ],
     "Peter Kahn": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Rachana Kamtekar": [
         "sadness",
         "positive",
-        "negative"
+        "trust"
     ],
     "Steven Kaplan": [
         "sadness",
-        "negative",
-        "surprise"
+        "surprise",
+        "joy"
     ],
     "Mary Katzenstein": [
         "trust",
@@ -6782,12 +6782,12 @@
     "Patricia Keller": [
         "anger",
         "joy",
-        "negative"
+        "trust"
     ],
     "William Kennedy": [
         "joy",
         "negative",
-        "disgust"
+        "positive"
     ],
     "Yu Yu Khaing": [
         "negative",
@@ -6796,8 +6796,8 @@
     ],
     "Lori Khatchadourian": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "trust"
     ],
     "Nicholas Kiefer": [
         "surprise",
@@ -6807,7 +6807,7 @@
     "Eun-Ah Kim": [
         "positive",
         "fear",
-        "negative"
+        "anticipation"
     ],
     "Jonathan Kirshner": [
         "positive",
@@ -6831,8 +6831,8 @@
     ],
     "Michelle Kosch": [
         "sadness",
-        "anger",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Isaac Kramnick": [
         "joy",
@@ -6872,7 +6872,7 @@
     "Daniel Lichter": [
         "negative",
         "surprise",
-        "disgust"
+        "positive"
     ],
     "Hening Lin": [
         "joy",
@@ -6891,8 +6891,8 @@
     ],
     "Richard Lovelace": [
         "fear",
-        "disgust",
-        "anger"
+        "joy",
+        "surprise"
     ],
     "Michael Lovenheim": [
         "trust",
@@ -6901,18 +6901,18 @@
     ],
     "Theodore Lowi": [
         "anger",
-        "negative",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Michael Lynch": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "positive"
     ],
     "Scott MacDonald": [
         "positive",
         "sadness",
-        "negative"
+        "surprise"
     ],
     "Mukul Majumdar": [
         "negative",
@@ -6921,8 +6921,8 @@
     ],
     "Sturt Manning": [
         "fear",
-        "disgust",
-        "sadness"
+        "joy",
+        "positive"
     ],
     "Vida Maralani": [
         "trust",
@@ -6941,18 +6941,18 @@
     ],
     "Robert Masson": [
         "negative",
-        "anger",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Grit Matthias Phelps": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Patrizia McBride": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Kaja McGowan": [
         "anticipation",
@@ -6966,13 +6966,13 @@
     ],
     "David Mermin": [
         "fear",
-        "negative",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Andrew Mertha": [
         "anticipation",
         "negative",
-        "anger"
+        "positive"
     ],
     "Marilyn Migiel": [
         "joy",
@@ -6980,14 +6980,14 @@
         "trust"
     ],
     "Richard Miller": [
-        "disgust",
         "negative",
-        "anger"
+        "positive",
+        "surprise"
     ],
     "Beth Milles": [
-        "disgust",
         "anger",
-        "sadness"
+        "joy",
+        "surprise"
     ],
     "Francesca Molinari": [
         "fear",
@@ -7011,8 +7011,8 @@
     ],
     "Erich Mueller": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Kelly Musick": [
         "fear",
@@ -7041,23 +7041,23 @@
     ],
     "Mary Beth Norton": [
         "negative",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Alexander Ophir": [
         "sadness",
-        "negative",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Jeffrey Palmer": [
         "sadness",
         "surprise",
-        "negative"
+        "joy"
     ],
     "An-yi Pan": [
         "negative",
-        "anger",
-        "disgust"
+        "anticipation",
+        "joy"
     ],
     "Hayden Pelliccia": [
         "positive",
@@ -7077,7 +7077,7 @@
     "Charles Peterson": [
         "anticipation",
         "negative",
-        "anger"
+        "surprise"
     ],
     "Daniel Pfeffer": [
         "trust",
@@ -7092,22 +7092,22 @@
     "Karen Pinkus": [
         "negative",
         "trust",
-        "fear"
+        "positive"
     ],
     "Robert Pohl": [
         "sadness",
-        "disgust",
-        "anger"
+        "surprise",
+        "joy"
     ],
     "Steven Pond": [
-        "disgust",
         "anticipation",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Rachel Prentice": [
         "negative",
-        "sadness",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Pietro Pucci": [
         "joy",
@@ -7117,7 +7117,7 @@
     "Chen Qiu": [
         "positive",
         "fear",
-        "disgust"
+        "joy"
     ],
     "Natasha Raheja": [
         "anticipation",
@@ -7151,18 +7151,18 @@
     ],
     "David Rosen": [
         "sadness",
-        "anger",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Bryn Rosenfeld": [
         "anticipation",
         "anger",
-        "fear"
+        "positive"
     ],
     "Margaret Rossiter": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Diane Rubenstein": [
         "trust",
@@ -7176,13 +7176,13 @@
     ],
     "Neil Saccamano": [
         "positive",
-        "disgust",
-        "sadness"
+        "sadness",
+        "joy"
     ],
     "Aaron Sachs": [
-        "disgust",
         "positive",
-        "anticipation"
+        "anticipation",
+        "surprise"
     ],
     "Nicholas Salvato": [
         "anticipation",
@@ -7201,13 +7201,13 @@
     ],
     "Elizabeth Sanders": [
         "negative",
-        "anger",
-        "disgust"
+        "anticipation",
+        "positive"
     ],
     "Steven Sangren": [
-        "disgust",
         "negative",
-        "sadness"
+        "joy",
+        "trust"
     ],
     "Maria Savella": [
         "anticipation",
@@ -7216,8 +7216,8 @@
     ],
     "Dmitry Savransky": [
         "sadness",
-        "negative",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Paul Sawyer": [
         "joy",
@@ -7231,13 +7231,13 @@
     ],
     "Britney Schmidt": [
         "sadness",
-        "negative",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "Frank Schroeder": [
-        "disgust",
         "anger",
-        "fear"
+        "joy",
+        "trust"
     ],
     "Anette Schwarz": [
         "joy",
@@ -7262,12 +7262,12 @@
     "Harry Shaw": [
         "anger",
         "surprise",
-        "negative"
+        "joy"
     ],
     "Martin Shefter": [
         "negative",
-        "disgust",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "David Shoemaker": [
         "negative",
@@ -7281,13 +7281,13 @@
     ],
     "Nicholas Silins": [
         "anger",
-        "disgust",
-        "negative"
+        "joy",
+        "trust"
     ],
     "Jason Simms": [
         "sadness",
-        "negative",
-        "positive"
+        "positive",
+        "anticipation"
     ],
     "Sujata Singh": [
         "negative",
@@ -7302,7 +7302,7 @@
     "Meredith Small": [
         "trust",
         "fear",
-        "negative"
+        "joy"
     ],
     "Anna Marie Smith": [
         "surprise",
@@ -7321,8 +7321,8 @@
     ],
     "Dotsevi Sogah": [
         "fear",
-        "sadness",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Gordon Stacey": [
         "joy",
@@ -7331,23 +7331,23 @@
     ],
     "Deborah Starr": [
         "negative",
-        "disgust",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Robert Stern": [
         "negative",
-        "sadness",
-        "surprise"
+        "surprise",
+        "trust"
     ],
     "Byron Suber": [
-        "disgust",
         "negative",
-        "anger"
+        "joy",
+        "positive"
     ],
     "Richard Swedberg": [
         "anticipation",
         "negative",
-        "sadness"
+        "surprise"
     ],
     "Olufemi Taiwo": [
         "anticipation",
@@ -7361,13 +7361,13 @@
     ],
     "Qiuyun Teng": [
         "sadness",
-        "disgust",
-        "anger"
+        "positive",
+        "trust"
     ],
     "Felix Thoemmes": [
         "anticipation",
         "negative",
-        "disgust"
+        "positive"
     ],
     "Julia Thom": [
         "positive",
@@ -7375,19 +7375,19 @@
         "anticipation"
     ],
     "Nafissa Thompson-Spires": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Robert Thorne": [
         "fear",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Pamela Tolbert": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "positive"
     ],
     "Robert Travers": [
         "surprise",
@@ -7397,7 +7397,7 @@
     "Irina Troconis": [
         "anticipation",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Scott Tucker": [
         "joy",
@@ -7406,13 +7406,13 @@
     ],
     "Henry Tye": [
         "sadness",
-        "negative",
-        "fear"
+        "surprise",
+        "trust"
     ],
     "Marten van Schijndel": [
         "fear",
-        "anger",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Astrid Van Oyen": [
         "positive",
@@ -7435,24 +7435,24 @@
         "positive"
     ],
     "Jeremy Wallace": [
-        "disgust",
         "positive",
-        "sadness"
+        "sadness",
+        "trust"
     ],
     "Maureen Waller": [
         "negative",
-        "anger",
-        "disgust"
+        "trust",
+        "positive"
     ],
     "Henry Wan": [
         "sadness",
-        "fear",
-        "negative"
+        "trust",
+        "surprise"
     ],
     "Jane Wang": [
         "fear",
-        "negative",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Michelle Wang": [
         "surprise",
@@ -7462,7 +7462,7 @@
     "Ding Xiang Warner": [
         "negative",
         "joy",
-        "anger"
+        "surprise"
     ],
     "Sara Warner": [
         "joy",
@@ -7471,8 +7471,8 @@
     ],
     "James Webster": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "John Weiss": [
         "joy",
@@ -7486,18 +7486,18 @@
     ],
     "Xin Xu": [
         "fear",
-        "negative",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Benjamin Yost": [
         "fear",
-        "anger",
-        "negative"
+        "anticipation",
+        "positive"
     ],
     "Samantha Zacher": [
-        "disgust",
         "positive",
-        "anticipation"
+        "anticipation",
+        "anger"
     ],
     "Neal Zaslaw": [
         "joy",
@@ -7507,17 +7507,17 @@
     "Draga Zec": [
         "anticipation",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Xin Zhou": [
         "negative",
-        "sadness",
-        "anger"
+        "anticipation",
+        "trust"
     ],
     "Daniel Barbash": [
         "fear",
-        "sadness",
-        "negative"
+        "joy",
+        "anticipation"
     ],
     "Brooks Crickard": [
         "anticipation",
@@ -7527,7 +7527,7 @@
     "Peter Davies": [
         "anticipation",
         "negative",
-        "disgust"
+        "surprise"
     ],
     "Tobias D\u00f6rr": [
         "surprise",
@@ -7537,12 +7537,12 @@
     "Cedric Feschotte": [
         "surprise",
         "negative",
-        "fear"
+        "joy"
     ],
     "John Fitzpatrick": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Joseph Fromme": [
         "joy",
@@ -7551,8 +7551,8 @@
     ],
     "Maria Gandolfo": [
         "negative",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "William Ghiorse": [
         "surprise",
@@ -7560,19 +7560,19 @@
         "anger"
     ],
     "Michael Goldberg": [
-        "disgust",
         "negative",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Susan Henry": [
-        "disgust",
         "sadness",
-        "negative"
+        "positive",
+        "surprise"
     ],
     "James Morin": [
         "negative",
-        "anger",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Karl Niklas": [
         "surprise",
@@ -7581,8 +7581,8 @@
     ],
     "Thomas Owens": [
         "anger",
-        "fear",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Kern Reeve": [
         "trust",
@@ -7591,8 +7591,8 @@
     ],
     "Jeffrey Roberts": [
         "surprise",
-        "disgust",
-        "negative"
+        "negative",
+        "anticipation"
     ],
     "Eric Schwarz": [
         "joy",
@@ -7601,13 +7601,13 @@
     ],
     "Bik-Kwoon Tye": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Volker Vogt": [
         "fear",
-        "disgust",
-        "anger"
+        "positive",
+        "anticipation"
     ],
     "Charles Walcott": [
         "positive",
@@ -7621,13 +7621,13 @@
     ],
     "Xiangtao Xu": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "joy"
     ],
     "Stephen Zinder": [
-        "disgust",
         "anger",
-        "trust"
+        "trust",
+        "positive"
     ],
     "Stephen Jesch": [
         "positive",
@@ -7636,23 +7636,23 @@
     ],
     "Susan Merkel": [
         "anger",
-        "sadness",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Stephen Bloom": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Fay-Wei Li": [
         "negative",
         "surprise",
-        "fear"
+        "trust"
     ],
     "James Liebherr": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Andrew Nelson": [
         "trust",
@@ -7661,18 +7661,18 @@
     ],
     "Sorina Popescu": [
         "fear",
-        "negative",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Eric Richards": [
         "anticipation",
         "anger",
-        "disgust"
+        "trust"
     ],
     "John Schimenti": [
         "surprise",
         "positive",
-        "disgust"
+        "sadness"
     ],
     "Dennis Stevenson": [
         "anticipation",
@@ -7681,23 +7681,23 @@
     ],
     "Andrew Bass": [
         "anger",
-        "negative",
-        "fear"
+        "joy",
+        "positive"
     ],
     "William Brown": [
         "negative",
-        "anger",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "David Deitcher": [
-        "disgust",
         "anger",
-        "surprise"
+        "surprise",
+        "positive"
     ],
     "Joseph Fetcho": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Jesse Goldberg": [
         "surprise",
@@ -7715,14 +7715,14 @@
         "positive"
     ],
     "William Lai": [
-        "disgust",
         "sadness",
-        "negative"
+        "positive",
+        "trust"
     ],
     "Siu Sylvia Lee": [
         "sadness",
-        "fear",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Christine Linster": [
         "surprise",
@@ -7732,12 +7732,12 @@
     "Linda Nicholson": [
         "positive",
         "trust",
-        "disgust"
+        "joy"
     ],
     "Thomas Seeley": [
         "sadness",
         "surprise",
-        "anger"
+        "anticipation"
     ],
     "Kathleen Kelly": [
         "positive",
@@ -7746,18 +7746,18 @@
     ],
     "John Cisne": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Yoav Artzi": [
         "fear",
-        "negative",
-        "disgust"
+        "positive",
+        "surprise"
     ],
     "Kavita Bala": [
         "positive",
         "negative",
-        "sadness"
+        "surprise"
     ],
     "David Bindel": [
         "surprise",
@@ -7767,17 +7767,17 @@
     "Kenneth Birman": [
         "negative",
         "surprise",
-        "disgust"
+        "anticipation"
     ],
     "Jeremy Birnholtz": [
         "fear",
-        "sadness",
-        "negative"
+        "surprise",
+        "anticipation"
     ],
     "Ahmed El Alauoi": [
         "fear",
-        "sadness",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Jeff Hancock": [
         "joy",
@@ -7792,32 +7792,32 @@
     "Ari Juels": [
         "joy",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Carl Lagoze": [
-        "disgust",
         "sadness",
-        "negative"
+        "joy",
+        "positive"
     ],
     "Hod Lipson": [
         "negative",
-        "anger",
-        "joy"
+        "joy",
+        "trust"
     ],
     "Steve Marschner": [
         "anticipation",
         "negative",
-        "fear"
+        "joy"
     ],
     "David Matteson": [
-        "disgust",
         "anger",
-        "fear"
+        "surprise",
+        "joy"
     ],
     "Helen Nissenbaum": [
         "negative",
-        "sadness",
-        "fear"
+        "anticipation",
+        "joy"
     ],
     "Rafael Pass": [
         "joy",
@@ -7837,17 +7837,17 @@
     "Matt Wilkens": [
         "fear",
         "joy",
-        "sadness"
+        "trust"
     ],
     "Xiaolong Yang": [
         "negative",
-        "fear",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Ramin Zabih": [
         "negative",
         "anticipation",
-        "fear"
+        "surprise"
     ],
     "Shannon Gleeson": [
         "surprise",
@@ -7861,8 +7861,8 @@
     ],
     "Sharon Tennyson": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Tolunay Aydemir": [
         "positive",
@@ -7871,8 +7871,8 @@
     ],
     "Daniel Berry": [
         "negative",
-        "anger",
-        "sadness"
+        "anticipation",
+        "trust"
     ],
     "Martha Field": [
         "joy",
@@ -7882,12 +7882,12 @@
     "John Hoddinott": [
         "surprise",
         "trust",
-        "disgust"
+        "joy"
     ],
     "Elizabeth Johnson": [
         "negative",
-        "disgust",
-        "fear"
+        "trust",
+        "anticipation"
     ],
     "Marla Lujan": [
         "joy",
@@ -7895,14 +7895,14 @@
         "positive"
     ],
     "Saurabh Mehta": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Shu-Bing Qian": [
         "trust",
         "joy",
-        "disgust"
+        "anger"
     ],
     "David Sahn": [
         "negative",
@@ -7916,8 +7916,8 @@
     ],
     "David Erickson": [
         "sadness",
-        "negative",
-        "fear"
+        "trust",
+        "anticipation"
     ],
     "Mohamed Abdelfattah": [
         "trust",
@@ -7936,8 +7936,8 @@
     ],
     "Khurram Afridi": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Warren Allmon": [
         "anger",
@@ -7945,14 +7945,14 @@
         "joy"
     ],
     "James Antaki": [
-        "disgust",
         "anger",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Brad Anton": [
-        "disgust",
         "positive",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Alyssa Apsel": [
         "surprise",
@@ -7961,8 +7961,8 @@
     ],
     "Lynden Archer": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Thomas Avedisian": [
         "surprise",
@@ -7971,18 +7971,18 @@
     ],
     "Graeme Bailey": [
         "anger",
-        "fear",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Shefford Baker": [
         "negative",
         "surprise",
-        "disgust"
+        "joy"
     ],
     "Siddhartha Banerjee": [
-        "disgust",
         "negative",
-        "trust"
+        "trust",
+        "positive"
     ],
     "James Bisogni": [
         "trust",
@@ -7996,8 +7996,8 @@
     ],
     "Robert Bland": [
         "negative",
-        "fear",
-        "disgust"
+        "trust",
+        "surprise"
     ],
     "Lawrence Bonassar": [
         "anticipation",
@@ -8006,8 +8006,8 @@
     ],
     "John Callister": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Mark Campbell": [
         "anticipation",
@@ -8040,14 +8040,14 @@
         "joy"
     ],
     "Susan Daniel": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Paul Dawson": [
-        "disgust",
         "anger",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Matthew DeLisa": [
         "trust",
@@ -8056,18 +8056,18 @@
     ],
     "Olivier Desjardins": [
         "fear",
-        "anger",
-        "sadness"
+        "positive",
+        "surprise"
     ],
     "Peter Diamessis": [
         "fear",
-        "sadness",
-        "anticipation"
+        "anticipation",
+        "joy"
     ],
     "Richard Dick": [
-        "disgust",
         "negative",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Kathryn Dimiduk": [
         "surprise",
@@ -8076,8 +8076,8 @@
     ],
     "Ankit Disa": [
         "fear",
-        "sadness",
-        "surprise"
+        "surprise",
+        "joy"
     ],
     "Eve Donnelly": [
         "trust",
@@ -8097,27 +8097,27 @@
     "James Engstrom": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Rick Evans": [
-        "disgust",
         "negative",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Craig Fennie": [
         "negative",
-        "sadness",
-        "disgust"
+        "surprise",
+        "anticipation"
     ],
     "Silvia Ferrari": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "anticipation"
     ],
     "Oliver Gao": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "joy"
     ],
     "Emmanuel Giannelis": [
         "surprise",
@@ -8147,7 +8147,7 @@
     "Scott Heinekamp": [
         "trust",
         "joy",
-        "disgust"
+        "anger"
     ],
     "Shane Henderson": [
         "surprise",
@@ -8177,12 +8177,12 @@
     "Debdeep Jena": [
         "sadness",
         "surprise",
-        "negative"
+        "joy"
     ],
     "James Jenkins": [
         "trust",
         "sadness",
-        "negative"
+        "positive"
     ],
     "Peter Jessel": [
         "positive",
@@ -8196,8 +8196,8 @@
     ],
     "David Kammer": [
         "fear",
-        "negative",
-        "anticipation"
+        "anticipation",
+        "joy"
     ],
     "Edwin Kan": [
         "surprise",
@@ -8211,13 +8211,13 @@
     ],
     "Donald Koch": [
         "negative",
-        "fear",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Amit Lal": [
         "negative",
-        "fear",
-        "sadness"
+        "surprise",
+        "anticipation"
     ],
     "Daniel Lee": [
         "trust",
@@ -8227,27 +8227,27 @@
     "Mark Lewis": [
         "joy",
         "negative",
-        "anger"
+        "trust"
     ],
     "Qi Li": [
         "anticipation",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Leonard Lion": [
         "positive",
         "fear",
-        "anger"
+        "trust"
     ],
     "Michel Louge": [
         "fear",
-        "disgust",
-        "anger"
+        "anticipation",
+        "surprise"
     ],
     "Douglas MacMartin": [
         "sadness",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "Rajit Manohar": [
         "trust",
@@ -8260,9 +8260,9 @@
         "anticipation"
     ],
     "Matthew Miller": [
-        "disgust",
         "sadness",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Francesco Monticone": [
         "positive",
@@ -8276,8 +8276,8 @@
     ],
     "Jeffrey Moses": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "joy"
     ],
     "David Muller": [
         "joy",
@@ -8286,8 +8286,8 @@
     ],
     "Christopher Ober": [
         "negative",
-        "disgust",
-        "sadness"
+        "trust",
+        "surprise"
     ],
     "William Olbricht": [
         "sadness",
@@ -8301,13 +8301,13 @@
     ],
     "Matthew Paszek": [
         "fear",
-        "sadness",
-        "negative"
+        "surprise",
+        "trust"
     ],
     "Mason Peck": [
         "anger",
-        "negative",
-        "surprise"
+        "surprise",
+        "anticipation"
     ],
     "Kirstin Petersen": [
         "surprise",
@@ -8337,22 +8337,22 @@
     "James Renegar": [
         "fear",
         "surprise",
-        "disgust"
+        "trust"
     ],
     "Sidney Resnick": [
         "negative",
-        "anger",
-        "disgust"
+        "surprise",
+        "positive"
     ],
     "Andy Ruina": [
-        "disgust",
         "negative",
-        "anger"
+        "joy",
+        "anticipation"
     ],
     "Mert Sabuncu": [
         "anger",
-        "fear",
-        "negative"
+        "anticipation",
+        "surprise"
     ],
     "Mridu Saikia": [
         "trust",
@@ -8365,9 +8365,9 @@
         "negative"
     ],
     "Ashutosh Saxena": [
-        "disgust",
         "trust",
-        "anger"
+        "anger",
+        "positive"
     ],
     "Christopher Schaffer": [
         "surprise",
@@ -8387,27 +8387,27 @@
     "Elaine Shi": [
         "anger",
         "trust",
-        "negative"
+        "positive"
     ],
     "Christine Shoemaker": [
         "surprise",
         "negative",
-        "fear"
+        "anticipation"
     ],
     "Emin Gun Sirer": [
         "anger",
-        "negative",
-        "disgust"
+        "surprise",
+        "trust"
     ],
     "Michael Spencer": [
         "sadness",
-        "negative",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Harry Stewart": [
         "joy",
         "negative",
-        "anger"
+        "surprise"
     ],
     "Abraham Stroock": [
         "anticipation",
@@ -8417,12 +8417,12 @@
     "Gookwon Suh": [
         "negative",
         "anticipation",
-        "sadness"
+        "surprise"
     ],
     "Jack Thompson": [
         "negative",
-        "sadness",
-        "trust"
+        "trust",
+        "joy"
     ],
     "Michael Thompson": [
         "trust",
@@ -8432,12 +8432,12 @@
     "Lang Tong": [
         "sadness",
         "anticipation",
-        "disgust"
+        "surprise"
     ],
     "Leslie Trotter": [
         "negative",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Bruce Turnbull": [
         "surprise",
@@ -8446,8 +8446,8 @@
     ],
     "Marjolein van der Meulen": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "trust"
     ],
     "Hua Wang": [
         "surprise",
@@ -8461,28 +8461,28 @@
     ],
     "Derek Warner": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Chekesha Watson": [
-        "disgust",
         "anger",
-        "fear"
+        "anticipation",
+        "trust"
     ],
     "Monroe Weber-Shirk": [
-        "disgust",
         "positive",
-        "sadness"
+        "sadness",
+        "joy"
     ],
     "Ulrich Wiesner": [
         "positive",
         "trust",
-        "disgust"
+        "sadness"
     ],
     "Mark Wilde": [
         "fear",
-        "anger",
-        "disgust"
+        "anticipation",
+        "positive"
     ],
     "Charles Williamson": [
         "surprise",
@@ -8497,27 +8497,27 @@
     "Alan Zehnder": [
         "surprise",
         "negative",
-        "anger"
+        "anticipation"
     ],
     "(Ke) Max Zhang": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Fatma Baytar": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Charles Brainerd": [
-        "disgust",
         "anger",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Marianella Casasola": [
         "joy",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Eve DeRosa": [
         "surprise",
@@ -8527,7 +8527,7 @@
     "Yasser Gowayed": [
         "negative",
         "positive",
-        "fear"
+        "trust"
     ],
     "Keith Green": [
         "joy",
@@ -8536,8 +8536,8 @@
     ],
     "Juan Hinestroza": [
         "negative",
-        "fear",
-        "disgust"
+        "anticipation",
+        "surprise"
     ],
     "Steven Robertson": [
         "surprise",
@@ -8546,8 +8546,8 @@
     ],
     "Elaine Wethington": [
         "negative",
-        "disgust",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Lee Adler": [
         "trust",
@@ -8571,8 +8571,8 @@
     ],
     "Sarah Besky": [
         "negative",
-        "anger",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Dina Bishara": [
         "positive",
@@ -8601,8 +8601,8 @@
     ],
     "Alexander Colvin": [
         "surprise",
-        "disgust",
-        "anger"
+        "anger",
+        "anticipation"
     ],
     "Gary Fields": [
         "trust",
@@ -8612,7 +8612,7 @@
     "John Haggerty": [
         "trust",
         "surprise",
-        "disgust"
+        "anger"
     ],
     "John Hausknecht": [
         "surprise",
@@ -8622,12 +8622,12 @@
     "Tristan Ivory": [
         "negative",
         "anticipation",
-        "anger"
+        "surprise"
     ],
     "Lawrence Kahn": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "anticipation"
     ],
     "Harry Katz": [
         "surprise",
@@ -8641,8 +8641,8 @@
     ],
     "Alexander Kowalski": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Risa Lieberwitz": [
         "trust",
@@ -8657,7 +8657,7 @@
     "Adam Litwin": [
         "surprise",
         "negative",
-        "fear"
+        "joy"
     ],
     "Brian Lucas": [
         "positive",
@@ -8681,13 +8681,13 @@
     ],
     "Devon Proudfoot": [
         "anger",
-        "disgust",
-        "fear"
+        "surprise",
+        "anticipation"
     ],
     "Caitlin Ray": [
-        "disgust",
         "anger",
-        "fear"
+        "trust",
+        "positive"
     ],
     "Evan Riehl": [
         "fear",
@@ -8695,9 +8695,9 @@
         "trust"
     ],
     "Emily Zitek": [
-        "disgust",
         "anticipation",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Ho Yan Chau": [
         "surprise",
@@ -8706,13 +8706,13 @@
     ],
     "Todd Gerarden": [
         "fear",
-        "sadness",
-        "negative"
+        "positive",
+        "trust"
     ],
     "Benjamin Leyden": [
         "sadness",
-        "negative",
-        "anger"
+        "positive",
+        "anticipation"
     ],
     "Clinton Neill": [
         "surprise",
@@ -8722,7 +8722,7 @@
     "Charles Nicholson": [
         "trust",
         "negative",
-        "sadness"
+        "surprise"
     ],
     "Ivan Rudik": [
         "surprise",
@@ -8736,13 +8736,13 @@
     ],
     "James Stapp": [
         "negative",
-        "anger",
-        "sadness"
+        "surprise",
+        "trust"
     ],
     "Chris Anderson": [
         "surprise",
         "anticipation",
-        "disgust"
+        "joy"
     ],
     "Steven Carvell": [
         "fear",
@@ -8751,18 +8751,18 @@
     ],
     "Jacob Chestnut": [
         "trust",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Hae Chun": [
         "trust",
         "positive",
-        "disgust"
+        "anger"
     ],
     "Ravinder Kingra": [
         "positive",
-        "disgust",
-        "anger"
+        "anger",
+        "surprise"
     ],
     "Heather Kolakowski": [
         "surprise",
@@ -8771,8 +8771,8 @@
     ],
     "Robert Kwortnik": [
         "anger",
-        "disgust",
-        "negative"
+        "trust",
+        "anticipation"
     ],
     "Daniel Lebret": [
         "joy",
@@ -8782,22 +8782,22 @@
     "Soojin Lee": [
         "negative",
         "positive",
-        "disgust"
+        "trust"
     ],
     "Michael Lynn": [
-        "disgust",
         "negative",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "Asis Martinez-Jerez": [
         "surprise",
         "fear",
-        "anger"
+        "joy"
     ],
     "Peggy Odom-Reed": [
         "negative",
-        "sadness",
-        "anger"
+        "surprise",
+        "anticipation"
     ],
     "Marie Ozanne": [
         "fear",
@@ -8805,9 +8805,9 @@
         "trust"
     ],
     "Meng Qi": [
-        "disgust",
         "anger",
-        "sadness"
+        "surprise",
+        "positive"
     ],
     "Daniel Quan": [
         "positive",
@@ -8816,13 +8816,13 @@
     ],
     "Alison Shea": [
         "fear",
-        "disgust",
-        "anger"
+        "trust",
+        "surprise"
     ],
     "Yuan Shi": [
         "fear",
         "surprise",
-        "sadness"
+        "anticipation"
     ],
     "Tyrell Stewart-Harris": [
         "anticipation",
@@ -8832,12 +8832,12 @@
     "Alex Susskind": [
         "anger",
         "surprise",
-        "disgust"
+        "anticipation"
     ],
     "Simone Tang": [
         "positive",
         "trust",
-        "disgust"
+        "anger"
     ],
     "Neil Tarallo": [
         "trust",
@@ -8847,7 +8847,7 @@
     "Kasey Tarantino": [
         "anticipation",
         "fear",
-        "disgust"
+        "surprise"
     ],
     "Bruce Tracey": [
         "joy",
@@ -8857,6 +8857,6 @@
     "Brad Wellstead": [
         "negative",
         "surprise",
-        "disgust"
+        "anticipation"
     ]
 }

@@ -207,7 +207,7 @@ let emojize = {
   "joy":"Joy 🤩",
   "negative":"Negative 😐",
   "positive":"Positive 🥰",
-  "sadness":"Sadness 😭",
+  "sadness":"Blue 😭",
   "surprise":"Surprise 😲",
   "trust":"Trust 😎"
 }
