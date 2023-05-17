@@ -83,8 +83,8 @@ function answerBoxTemplate(
 }
 function noResultTemplate() {
   answerBox.innerHTML =  `<div>
-          <h3>Uh oh, 404 not found</h3>
-          <p>No result found under the department filter in the top 30 most similar profs</p>
+          <h3>Uh oh</h3>
+          <p>No result found under the department filter in the top 30 most similar profs. Maybe try another filter?</p>
       </div>`;
 }
 
