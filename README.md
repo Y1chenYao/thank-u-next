@@ -26,6 +26,8 @@ You will retrieve a list of similar professors recommended to you with :partying
 - A random sample review from an anonymous student :eyes:
 
 ## Demo
+Update: Our project is now in [cs4300 hall of fame](https://4300-hall-of-fame.infosci.cornell.edu/)! 
+
 Visit the website [here](http://4300showcase.infosci.cornell.edu:4503/)
 
 <img width="1155" alt="image" src="https://github.com/Y1chenYao/thank-u-next/assets/68068854/30108562-90c7-4e55-a442-451e96d1ea94">
